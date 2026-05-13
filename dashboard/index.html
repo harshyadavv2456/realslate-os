@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>RealSlate OS — Real Estate Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+:root{
+  --bg:#06080C;--s1:#0C1018;--s2:#111820;
+  --b1:rgba(255,255,255,0.055);--b2:rgba(255,255,255,0.11);--b3:rgba(255,255,255,0.2);
+  --teal:#00D4A0;--teal-d:rgba(0,212,160,0.13);--teal-dd:rgba(0,212,160,0.06);
+  --amber:#F0A830;--amber-d:rgba(240,168,48,0.14);
+  --red:#E05555;--red-d:rgba(224,85,85,0.12);
+  --blue:#4A9EE0;--blue-d:rgba(74,158,224,0.13);
+  --purple:#9B7FE0;--purple-d:rgba(155,127,224,0.13);
+  --t1:#DCE8F5;--t2:#6E8099;--t3:#3A4A5C;
+  --mono:'JetBrains Mono',monospace;--sans:'Syne',sans-serif;
+  --panel:380px;--r:6px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--t1);font-family:var(--sans);}
+.app{display:flex;flex-direction:column;height:100vh;}
+.body-row{display:flex;flex:1;overflow:hidden;min-height:0;}
+.map-wrap{flex:1;position:relative;min-width:0;}
+#map{width:100%;height:100%;}
+.side{width:var(--panel);flex-shrink:0;background:var(--s1);border-left:1px solid var(--b1);display:flex;flex-direction:column;overflow:hidden;transition:transform .25s;}
+
+/* LOADING SCREEN */
+.loading-screen{
+  position:fixed;inset:0;background:var(--bg);z-index:9999;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;
+  transition:opacity .4s;
+}
+.loading-screen.hide{opacity:0;pointer-events:none;}
+.ls-hex{
+  width:48px;height:48px;background:var(--teal);
+  clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+  animation:spin 2s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg);}}
+.ls-title{font-size:18px;font-weight:800;letter-spacing:.12em;color:var(--t1);}
+.ls-sub{font-family:var(--mono);font-size:11px;color:var(--t2);letter-spacing:.08em;text-align:center;line-height:1.8;}
+.ls-bar{width:200px;height:2px;background:var(--b2);border-radius:2px;overflow:hidden;}
+.ls-fill{height:100%;background:var(--teal);border-radius:2px;animation:load 2s ease-in-out infinite;}
+@keyframes load{0%{width:0%;margin-left:0}60%{width:60%;margin-left:0}100%{width:0%;margin-left:100%}}
+
+/* ERROR SCREEN */
+.error-screen{
+  position:fixed;inset:0;background:var(--bg);z-index:9998;
+  display:none;flex-direction:column;align-items:center;justify-content:center;gap:16px;
+}
+.error-screen.show{display:flex;}
+.es-icon{font-size:36px;}
+.es-title{font-size:14px;font-weight:700;letter-spacing:.08em;color:var(--t1);}
+.es-msg{font-family:var(--mono);font-size:10px;color:var(--t2);text-align:center;line-height:1.8;max-width:380px;}
+.es-btn{margin-top:8px;background:var(--teal-dd);border:1px solid rgba(0,212,160,.3);color:var(--teal);font-family:var(--mono);font-size:10px;letter-spacing:.08em;padding:8px 20px;border-radius:var(--r);cursor:pointer;transition:all .15s;}
+.es-btn:hover{background:var(--teal-d);}
+
+/* HEADER */
+.hdr{height:46px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;background:var(--s1);border-bottom:1px solid var(--b1);flex-shrink:0;gap:10px;}
+.brand{display:flex;align-items:center;gap:9px;flex-shrink:0;}
+.hex{width:24px;height:24px;background:var(--teal);clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);flex-shrink:0;}
+.bname{font-size:12px;font-weight:800;letter-spacing:.1em;white-space:nowrap;}
+.bsub{font-size:8px;color:var(--t3);font-family:var(--mono);letter-spacing:.12em;}
+.hdr-r{display:flex;align-items:center;gap:8px;flex-shrink:0;}
+.lpill{display:flex;align-items:center;gap:5px;background:var(--teal-dd);border:1px solid rgba(0,212,160,.2);border-radius:20px;padding:3px 9px;font-family:var(--mono);font-size:9px;color:var(--teal);letter-spacing:.08em;white-space:nowrap;}
+.ldot{width:5px;height:5px;border-radius:50%;background:var(--teal);animation:blink 2s infinite;}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
+.updt{font-family:var(--mono);font-size:9px;color:var(--t3);white-space:nowrap;}
+.ibtn{background:var(--s2);border:1px solid var(--b2);color:var(--t2);font-family:var(--mono);font-size:10px;letter-spacing:.06em;padding:5px 10px;border-radius:var(--r);cursor:pointer;transition:all .15s;white-space:nowrap;}
+.ibtn:hover{border-color:var(--teal);color:var(--teal);}
+.ptog{display:none;}
+
+/* CITY SELECTOR */
+.csel{flex-shrink:0;background:var(--s1);border-bottom:1px solid var(--b1);padding:0 16px;position:relative;z-index:300;}
+.csrow{display:flex;align-items:center;gap:8px;height:34px;}
+.cicon{font-size:12px;color:var(--t3);}
+.cinput{flex:1;background:none;border:none;outline:none;color:var(--t1);font-family:var(--mono);font-size:11px;}
+.cinput::placeholder{color:var(--t3);}
+.cbadge{font-family:var(--mono);font-size:9px;color:var(--teal);background:var(--teal-dd);border:1px solid rgba(0,212,160,.2);padding:2px 8px;border-radius:20px;white-space:nowrap;flex-shrink:0;}
+.cdd{position:absolute;left:0;right:0;top:100%;background:var(--s1);border:1px solid var(--b2);border-top:none;border-radius:0 0 var(--r) var(--r);display:none;max-height:280px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--b2) transparent;}
+.cdd.open{display:block;}
+.copt{padding:8px 16px;font-family:var(--mono);font-size:11px;color:var(--t2);cursor:pointer;display:flex;justify-content:space-between;border-bottom:1px solid var(--b1);transition:background .1s;}
+.copt:last-child{border-bottom:none;}
+.copt:hover,.copt.act{background:var(--teal-dd);color:var(--teal);}
+.copt-p{color:var(--t3);font-size:10px;}
+
+/* MAP CONTROLS */
+.mctrl{position:absolute;top:10px;left:10px;z-index:500;display:flex;flex-direction:column;gap:5px;}
+.lbtn{display:flex;align-items:center;gap:6px;background:rgba(12,16,24,.92);border:1px solid var(--b2);color:var(--t2);font-family:var(--mono);font-size:9px;letter-spacing:.07em;padding:6px 10px;border-radius:var(--r);cursor:pointer;transition:all .15s;text-transform:uppercase;backdrop-filter:blur(8px);}
+.lbtn:hover{color:var(--t1);}
+.lbtn.on{border-color:var(--teal);color:var(--teal);background:rgba(0,212,160,.08);}
+.ld{width:6px;height:6px;border-radius:50%;flex-shrink:0;}
+.mfilt{position:absolute;top:10px;right:10px;z-index:500;display:flex;flex-direction:column;gap:5px;align-items:flex-end;}
+.frow{display:flex;gap:4px;}
+.fbtn{background:rgba(12,16,24,.92);border:1px solid var(--b2);color:var(--t2);font-family:var(--mono);font-size:9px;padding:5px 8px;border-radius:var(--r);cursor:pointer;transition:all .15s;backdrop-filter:blur(8px);text-transform:uppercase;}
+.fbtn:hover{color:var(--t1);}
+.fbtn.fa{border-color:var(--amber);color:var(--amber);background:rgba(240,168,48,.08);}
+.fbtn.fb{border-color:var(--blue);color:var(--blue);background:rgba(74,158,224,.08);}
+.mleg{position:absolute;bottom:36px;left:10px;z-index:500;background:rgba(12,16,24,.92);border:1px solid var(--b2);border-radius:var(--r);padding:10px 12px;backdrop-filter:blur(8px);}
+.leg-t{font-family:var(--mono);font-size:8px;color:var(--t3);text-transform:uppercase;letter-spacing:.1em;margin-bottom:7px;}
+.leg-r{display:flex;align-items:center;gap:7px;padding:2px 0;}
+.leg-d{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+.leg-l{font-family:var(--mono);font-size:9px;color:var(--t2);}
+
+/* INTEL PANEL */
+.kgrid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--b1);flex-shrink:0;}
+.kpi{background:var(--s1);padding:11px 13px;}
+.klbl{font-family:var(--mono);font-size:8px;color:var(--t3);text-transform:uppercase;letter-spacing:.1em;margin-bottom:5px;}
+.kval{font-family:var(--mono);font-size:17px;font-weight:600;color:var(--t1);line-height:1;}
+.kval.tc{color:var(--teal);}
+.kval.ta{color:var(--amber);}
+.kval.tb{color:var(--blue);}
+.ksub{font-family:var(--mono);font-size:8px;color:var(--t3);margin-top:3px;}
+.ptabs{display:flex;background:var(--b1);border-bottom:1px solid var(--b1);flex-shrink:0;}
+.ptab{flex:1;padding:8px 0;text-align:center;font-family:var(--mono);font-size:9px;color:var(--t3);letter-spacing:.07em;text-transform:uppercase;cursor:pointer;transition:all .12s;border-bottom:2px solid transparent;}
+.ptab:hover{color:var(--t2);}
+.ptab.on{color:var(--teal);border-bottom-color:var(--teal);}
+.sbar{display:flex;align-items:center;gap:0;border-bottom:1px solid var(--b1);padding:0 13px;flex-shrink:0;}
+.slbl{font-family:var(--mono);font-size:8px;color:var(--t3);letter-spacing:.08em;margin-right:8px;}
+.sbtn{font-family:var(--mono);font-size:8px;color:var(--t3);padding:6px 7px;cursor:pointer;transition:all .12s;letter-spacing:.05em;border-bottom:2px solid transparent;}
+.sbtn:hover{color:var(--t2);}
+.sbtn.on{color:var(--teal);border-bottom-color:var(--teal);}
+.pscroll{flex:1;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--b2) transparent;}
+::-webkit-scrollbar{width:3px;height:3px;}
+::-webkit-scrollbar-thumb{background:var(--b2);border-radius:2px;}
+.sec{border-bottom:1px solid var(--b1);}
+.shead{display:flex;align-items:center;justify-content:space-between;padding:9px 13px;}
+.stitle{font-family:var(--mono);font-size:8px;color:var(--t2);text-transform:uppercase;letter-spacing:.12em;font-weight:600;}
+.bdg{font-family:var(--mono);font-size:8px;padding:2px 7px;border-radius:3px;letter-spacing:.06em;}
+.bt{background:var(--teal-d);color:var(--teal);}
+.ba{background:var(--amber-d);color:var(--amber);}
+.bb{background:var(--blue-d);color:var(--blue);}
+.bp{background:var(--purple-d);color:var(--purple);}
+.br{background:var(--red-d);color:var(--red);}
+.tbl{width:100%;border-collapse:collapse;}
+.tbl th{font-family:var(--mono);font-size:8px;color:var(--t3);text-transform:uppercase;letter-spacing:.09em;padding:5px 13px;text-align:left;border-bottom:1px solid var(--b1);font-weight:400;position:sticky;top:0;background:var(--s1);z-index:2;cursor:pointer;white-space:nowrap;}
+.tbl th:hover{color:var(--t2);}
+.tbl th.on{color:var(--teal);}
+.tbl th:not(:first-child){text-align:right;}
+.tbl td{padding:6px 13px;font-family:var(--mono);font-size:10px;border-bottom:1px solid rgba(255,255,255,.025);vertical-align:middle;}
+.tbl td:not(:first-child){text-align:right;}
+.tbl tr:last-child td{border-bottom:none;}
+.tbl tr{cursor:pointer;transition:background .1s;}
+.tbl tr:hover td{background:rgba(0,212,160,.04);}
+.tbl tr.sel td{background:var(--teal-dd);}
+.rk{color:var(--t3);font-size:8px;width:16px;display:inline-block;}
+.ln{max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--t1);}
+.pt{color:var(--teal);font-weight:500;}
+.pa{color:var(--amber);font-weight:500;}
+.dg{color:var(--teal);}
+.dk{color:var(--t2);}
+.db{color:var(--amber);}
+.ap{font-family:var(--mono);font-size:9px;padding:1px 5px;border-radius:3px;}
+.ap.u{background:rgba(0,212,160,.15);color:var(--teal);}
+.ap.d{background:rgba(224,85,85,.12);color:var(--red);}
+.ap.f{background:var(--b1);color:var(--t3);}
+.ts{max-height:230px;overflow-y:auto;}
+.yi{display:flex;align-items:center;justify-content:space-between;padding:8px 13px;border-bottom:1px solid rgba(255,255,255,.025);cursor:pointer;transition:background .1s;}
+.yi:hover{background:var(--teal-dd);}
+.yi:last-child{border-bottom:none;}
+.yil{flex:1;min-width:0;}
+.yin{font-family:var(--mono);font-size:10px;color:var(--t1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.yim{font-family:var(--mono);font-size:8px;color:var(--t3);margin-top:2px;}
+.yip{font-family:var(--mono);font-size:14px;font-weight:600;color:var(--teal);flex-shrink:0;margin-left:10px;}
+.ait{display:flex;align-items:center;justify-content:space-between;padding:8px 13px;border-bottom:1px solid rgba(255,255,255,.025);cursor:pointer;transition:background .1s;}
+.ait:hover{background:rgba(0,212,160,.04);}
+.ait:last-child{border-bottom:none;}
+.ain{font-family:var(--mono);font-size:10px;color:var(--t1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:150px;}
+.aim{font-family:var(--mono);font-size:8px;color:var(--t3);margin-top:1px;}
+.air{text-align:right;flex-shrink:0;}
+.aip{font-family:var(--mono);font-size:13px;font-weight:600;}
+.ais{font-family:var(--mono);font-size:8px;color:var(--t3);}
+.ovr{display:flex;justify-content:space-between;align-items:center;padding:7px 13px;border-bottom:1px solid rgba(255,255,255,.025);}
+.ovr:last-child{border-bottom:none;}
+.ovk{font-family:var(--mono);font-size:9px;color:var(--t2);}
+.ovv{font-family:var(--mono);font-size:10px;color:var(--t1);}
+.cbox{padding:10px 13px 14px;}
+.stbar{height:22px;background:var(--s1);border-top:1px solid var(--b1);display:flex;align-items:center;justify-content:space-between;padding:0 13px;flex-shrink:0;}
+.sit{font-family:var(--mono);font-size:8px;color:var(--t3);}
+.sit span{color:var(--t2);}
+.sst{font-family:var(--mono);font-size:8px;}
+.empty{padding:22px 13px;text-align:center;font-family:var(--mono);font-size:9px;color:var(--t3);line-height:1.8;}
+.toast{position:fixed;bottom:40px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--s2);border:1px solid var(--b2);border-radius:var(--r);padding:10px 20px;font-family:var(--mono);font-size:11px;color:var(--t1);z-index:9999;opacity:0;transition:all .25s;pointer-events:none;white-space:nowrap;}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+.mob-nav{display:none;}
+
+/* PANEL LOADING STATE */
+.panel-loading{padding:32px 16px;display:flex;flex-direction:column;align-items:center;gap:12px;}
+.pl-hex{width:24px;height:24px;background:var(--teal);clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);animation:spin 1.5s linear infinite;opacity:.6;}
+.pl-txt{font-family:var(--mono);font-size:9px;color:var(--t3);letter-spacing:.1em;}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  :root{--panel:100%;}
+  .side{position:absolute;right:0;top:0;bottom:0;transform:translateX(100%);z-index:400;border-left:1px solid var(--b2);box-shadow:-8px 0 32px rgba(0,0,0,.6);}
+  .side.open{transform:translateX(0);}
+  .ptog{display:flex;}
+  .bsub,.updt{display:none;}
+  .mleg{bottom:48px;}
+  .mob-nav{display:flex;background:var(--s1);border-top:1px solid var(--b1);flex-shrink:0;}
+  .mnb{flex:1;padding:10px 0;text-align:center;font-family:var(--mono);font-size:8px;color:var(--t3);letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-top:2px solid transparent;transition:all .15s;}
+  .mnb.on{color:var(--teal);border-top-color:var(--teal);}
+}
+@media(max-width:600px){
+  .hdr{padding:0 10px;gap:8px;}
+  .bname{font-size:11px;}
+  .mctrl{display:none;}
+  .kval{font-size:15px;}
+  .tbl td,.tbl th{padding:5px 9px;}
+  .ln{max-width:85px;}
+  .mfilt{right:6px;}
+}
+@media(min-width:901px){.side{transform:none!important;}}
+
+/* LEAFLET */
+.leaflet-container{background:var(--bg)!important;}
+.leaflet-popup-content-wrapper{background:transparent!important;border:none!important;box-shadow:none!important;padding:0!important;}
+.leaflet-popup-content{margin:0!important;}
+.leaflet-popup-tip-container{display:none;}
+.leaflet-popup-close-button{color:var(--t2)!important;top:8px!important;right:8px!important;font-size:14px!important;}
+.rspop{background:var(--s1);border:1px solid var(--b2);border-radius:var(--r);padding:12px;min-width:180px;font-family:var(--mono);box-shadow:0 8px 32px rgba(0,0,0,.7);}
+.rspop-c{font-size:11px;font-weight:600;color:var(--teal);margin-bottom:7px;text-transform:uppercase;letter-spacing:.08em;}
+.rspop-r{display:flex;justify-content:space-between;font-size:10px;padding:2px 0;color:var(--t2);}
+.rspop-v{color:var(--t1);}
+</style>
+</head>
+<body>
+<div class="app">
+
+<!-- LOADING SCREEN -->
+<div class="loading-screen" id="ls">
+  <div class="ls-hex"></div>
+  <div class="ls-title">REALSLATE OS</div>
+  <div class="ls-sub" id="ls-msg">Connecting to intelligence network...</div>
+  <div class="ls-bar"><div class="ls-fill"></div></div>
+</div>
+
+<!-- ERROR SCREEN -->
+<div class="error-screen" id="es">
+  <div class="es-icon">⚠</div>
+  <div class="es-title">DATA UNAVAILABLE</div>
+  <div class="es-msg" id="es-msg">Could not connect to the intelligence feed.<br>Run the pipeline bat file to update data, then refresh.</div>
+  <button class="es-btn" onclick="location.reload()">↻ RETRY</button>
+</div>
+
+<!-- HEADER -->
+<header class="hdr">
+  <div class="brand">
+    <div class="hex"></div>
+    <div><div class="bname">REALSLATE OS</div><div class="bsub">REAL ESTATE INTELLIGENCE · INDIA</div></div>
+  </div>
+  <div class="hdr-r">
+    <div class="lpill"><div class="ldot"></div>LIVE</div>
+    <div class="updt" id="updt">—</div>
+    <button class="ibtn" onclick="exportSnap()">↓ EXPORT</button>
+    <button class="ibtn" onclick="refreshAll()">↻</button>
+    <button class="ibtn ptog" onclick="togglePanel()" id="ptog">INTEL ▶</button>
+  </div>
+</header>
+
+<!-- CITY SELECTOR -->
+<div class="csel" id="csel">
+  <div class="csrow">
+    <span class="cicon">⌕</span>
+    <input class="cinput" id="cinput" type="text" placeholder="Search city..."
+      onfocus="openDD()" oninput="filterDD(this.value)" autocomplete="off" spellcheck="false">
+    <div class="cbadge" id="cbadge">—</div>
+  </div>
+  <div class="cdd" id="cdd"></div>
+</div>
+
+<!-- BODY -->
+<div class="body-row">
+  <div class="map-wrap">
+    <div id="map"></div>
+    <div class="mctrl">
+      <div class="lbtn on" id="lb-price" onclick="setLayer('price')"><div class="ld" style="background:var(--teal)"></div>Buy Price</div>
+      <div class="lbtn" id="lb-rent" onclick="setLayer('rent')"><div class="ld" style="background:var(--amber)"></div>Rent</div>
+      <div class="lbtn" id="lb-appr" onclick="setLayer('appr')"><div class="ld" style="background:var(--purple)"></div>Appreciation</div>
+      <div class="lbtn" id="lb-yield" onclick="setLayer('yield')"><div class="ld" style="background:var(--blue)"></div>Yield %</div>
+      <div class="lbtn" id="lb-vol" onclick="setLayer('vol')"><div class="ld" style="background:var(--t2)"></div>Volume</div>
+    </div>
+    <div class="mfilt">
+      <div class="frow">
+        <div class="fbtn fa" id="fb-buy" onclick="setType('buy')">Buy</div>
+        <div class="fbtn" id="fb-rent" onclick="setType('rent')">Rent</div>
+        <div class="fbtn" id="fb-both" onclick="setType('both')">Both</div>
+      </div>
+      <div class="frow">
+        <div class="fbtn" id="fb-1" onclick="setBHK(1)">1BHK</div>
+        <div class="fbtn" id="fb-2" onclick="setBHK(2)">2BHK</div>
+        <div class="fbtn" id="fb-3" onclick="setBHK(3)">3BHK</div>
+        <div class="fbtn fb" id="fb-0" onclick="setBHK(0)">All</div>
+      </div>
+    </div>
+    <div class="mleg" id="mleg"></div>
+  </div>
+
+  <!-- INTEL PANEL -->
+  <div class="side" id="side">
+    <div class="kgrid">
+      <div class="kpi"><div class="klbl">Median Buy</div><div class="kval tc" id="k1">—</div><div class="ksub" id="k1s">—</div></div>
+      <div class="kpi"><div class="klbl">Median Rent/mo</div><div class="kval ta" id="k2">—</div><div class="ksub" id="k2s">—</div></div>
+      <div class="kpi"><div class="klbl">Active Listings</div><div class="kval tb" id="k3">—</div><div class="ksub" id="k3s">—</div></div>
+      <div class="kpi"><div class="klbl">Avg Days on Mkt</div><div class="kval" id="k4">—</div><div class="ksub" id="k4s">—</div></div>
+    </div>
+    <div class="ptabs">
+      <div class="ptab on" id="pt-buy" onclick="setTab('buy')">Buy</div>
+      <div class="ptab" id="pt-rent" onclick="setTab('rent')">Rent</div>
+      <div class="ptab" id="pt-appr" onclick="setTab('appr')">Trend</div>
+      <div class="ptab" id="pt-yield" onclick="setTab('yield')">Yield</div>
+      <div class="ptab" id="pt-ov" onclick="setTab('ov')">City</div>
+    </div>
+    <div class="sbar" id="sbar">
+      <span class="slbl">SORT:</span>
+      <div class="sbtn on" id="sb-l" onclick="setSort('l')">VOLUME</div>
+      <div class="sbtn" id="sb-p" onclick="setSort('p')">PRICE</div>
+      <div class="sbtn" id="sb-d" onclick="setSort('d')">SPEED</div>
+      <div class="sbtn" id="sb-a" onclick="setSort('a')">TREND</div>
+    </div>
+    <div class="pscroll">
+      <div id="tab-buy">
+        <div class="sec">
+          <div class="shead"><span class="stitle">Locality Rankings — Buy</span><span class="bdg bt" id="bbdg">—</span></div>
+          <div class="ts"><table class="tbl"><thead><tr><th>#</th><th>Locality</th><th>Median</th><th>MoM</th><th>Mkt Days</th></tr></thead><tbody id="btb"></tbody></table></div>
+        </div>
+        <div class="sec">
+          <div class="shead"><span class="stitle">BHK Price Bands</span><span class="bdg bt" id="bhklbl">—</span></div>
+          <div class="ts"><table class="tbl"><thead><tr><th>BHK</th><th>Count</th><th>P25</th><th>Median</th><th>P75</th></tr></thead><tbody id="bhktb"></tbody></table></div>
+        </div>
+      </div>
+      <div id="tab-rent" style="display:none">
+        <div class="sec">
+          <div class="shead"><span class="stitle">Locality Rankings — Rent</span><span class="bdg ba" id="rbdg">—</span></div>
+          <div class="ts"><table class="tbl"><thead><tr><th>#</th><th>Locality</th><th>Median Rent</th><th>MoM</th><th>Mkt Days</th></tr></thead><tbody id="rtb"></tbody></table></div>
+        </div>
+      </div>
+      <div id="tab-appr" style="display:none">
+        <div class="sec"><div class="shead"><span class="stitle">Top Appreciating Localities</span><span class="bdg bp">Month-on-Month</span></div><div id="aprl"><div class="empty">Appreciation builds over time.<br>More weeks of data = smarter signals.</div></div></div>
+        <div class="sec"><div class="shead"><span class="stitle">Cooling Localities</span><span class="bdg br">Caution</span></div><div id="decl"><div class="empty">No significant declines detected.</div></div></div>
+      </div>
+      <div id="tab-yield" style="display:none">
+        <div class="sec"><div class="shead"><span class="stitle">Gross Rental Yield by Locality</span><span class="bdg bt">% per year</span></div><div id="yldl"><div class="empty">Select a city to view yield data.</div></div></div>
+      </div>
+      <div id="tab-ov" style="display:none">
+        <div class="sec"><div class="shead"><span class="stitle">City Intelligence</span><span class="bdg bb" id="ovbdg">—</span></div><div id="ovb"><div class="empty">Select a city to view intelligence.</div></div></div>
+      </div>
+      <div class="sec">
+        <div class="shead"><span class="stitle">All Cities — Buy Price</span><span class="bdg bt">₹ Cr</span></div>
+        <div class="cbox"><div style="position:relative;height:160px"><canvas id="bc" role="img" aria-label="Buy price 25 cities"></canvas></div></div>
+      </div>
+      <div class="sec">
+        <div class="shead"><span class="stitle">All Cities — Monthly Rent</span><span class="bdg ba">₹/mo</span></div>
+        <div class="cbox"><div style="position:relative;height:160px"><canvas id="rc" role="img" aria-label="Rent 25 cities"></canvas></div></div>
+      </div>
+    </div>
+    <div class="stbar">
+      <div style="display:flex;gap:12px">
+        <span class="sit">REC <span id="sr">—</span></span>
+        <span class="sit">CITIES <span id="sc">—</span></span>
+        <span class="sit">SRC <span>99acres · MagicBricks · NoBroker</span></span>
+      </div>
+      <span class="sst" id="ss" style="color:var(--amber)">LOADING</span>
+    </div>
+  </div>
+</div>
+
+<div class="mob-nav">
+  <div class="mnb on" id="mn-map" onclick="mobV('map')">🗺 MAP</div>
+  <div class="mnb" id="mn-intel" onclick="mobV('intel')">📊 INTEL</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ── API: auto-detects local vs Vercel ─────────────────────────────
+const API = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://localhost:8000/api'
+  : '/api';
+
+// ── CITY CENTERS ──────────────────────────────────────────────────
+const CC = {
+  'mumbai':[19.076,72.8777],'delhi ncr':[28.6139,77.209],'bangalore':[12.9716,77.5946],
+  'hyderabad':[17.385,78.4867],'chennai':[13.0827,80.2707],'pune':[18.5204,73.8567],
+  'kolkata':[22.5726,88.3639],'ahmedabad':[23.0225,72.5714],'gurgaon':[28.4595,77.0266],
+  'noida':[28.5355,77.391],'thane':[19.2183,72.9781],'navi mumbai':[19.0368,73.0158],
+  'ghaziabad':[28.6692,77.4538],'chandigarh':[30.7333,76.7794],'lucknow':[26.8467,80.9462],
+  'jaipur':[26.9124,75.7873],'surat':[21.1702,72.8311],'nagpur':[21.1458,79.0882],
+  'indore':[22.7196,75.8577],'coimbatore':[11.0168,76.9558],'kochi':[9.9312,76.2673],
+  'vadodara':[22.3072,73.1812],'mysore':[12.2958,76.6394],'bhopal':[23.2599,77.4126],
+  'visakhapatnam':[17.6868,83.2185],
+};
+
+// ── STATE ─────────────────────────────────────────────────────────
+let ALL=[], CACHE={}, CITY=null, LAYER='price', TAB='buy';
+let SORT='l', TYPE='buy', BHK=0, POPEN=false;
+let map, cMkrs={}, lLyr=null, bc, rc;
+
+// ── FORMATTERS ────────────────────────────────────────────────────
+const fCr = v => {
+  if(!v||isNaN(v)) return '—';
+  const cr = v/1e7;
+  return '₹'+(cr>=100?Math.round(cr):cr>=10?cr.toFixed(1):cr.toFixed(2))+'Cr';
+};
+const fL = v => {
+  if(!v||isNaN(v)) return '—';
+  if(v>=1e7) return '₹'+(v/1e7).toFixed(1)+'Cr';
+  if(v>=1e5) return '₹'+(v/1e5).toFixed(1)+'L';
+  return '₹'+Math.round(v/1000)+'K';
+};
+const fR = v => {
+  if(!v||isNaN(v)) return '—';
+  if(v>=1e5) return '₹'+(v/1e5).toFixed(1)+'L';
+  return '₹'+Math.round(v/1000)+'K';
+};
+const fN = v => v ? Number(v).toLocaleString('en-IN') : '—';
+const fD = v => v ? Math.round(v)+'d' : '—';
+const cap = s => s ? s.charAt(0).toUpperCase()+s.slice(1) : s;
+const pct = v => v!=null
+  ? `<span class="ap ${v>0?'u':v<0?'d':'f'}">${v>0?'+':''}${v.toFixed(1)}%</span>`
+  : '<span class="ap f">—</span>';
+
+// ── MAP ───────────────────────────────────────────────────────────
+function initMap() {
+  map = L.map('map', {center:[20.5,79.5], zoom:5, zoomControl:false, attributionControl:false});
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+    {maxZoom:19, subdomains:'abcd'}).addTo(map);
+  L.control.attribution({prefix:false, position:'bottomright'})
+    .addAttribution('<span style="color:#3A4A5C;font-size:8px;font-family:monospace">© OSM · CartoDB · RealSlate OS</span>')
+    .addTo(map);
+  L.control.zoom({position:'bottomright'}).addTo(map);
+  map.on('click', closeDD);
+}
+
+function dotC(val, max, layer) {
+  if(layer==='appr') {
+    if(val==null) return '#2A3A4C';
+    if(val>5)  return '#00D4A0';
+    if(val>2)  return '#7ABAF0';
+    if(val>0)  return '#4A9EE0';
+    if(val<-2) return '#E05555';
+    return '#F0A830';
+  }
+  const r = max>0 ? val/max : 0;
+  if(layer==='yield') return r>.6?'#00D4A0':r>.3?'#4A9EE0':'#2A3A4C';
+  if(r>.7) return '#E05555';
+  if(r>.4) return '#F0A830';
+  return '#00D4A0';
+}
+
+function drawCityMkrs() {
+  if(!ALL.length) return;
+  Object.values(cMkrs).forEach(m=>map.removeLayer(m)); cMkrs={};
+  const mb=Math.max(...ALL.map(c=>c.median_buy_price||0));
+  const mr=Math.max(...ALL.map(c=>c.median_rent_price||0));
+  const mv=Math.max(...ALL.map(c=>c.total_listings||0));
+  ALL.forEach(c=>{
+    const co=CC[c.city]; if(!co) return;
+    let val, max;
+    if(LAYER==='rent') {val=c.median_rent_price; max=mr;}
+    else if(LAYER==='vol') {val=c.total_listings; max=mv;}
+    else {val=c.median_buy_price; max=mb;}
+    const col = dotC(val,max,LAYER);
+    const isA = c.city===CITY;
+    const rad = 10+(c.total_listings/mv)*20;
+    const m = L.circleMarker(co, {
+      radius: isA?rad+4:rad,
+      fillColor:col, color:isA?'#fff':col,
+      weight:isA?2:1, opacity:isA?1:.7, fillOpacity:isA?.95:.55
+    });
+    const pop=`<div class="rspop">
+      <div class="rspop-c">${cap(c.city)}</div>
+      <div class="rspop-r"><span>Median Buy</span><span class="rspop-v">${fCr(c.median_buy_price)}</span></div>
+      <div class="rspop-r"><span>Median Rent</span><span class="rspop-v">${fR(c.median_rent_price)}</span></div>
+      <div class="rspop-r"><span>Total Listings</span><span class="rspop-v">${fN(c.total_listings)}</span></div>
+      <div class="rspop-r"><span>New This Week</span><span class="rspop-v">${fN(c.new_this_week)||'—'}</span></div>
+      <div class="rspop-r"><span>Avg Days on Mkt</span><span class="rspop-v">${fD(c.avg_days_on_market)}</span></div>
+    </div>`;
+    m.bindPopup(pop,{maxWidth:240,className:'rs-popup'});
+    m.on('click',()=>pickCity(c.city));
+    m.addTo(map); cMkrs[c.city]=m;
+  });
+}
+
+function drawLocMkrs(d) {
+  if(lLyr) {map.removeLayer(lLyr); lLyr=null;}
+  if(!d) return;
+  const grp=L.layerGroup();
+  const bM={},rM={},yM={},aM={};
+  d.locality_stats?.forEach(r=>{
+    if(!r.lat||!r.lng||r.locality==='Unknown') return;
+    if(r.listing_type==='buy')  bM[r.locality]=r;
+    if(r.listing_type==='rent') rM[r.locality]=r;
+  });
+  d.yield_stats?.forEach(r=>{ if(r.locality) yM[r.locality]=r; });
+  d.locality_stats?.forEach(r=>{
+    if(r.listing_type==='buy'&&r.mom_pct!=null) aM[r.locality]=r.mom_pct;
+  });
+  const src = TYPE==='rent'?rM:bM;
+  const mv=Math.max(...Object.values(src).map(r=>r.listing_count||0),1);
+  const mp=Math.max(...Object.values(src).map(r=>r.median_price||0),1);
+  const my=Math.max(...Object.values(yM).map(r=>r.gross_yield_pct||0),1);
+
+  Object.entries(src).forEach(([loc,row])=>{
+    if(BHK>0&&row.avg_beds&&Math.round(row.avg_beds)!==BHK) return;
+    let col='#2A3A4C';
+    if(LAYER==='appr') col=dotC(aM[loc],null,'appr');
+    else if(LAYER==='yield'&&yM[loc]) col=dotC(yM[loc].gross_yield_pct,my,'yield');
+    else if(LAYER==='rent'&&rM[loc]) col=dotC(rM[loc].median_price,mp,'rent');
+    else if(LAYER==='vol') col=dotC(row.listing_count,mv,'vol');
+    else col=dotC(row.median_price,mp,'price');
+
+    const rr=rM[loc], yr=yM[loc], av=aM[loc];
+    const pop=`<div class="rspop">
+      <div class="rspop-c">${loc}</div>
+      <div class="rspop-r"><span>Median Buy</span><span class="rspop-v">${fCr(row.median_price)}</span></div>
+      ${rr?`<div class="rspop-r"><span>Rent</span><span class="rspop-v">${fR(rr.median_price)}</span></div>`:''}
+      ${yr?`<div class="rspop-r"><span>Yield</span><span class="rspop-v" style="color:var(--teal)">${yr.gross_yield_pct?.toFixed(2)}%</span></div>`:''}
+      <div class="rspop-r"><span>Mkt Days</span><span class="rspop-v">${fD(row.avg_days_on_market)}</span></div>
+      <div class="rspop-r"><span>Listings</span><span class="rspop-v">${fN(row.listing_count)}</span></div>
+      ${av!=null?`<div class="rspop-r"><span>MoM Δ</span><span class="rspop-v" style="color:${av>0?'var(--teal)':'var(--red)'}">${av>0?'+':''}${av.toFixed(1)}%</span></div>`:''}
+      ${row.total_appreciation_pct!=null?`<div class="rspop-r"><span>Total Appr.</span><span class="rspop-v" style="color:${row.total_appreciation_pct>0?'var(--teal)':'var(--red)'}">${row.total_appreciation_pct>0?'+':''}${row.total_appreciation_pct?.toFixed(1)}%</span></div>`:''}
+    </div>`;
+    const m=L.circleMarker([row.lat,row.lng],{
+      radius:Math.min(3+row.listing_count/25,13),
+      fillColor:col,color:'rgba(0,0,0,.3)',weight:1,fillOpacity:.78
+    });
+    m.bindPopup(pop,{maxWidth:220,className:'rs-popup'});
+    grp.addLayer(m);
+  });
+  lLyr=grp; grp.addTo(map);
+}
+
+function updLegend() {
+  const legs={
+    price:[['#00D4A0','Below market median'],['#F0A830','Near median'],['#E05555','Premium tier']],
+    rent:[['#00D4A0','Affordable rent'],['#F0A830','Mid range'],['#E05555','High rent']],
+    appr:[['#00D4A0','>5% MoM appreciation'],['#4A9EE0','0–5% gaining'],['#F0A830','Flat / watch'],['#E05555','Declining']],
+    yield:[['#00D4A0','High yield (>3.5%)'],['#4A9EE0','Mid yield'],['#2A3A4C','Low yield']],
+    vol:[['#4A9EE0','High listing volume'],['#7ABAF0','Medium'],['#2A3A4C','Low volume']],
+  };
+  const rows=(legs[LAYER]||legs.price).map(([c,l])=>
+    `<div class="leg-r"><div class="leg-d" style="background:${c}"></div><div class="leg-l">${l}</div></div>`
+  ).join('');
+  document.getElementById('mleg').innerHTML=`<div class="leg-t">${LAYER.toUpperCase()} KEY</div>${rows}`;
+}
+
+// ── CONTROLS ──────────────────────────────────────────────────────
+function setLayer(l) {
+  LAYER=l;
+  document.querySelectorAll('.lbtn').forEach(b=>b.classList.remove('on'));
+  document.getElementById('lb-'+l)?.classList.add('on');
+  drawCityMkrs();
+  if(CACHE[CITY]) drawLocMkrs(CACHE[CITY]);
+  updLegend();
+}
+function setType(t) {
+  TYPE=t;
+  ['buy','rent','both'].forEach(x=>document.getElementById('fb-'+x)?.classList.remove('fa'));
+  document.getElementById('fb-'+t)?.classList.add('fa');
+  if(CACHE[CITY]) drawLocMkrs(CACHE[CITY]);
+}
+function setBHK(b) {
+  BHK=b;
+  [0,1,2,3].forEach(x=>{
+    const el=document.getElementById('fb-'+x);
+    if(el){el.classList.remove('fa');el.classList.remove('fb');}
+  });
+  document.getElementById('fb-'+b)?.classList.add(b===0?'fb':'fa');
+  if(CACHE[CITY]) drawLocMkrs(CACHE[CITY]);
+}
+function setTab(t) {
+  TAB=t;
+  ['buy','rent','appr','yield','ov'].forEach(x=>{
+    const el=document.getElementById('tab-'+x);
+    if(el) el.style.display=x===t?'block':'none';
+    document.getElementById('pt-'+x)?.classList.toggle('on',x===t);
+  });
+  document.getElementById('sbar').style.display=(t==='buy'||t==='rent')?'flex':'none';
+}
+function setSort(s) {
+  SORT=s;
+  document.querySelectorAll('.sbtn').forEach(b=>b.classList.remove('on'));
+  document.getElementById('sb-'+s)?.classList.add('on');
+  if(CACHE[CITY]) renderTbls(CACHE[CITY]);
+}
+
+// ── CITY DROPDOWN ─────────────────────────────────────────────────
+function buildDD(q='') {
+  const dd=document.getElementById('cdd');
+  const list=ALL.filter(c=>!q||c.city.includes(q.toLowerCase()));
+  dd.innerHTML=list.map(c=>`
+    <div class="copt${c.city===CITY?' act':''}" onclick="pickCity('${c.city}');closeDD()">
+      <span>${cap(c.city)}</span>
+      <span class="copt-p">${fCr(c.median_buy_price)}</span>
+    </div>`).join('') || '<div style="padding:12px 16px;font-family:var(--mono);font-size:10px;color:var(--t3)">No cities match</div>';
+}
+function openDD() {
+  buildDD();
+  document.getElementById('cdd').classList.add('open');
+  document.getElementById('cinput').value='';
+}
+function closeDD() {
+  document.getElementById('cdd').classList.remove('open');
+  if(CITY) {
+    const c=ALL.find(x=>x.city===CITY);
+    if(c) document.getElementById('cinput').value=cap(c.city);
+  }
+}
+function filterDD(v) {
+  buildDD(v);
+  document.getElementById('cdd').classList.add('open');
+}
+document.addEventListener('click',e=>{
+  if(!document.getElementById('csel')?.contains(e.target)) closeDD();
+});
+
+// ── DATA LOAD ─────────────────────────────────────────────────────
+function setLdMsg(msg) {
+  const el=document.getElementById('ls-msg');
+  if(el) el.textContent=msg;
+}
+
+async function loadCities() {
+  setLdMsg('Fetching city intelligence...');
+  try {
+    const r = await fetch(`${API}/cities`, {cache:'no-cache'});
+    if(!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    ALL = d.cities || [];
+    if(!ALL.length) throw new Error('No city data returned');
+
+    document.getElementById('updt').textContent =
+      new Date(d.computed_at).toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}).toUpperCase();
+    document.getElementById('sr').textContent = fN(d.total_records);
+    document.getElementById('sc').textContent = ALL.length;
+
+    buildDD();
+    drawCityMkrs();
+    buildCharts();
+    setSt('READY');
+
+    // Hide loading screen
+    const ls=document.getElementById('ls');
+    ls.classList.add('hide');
+    setTimeout(()=>ls.style.display='none',400);
+
+    return true;
+  } catch(e) {
+    console.error('loadCities failed:', e);
+    showError(`Could not load data from ${API}/cities\n\nMake sure:\n• Pipeline bat has been run at least once\n• Git push succeeded\n• Vercel deployment is complete`);
+    return false;
+  }
+}
+
+async function loadCity(city) {
+  if(CACHE[city]) return CACHE[city];
+  setSt('LOADING '+city.toUpperCase()+'...');
+
+  // Show panel loading state
+  ['btb','rtb'].forEach(id=>{
+    const el=document.getElementById(id);
+    if(el) el.innerHTML=`<tr><td colspan="5"><div class="panel-loading"><div class="pl-hex"></div><div class="pl-txt">LOADING ${city.toUpperCase()}</div></div></td></tr>`;
+  });
+
+  try {
+    const r = await fetch(`${API}/city/${city.replace(/ /g,'_')}`, {cache:'no-cache'});
+    if(!r.ok) throw new Error(`HTTP ${r.status}`);
+    const txt = await r.text();
+    // Fix NaN — Python writes NaN which is invalid JSON
+    const clean = txt.replace(/:\s*NaN/g,': null').replace(/:\s*Infinity/g,': null');
+    const d = JSON.parse(clean);
+    CACHE[city]=d;
+    setSt('READY');
+    return d;
+  } catch(e) {
+    console.error(`loadCity ${city} failed:`, e);
+    setSt('DATA ERROR');
+    return null;
+  }
+}
+
+async function pickCity(city) {
+  CITY = city;
+  document.getElementById('cbadge').textContent = cap(city).toUpperCase();
+  document.getElementById('cinput').value = cap(city);
+  buildDD();
+
+  const co=CC[city];
+  if(co) map.flyTo(co, 11, {duration:1.1});
+  drawCityMkrs();
+  buildCharts();
+
+  const d = await loadCity(city);
+  if(!d) return;
+
+  updKPIs(d);
+  renderTbls(d);
+  renderAppr(d);
+  renderYield(d);
+  renderOv(d);
+  drawLocMkrs(d);
+}
+
+// ── RENDER ────────────────────────────────────────────────────────
+function updKPIs(d) {
+  const s=d.summary;
+  document.getElementById('k1').textContent = fCr(s.median_buy_price);
+  document.getElementById('k2').textContent = fR(s.median_rent_price);
+  document.getElementById('k1s').textContent = cap(d.city);
+  document.getElementById('k3').textContent = fN(s.active_count);
+  document.getElementById('k3s').textContent = `${fN(s.buy_count)} buy · ${fN(s.rent_count)} rent`;
+  document.getElementById('k4').textContent = fD(s.avg_days_on_market);
+  document.getElementById('k4s').textContent = `${fN(s.new_this_week)||'—'} new this week`;
+  const ys=d.yield_stats||[];
+  if(ys.length) {
+    const avg=(ys.reduce((a,r)=>a+(r.gross_yield_pct||0),0)/ys.length).toFixed(2);
+    document.getElementById('k2s').textContent=`avg ${avg}% gross yield`;
+  }
+}
+
+function srt(rows, k) {
+  return [...rows].sort((a,b)=>{
+    if(k==='p') return (b.median_price||0)-(a.median_price||0);
+    if(k==='d') return (a.avg_days_on_market||999)-(b.avg_days_on_market||999);
+    if(k==='a') return ((b.mom_pct)||0)-((a.mom_pct)||0);
+    if(k==='n') return (a.locality||'').localeCompare(b.locality||'');
+    return (b.listing_count||0)-(a.listing_count||0);
+  });
+}
+
+function renderTbls(d) {
+  const bR=srt((d.locality_stats||[]).filter(r=>r.listing_type==='buy'&&r.locality!=='Unknown'),SORT).slice(0,50);
+  document.getElementById('bbdg').textContent=bR.length+' localities';
+  document.getElementById('btb').innerHTML=bR.length
+    ?bR.map((r,i)=>`<tr onclick="flyL(${r.lat},${r.lng})">
+        <td><span class="rk">${i+1}</span></td>
+        <td><span class="ln">${r.locality}</span></td>
+        <td class="pt">${fCr(r.median_price)}</td>
+        <td>${pct(r.mom_pct)}</td>
+        <td class="${(r.avg_days_on_market||0)<12?'dg':(r.avg_days_on_market||0)<20?'dk':'db'}">${fD(r.avg_days_on_market)}</td>
+      </tr>`).join('')
+    :'<tr><td colspan="5"><div class="empty">No buy locality data yet.<br>Run geocode_localities.py first.</div></td></tr>';
+
+  document.getElementById('bhklbl').textContent=cap(d.city);
+  const bhk=(d.bhk_stats||[]).filter(r=>r.listing_type==='buy');
+  document.getElementById('bhktb').innerHTML=bhk.length
+    ?bhk.map(r=>`<tr>
+        <td>${r.beds?Math.round(r.beds)+'BHK':'—'}</td>
+        <td>${fN(r.count)}</td>
+        <td class="pt" style="opacity:.7">${fCr(r.p25)}</td>
+        <td class="pt">${fCr(r.median_price)}</td>
+        <td class="pt" style="opacity:.7">${fCr(r.p75)}</td>
+      </tr>`).join('')
+    :'<tr><td colspan="5"><div class="empty">No BHK data.</div></td></tr>';
+
+  const rR=srt((d.locality_stats||[]).filter(r=>r.listing_type==='rent'&&r.locality!=='Unknown'),SORT).slice(0,50);
+  document.getElementById('rbdg').textContent=rR.length+' localities';
+  document.getElementById('rtb').innerHTML=rR.length
+    ?rR.map((r,i)=>`<tr onclick="flyL(${r.lat},${r.lng})">
+        <td><span class="rk">${i+1}</span></td>
+        <td><span class="ln">${r.locality}</span></td>
+        <td class="pa">${fR(r.median_price)}</td>
+        <td>${pct(r.mom_pct)}</td>
+        <td class="${(r.avg_days_on_market||0)<12?'dg':(r.avg_days_on_market||0)<20?'dk':'db'}">${fD(r.avg_days_on_market)}</td>
+      </tr>`).join('')
+    :'<tr><td colspan="5"><div class="empty">No rent locality data.</div></td></tr>';
+}
+
+function renderAppr(d) {
+  const ad=(d.locality_stats||[])
+    .filter(r=>r.listing_type==='buy'&&r.mom_pct!=null&&r.locality!=='Unknown')
+    .sort((a,b)=>b.mom_pct-a.mom_pct);
+  const top=ad.filter(r=>r.mom_pct>0).slice(0,10);
+  const dec=ad.filter(r=>r.mom_pct<0).slice(-8).reverse();
+  const row=r=>`<div class="ait" onclick="flyL(${r.lat},${r.lng})">
+    <div style="flex:1;min-width:0">
+      <div class="ain">${r.locality}</div>
+      <div class="aim">${fCr(r.median_price)} · ${fN(r.listing_count)} listings · Total: ${r.total_appreciation_pct!=null?(r.total_appreciation_pct>0?'+':'')+r.total_appreciation_pct.toFixed(1)+'%':'—'}</div>
+    </div>
+    <div class="air">
+      <div class="aip ${r.mom_pct>0?'dg':'db'}">${r.mom_pct>0?'+':''}${r.mom_pct?.toFixed(1)}%</div>
+      <div class="ais">MoM</div>
+    </div>
+  </div>`;
+  document.getElementById('aprl').innerHTML=top.length
+    ?top.map(row).join('')
+    :'<div class="empty">Appreciation data builds over multiple weeks.<br>Every daily run makes this smarter.</div>';
+  document.getElementById('decl').innerHTML=dec.length
+    ?dec.map(row).join('')
+    :'<div class="empty">No significant declines detected.</div>';
+}
+
+function renderYield(d) {
+  const rows=(d.yield_stats||[]).slice(0,25);
+  document.getElementById('yldl').innerHTML=rows.length
+    ?rows.map(r=>`<div class="yi" onclick="flyL(${r.lat||null},${r.lng||null})">
+        <div class="yil">
+          <div class="yin">${r.locality}</div>
+          <div class="yim">${fCr(r.buy_price)} buy · ${fR(r.rent_price)}/mo rent</div>
+        </div>
+        <div class="yip">${r.gross_yield_pct?.toFixed(2)}%</div>
+      </div>`).join('')
+    :'<div class="empty">No yield data for this city yet.</div>';
+}
+
+function renderOv(d) {
+  const s=d.summary;
+  document.getElementById('ovbdg').textContent=cap(d.city).toUpperCase();
+  const op=s.owner_listings&&s.total_listings?Math.round(s.owner_listings/s.total_listings*100):null;
+  document.getElementById('ovb').innerHTML=[
+    ['City', cap(d.city)],
+    ['Total Listings', fN(s.total_listings)],
+    ['Buy / Rent', `${fN(s.buy_count)} / ${fN(s.rent_count)}`],
+    ['Active Listings', fN(s.active_count)],
+    ['New This Week', fN(s.new_this_week)],
+    ['Median Buy', fCr(s.median_buy_price), 'var(--teal)'],
+    ['Avg Buy Price', fCr(s.avg_buy_price)],
+    ['Median Rent', fR(s.median_rent_price), 'var(--amber)'],
+    ['Avg Days on Mkt', fD(s.avg_days_on_market)],
+    ['Owner Listings', `${fN(s.owner_listings)}${op?` (${op}%)`:''}` ],
+    ['Agent Listings', fN(s.agent_listings)],
+    ['Total Localities', fN(s.total_localities)],
+    ['Data As Of', d.computed_at?.split('T')[0]||'—'],
+  ].map(([k,v,c])=>`<div class="ovr"><span class="ovk">${k}</span><span class="ovv"${c?` style="color:${c}"`:''}>${v}</span></div>`).join('');
+}
+
+function buildCharts() {
+  if(!ALL.length) return;
+  const labs=ALL.map(c=>cap(c.city));
+  const mono="'JetBrains Mono'";
+  const isA=i=>ALL[i].city===CITY;
+  const base={
+    responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{backgroundColor:'#0C1018',borderColor:'rgba(255,255,255,.1)',borderWidth:1,titleColor:'#DCE8F5',bodyColor:'#6E8099',titleFont:{family:mono,size:9},bodyFont:{family:mono,size:9}}},
+    onClick:(e,els)=>{if(els.length)pickCity(ALL[els[0].index].city);},
+    scales:{
+      x:{ticks:{color:'#3A4A5C',font:{family:mono,size:7},maxRotation:60},grid:{color:'rgba(255,255,255,.03)'},border:{color:'rgba(255,255,255,.03)'}},
+      y:{ticks:{color:'#6E8099',font:{family:mono,size:8}},grid:{color:'rgba(255,255,255,.03)'},border:{color:'rgba(255,255,255,.03)'}}
+    }
+  };
+  if(bc)bc.destroy();
+  bc=new Chart(document.getElementById('bc'),{
+    type:'bar',
+    data:{labels:labs,datasets:[{
+      data:ALL.map(c=>(c.median_buy_price/1e7).toFixed(2)),
+      backgroundColor:labs.map((_,i)=>isA(i)?'rgba(0,212,160,.85)':'rgba(0,212,160,.22)'),
+      borderColor:labs.map((_,i)=>isA(i)?'#00D4A0':'rgba(0,212,160,.4)'),
+      borderWidth:1,borderRadius:2
+    }]},
+    options:{...base,scales:{...base.scales,y:{...base.scales.y,ticks:{...base.scales.y.ticks,callback:v=>'₹'+v+'Cr'}}}}
+  });
+  if(rc)rc.destroy();
+  rc=new Chart(document.getElementById('rc'),{
+    type:'bar',
+    data:{labels:labs,datasets:[{
+      data:ALL.map(c=>c.median_rent_price),
+      backgroundColor:labs.map((_,i)=>isA(i)?'rgba(240,168,48,.85)':'rgba(240,168,48,.22)'),
+      borderColor:labs.map((_,i)=>isA(i)?'#F0A830':'rgba(240,168,48,.4)'),
+      borderWidth:1,borderRadius:2
+    }]},
+    options:{...base,scales:{...base.scales,y:{...base.scales.y,ticks:{...base.scales.y.ticks,callback:v=>'₹'+(v/1000).toFixed(0)+'K'}}}}
+  });
+}
+
+// ── UTILITIES ─────────────────────────────────────────────────────
+function flyL(lat,lng){if(!lat||!lng||isNaN(lat)||isNaN(lng))return;map.flyTo([lat,lng],14,{duration:.9});}
+function setSt(m){const el=document.getElementById('ss');if(!el)return;el.textContent=m;el.style.color=m==='READY'?'var(--teal)':m.includes('ERROR')||m.includes('FAIL')?'var(--red)':'var(--amber)';}
+function showToast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2500);}
+function showError(msg){const es=document.getElementById('es');document.getElementById('es-msg').textContent=msg;es.classList.add('show');document.getElementById('ls').style.display='none';}
+function exportSnap(){
+  const c=ALL.find(x=>x.city===CITY);if(!c){showToast('Select a city first');return;}
+  const blob=new Blob([JSON.stringify({exported_at:new Date().toISOString(),city:CITY,...c,source:'RealSlate OS'},null,2)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download=`realslate_${CITY.replace(/ /g,'_')}_${new Date().toISOString().split('T')[0]}.json`;
+  a.click();showToast('Snapshot exported ✓');
+}
+function togglePanel(){POPEN=!POPEN;document.getElementById('side')?.classList.toggle('open',POPEN);document.getElementById('ptog').textContent=POPEN?'INTEL ✕':'INTEL ▶';}
+function mobV(v){['map','intel'].forEach(x=>document.getElementById('mn-'+x)?.classList.remove('on'));document.getElementById('mn-'+v)?.classList.add('on');if(v==='intel'){POPEN=true;document.getElementById('side')?.classList.add('open');}else{POPEN=false;document.getElementById('side')?.classList.remove('open');}}
+async function refreshAll(){CACHE={};await loadCities();if(CITY)await pickCity(CITY);}
+
+// ── BOOT ──────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', async ()=>{
+  initMap();
+  updLegend();
+  setTab('buy');
+  const ok = await loadCities();
+  if(ok && ALL.length) {
+    // Auto-select first city (largest by listings)
+    const first = [...ALL].sort((a,b)=>(b.total_listings||0)-(a.total_listings||0))[0];
+    if(first) pickCity(first.city);
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+name: RealSlate OS — Intelligence Update + Deploy
+
+on:
+  push:
+    paths:
+      - 'data/raw/**'
+      - 'data/intelligence/**'
+  workflow_dispatch:
+
+jobs:
+  update-intelligence:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+
+      - name: Install dependencies
+        run: |
+          pip install pandas pyarrow duckdb requests --quiet
+
+      - name: Parse addresses
+        run: python pipeline/parse_and_export.py
+        continue-on-error: true
+
+      - name: Compute intelligence + appreciation
+        run: python pipeline/compute_intelligence.py
+
+      - name: Geocode new localities (incremental)
+        run: python pipeline/geocode_localities.py
+        continue-on-error: true
+
+      - name: Commit updated intelligence
+        run: |
+          git config user.name "RealSlate Bot"
+          git config user.email "bot@realslate.in"
+          git add data/intelligence/ data/geocodes/
+          git diff --staged --quiet || git commit -m "intel: $(date +'%Y-%m-%d %H:%M') auto-update [skip ci]"
+          git push
+
+      - name: Trigger Vercel redeploy
+        if: success()
+        run: |
+          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            curl -s -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
+            echo "Vercel deploy triggered."
+          else
+            echo "No VERCEL_DEPLOY_HOOK secret set. Vercel will auto-deploy from git push."
+          fi
