@@ -1,6 +1,6 @@
 {
   "city": "kochi",
-  "computed_at": "2026-05-13T16:57:59.123986",
+  "computed_at": "2026-05-13T17:03:29.992505",
   "summary": {
     "total_listings": 2683,
     "total_localities": 281,
@@ -348,85 +348,6 @@
       ]
     },
     {
-      "locality": "Edappally",
-      "listing_type": "rent",
-      "listing_count": 55,
-      "median_price": 30000.0,
-      "p25_price": 22250.0,
-      "p75_price": 47250.0,
-      "min_price": 15000.0,
-      "max_price": 520000.0,
-      "avg_beds": 2.7058823529411766,
-      "avg_area": 2312.5,
-      "active_count": 55,
-      "owner_count": 49.0,
-      "agent_count": 6.0,
-      "avg_days_on_market": 44.58181818181818,
-      "new_this_week": 0,
-      "lat": 10.025487,
-      "lng": 76.3079848,
-      "wow_pct": 54.17,
-      "mom_pct": 27.59,
-      "total_appreciation_pct": -30.63,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 40000.0,
-          "listing_count": 18
-        },
-        {
-          "week_key": "2026-07",
-          "median_price": 30000.0,
-          "listing_count": 5
-        },
-        {
-          "week_key": "2026-08",
-          "median_price": 28000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-09",
-          "median_price": 23000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-10",
-          "median_price": 47000.0,
-          "listing_count": 5
-        },
-        {
-          "week_key": "2026-11",
-          "median_price": 26000.0,
-          "listing_count": 5
-        },
-        {
-          "week_key": "2026-12",
-          "median_price": 21750.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-14",
-          "median_price": 38750.0,
-          "listing_count": 6
-        },
-        {
-          "week_key": "2026-15",
-          "median_price": 32250.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-16",
-          "median_price": 18000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 27750.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
       "locality": "Aluva",
       "listing_type": "buy",
       "listing_count": 55,
@@ -506,76 +427,81 @@
       ]
     },
     {
-      "locality": "Palarivattom",
-      "listing_type": "buy",
-      "listing_count": 50,
-      "median_price": 14500000.0,
-      "p25_price": 7525000.0,
-      "p75_price": 18300000.0,
-      "min_price": 3500000.0,
-      "max_price": 520000000.0,
-      "avg_beds": 3.0588235294117645,
-      "avg_area": 4.0,
-      "active_count": 50,
-      "owner_count": 33.0,
-      "agent_count": 9.0,
-      "avg_days_on_market": 27.48,
-      "new_this_week": 9,
-      "lat": 10.0029488,
-      "lng": 76.3059882,
-      "wow_pct": -32.57,
-      "mom_pct": -31.59,
-      "total_appreciation_pct": 38.82,
+      "locality": "Edappally",
+      "listing_type": "rent",
+      "listing_count": 55,
+      "median_price": 30000.0,
+      "p25_price": 22250.0,
+      "p75_price": 47250.0,
+      "min_price": 15000.0,
+      "max_price": 520000.0,
+      "avg_beds": 2.7058823529411766,
+      "avg_area": 2312.5,
+      "active_count": 55,
+      "owner_count": 49.0,
+      "agent_count": 6.0,
+      "avg_days_on_market": 44.58181818181818,
+      "new_this_week": 0,
+      "lat": 10.025487,
+      "lng": 76.3079848,
+      "wow_pct": 54.17,
+      "mom_pct": 27.59,
+      "total_appreciation_pct": -30.63,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 8500000.0,
-          "listing_count": 8
+          "median_price": 40000.0,
+          "listing_count": 18
         },
         {
-          "week_key": "2026-06",
-          "median_price": 14800000.0,
-          "listing_count": 2
+          "week_key": "2026-07",
+          "median_price": 30000.0,
+          "listing_count": 5
         },
         {
           "week_key": "2026-08",
-          "median_price": 9450000.0,
-          "listing_count": 2
+          "median_price": 28000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-09",
+          "median_price": 23000.0,
+          "listing_count": 3
         },
         {
           "week_key": "2026-10",
-          "median_price": 17150000.0,
-          "listing_count": 4
+          "median_price": 47000.0,
+          "listing_count": 5
         },
         {
           "week_key": "2026-11",
-          "median_price": 43500000.0,
-          "listing_count": 4
+          "median_price": 26000.0,
+          "listing_count": 5
         },
         {
           "week_key": "2026-12",
-          "median_price": 17250000.0,
-          "listing_count": 4
+          "median_price": 21750.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-14",
+          "median_price": 38750.0,
+          "listing_count": 6
         },
         {
           "week_key": "2026-15",
-          "median_price": 295000000.0,
+          "median_price": 32250.0,
           "listing_count": 2
         },
         {
           "week_key": "2026-16",
-          "median_price": 17500000.0,
-          "listing_count": 5
+          "median_price": 18000.0,
+          "listing_count": 2
         },
         {
           "week_key": "2026-17",
-          "median_price": 17500000.0,
-          "listing_count": 7
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 11800000.0,
-          "listing_count": 10
+          "median_price": 27750.0,
+          "listing_count": 2
         }
       ]
     },
@@ -660,6 +586,80 @@
           "week_key": "2026-18",
           "median_price": 15500000.0,
           "listing_count": 5
+        }
+      ]
+    },
+    {
+      "locality": "Palarivattom",
+      "listing_type": "buy",
+      "listing_count": 50,
+      "median_price": 14500000.0,
+      "p25_price": 7525000.0,
+      "p75_price": 18300000.0,
+      "min_price": 3500000.0,
+      "max_price": 520000000.0,
+      "avg_beds": 3.0588235294117645,
+      "avg_area": 4.0,
+      "active_count": 50,
+      "owner_count": 33.0,
+      "agent_count": 9.0,
+      "avg_days_on_market": 27.48,
+      "new_this_week": 9,
+      "lat": 10.0029488,
+      "lng": 76.3059882,
+      "wow_pct": -32.57,
+      "mom_pct": -31.59,
+      "total_appreciation_pct": 38.82,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 8500000.0,
+          "listing_count": 8
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 14800000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-08",
+          "median_price": 9450000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 17150000.0,
+          "listing_count": 4
+        },
+        {
+          "week_key": "2026-11",
+          "median_price": 43500000.0,
+          "listing_count": 4
+        },
+        {
+          "week_key": "2026-12",
+          "median_price": 17250000.0,
+          "listing_count": 4
+        },
+        {
+          "week_key": "2026-15",
+          "median_price": 295000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-16",
+          "median_price": 17500000.0,
+          "listing_count": 5
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 17500000.0,
+          "listing_count": 7
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 11800000.0,
+          "listing_count": 10
         }
       ]
     },
@@ -876,70 +876,6 @@
       ]
     },
     {
-      "locality": "Vyttila",
-      "listing_type": "rent",
-      "listing_count": 36,
-      "median_price": 32500.0,
-      "p25_price": 22000.0,
-      "p75_price": 57663.75,
-      "min_price": 9500.0,
-      "max_price": 420000.0,
-      "avg_beds": 4.935483870967742,
-      "avg_area": 2401.25,
-      "active_count": 36,
-      "owner_count": 23.0,
-      "agent_count": 12.0,
-      "avg_days_on_market": 40.27777777777778,
-      "new_this_week": 7,
-      "lat": 9.9636706,
-      "lng": 76.3181282,
-      "wow_pct": -72.76,
-      "mom_pct": -66.59,
-      "total_appreciation_pct": 28.76,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 27500.0,
-          "listing_count": 10
-        },
-        {
-          "week_key": "2026-07",
-          "median_price": 50000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-08",
-          "median_price": 36000.0,
-          "listing_count": 4
-        },
-        {
-          "week_key": "2026-09",
-          "median_price": 106000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-12",
-          "median_price": 34000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 28000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 130000.0,
-          "listing_count": 5
-        },
-        {
-          "week_key": "2026-19",
-          "median_price": 35410.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
       "locality": "Nedumbassery",
       "listing_type": "buy",
       "listing_count": 36,
@@ -1009,61 +945,66 @@
       ]
     },
     {
-      "locality": "Palarivattom",
+      "locality": "Vyttila",
       "listing_type": "rent",
-      "listing_count": 30,
-      "median_price": 30000.0,
-      "p25_price": 18125.0,
-      "p75_price": 45750.0,
-      "min_price": 9000.0,
-      "max_price": 400000.0,
-      "avg_beds": 2.24,
-      "avg_area": 375.2,
-      "active_count": 30,
-      "owner_count": 29.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 36.56666666666667,
-      "new_this_week": 1,
-      "lat": 10.0029488,
-      "lng": 76.3059882,
-      "wow_pct": 14.29,
-      "mom_pct": -50.62,
-      "total_appreciation_pct": -50.0,
+      "listing_count": 36,
+      "median_price": 32500.0,
+      "p25_price": 22000.0,
+      "p75_price": 57663.75,
+      "min_price": 9500.0,
+      "max_price": 420000.0,
+      "avg_beds": 4.935483870967742,
+      "avg_area": 2401.25,
+      "active_count": 36,
+      "owner_count": 23.0,
+      "agent_count": 12.0,
+      "avg_days_on_market": 40.27777777777778,
+      "new_this_week": 7,
+      "lat": 9.9636706,
+      "lng": 76.3181282,
+      "wow_pct": -72.76,
+      "mom_pct": -66.59,
+      "total_appreciation_pct": 28.76,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 40000.0,
-          "listing_count": 12
+          "median_price": 27500.0,
+          "listing_count": 10
         },
         {
-          "week_key": "2026-06",
-          "median_price": 43000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-10",
-          "median_price": 40500.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-13",
-          "median_price": 35000.0,
+          "week_key": "2026-07",
+          "median_price": 50000.0,
           "listing_count": 3
         },
         {
-          "week_key": "2026-14",
-          "median_price": 27250.0,
+          "week_key": "2026-08",
+          "median_price": 36000.0,
+          "listing_count": 4
+        },
+        {
+          "week_key": "2026-09",
+          "median_price": 106000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-16",
-          "median_price": 17500.0,
-          "listing_count": 3
+          "week_key": "2026-12",
+          "median_price": 34000.0,
+          "listing_count": 2
         },
         {
           "week_key": "2026-17",
-          "median_price": 20000.0,
-          "listing_count": 3
+          "median_price": 28000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 130000.0,
+          "listing_count": 5
+        },
+        {
+          "week_key": "2026-19",
+          "median_price": 35410.0,
+          "listing_count": 2
         }
       ]
     },
@@ -1123,6 +1064,65 @@
           "week_key": "2026-17",
           "median_price": 22250000.0,
           "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Palarivattom",
+      "listing_type": "rent",
+      "listing_count": 30,
+      "median_price": 30000.0,
+      "p25_price": 18125.0,
+      "p75_price": 45750.0,
+      "min_price": 9000.0,
+      "max_price": 400000.0,
+      "avg_beds": 2.24,
+      "avg_area": 375.2,
+      "active_count": 30,
+      "owner_count": 29.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 36.56666666666667,
+      "new_this_week": 1,
+      "lat": 10.0029488,
+      "lng": 76.3059882,
+      "wow_pct": 14.29,
+      "mom_pct": -50.62,
+      "total_appreciation_pct": -50.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 40000.0,
+          "listing_count": 12
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 43000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 40500.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-13",
+          "median_price": 35000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-14",
+          "median_price": 27250.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-16",
+          "median_price": 17500.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 20000.0,
+          "listing_count": 3
         }
       ]
     },
@@ -1240,61 +1240,61 @@
       ]
     },
     {
-      "locality": "Kalamasery",
+      "locality": "Varapuzha",
       "listing_type": "buy",
       "listing_count": 21,
-      "median_price": 18800000.0,
-      "p25_price": 8300000.0,
-      "p75_price": 24000000.0,
-      "min_price": 700000.0,
-      "max_price": 144000000.0,
-      "avg_beds": 3.5384615384615383,
+      "median_price": 5200000.0,
+      "p25_price": 3600000.0,
+      "p75_price": 6900000.0,
+      "min_price": 1000000.0,
+      "max_price": 20000000.0,
+      "avg_beds": 3.272727272727273,
       "avg_area": 3.0,
       "active_count": 21,
-      "owner_count": 12.0,
+      "owner_count": 20.0,
       "agent_count": 1.0,
-      "avg_days_on_market": 28.428571428571427,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": 160.32,
-      "mom_pct": -44.54,
-      "total_appreciation_pct": 68.12,
+      "avg_days_on_market": 34.476190476190474,
+      "new_this_week": 1,
+      "lat": 10.0704096,
+      "lng": 76.2223062,
+      "wow_pct": 312.5,
+      "mom_pct": 26.92,
+      "total_appreciation_pct": 46.67,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 24000000.0,
+          "median_price": 4500000.0,
           "listing_count": 3
         },
         {
-          "week_key": "2026-06",
-          "median_price": 17200000.0,
-          "listing_count": 2
-        },
-        {
           "week_key": "2026-07",
-          "median_price": 72750000.0,
+          "median_price": 10300000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-09",
-          "median_price": 4500000.0,
+          "week_key": "2026-10",
+          "median_price": 5200000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-12",
+          "median_price": 6300000.0,
           "listing_count": 2
         },
         {
           "week_key": "2026-13",
-          "median_price": 2500000.0,
+          "median_price": 3625000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-15",
-          "median_price": 15500000.0,
-          "listing_count": 3
+          "week_key": "2026-17",
+          "median_price": 1600000.0,
+          "listing_count": 2
         },
         {
-          "week_key": "2026-17",
-          "median_price": 40350000.0,
-          "listing_count": 4
+          "week_key": "2026-18",
+          "median_price": 6600000.0,
+          "listing_count": 3
         }
       ]
     },
@@ -1358,60 +1358,104 @@
       ]
     },
     {
-      "locality": "Varapuzha",
+      "locality": "Kalamasery",
       "listing_type": "buy",
       "listing_count": 21,
-      "median_price": 5200000.0,
-      "p25_price": 3600000.0,
-      "p75_price": 6900000.0,
-      "min_price": 1000000.0,
-      "max_price": 20000000.0,
-      "avg_beds": 3.272727272727273,
+      "median_price": 18800000.0,
+      "p25_price": 8300000.0,
+      "p75_price": 24000000.0,
+      "min_price": 700000.0,
+      "max_price": 144000000.0,
+      "avg_beds": 3.5384615384615383,
       "avg_area": 3.0,
       "active_count": 21,
-      "owner_count": 20.0,
+      "owner_count": 12.0,
       "agent_count": 1.0,
-      "avg_days_on_market": 34.476190476190474,
-      "new_this_week": 1,
-      "lat": 10.0704096,
-      "lng": 76.2223062,
-      "wow_pct": 312.5,
-      "mom_pct": 26.92,
-      "total_appreciation_pct": 46.67,
+      "avg_days_on_market": 28.428571428571427,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": 160.32,
+      "mom_pct": -44.54,
+      "total_appreciation_pct": 68.12,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 4500000.0,
+          "median_price": 24000000.0,
           "listing_count": 3
         },
         {
-          "week_key": "2026-07",
-          "median_price": 10300000.0,
+          "week_key": "2026-06",
+          "median_price": 17200000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-10",
-          "median_price": 5200000.0,
-          "listing_count": 3
+          "week_key": "2026-07",
+          "median_price": 72750000.0,
+          "listing_count": 2
         },
         {
-          "week_key": "2026-12",
-          "median_price": 6300000.0,
+          "week_key": "2026-09",
+          "median_price": 4500000.0,
           "listing_count": 2
         },
         {
           "week_key": "2026-13",
-          "median_price": 3625000.0,
+          "median_price": 2500000.0,
           "listing_count": 2
+        },
+        {
+          "week_key": "2026-15",
+          "median_price": 15500000.0,
+          "listing_count": 3
         },
         {
           "week_key": "2026-17",
-          "median_price": 1600000.0,
+          "median_price": 40350000.0,
+          "listing_count": 4
+        }
+      ]
+    },
+    {
+      "locality": "Kalamassery",
+      "listing_type": "buy",
+      "listing_count": 20,
+      "median_price": 14250000.0,
+      "p25_price": 7125000.0,
+      "p75_price": 25000000.0,
+      "min_price": 4000000.0,
+      "max_price": 210000000.0,
+      "avg_beds": 3.3333333333333335,
+      "avg_area": 4.333333333333333,
+      "active_count": 20,
+      "owner_count": 12.0,
+      "agent_count": 8.0,
+      "avg_days_on_market": 29.45,
+      "new_this_week": 2,
+      "lat": 10.0417851,
+      "lng": 76.3164418,
+      "wow_pct": -84.0,
+      "mom_pct": null,
+      "total_appreciation_pct": -62.79,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 10750000.0,
+          "listing_count": 6
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 8875000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-18",
-          "median_price": 6600000.0,
+          "week_key": "2026-13",
+          "median_price": 25000000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 4000000.0,
           "listing_count": 3
         }
       ]
@@ -1471,50 +1515,6 @@
       ]
     },
     {
-      "locality": "Kalamassery",
-      "listing_type": "buy",
-      "listing_count": 20,
-      "median_price": 14250000.0,
-      "p25_price": 7125000.0,
-      "p75_price": 25000000.0,
-      "min_price": 4000000.0,
-      "max_price": 210000000.0,
-      "avg_beds": 3.3333333333333335,
-      "avg_area": 4.333333333333333,
-      "active_count": 20,
-      "owner_count": 12.0,
-      "agent_count": 8.0,
-      "avg_days_on_market": 29.45,
-      "new_this_week": 2,
-      "lat": 10.0417851,
-      "lng": 76.3164418,
-      "wow_pct": -84.0,
-      "mom_pct": null,
-      "total_appreciation_pct": -62.79,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 10750000.0,
-          "listing_count": 6
-        },
-        {
-          "week_key": "2026-06",
-          "median_price": 8875000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-13",
-          "median_price": 25000000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 4000000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
       "locality": "Vennala",
       "listing_type": "buy",
       "listing_count": 19,
@@ -1559,6 +1559,55 @@
         {
           "week_key": "2026-17",
           "median_price": 35750000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Elamakkara",
+      "listing_type": "buy",
+      "listing_count": 19,
+      "median_price": 14000000.0,
+      "p25_price": 6700000.0,
+      "p75_price": 15750000.0,
+      "min_price": 3500000.0,
+      "max_price": 45000000.0,
+      "avg_beds": 3.0555555555555554,
+      "avg_area": 3.3333333333333335,
+      "active_count": 19,
+      "owner_count": 18.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 42.26315789473684,
+      "new_this_week": 1,
+      "lat": 10.0129401,
+      "lng": 76.2831209,
+      "wow_pct": 17.86,
+      "mom_pct": 14.58,
+      "total_appreciation_pct": 14.58,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 14400000.0,
+          "listing_count": 6
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 15000000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-07",
+          "median_price": 6700000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-15",
+          "median_price": 14000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 16500000.0,
           "listing_count": 2
         }
       ]
@@ -1613,55 +1662,6 @@
         {
           "week_key": "2026-18",
           "median_price": 20000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Elamakkara",
-      "listing_type": "buy",
-      "listing_count": 19,
-      "median_price": 14000000.0,
-      "p25_price": 6700000.0,
-      "p75_price": 15750000.0,
-      "min_price": 3500000.0,
-      "max_price": 45000000.0,
-      "avg_beds": 3.0555555555555554,
-      "avg_area": 3.3333333333333335,
-      "active_count": 19,
-      "owner_count": 18.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 42.26315789473684,
-      "new_this_week": 1,
-      "lat": 10.0129401,
-      "lng": 76.2831209,
-      "wow_pct": 17.86,
-      "mom_pct": 14.58,
-      "total_appreciation_pct": 14.58,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 14400000.0,
-          "listing_count": 6
-        },
-        {
-          "week_key": "2026-06",
-          "median_price": 15000000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-07",
-          "median_price": 6700000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-15",
-          "median_price": 14000000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 16500000.0,
           "listing_count": 2
         }
       ]
@@ -1765,45 +1765,6 @@
       ]
     },
     {
-      "locality": "Angamali",
-      "listing_type": "buy",
-      "listing_count": 16,
-      "median_price": 3350000.0,
-      "p25_price": 2550000.0,
-      "p75_price": 17775000.0,
-      "min_price": 150000.0,
-      "max_price": 45000000.0,
-      "avg_beds": 3.1666666666666665,
-      "avg_area": 4.25,
-      "active_count": 16,
-      "owner_count": 16.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 45.0,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": 228.1,
-      "mom_pct": null,
-      "total_appreciation_pct": 165.0,
-      "sparkline": [
-        {
-          "week_key": "2026-06",
-          "median_price": 2600000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-07",
-          "median_price": 2100000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-16",
-          "median_price": 6890000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
       "locality": "Thevakkal",
       "listing_type": "buy",
       "listing_count": 16,
@@ -1844,6 +1805,79 @@
           "week_key": "2026-15",
           "median_price": 9650000.0,
           "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Angamali",
+      "listing_type": "buy",
+      "listing_count": 16,
+      "median_price": 3350000.0,
+      "p25_price": 2550000.0,
+      "p75_price": 17775000.0,
+      "min_price": 150000.0,
+      "max_price": 45000000.0,
+      "avg_beds": 3.1666666666666665,
+      "avg_area": 4.25,
+      "active_count": 16,
+      "owner_count": 16.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 45.0,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": 228.1,
+      "mom_pct": null,
+      "total_appreciation_pct": 165.0,
+      "sparkline": [
+        {
+          "week_key": "2026-06",
+          "median_price": 2600000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-07",
+          "median_price": 2100000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-16",
+          "median_price": 6890000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Eroor",
+      "listing_type": "buy",
+      "listing_count": 15,
+      "median_price": 8700000.0,
+      "p25_price": 6400000.0,
+      "p75_price": 14000000.0,
+      "min_price": 150000.0,
+      "max_price": 58000000.0,
+      "avg_beds": 4.0,
+      "avg_area": 1.8333333333333333,
+      "active_count": 15,
+      "owner_count": 15.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 41.266666666666666,
+      "new_this_week": 1,
+      "lat": null,
+      "lng": null,
+      "wow_pct": 245.05,
+      "mom_pct": null,
+      "total_appreciation_pct": 245.05,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 2275000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 7850000.0,
+          "listing_count": 6
         }
       ]
     },
@@ -1893,40 +1927,6 @@
           "week_key": "2026-17",
           "median_price": 7425000.0,
           "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Eroor",
-      "listing_type": "buy",
-      "listing_count": 15,
-      "median_price": 8700000.0,
-      "p25_price": 6400000.0,
-      "p75_price": 14000000.0,
-      "min_price": 150000.0,
-      "max_price": 58000000.0,
-      "avg_beds": 4.0,
-      "avg_area": 1.8333333333333333,
-      "active_count": 15,
-      "owner_count": 15.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 41.266666666666666,
-      "new_this_week": 1,
-      "lat": null,
-      "lng": null,
-      "wow_pct": 245.05,
-      "mom_pct": null,
-      "total_appreciation_pct": 245.05,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 2275000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 7850000.0,
-          "listing_count": 6
         }
       ]
     },
@@ -2058,50 +2058,6 @@
       ]
     },
     {
-      "locality": "Elamakkara",
-      "listing_type": "rent",
-      "listing_count": 13,
-      "median_price": 18500.0,
-      "p25_price": 15000.0,
-      "p75_price": 22000.0,
-      "min_price": 12000.0,
-      "max_price": 250000.0,
-      "avg_beds": 2.0,
-      "avg_area": 43560.0,
-      "active_count": 13,
-      "owner_count": 13.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 32.53846153846154,
-      "new_this_week": 0,
-      "lat": 10.0129401,
-      "lng": 76.2831209,
-      "wow_pct": 7.35,
-      "mom_pct": null,
-      "total_appreciation_pct": 25.86,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 14500.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-07",
-          "median_price": 36000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-11",
-          "median_price": 17000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-16",
-          "median_price": 18250.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
       "locality": "Thrippunithura",
       "listing_type": "rent",
       "listing_count": 13,
@@ -2141,74 +2097,45 @@
       ]
     },
     {
-      "locality": "Thoppumpady",
+      "locality": "Elamakkara",
       "listing_type": "rent",
-      "listing_count": 12,
-      "median_price": 20250.0,
+      "listing_count": 13,
+      "median_price": 18500.0,
       "p25_price": 15000.0,
-      "p75_price": 25500.0,
-      "min_price": 10500.0,
-      "max_price": 130000.0,
-      "avg_beds": 2.5555555555555554,
-      "avg_area": 2383.3333333333335,
-      "active_count": 12,
-      "owner_count": 12.0,
+      "p75_price": 22000.0,
+      "min_price": 12000.0,
+      "max_price": 250000.0,
+      "avg_beds": 2.0,
+      "avg_area": 43560.0,
+      "active_count": 13,
+      "owner_count": 13.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 52.083333333333336,
+      "avg_days_on_market": 32.53846153846154,
       "new_this_week": 0,
-      "lat": 9.9348129,
-      "lng": 76.2600732,
-      "wow_pct": -42.68,
+      "lat": 10.0129401,
+      "lng": 76.2831209,
+      "wow_pct": 7.35,
       "mom_pct": null,
-      "total_appreciation_pct": -42.68,
+      "total_appreciation_pct": 25.86,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 20500.0,
-          "listing_count": 5
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 11750.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Marine Drive",
-      "listing_type": "buy",
-      "listing_count": 12,
-      "median_price": 21000000.0,
-      "p25_price": 16500000.0,
-      "p75_price": 30600000.0,
-      "min_price": 16000000.0,
-      "max_price": 38000000.0,
-      "avg_beds": 3.1666666666666665,
-      "avg_area": 8.0,
-      "active_count": 12,
-      "owner_count": 6.0,
-      "agent_count": 2.0,
-      "avg_days_on_market": 72.83333333333333,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": -34.64,
-      "mom_pct": null,
-      "total_appreciation_pct": 21.21,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 16500000.0,
-          "listing_count": 5
-        },
-        {
-          "week_key": "2026-06",
-          "median_price": 30600000.0,
+          "median_price": 14500.0,
           "listing_count": 3
         },
         {
           "week_key": "2026-07",
-          "median_price": 20000000.0,
+          "median_price": 36000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-11",
+          "median_price": 17000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-16",
+          "median_price": 18250.0,
           "listing_count": 2
         }
       ]
@@ -2283,6 +2210,40 @@
           "week_key": "2026-10",
           "median_price": 7400000.0,
           "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Thoppumpady",
+      "listing_type": "rent",
+      "listing_count": 12,
+      "median_price": 20250.0,
+      "p25_price": 15000.0,
+      "p75_price": 25500.0,
+      "min_price": 10500.0,
+      "max_price": 130000.0,
+      "avg_beds": 2.5555555555555554,
+      "avg_area": 2383.3333333333335,
+      "active_count": 12,
+      "owner_count": 12.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 52.083333333333336,
+      "new_this_week": 0,
+      "lat": 9.9348129,
+      "lng": 76.2600732,
+      "wow_pct": -42.68,
+      "mom_pct": null,
+      "total_appreciation_pct": -42.68,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 20500.0,
+          "listing_count": 5
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 11750.0,
+          "listing_count": 2
         }
       ]
     },
@@ -2370,6 +2331,45 @@
       ]
     },
     {
+      "locality": "Marine Drive",
+      "listing_type": "buy",
+      "listing_count": 12,
+      "median_price": 21000000.0,
+      "p25_price": 16500000.0,
+      "p75_price": 30600000.0,
+      "min_price": 16000000.0,
+      "max_price": 38000000.0,
+      "avg_beds": 3.1666666666666665,
+      "avg_area": 8.0,
+      "active_count": 12,
+      "owner_count": 6.0,
+      "agent_count": 2.0,
+      "avg_days_on_market": 72.83333333333333,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": -34.64,
+      "mom_pct": null,
+      "total_appreciation_pct": 21.21,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 16500000.0,
+          "listing_count": 5
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 30600000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-07",
+          "median_price": 20000000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
       "locality": "Maradu",
       "listing_type": "buy",
       "listing_count": 11,
@@ -2400,6 +2400,40 @@
           "week_key": "2026-12",
           "median_price": 33250000.0,
           "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Cheranalloor",
+      "listing_type": "buy",
+      "listing_count": 11,
+      "median_price": 5000000.0,
+      "p25_price": 4000000.0,
+      "p75_price": 10500000.0,
+      "min_price": 3900000.0,
+      "max_price": 60000000.0,
+      "avg_beds": 2.6666666666666665,
+      "avg_area": 3.888888888888889,
+      "active_count": 11,
+      "owner_count": 11.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 21.09090909090909,
+      "new_this_week": 4,
+      "lat": null,
+      "lng": null,
+      "wow_pct": -2.5,
+      "mom_pct": null,
+      "total_appreciation_pct": -2.5,
+      "sparkline": [
+        {
+          "week_key": "2026-17",
+          "median_price": 4000000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 3900000.0,
+          "listing_count": 3
         }
       ]
     },
@@ -2477,35 +2511,142 @@
       ]
     },
     {
-      "locality": "Cheranalloor",
-      "listing_type": "buy",
-      "listing_count": 11,
-      "median_price": 5000000.0,
-      "p25_price": 4000000.0,
-      "p75_price": 10500000.0,
-      "min_price": 3900000.0,
-      "max_price": 60000000.0,
-      "avg_beds": 2.6666666666666665,
-      "avg_area": 3.888888888888889,
-      "active_count": 11,
-      "owner_count": 11.0,
+      "locality": "Nedumbassery",
+      "listing_type": "rent",
+      "listing_count": 10,
+      "median_price": 15508.0,
+      "p25_price": 14250.0,
+      "p75_price": 23250.0,
+      "min_price": 10000.0,
+      "max_price": 65000.0,
+      "avg_beds": 2.5,
+      "avg_area": NaN,
+      "active_count": 10,
+      "owner_count": 10.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 21.09090909090909,
-      "new_this_week": 4,
-      "lat": null,
-      "lng": null,
-      "wow_pct": -2.5,
+      "avg_days_on_market": 31.7,
+      "new_this_week": 1,
+      "lat": 10.154486,
+      "lng": 76.3924889,
+      "wow_pct": null,
       "mom_pct": null,
-      "total_appreciation_pct": -2.5,
+      "total_appreciation_pct": 0.0,
       "sparkline": [
         {
-          "week_key": "2026-17",
-          "median_price": 4000000.0,
-          "listing_count": 3
+          "week_key": "2026-09",
+          "median_price": 20508.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Mahatma Gandhi Road",
+      "listing_type": "rent",
+      "listing_count": 10,
+      "median_price": 46500.0,
+      "p25_price": 37500.0,
+      "p75_price": 210000.0,
+      "min_price": 15000.0,
+      "max_price": 310000.0,
+      "avg_beds": 2.5,
+      "avg_area": 525.0,
+      "active_count": 10,
+      "owner_count": 8.0,
+      "agent_count": 2.0,
+      "avg_days_on_market": 41.7,
+      "new_this_week": 0,
+      "lat": 9.4645574,
+      "lng": 76.3401835,
+      "wow_pct": 0.0,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 142500.0,
+          "listing_count": 4
         },
         {
-          "week_key": "2026-18",
-          "median_price": 3900000.0,
+          "week_key": "2026-09",
+          "median_price": 142500.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Edachira",
+      "listing_type": "buy",
+      "listing_count": 10,
+      "median_price": 9000000.0,
+      "p25_price": 6500000.0,
+      "p75_price": 10500000.0,
+      "min_price": 4800000.0,
+      "max_price": 26000000.0,
+      "avg_beds": 2.875,
+      "avg_area": 8.285714285714286,
+      "active_count": 10,
+      "owner_count": 7.0,
+      "agent_count": 3.0,
+      "avg_days_on_market": 24.4,
+      "new_this_week": 1,
+      "lat": 10.0158771,
+      "lng": 76.3666042,
+      "wow_pct": 177.78,
+      "mom_pct": null,
+      "total_appreciation_pct": 138.1,
+      "sparkline": [
+        {
+          "week_key": "2026-11",
+          "median_price": 10500000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-14",
+          "median_price": 9000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 25000000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Fort",
+      "listing_type": "buy",
+      "listing_count": 10,
+      "median_price": 6000000.0,
+      "p25_price": 4950000.0,
+      "p75_price": 14000000.0,
+      "min_price": 2800000.0,
+      "max_price": 20000000.0,
+      "avg_beds": 3.0,
+      "avg_area": 2.5,
+      "active_count": 10,
+      "owner_count": 10.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 50.7,
+      "new_this_week": 1,
+      "lat": 9.967874,
+      "lng": 76.2456743,
+      "wow_pct": 114.29,
+      "mom_pct": null,
+      "total_appreciation_pct": -14.29,
+      "sparkline": [
+        {
+          "week_key": "2026-07",
+          "median_price": 7000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-08",
+          "median_price": 2800000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-11",
+          "median_price": 6000000.0,
           "listing_count": 3
         }
       ]
@@ -2579,143 +2720,36 @@
       ]
     },
     {
-      "locality": "Fort",
+      "locality": "Kothamangalam",
       "listing_type": "buy",
-      "listing_count": 10,
-      "median_price": 6000000.0,
-      "p25_price": 4950000.0,
-      "p75_price": 14000000.0,
-      "min_price": 2800000.0,
-      "max_price": 20000000.0,
-      "avg_beds": 3.0,
-      "avg_area": 2.5,
-      "active_count": 10,
-      "owner_count": 10.0,
+      "listing_count": 9,
+      "median_price": 6500000.0,
+      "p25_price": 5000000.0,
+      "p75_price": 9000000.0,
+      "min_price": 1500000.0,
+      "max_price": 35000000.0,
+      "avg_beds": 3.3333333333333335,
+      "avg_area": 3.25,
+      "active_count": 9,
+      "owner_count": 9.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 50.7,
-      "new_this_week": 1,
-      "lat": 9.967874,
-      "lng": 76.2456743,
-      "wow_pct": 114.29,
+      "avg_days_on_market": 41.666666666666664,
+      "new_this_week": 0,
+      "lat": 10.062808,
+      "lng": 76.6291575,
+      "wow_pct": -75.67,
       "mom_pct": null,
-      "total_appreciation_pct": -14.29,
+      "total_appreciation_pct": -75.67,
       "sparkline": [
         {
-          "week_key": "2026-07",
-          "median_price": 7000000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-08",
-          "median_price": 2800000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-11",
-          "median_price": 6000000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Edachira",
-      "listing_type": "buy",
-      "listing_count": 10,
-      "median_price": 9000000.0,
-      "p25_price": 6500000.0,
-      "p75_price": 10500000.0,
-      "min_price": 4800000.0,
-      "max_price": 26000000.0,
-      "avg_beds": 2.875,
-      "avg_area": 8.285714285714286,
-      "active_count": 10,
-      "owner_count": 7.0,
-      "agent_count": 3.0,
-      "avg_days_on_market": 24.4,
-      "new_this_week": 1,
-      "lat": 10.0158771,
-      "lng": 76.3666042,
-      "wow_pct": 177.78,
-      "mom_pct": null,
-      "total_appreciation_pct": 138.1,
-      "sparkline": [
-        {
-          "week_key": "2026-11",
-          "median_price": 10500000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-14",
-          "median_price": 9000000.0,
+          "week_key": "2026-05",
+          "median_price": 20550000.0,
           "listing_count": 2
         },
         {
           "week_key": "2026-17",
-          "median_price": 25000000.0,
+          "median_price": 5000000.0,
           "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Nedumbassery",
-      "listing_type": "rent",
-      "listing_count": 10,
-      "median_price": 15508.0,
-      "p25_price": 14250.0,
-      "p75_price": 23250.0,
-      "min_price": 10000.0,
-      "max_price": 65000.0,
-      "avg_beds": 2.5,
-      "avg_area": NaN,
-      "active_count": 10,
-      "owner_count": 10.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 31.7,
-      "new_this_week": 1,
-      "lat": 10.154486,
-      "lng": 76.3924889,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-09",
-          "median_price": 20508.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Mahatma Gandhi Road",
-      "listing_type": "rent",
-      "listing_count": 10,
-      "median_price": 46500.0,
-      "p25_price": 37500.0,
-      "p75_price": 210000.0,
-      "min_price": 15000.0,
-      "max_price": 310000.0,
-      "avg_beds": 2.5,
-      "avg_area": 525.0,
-      "active_count": 10,
-      "owner_count": 8.0,
-      "agent_count": 2.0,
-      "avg_days_on_market": 41.7,
-      "new_this_week": 0,
-      "lat": 9.4645574,
-      "lng": 76.3401835,
-      "wow_pct": 0.0,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 142500.0,
-          "listing_count": 4
-        },
-        {
-          "week_key": "2026-09",
-          "median_price": 142500.0,
-          "listing_count": 2
         }
       ]
     },
@@ -2754,43 +2788,27 @@
       ]
     },
     {
-      "locality": "Thevara",
-      "listing_type": "rent",
+      "locality": "Vazhakkala",
+      "listing_type": "buy",
       "listing_count": 9,
-      "median_price": 19000.0,
-      "p25_price": 15000.0,
-      "p75_price": 20000.0,
-      "min_price": 14000.0,
-      "max_price": 50000.0,
-      "avg_beds": 2.142857142857143,
-      "avg_area": 810.0,
+      "median_price": 18500000.0,
+      "p25_price": 7000000.0,
+      "p75_price": 40000000.0,
+      "min_price": 4000000.0,
+      "max_price": 120000000.0,
+      "avg_beds": 3.6,
+      "avg_area": 1.8,
       "active_count": 9,
-      "owner_count": 9.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 51.22222222222222,
+      "owner_count": 7.0,
+      "agent_count": 2.0,
+      "avg_days_on_market": 31.11111111111111,
       "new_this_week": 0,
-      "lat": 9.944643,
-      "lng": 76.2947828,
-      "wow_pct": 6.06,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
       "mom_pct": null,
-      "total_appreciation_pct": -56.25,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 40000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-13",
-          "median_price": 16500.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 17500.0,
-          "listing_count": 2
-        }
-      ]
+      "total_appreciation_pct": null,
+      "sparkline": []
     },
     {
       "locality": "Panampily Nagar",
@@ -2866,63 +2884,6 @@
       ]
     },
     {
-      "locality": "Vazhakkala",
-      "listing_type": "buy",
-      "listing_count": 9,
-      "median_price": 18500000.0,
-      "p25_price": 7000000.0,
-      "p75_price": 40000000.0,
-      "min_price": 4000000.0,
-      "max_price": 120000000.0,
-      "avg_beds": 3.6,
-      "avg_area": 1.8,
-      "active_count": 9,
-      "owner_count": 7.0,
-      "agent_count": 2.0,
-      "avg_days_on_market": 31.11111111111111,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Kothamangalam",
-      "listing_type": "buy",
-      "listing_count": 9,
-      "median_price": 6500000.0,
-      "p25_price": 5000000.0,
-      "p75_price": 9000000.0,
-      "min_price": 1500000.0,
-      "max_price": 35000000.0,
-      "avg_beds": 3.3333333333333335,
-      "avg_area": 3.25,
-      "active_count": 9,
-      "owner_count": 9.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 41.666666666666664,
-      "new_this_week": 0,
-      "lat": 10.062808,
-      "lng": 76.6291575,
-      "wow_pct": -75.67,
-      "mom_pct": null,
-      "total_appreciation_pct": -75.67,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 20550000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 5000000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
       "locality": "Fort Cochin",
       "listing_type": "buy",
       "listing_count": 9,
@@ -2986,94 +2947,104 @@
       ]
     },
     {
-      "locality": "Tripunithura",
-      "listing_type": "buy",
-      "listing_count": 8,
-      "median_price": 7100000.0,
-      "p25_price": 6300000.0,
-      "p75_price": 13875000.0,
-      "min_price": 3800000.0,
-      "max_price": 30400000.0,
-      "avg_beds": 3.142857142857143,
-      "avg_area": 2.3333333333333335,
-      "active_count": 8,
-      "owner_count": 8.0,
+      "locality": "Thevara",
+      "listing_type": "rent",
+      "listing_count": 9,
+      "median_price": 19000.0,
+      "p25_price": 15000.0,
+      "p75_price": 20000.0,
+      "min_price": 14000.0,
+      "max_price": 50000.0,
+      "avg_beds": 2.142857142857143,
+      "avg_area": 810.0,
+      "active_count": 9,
+      "owner_count": 9.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 44.25,
+      "avg_days_on_market": 51.22222222222222,
       "new_this_week": 0,
-      "lat": 9.914987,
-      "lng": 76.3429538,
-      "wow_pct": null,
+      "lat": 9.944643,
+      "lng": 76.2947828,
+      "wow_pct": 6.06,
       "mom_pct": null,
-      "total_appreciation_pct": 0.0,
+      "total_appreciation_pct": -56.25,
       "sparkline": [
         {
+          "week_key": "2026-05",
+          "median_price": 40000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-13",
+          "median_price": 16500.0,
+          "listing_count": 2
+        },
+        {
           "week_key": "2026-17",
-          "median_price": 11950000.0,
+          "median_price": 17500.0,
           "listing_count": 2
         }
       ]
     },
     {
-      "locality": "Thengod",
+      "locality": "Kacherippady",
       "listing_type": "buy",
       "listing_count": 8,
-      "median_price": 5700000.0,
-      "p25_price": 2262500.0,
-      "p75_price": 9275000.0,
-      "min_price": 1400000.0,
-      "max_price": 230000000.0,
-      "avg_beds": 3.0,
-      "avg_area": 1.0,
+      "median_price": 10750000.0,
+      "p25_price": 9875000.0,
+      "p75_price": 11875000.0,
+      "min_price": 9500000.0,
+      "max_price": 30800000.0,
+      "avg_beds": 3.4285714285714284,
+      "avg_area": 6.0,
       "active_count": 8,
-      "owner_count": 5.0,
-      "agent_count": 3.0,
-      "avg_days_on_market": 41.875,
+      "owner_count": 8.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 64.625,
+      "new_this_week": 0,
+      "lat": 9.9131047,
+      "lng": 76.2764956,
+      "wow_pct": -11.63,
+      "mom_pct": null,
+      "total_appreciation_pct": -11.63,
+      "sparkline": [
+        {
+          "week_key": "2026-06",
+          "median_price": 10750000.0,
+          "listing_count": 4
+        },
+        {
+          "week_key": "2026-15",
+          "median_price": 9500000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Vennala",
+      "listing_type": "rent",
+      "listing_count": 8,
+      "median_price": 45500.0,
+      "p25_price": 31625.0,
+      "p75_price": 137500.0,
+      "min_price": 18000.0,
+      "max_price": 700000.0,
+      "avg_beds": 3.1666666666666665,
+      "avg_area": NaN,
+      "active_count": 8,
+      "owner_count": 8.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 37.0,
       "new_this_week": 1,
-      "lat": null,
-      "lng": null,
+      "lat": 9.9983003,
+      "lng": 76.3251702,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": 0.0,
       "sparkline": [
         {
           "week_key": "2026-09",
-          "median_price": 2975000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Kalamasery",
-      "listing_type": "rent",
-      "listing_count": 8,
-      "median_price": 17400.0,
-      "p25_price": 14250.0,
-      "p75_price": 150000.0,
-      "min_price": 10100.0,
-      "max_price": 630000.0,
-      "avg_beds": 2.0,
-      "avg_area": 14000.0,
-      "active_count": 8,
-      "owner_count": 8.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 46.625,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": -96.13,
-      "mom_pct": null,
-      "total_appreciation_pct": -96.13,
-      "sparkline": [
-        {
-          "week_key": "2026-06",
-          "median_price": 450000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 17400.0,
-          "listing_count": 2
+          "median_price": 45000.0,
+          "listing_count": 3
         }
       ]
     },
@@ -3136,64 +3107,93 @@
       ]
     },
     {
-      "locality": "Vennala",
-      "listing_type": "rent",
+      "locality": "Thengod",
+      "listing_type": "buy",
       "listing_count": 8,
-      "median_price": 45500.0,
-      "p25_price": 31625.0,
-      "p75_price": 137500.0,
-      "min_price": 18000.0,
-      "max_price": 700000.0,
-      "avg_beds": 3.1666666666666665,
-      "avg_area": NaN,
+      "median_price": 5700000.0,
+      "p25_price": 2262500.0,
+      "p75_price": 9275000.0,
+      "min_price": 1400000.0,
+      "max_price": 230000000.0,
+      "avg_beds": 3.0,
+      "avg_area": 1.0,
       "active_count": 8,
-      "owner_count": 8.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 37.0,
+      "owner_count": 5.0,
+      "agent_count": 3.0,
+      "avg_days_on_market": 41.875,
       "new_this_week": 1,
-      "lat": 9.9983003,
-      "lng": 76.3251702,
+      "lat": null,
+      "lng": null,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": 0.0,
       "sparkline": [
         {
           "week_key": "2026-09",
-          "median_price": 45000.0,
-          "listing_count": 3
+          "median_price": 2975000.0,
+          "listing_count": 2
         }
       ]
     },
     {
-      "locality": "Kacherippady",
+      "locality": "Tripunithura",
       "listing_type": "buy",
       "listing_count": 8,
-      "median_price": 10750000.0,
-      "p25_price": 9875000.0,
-      "p75_price": 11875000.0,
-      "min_price": 9500000.0,
-      "max_price": 30800000.0,
-      "avg_beds": 3.4285714285714284,
-      "avg_area": 6.0,
+      "median_price": 7100000.0,
+      "p25_price": 6300000.0,
+      "p75_price": 13875000.0,
+      "min_price": 3800000.0,
+      "max_price": 30400000.0,
+      "avg_beds": 3.142857142857143,
+      "avg_area": 2.3333333333333335,
       "active_count": 8,
       "owner_count": 8.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 64.625,
+      "avg_days_on_market": 44.25,
       "new_this_week": 0,
-      "lat": 9.9131047,
-      "lng": 76.2764956,
-      "wow_pct": -11.63,
+      "lat": 9.914987,
+      "lng": 76.3429538,
+      "wow_pct": null,
       "mom_pct": null,
-      "total_appreciation_pct": -11.63,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-17",
+          "median_price": 11950000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Kalamasery",
+      "listing_type": "rent",
+      "listing_count": 8,
+      "median_price": 17400.0,
+      "p25_price": 14250.0,
+      "p75_price": 150000.0,
+      "min_price": 10100.0,
+      "max_price": 630000.0,
+      "avg_beds": 2.0,
+      "avg_area": 14000.0,
+      "active_count": 8,
+      "owner_count": 8.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 46.625,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": -96.13,
+      "mom_pct": null,
+      "total_appreciation_pct": -96.13,
       "sparkline": [
         {
           "week_key": "2026-06",
-          "median_price": 10750000.0,
-          "listing_count": 4
+          "median_price": 450000.0,
+          "listing_count": 2
         },
         {
-          "week_key": "2026-15",
-          "median_price": 9500000.0,
+          "week_key": "2026-17",
+          "median_price": 17400.0,
           "listing_count": 2
         }
       ]
@@ -3228,59 +3228,35 @@
       ]
     },
     {
-      "locality": "Manjummel",
+      "locality": "Ravipuram",
       "listing_type": "buy",
       "listing_count": 7,
-      "median_price": 7800000.0,
-      "p25_price": 3800000.0,
-      "p75_price": 8600000.0,
-      "min_price": 690000.0,
-      "max_price": 20000000.0,
+      "median_price": 20000000.0,
+      "p25_price": 12160000.0,
+      "p75_price": 67500000.0,
+      "min_price": 4320000.0,
+      "max_price": 110000000.0,
       "avg_beds": 3.0,
-      "avg_area": 1.0,
+      "avg_area": 2.3333333333333335,
       "active_count": 7,
       "owner_count": 7.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 29.428571428571427,
-      "new_this_week": 1,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
+      "avg_days_on_market": 67.42857142857143,
+      "new_this_week": 0,
+      "lat": 9.961558,
+      "lng": 76.2934625,
+      "wow_pct": 94.44,
       "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-11",
-          "median_price": 7100000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Cherai",
-      "listing_type": "buy",
-      "listing_count": 7,
-      "median_price": 32000000.0,
-      "p25_price": 5950000.0,
-      "p75_price": 87500000.0,
-      "min_price": 320000.0,
-      "max_price": 120000000.0,
-      "avg_beds": 2.0,
-      "avg_area": 2.0,
-      "active_count": 7,
-      "owner_count": 7.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 43.142857142857146,
-      "new_this_week": 1,
-      "lat": 10.1406994,
-      "lng": 76.1935753,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
+      "total_appreciation_pct": 94.44,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 18100000.0,
+          "median_price": 45000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 87500000.0,
           "listing_count": 2
         }
       ]
@@ -3315,35 +3291,59 @@
       ]
     },
     {
-      "locality": "Ravipuram",
+      "locality": "Cherai",
       "listing_type": "buy",
       "listing_count": 7,
-      "median_price": 20000000.0,
-      "p25_price": 12160000.0,
-      "p75_price": 67500000.0,
-      "min_price": 4320000.0,
-      "max_price": 110000000.0,
-      "avg_beds": 3.0,
-      "avg_area": 2.3333333333333335,
+      "median_price": 32000000.0,
+      "p25_price": 5950000.0,
+      "p75_price": 87500000.0,
+      "min_price": 320000.0,
+      "max_price": 120000000.0,
+      "avg_beds": 2.0,
+      "avg_area": 2.0,
       "active_count": 7,
       "owner_count": 7.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 67.42857142857143,
-      "new_this_week": 0,
-      "lat": 9.961558,
-      "lng": 76.2934625,
-      "wow_pct": 94.44,
+      "avg_days_on_market": 43.142857142857146,
+      "new_this_week": 1,
+      "lat": 10.1406994,
+      "lng": 76.1935753,
+      "wow_pct": null,
       "mom_pct": null,
-      "total_appreciation_pct": 94.44,
+      "total_appreciation_pct": 0.0,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 45000000.0,
+          "median_price": 18100000.0,
           "listing_count": 2
-        },
+        }
+      ]
+    },
+    {
+      "locality": "Manjummel",
+      "listing_type": "buy",
+      "listing_count": 7,
+      "median_price": 7800000.0,
+      "p25_price": 3800000.0,
+      "p75_price": 8600000.0,
+      "min_price": 690000.0,
+      "max_price": 20000000.0,
+      "avg_beds": 3.0,
+      "avg_area": 1.0,
+      "active_count": 7,
+      "owner_count": 7.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 29.428571428571427,
+      "new_this_week": 1,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
         {
-          "week_key": "2026-10",
-          "median_price": 87500000.0,
+          "week_key": "2026-11",
+          "median_price": 7100000.0,
           "listing_count": 2
         }
       ]
@@ -3383,93 +3383,30 @@
       ]
     },
     {
-      "locality": "Thevara",
+      "locality": "Athani",
       "listing_type": "buy",
       "listing_count": 6,
-      "median_price": 17000000.0,
-      "p25_price": 14750000.0,
-      "p75_price": 17000000.0,
-      "min_price": 12500000.0,
-      "max_price": 17000000.0,
-      "avg_beds": 3.2,
-      "avg_area": 2.5,
+      "median_price": 6800000.0,
+      "p25_price": 5600000.0,
+      "p75_price": 29300000.0,
+      "min_price": 5400000.0,
+      "max_price": 140000000.0,
+      "avg_beds": 2.0,
+      "avg_area": 12.0,
       "active_count": 6,
-      "owner_count": 6.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 21.5,
+      "owner_count": 4.0,
+      "agent_count": 2.0,
+      "avg_days_on_market": 76.83333333333333,
       "new_this_week": 0,
-      "lat": 9.944643,
-      "lng": 76.2947828,
-      "wow_pct": 0.0,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-07",
-          "median_price": 17000000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 17000000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Kollamkudimugal",
-      "listing_type": "rent",
-      "listing_count": 6,
-      "median_price": 28500.0,
-      "p25_price": 22750.0,
-      "p75_price": 38000.0,
-      "min_price": 16000.0,
-      "max_price": 250000.0,
-      "avg_beds": 3.0,
-      "avg_area": NaN,
-      "active_count": 6,
-      "owner_count": 5.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 21.666666666666668,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-16",
-          "median_price": 23500.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Seaport Airport Road",
-      "listing_type": "buy",
-      "listing_count": 6,
-      "median_price": 14000000.0,
-      "p25_price": 4000000.0,
-      "p75_price": 24750000.0,
-      "min_price": 3900000.0,
-      "max_price": 30000000.0,
-      "avg_beds": 2.6666666666666665,
-      "avg_area": 3.0,
-      "active_count": 6,
-      "owner_count": 6.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 45.333333333333336,
-      "new_this_week": 1,
-      "lat": 10.0004745,
-      "lng": 76.3495561,
+      "lat": 10.0963763,
+      "lng": 76.2059332,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": 0.0,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 27000000.0,
+          "median_price": 74000000.0,
           "listing_count": 2
         }
       ]
@@ -3504,49 +3441,141 @@
       ]
     },
     {
-      "locality": "Athani",
+      "locality": "Seaport Airport Road",
       "listing_type": "buy",
       "listing_count": 6,
-      "median_price": 6800000.0,
-      "p25_price": 5600000.0,
-      "p75_price": 29300000.0,
-      "min_price": 5400000.0,
-      "max_price": 140000000.0,
-      "avg_beds": 2.0,
-      "avg_area": 12.0,
+      "median_price": 14000000.0,
+      "p25_price": 4000000.0,
+      "p75_price": 24750000.0,
+      "min_price": 3900000.0,
+      "max_price": 30000000.0,
+      "avg_beds": 2.6666666666666665,
+      "avg_area": 3.0,
       "active_count": 6,
-      "owner_count": 4.0,
-      "agent_count": 2.0,
-      "avg_days_on_market": 76.83333333333333,
-      "new_this_week": 0,
-      "lat": 10.0963763,
-      "lng": 76.2059332,
+      "owner_count": 6.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 45.333333333333336,
+      "new_this_week": 1,
+      "lat": 10.0004745,
+      "lng": 76.3495561,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": 0.0,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 74000000.0,
+          "median_price": 27000000.0,
           "listing_count": 2
         }
       ]
     },
     {
-      "locality": "Angamali",
+      "locality": "Kollamkudimugal",
       "listing_type": "rent",
+      "listing_count": 6,
+      "median_price": 28500.0,
+      "p25_price": 22750.0,
+      "p75_price": 38000.0,
+      "min_price": 16000.0,
+      "max_price": 250000.0,
+      "avg_beds": 3.0,
+      "avg_area": NaN,
+      "active_count": 6,
+      "owner_count": 5.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 21.666666666666668,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-16",
+          "median_price": 23500.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Thevara",
+      "listing_type": "buy",
+      "listing_count": 6,
+      "median_price": 17000000.0,
+      "p25_price": 14750000.0,
+      "p75_price": 17000000.0,
+      "min_price": 12500000.0,
+      "max_price": 17000000.0,
+      "avg_beds": 3.2,
+      "avg_area": 2.5,
+      "active_count": 6,
+      "owner_count": 6.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 21.5,
+      "new_this_week": 0,
+      "lat": 9.944643,
+      "lng": 76.2947828,
+      "wow_pct": 0.0,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-07",
+          "median_price": 17000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 17000000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Kundanoor",
+      "listing_type": "buy",
       "listing_count": 5,
-      "median_price": 24000.0,
-      "p25_price": 15000.0,
-      "p75_price": 50000.0,
-      "min_price": 6000.0,
-      "max_price": 50000.0,
-      "avg_beds": 3.3333333333333335,
-      "avg_area": 842.5,
+      "median_price": 4500000.0,
+      "p25_price": 4500000.0,
+      "p75_price": 8700000.0,
+      "min_price": 3800000.0,
+      "max_price": 17600000.0,
+      "avg_beds": 2.6666666666666665,
+      "avg_area": 2.3333333333333335,
       "active_count": 5,
       "owner_count": 5.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 47.8,
+      "avg_days_on_market": 40.6,
+      "new_this_week": 0,
+      "lat": 9.9367681,
+      "lng": 76.318371,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-14",
+          "median_price": 4500000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Eda",
+      "listing_type": "buy",
+      "listing_count": 5,
+      "median_price": 50000000.0,
+      "p25_price": 13000000.0,
+      "p75_price": 50000000.0,
+      "min_price": 6500000.0,
+      "max_price": 1250000000.0,
+      "avg_beds": 3.4,
+      "avg_area": 2.0,
+      "active_count": 5,
+      "owner_count": 5.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 65.6,
       "new_this_week": 0,
       "lat": null,
       "lng": null,
@@ -3556,37 +3585,8 @@
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 24000.0,
-          "listing_count": 5
-        }
-      ]
-    },
-    {
-      "locality": "Seaport Airport Road",
-      "listing_type": "rent",
-      "listing_count": 5,
-      "median_price": 530000.0,
-      "p25_price": 330000.0,
-      "p75_price": 540000.0,
-      "min_price": 30000.0,
-      "max_price": 1500000.0,
-      "avg_beds": 5.0,
-      "avg_area": 43985.0,
-      "active_count": 5,
-      "owner_count": 5.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 61.8,
-      "new_this_week": 0,
-      "lat": 10.0004745,
-      "lng": 76.3495561,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 530000.0,
-          "listing_count": 5
+          "median_price": 50000000.0,
+          "listing_count": 2
         }
       ]
     },
@@ -3625,176 +3625,31 @@
       ]
     },
     {
-      "locality": "Pachalam",
+      "locality": "Seaport Airport Road",
       "listing_type": "rent",
       "listing_count": 5,
-      "median_price": 8000.0,
-      "p25_price": 7000.0,
-      "p75_price": 24000.0,
-      "min_price": 5000.0,
-      "max_price": 140000.0,
-      "avg_beds": 1.4,
-      "avg_area": NaN,
+      "median_price": 530000.0,
+      "p25_price": 330000.0,
+      "p75_price": 540000.0,
+      "min_price": 30000.0,
+      "max_price": 1500000.0,
+      "avg_beds": 5.0,
+      "avg_area": 43985.0,
       "active_count": 5,
       "owner_count": 5.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 23.8,
+      "avg_days_on_market": 61.8,
       "new_this_week": 0,
-      "lat": 9.9966421,
-      "lng": 76.2861695,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-06",
-          "median_price": 73500.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Chittoor Road",
-      "listing_type": "rent",
-      "listing_count": 5,
-      "median_price": 30000.0,
-      "p25_price": 23000.0,
-      "p75_price": 200000.0,
-      "min_price": 11000.0,
-      "max_price": 300000.0,
-      "avg_beds": 2.2,
-      "avg_area": NaN,
-      "active_count": 5,
-      "owner_count": 4.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 46.4,
-      "new_this_week": 0,
-      "lat": 10.0156822,
-      "lng": 76.2762633,
+      "lat": 10.0004745,
+      "lng": 76.3495561,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": 0.0,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 250000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Petta",
-      "listing_type": "buy",
-      "listing_count": 5,
-      "median_price": 7500000.0,
-      "p25_price": 6000000.0,
-      "p75_price": 30600000.0,
-      "min_price": 6000000.0,
-      "max_price": 40000000.0,
-      "avg_beds": 2.6666666666666665,
-      "avg_area": 3.0,
-      "active_count": 5,
-      "owner_count": 5.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 71.6,
-      "new_this_week": 0,
-      "lat": 9.9473226,
-      "lng": 76.3333887,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-07",
-          "median_price": 18300000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Eda",
-      "listing_type": "buy",
-      "listing_count": 5,
-      "median_price": 50000000.0,
-      "p25_price": 13000000.0,
-      "p75_price": 50000000.0,
-      "min_price": 6500000.0,
-      "max_price": 1250000000.0,
-      "avg_beds": 3.4,
-      "avg_area": 2.0,
-      "active_count": 5,
-      "owner_count": 5.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 65.6,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 50000000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Puthiyakavu",
-      "listing_type": "rent",
-      "listing_count": 5,
-      "median_price": 25000.0,
-      "p25_price": 22000.0,
-      "p75_price": 65000.0,
-      "min_price": 16000.0,
-      "max_price": 150000.0,
-      "avg_beds": 2.0,
-      "avg_area": 5500.0,
-      "active_count": 5,
-      "owner_count": 5.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 56.2,
-      "new_this_week": 0,
-      "lat": 9.7174038,
-      "lng": 76.3178071,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 25000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Kundanoor",
-      "listing_type": "buy",
-      "listing_count": 5,
-      "median_price": 4500000.0,
-      "p25_price": 4500000.0,
-      "p75_price": 8700000.0,
-      "min_price": 3800000.0,
-      "max_price": 17600000.0,
-      "avg_beds": 2.6666666666666665,
-      "avg_area": 2.3333333333333335,
-      "active_count": 5,
-      "owner_count": 5.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 40.6,
-      "new_this_week": 0,
-      "lat": 9.9367681,
-      "lng": 76.318371,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-14",
-          "median_price": 4500000.0,
-          "listing_count": 3
+          "median_price": 530000.0,
+          "listing_count": 5
         }
       ]
     },
@@ -3891,20 +3746,78 @@
       ]
     },
     {
-      "locality": "Netoor",
+      "locality": "Chittoor Road",
       "listing_type": "rent",
-      "listing_count": 4,
-      "median_price": 34000.0,
-      "p25_price": 27250.0,
-      "p75_price": 92500.0,
-      "min_price": 25000.0,
-      "max_price": 250000.0,
-      "avg_beds": 2.6666666666666665,
+      "listing_count": 5,
+      "median_price": 30000.0,
+      "p25_price": 23000.0,
+      "p75_price": 200000.0,
+      "min_price": 11000.0,
+      "max_price": 300000.0,
+      "avg_beds": 2.2,
       "avg_area": NaN,
-      "active_count": 4,
+      "active_count": 5,
       "owner_count": 4.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 46.4,
+      "new_this_week": 0,
+      "lat": 10.0156822,
+      "lng": 76.2762633,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 250000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Pachalam",
+      "listing_type": "rent",
+      "listing_count": 5,
+      "median_price": 8000.0,
+      "p25_price": 7000.0,
+      "p75_price": 24000.0,
+      "min_price": 5000.0,
+      "max_price": 140000.0,
+      "avg_beds": 1.4,
+      "avg_area": NaN,
+      "active_count": 5,
+      "owner_count": 5.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 35.25,
+      "avg_days_on_market": 23.8,
+      "new_this_week": 0,
+      "lat": 9.9966421,
+      "lng": 76.2861695,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-06",
+          "median_price": 73500.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Angamali",
+      "listing_type": "rent",
+      "listing_count": 5,
+      "median_price": 24000.0,
+      "p25_price": 15000.0,
+      "p75_price": 50000.0,
+      "min_price": 6000.0,
+      "max_price": 50000.0,
+      "avg_beds": 3.3333333333333335,
+      "avg_area": 842.5,
+      "active_count": 5,
+      "owner_count": 5.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 47.8,
       "new_this_week": 0,
       "lat": null,
       "lng": null,
@@ -3913,76 +3826,117 @@
       "total_appreciation_pct": 0.0,
       "sparkline": [
         {
-          "week_key": "2026-10",
-          "median_price": 26500.0,
+          "week_key": "2026-05",
+          "median_price": 24000.0,
+          "listing_count": 5
+        }
+      ]
+    },
+    {
+      "locality": "Puthiyakavu",
+      "listing_type": "rent",
+      "listing_count": 5,
+      "median_price": 25000.0,
+      "p25_price": 22000.0,
+      "p75_price": 65000.0,
+      "min_price": 16000.0,
+      "max_price": 150000.0,
+      "avg_beds": 2.0,
+      "avg_area": 5500.0,
+      "active_count": 5,
+      "owner_count": 5.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 56.2,
+      "new_this_week": 0,
+      "lat": 9.7174038,
+      "lng": 76.3178071,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 25000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Petta",
+      "listing_type": "buy",
+      "listing_count": 5,
+      "median_price": 7500000.0,
+      "p25_price": 6000000.0,
+      "p75_price": 30600000.0,
+      "min_price": 6000000.0,
+      "max_price": 40000000.0,
+      "avg_beds": 2.6666666666666665,
+      "avg_area": 3.0,
+      "active_count": 5,
+      "owner_count": 5.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 71.6,
+      "new_this_week": 0,
+      "lat": 9.9473226,
+      "lng": 76.3333887,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-07",
+          "median_price": 18300000.0,
           "listing_count": 2
         }
       ]
     },
     {
-      "locality": "Manjummel",
+      "locality": "Kacherippady",
       "listing_type": "rent",
       "listing_count": 4,
-      "median_price": 16250.0,
-      "p25_price": 15000.0,
-      "p75_price": 18125.0,
-      "min_price": 15000.0,
-      "max_price": 20000.0,
-      "avg_beds": 2.6666666666666665,
-      "avg_area": 16.0,
+      "median_price": 27500.0,
+      "p25_price": 23250.0,
+      "p75_price": 72500.0,
+      "min_price": 18000.0,
+      "max_price": 200000.0,
+      "avg_beds": 2.5,
+      "avg_area": 28.0,
       "active_count": 4,
       "owner_count": 4.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 24.5,
+      "avg_days_on_market": 63.75,
       "new_this_week": 0,
-      "lat": null,
-      "lng": null,
+      "lat": 9.9131047,
+      "lng": 76.2764956,
       "wow_pct": null,
       "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 112500.0,
+          "listing_count": 2
+        }
+      ]
     },
     {
-      "locality": "Karimugal",
-      "listing_type": "buy",
+      "locality": "Padamugal",
+      "listing_type": "rent",
       "listing_count": 4,
-      "median_price": 2270000.0,
-      "p25_price": 1330000.0,
-      "p75_price": 5825000.0,
-      "min_price": 700000.0,
-      "max_price": 14300000.0,
-      "avg_beds": 2.0,
-      "avg_area": 1.0,
-      "active_count": 4,
-      "owner_count": 4.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 69.25,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Elamkulam",
-      "listing_type": "buy",
-      "listing_count": 4,
-      "median_price": 11750000.0,
-      "p25_price": 11500000.0,
-      "p75_price": 14000000.0,
-      "min_price": 11500000.0,
-      "max_price": 20000000.0,
+      "median_price": 27500.0,
+      "p25_price": 25000.0,
+      "p75_price": 897500.0,
+      "min_price": 25000.0,
+      "max_price": 3500000.0,
       "avg_beds": 3.3333333333333335,
-      "avg_area": 7.0,
+      "avg_area": 8000.0,
       "active_count": 4,
       "owner_count": 4.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 48.0,
+      "avg_days_on_market": 40.75,
       "new_this_week": 0,
-      "lat": 9.9722229,
-      "lng": 76.3001238,
+      "lat": null,
+      "lng": null,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": null,
@@ -4041,99 +3995,151 @@
       ]
     },
     {
-      "locality": "Chalikkavattom",
-      "listing_type": "rent",
+      "locality": "Kalady",
+      "listing_type": "buy",
       "listing_count": 4,
-      "median_price": 19000.0,
-      "p25_price": 13375.0,
-      "p75_price": 34750.0,
-      "min_price": 8500.0,
-      "max_price": 70000.0,
-      "avg_beds": 5.0,
-      "avg_area": 11840.4,
+      "median_price": 2500000.0,
+      "p25_price": 2025000.0,
+      "p75_price": 4600000.0,
+      "min_price": 600000.0,
+      "max_price": 10900000.0,
+      "avg_beds": NaN,
+      "avg_area": 2.0,
       "active_count": 4,
       "owner_count": 4.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 36.5,
-      "new_this_week": 0,
-      "lat": 9.9803987,
-      "lng": 76.3168972,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Padamugal",
-      "listing_type": "rent",
-      "listing_count": 4,
-      "median_price": 27500.0,
-      "p25_price": 25000.0,
-      "p75_price": 897500.0,
-      "min_price": 25000.0,
-      "max_price": 3500000.0,
-      "avg_beds": 3.3333333333333335,
-      "avg_area": 8000.0,
-      "active_count": 4,
-      "owner_count": 4.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 40.75,
+      "avg_days_on_market": 64.0,
       "new_this_week": 0,
       "lat": null,
       "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Infopark Campus",
-      "listing_type": "rent",
-      "listing_count": 4,
-      "median_price": 26500.0,
-      "p25_price": 13750.0,
-      "p75_price": 38500.0,
-      "min_price": 10000.0,
-      "max_price": 40000.0,
-      "avg_beds": 2.25,
-      "avg_area": NaN,
-      "active_count": 4,
-      "owner_count": 4.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 50.5,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Kacherippady",
-      "listing_type": "rent",
-      "listing_count": 4,
-      "median_price": 27500.0,
-      "p25_price": 23250.0,
-      "p75_price": 72500.0,
-      "min_price": 18000.0,
-      "max_price": 200000.0,
-      "avg_beds": 2.5,
-      "avg_area": 28.0,
-      "active_count": 4,
-      "owner_count": 4.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 63.75,
-      "new_this_week": 0,
-      "lat": 9.9131047,
-      "lng": 76.2764956,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": 0.0,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 112500.0,
+          "median_price": 2500000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Manjummel",
+      "listing_type": "rent",
+      "listing_count": 4,
+      "median_price": 16250.0,
+      "p25_price": 15000.0,
+      "p75_price": 18125.0,
+      "min_price": 15000.0,
+      "max_price": 20000.0,
+      "avg_beds": 2.6666666666666665,
+      "avg_area": 16.0,
+      "active_count": 4,
+      "owner_count": 4.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 24.5,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Vallarpadom",
+      "listing_type": "rent",
+      "listing_count": 4,
+      "median_price": 23500.0,
+      "p25_price": 19725.0,
+      "p75_price": 32500.0,
+      "min_price": 18900.0,
+      "max_price": 49000.0,
+      "avg_beds": 3.5,
+      "avg_area": NaN,
+      "active_count": 4,
+      "owner_count": 2.0,
+      "agent_count": 2.0,
+      "avg_days_on_market": 57.5,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Aroor",
+      "listing_type": "buy",
+      "listing_count": 4,
+      "median_price": 1215000.0,
+      "p25_price": 737500.0,
+      "p75_price": 2660000.0,
+      "min_price": 700000.0,
+      "max_price": 5600000.0,
+      "avg_beds": 2.0,
+      "avg_area": 3.5,
+      "active_count": 4,
+      "owner_count": 4.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 41.25,
+      "new_this_week": 1,
+      "lat": 9.8916038,
+      "lng": 76.2963229,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Karimugal",
+      "listing_type": "buy",
+      "listing_count": 4,
+      "median_price": 2270000.0,
+      "p25_price": 1330000.0,
+      "p75_price": 5825000.0,
+      "min_price": 700000.0,
+      "max_price": 14300000.0,
+      "avg_beds": 2.0,
+      "avg_area": 1.0,
+      "active_count": 4,
+      "owner_count": 4.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 69.25,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Thevakkal",
+      "listing_type": "rent",
+      "listing_count": 4,
+      "median_price": 30000.0,
+      "p25_price": 28000.0,
+      "p75_price": 32500.0,
+      "min_price": 22000.0,
+      "max_price": 40000.0,
+      "avg_beds": 3.75,
+      "avg_area": NaN,
+      "active_count": 4,
+      "owner_count": 4.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 29.75,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 35000.0,
           "listing_count": 2
         }
       ]
@@ -4168,20 +4174,66 @@
       ]
     },
     {
-      "locality": "Thevakkal",
+      "locality": "Chalikkavattom",
       "listing_type": "rent",
       "listing_count": 4,
-      "median_price": 30000.0,
-      "p25_price": 28000.0,
-      "p75_price": 32500.0,
-      "min_price": 22000.0,
-      "max_price": 40000.0,
-      "avg_beds": 3.75,
+      "median_price": 19000.0,
+      "p25_price": 13375.0,
+      "p75_price": 34750.0,
+      "min_price": 8500.0,
+      "max_price": 70000.0,
+      "avg_beds": 5.0,
+      "avg_area": 11840.4,
+      "active_count": 4,
+      "owner_count": 4.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 36.5,
+      "new_this_week": 0,
+      "lat": 9.9803987,
+      "lng": 76.3168972,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Elamkulam",
+      "listing_type": "buy",
+      "listing_count": 4,
+      "median_price": 11750000.0,
+      "p25_price": 11500000.0,
+      "p75_price": 14000000.0,
+      "min_price": 11500000.0,
+      "max_price": 20000000.0,
+      "avg_beds": 3.3333333333333335,
+      "avg_area": 7.0,
+      "active_count": 4,
+      "owner_count": 4.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 48.0,
+      "new_this_week": 0,
+      "lat": 9.9722229,
+      "lng": 76.3001238,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Netoor",
+      "listing_type": "rent",
+      "listing_count": 4,
+      "median_price": 34000.0,
+      "p25_price": 27250.0,
+      "p75_price": 92500.0,
+      "min_price": 25000.0,
+      "max_price": 250000.0,
+      "avg_beds": 2.6666666666666665,
       "avg_area": NaN,
       "active_count": 4,
       "owner_count": 4.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 29.75,
+      "avg_days_on_market": 35.25,
       "new_this_week": 0,
       "lat": null,
       "lng": null,
@@ -4190,84 +4242,9 @@
       "total_appreciation_pct": 0.0,
       "sparkline": [
         {
-          "week_key": "2026-05",
-          "median_price": 35000.0,
+          "week_key": "2026-10",
+          "median_price": 26500.0,
           "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Aroor",
-      "listing_type": "buy",
-      "listing_count": 4,
-      "median_price": 1215000.0,
-      "p25_price": 737500.0,
-      "p75_price": 2660000.0,
-      "min_price": 700000.0,
-      "max_price": 5600000.0,
-      "avg_beds": 2.0,
-      "avg_area": 3.5,
-      "active_count": 4,
-      "owner_count": 4.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 41.25,
-      "new_this_week": 1,
-      "lat": 9.8916038,
-      "lng": 76.2963229,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Vallarpadom",
-      "listing_type": "rent",
-      "listing_count": 4,
-      "median_price": 23500.0,
-      "p25_price": 19725.0,
-      "p75_price": 32500.0,
-      "min_price": 18900.0,
-      "max_price": 49000.0,
-      "avg_beds": 3.5,
-      "avg_area": NaN,
-      "active_count": 4,
-      "owner_count": 2.0,
-      "agent_count": 2.0,
-      "avg_days_on_market": 57.5,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Kalady",
-      "listing_type": "buy",
-      "listing_count": 4,
-      "median_price": 2500000.0,
-      "p25_price": 2025000.0,
-      "p75_price": 4600000.0,
-      "min_price": 600000.0,
-      "max_price": 10900000.0,
-      "avg_beds": NaN,
-      "avg_area": 2.0,
-      "active_count": 4,
-      "owner_count": 4.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 64.0,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 2500000.0,
-          "listing_count": 3
         }
       ]
     },
@@ -4301,402 +4278,27 @@
       ]
     },
     {
-      "locality": "Udayamperoor",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 9500000.0,
-      "p25_price": 8200000.0,
-      "p75_price": 24750000.0,
-      "min_price": 6900000.0,
-      "max_price": 40000000.0,
-      "avg_beds": 3.0,
-      "avg_area": 1.0,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 80.33333333333333,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Srm Road",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 4290000.0,
-      "p25_price": 4290000.0,
-      "p75_price": 7945000.0,
-      "min_price": 4290000.0,
-      "max_price": 11600000.0,
-      "avg_beds": 2.3333333333333335,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 46.333333333333336,
-      "new_this_week": 0,
-      "lat": 9.9966421,
-      "lng": 76.2861695,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Palluruthy",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 7500000.0,
-      "p25_price": 7500000.0,
-      "p75_price": 63750000.0,
-      "min_price": 7500000.0,
-      "max_price": 120000000.0,
-      "avg_beds": 3.5,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 67.0,
-      "new_this_week": 0,
-      "lat": 9.9212103,
-      "lng": 76.2740626,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Thengod",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 35000.0,
-      "p25_price": 32500.0,
-      "p75_price": 35000.0,
-      "min_price": 30000.0,
-      "max_price": 35000.0,
-      "avg_beds": 2.6666666666666665,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 2.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 26.333333333333332,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Manjummal",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 13000000.0,
-      "p25_price": 10300000.0,
-      "p75_price": 13100000.0,
-      "min_price": 7600000.0,
-      "max_price": 13200000.0,
-      "avg_beds": 3.0,
-      "avg_area": 1.0,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 49.333333333333336,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Valanjambalam",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 25000.0,
-      "p25_price": 25000.0,
-      "p75_price": 27500.0,
-      "min_price": 25000.0,
-      "max_price": 30000.0,
-      "avg_beds": 2.3333333333333335,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 28.666666666666668,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Panampilly Nagar",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 4800000.0,
-      "p25_price": 2450000.0,
-      "p75_price": 5650000.0,
-      "min_price": 100000.0,
-      "max_price": 6500000.0,
-      "avg_beds": 3.0,
-      "avg_area": 3.3333333333333335,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 21.0,
-      "new_this_week": 0,
-      "lat": 9.9645738,
-      "lng": 76.294145,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Mattanchery",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 9500.0,
-      "p25_price": 8750.0,
-      "p75_price": 9750.0,
-      "min_price": 8000.0,
-      "max_price": 10000.0,
-      "avg_beds": 2.0,
-      "avg_area": 150.0,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 52.666666666666664,
-      "new_this_week": 0,
-      "lat": 9.9578355,
-      "lng": 76.2607201,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Panayappilly",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 3500000.0,
-      "p25_price": 3500000.0,
-      "p75_price": 7900000.0,
-      "min_price": 3500000.0,
-      "max_price": 12300000.0,
-      "avg_beds": 2.3333333333333335,
-      "avg_area": 1.6666666666666667,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 64.66666666666667,
-      "new_this_week": 0,
-      "lat": 9.9494493,
-      "lng": 76.2525422,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 3500000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "South Chittoor Road",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 21000.0,
-      "p25_price": 19500.0,
-      "p75_price": 21500.0,
-      "min_price": 18000.0,
-      "max_price": 22000.0,
-      "avg_beds": 2.6666666666666665,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 25.333333333333332,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 21000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
       "locality": "Infopark Campus",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 4600000.0,
-      "p25_price": 3000000.0,
-      "p75_price": 5200000.0,
-      "min_price": 1400000.0,
-      "max_price": 5800000.0,
-      "avg_beds": 3.0,
-      "avg_area": 2.0,
-      "active_count": 3,
-      "owner_count": 3.0,
+      "listing_type": "rent",
+      "listing_count": 4,
+      "median_price": 26500.0,
+      "p25_price": 13750.0,
+      "p75_price": 38500.0,
+      "min_price": 10000.0,
+      "max_price": 40000.0,
+      "avg_beds": 2.25,
+      "avg_area": NaN,
+      "active_count": 4,
+      "owner_count": 4.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 3.6666666666666665,
-      "new_this_week": 1,
+      "avg_days_on_market": 50.5,
+      "new_this_week": 0,
       "lat": null,
       "lng": null,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": null,
       "sparkline": []
-    },
-    {
-      "locality": "Desom",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 10000000.0,
-      "p25_price": 6765000.0,
-      "p75_price": 10000000.0,
-      "min_price": 3529999.9999999995,
-      "max_price": 10000000.0,
-      "avg_beds": 3.0,
-      "avg_area": 2.0,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 59.333333333333336,
-      "new_this_week": 0,
-      "lat": 10.1287003,
-      "lng": 76.349317,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-10",
-          "median_price": 6765000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Mundamveli",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 4000000.0,
-      "p25_price": 3425000.0,
-      "p75_price": 67000000.0,
-      "min_price": 2850000.0,
-      "max_price": 130000000.0,
-      "avg_beds": 2.0,
-      "avg_area": 3.0,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 35.666666666666664,
-      "new_this_week": 1,
-      "lat": 9.924265,
-      "lng": 76.2552487,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Puthencruz",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 5500000.0,
-      "p25_price": 3040000.0,
-      "p75_price": 6250000.0,
-      "min_price": 580000.0,
-      "max_price": 7000000.0,
-      "avg_beds": 3.0,
-      "avg_area": 3.5,
-      "active_count": 3,
-      "owner_count": 2.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 45.333333333333336,
-      "new_this_week": 0,
-      "lat": 9.9689023,
-      "lng": 76.42269,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Nazareth",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 9000000.0,
-      "p25_price": 7500000.0,
-      "p75_price": 12500000.0,
-      "min_price": 6000000.0,
-      "max_price": 16000000.0,
-      "avg_beds": 4.666666666666667,
-      "avg_area": 1.0,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 80.0,
-      "new_this_week": 0,
-      "lat": 9.9429952,
-      "lng": 76.2458841,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 11000000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Aroor",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 12000.0,
-      "p25_price": 8500.0,
-      "p75_price": 13000.0,
-      "min_price": 5000.0,
-      "max_price": 14000.0,
-      "avg_beds": 1.5,
-      "avg_area": 600.0,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 28.666666666666668,
-      "new_this_week": 0,
-      "lat": 9.8916038,
-      "lng": 76.2963229,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 8500.0,
-          "listing_count": 2
-        }
-      ]
     },
     {
       "locality": "Ravipuram",
@@ -4716,231 +4318,6 @@
       "new_this_week": 0,
       "lat": 9.961558,
       "lng": 76.2934625,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Kathrikadavu",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 18000000.0,
-      "p25_price": 18000000.0,
-      "p75_price": 29000000.0,
-      "min_price": 18000000.0,
-      "max_price": 40000000.0,
-      "avg_beds": 3.0,
-      "avg_area": 1.5,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 34.333333333333336,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Desom",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 14000.0,
-      "p25_price": 12500.0,
-      "p75_price": 97000.0,
-      "min_price": 11000.0,
-      "max_price": 180000.0,
-      "avg_beds": 3.6666666666666665,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 55.0,
-      "new_this_week": 0,
-      "lat": 10.1287003,
-      "lng": 76.349317,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Koonammavu",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 20000.0,
-      "p25_price": 14000.0,
-      "p75_price": 40000.0,
-      "min_price": 8000.0,
-      "max_price": 60000.0,
-      "avg_beds": 2.5,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 17.333333333333332,
-      "new_this_week": 0,
-      "lat": 10.0995478,
-      "lng": 76.2656191,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Kuzhivelippady",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 9500000.0,
-      "p25_price": 8000000.0,
-      "p75_price": 9550000.0,
-      "min_price": 6500000.0,
-      "max_price": 9600000.0,
-      "avg_beds": 3.6666666666666665,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 2.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 71.66666666666667,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 8050000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Pallikkara",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 15000000.0,
-      "p25_price": 13750000.0,
-      "p75_price": 15000000.0,
-      "min_price": 12500000.0,
-      "max_price": 15000000.0,
-      "avg_beds": 4.0,
-      "avg_area": 1.0,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 58.666666666666664,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Elamkulam",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 29000.0,
-      "p25_price": 27000.0,
-      "p75_price": 189500.0,
-      "min_price": 25000.0,
-      "max_price": 350000.0,
-      "avg_beds": 3.0,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 4.666666666666667,
-      "new_this_week": 0,
-      "lat": 9.9722229,
-      "lng": 76.3001238,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Arookutty",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 1800000.0,
-      "p25_price": 1500000.0,
-      "p75_price": 3015000.0,
-      "min_price": 1200000.0,
-      "max_price": 4230000.0,
-      "avg_beds": 3.0,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 95.0,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 1800000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Banerji Road",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 140000.0,
-      "p25_price": 115000.0,
-      "p75_price": 140000.0,
-      "min_price": 90000.0,
-      "max_price": 140000.0,
-      "avg_beds": 3.0,
-      "avg_area": 26.0,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 62.666666666666664,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 115000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Muvattupuzha",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 3000000.0,
-      "p25_price": 1560000.0,
-      "p75_price": 5750000.0,
-      "min_price": 120000.0,
-      "max_price": 8500000.0,
-      "avg_beds": 2.5,
-      "avg_area": 1.0,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 28.666666666666668,
-      "new_this_week": 1,
-      "lat": 9.9943655,
-      "lng": 76.5891928,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": null,
@@ -5057,6 +4434,537 @@
       ]
     },
     {
+      "locality": "South Chittoor Road",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 21000.0,
+      "p25_price": 19500.0,
+      "p75_price": 21500.0,
+      "min_price": 18000.0,
+      "max_price": 22000.0,
+      "avg_beds": 2.6666666666666665,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 25.333333333333332,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 21000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Valanjambalam",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 25000.0,
+      "p25_price": 25000.0,
+      "p75_price": 27500.0,
+      "min_price": 25000.0,
+      "max_price": 30000.0,
+      "avg_beds": 2.3333333333333335,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 28.666666666666668,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Panayappilly",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 3500000.0,
+      "p25_price": 3500000.0,
+      "p75_price": 7900000.0,
+      "min_price": 3500000.0,
+      "max_price": 12300000.0,
+      "avg_beds": 2.3333333333333335,
+      "avg_area": 1.6666666666666667,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 64.66666666666667,
+      "new_this_week": 0,
+      "lat": 9.9494493,
+      "lng": 76.2525422,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 3500000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Banerji Road",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 140000.0,
+      "p25_price": 115000.0,
+      "p75_price": 140000.0,
+      "min_price": 90000.0,
+      "max_price": 140000.0,
+      "avg_beds": 3.0,
+      "avg_area": 26.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 62.666666666666664,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 115000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Muvattupuzha",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 3000000.0,
+      "p25_price": 1560000.0,
+      "p75_price": 5750000.0,
+      "min_price": 120000.0,
+      "max_price": 8500000.0,
+      "avg_beds": 2.5,
+      "avg_area": 1.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 28.666666666666668,
+      "new_this_week": 1,
+      "lat": 9.9943655,
+      "lng": 76.5891928,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Manjummal",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 13000000.0,
+      "p25_price": 10300000.0,
+      "p75_price": 13100000.0,
+      "min_price": 7600000.0,
+      "max_price": 13200000.0,
+      "avg_beds": 3.0,
+      "avg_area": 1.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 49.333333333333336,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Arookutty",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 1800000.0,
+      "p25_price": 1500000.0,
+      "p75_price": 3015000.0,
+      "min_price": 1200000.0,
+      "max_price": 4230000.0,
+      "avg_beds": 3.0,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 95.0,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 1800000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Elamkulam",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 29000.0,
+      "p25_price": 27000.0,
+      "p75_price": 189500.0,
+      "min_price": 25000.0,
+      "max_price": 350000.0,
+      "avg_beds": 3.0,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 4.666666666666667,
+      "new_this_week": 0,
+      "lat": 9.9722229,
+      "lng": 76.3001238,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Infopark Campus",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 4600000.0,
+      "p25_price": 3000000.0,
+      "p75_price": 5200000.0,
+      "min_price": 1400000.0,
+      "max_price": 5800000.0,
+      "avg_beds": 3.0,
+      "avg_area": 2.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 3.6666666666666665,
+      "new_this_week": 1,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Desom",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 10000000.0,
+      "p25_price": 6765000.0,
+      "p75_price": 10000000.0,
+      "min_price": 3529999.9999999995,
+      "max_price": 10000000.0,
+      "avg_beds": 3.0,
+      "avg_area": 2.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 59.333333333333336,
+      "new_this_week": 0,
+      "lat": 10.1287003,
+      "lng": 76.349317,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-10",
+          "median_price": 6765000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Koonammavu",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 20000.0,
+      "p25_price": 14000.0,
+      "p75_price": 40000.0,
+      "min_price": 8000.0,
+      "max_price": 60000.0,
+      "avg_beds": 2.5,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 17.333333333333332,
+      "new_this_week": 0,
+      "lat": 10.0995478,
+      "lng": 76.2656191,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Kuzhivelippady",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 9500000.0,
+      "p25_price": 8000000.0,
+      "p75_price": 9550000.0,
+      "min_price": 6500000.0,
+      "max_price": 9600000.0,
+      "avg_beds": 3.6666666666666665,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 2.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 71.66666666666667,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 8050000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Mundamveli",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 4000000.0,
+      "p25_price": 3425000.0,
+      "p75_price": 67000000.0,
+      "min_price": 2850000.0,
+      "max_price": 130000000.0,
+      "avg_beds": 2.0,
+      "avg_area": 3.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 35.666666666666664,
+      "new_this_week": 1,
+      "lat": 9.924265,
+      "lng": 76.2552487,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Nazareth",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 9000000.0,
+      "p25_price": 7500000.0,
+      "p75_price": 12500000.0,
+      "min_price": 6000000.0,
+      "max_price": 16000000.0,
+      "avg_beds": 4.666666666666667,
+      "avg_area": 1.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 80.0,
+      "new_this_week": 0,
+      "lat": 9.9429952,
+      "lng": 76.2458841,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 11000000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Aroor",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 12000.0,
+      "p25_price": 8500.0,
+      "p75_price": 13000.0,
+      "min_price": 5000.0,
+      "max_price": 14000.0,
+      "avg_beds": 1.5,
+      "avg_area": 600.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 28.666666666666668,
+      "new_this_week": 0,
+      "lat": 9.8916038,
+      "lng": 76.2963229,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 8500.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Pallikkara",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 15000000.0,
+      "p25_price": 13750000.0,
+      "p75_price": 15000000.0,
+      "min_price": 12500000.0,
+      "max_price": 15000000.0,
+      "avg_beds": 4.0,
+      "avg_area": 1.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 58.666666666666664,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Puthencruz",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 5500000.0,
+      "p25_price": 3040000.0,
+      "p75_price": 6250000.0,
+      "min_price": 580000.0,
+      "max_price": 7000000.0,
+      "avg_beds": 3.0,
+      "avg_area": 3.5,
+      "active_count": 3,
+      "owner_count": 2.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 45.333333333333336,
+      "new_this_week": 0,
+      "lat": 9.9689023,
+      "lng": 76.42269,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Kathrikadavu",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 18000000.0,
+      "p25_price": 18000000.0,
+      "p75_price": 29000000.0,
+      "min_price": 18000000.0,
+      "max_price": 40000000.0,
+      "avg_beds": 3.0,
+      "avg_area": 1.5,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 34.333333333333336,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Thengod",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 35000.0,
+      "p25_price": 32500.0,
+      "p75_price": 35000.0,
+      "min_price": 30000.0,
+      "max_price": 35000.0,
+      "avg_beds": 2.6666666666666665,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 2.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 26.333333333333332,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Srm Road",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 4290000.0,
+      "p25_price": 4290000.0,
+      "p75_price": 7945000.0,
+      "min_price": 4290000.0,
+      "max_price": 11600000.0,
+      "avg_beds": 2.3333333333333335,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 46.333333333333336,
+      "new_this_week": 0,
+      "lat": 9.9966421,
+      "lng": 76.2861695,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Palluruthy",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 7500000.0,
+      "p25_price": 7500000.0,
+      "p75_price": 63750000.0,
+      "min_price": 7500000.0,
+      "max_price": 120000000.0,
+      "avg_beds": 3.5,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 67.0,
+      "new_this_week": 0,
+      "lat": 9.9212103,
+      "lng": 76.2740626,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
       "locality": "Vypin",
       "listing_type": "rent",
       "listing_count": 3,
@@ -5074,6 +4982,98 @@
       "new_this_week": 0,
       "lat": 10.078103,
       "lng": 76.2059731,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Mattanchery",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 9500.0,
+      "p25_price": 8750.0,
+      "p75_price": 9750.0,
+      "min_price": 8000.0,
+      "max_price": 10000.0,
+      "avg_beds": 2.0,
+      "avg_area": 150.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 52.666666666666664,
+      "new_this_week": 0,
+      "lat": 9.9578355,
+      "lng": 76.2607201,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Panampilly Nagar",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 4800000.0,
+      "p25_price": 2450000.0,
+      "p75_price": 5650000.0,
+      "min_price": 100000.0,
+      "max_price": 6500000.0,
+      "avg_beds": 3.0,
+      "avg_area": 3.3333333333333335,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 21.0,
+      "new_this_week": 0,
+      "lat": 9.9645738,
+      "lng": 76.294145,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Udayamperoor",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 9500000.0,
+      "p25_price": 8200000.0,
+      "p75_price": 24750000.0,
+      "min_price": 6900000.0,
+      "max_price": 40000000.0,
+      "avg_beds": 3.0,
+      "avg_area": 1.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 80.33333333333333,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Desom",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 14000.0,
+      "p25_price": 12500.0,
+      "p75_price": 97000.0,
+      "min_price": 11000.0,
+      "max_price": 180000.0,
+      "avg_beds": 3.6666666666666665,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 55.0,
+      "new_this_week": 0,
+      "lat": 10.1287003,
+      "lng": 76.349317,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": null,
@@ -5528,20 +5528,20 @@
       "lng": NaN
     },
     {
-      "locality": "Kaloor",
-      "buy_price": 9600000.0,
-      "rent_price": 20000.0,
-      "gross_yield_pct": 2.5,
-      "lat": 10.1467961,
-      "lng": 76.2517878
-    },
-    {
       "locality": "Manjummel",
       "buy_price": 7800000.0,
       "rent_price": 16250.0,
       "gross_yield_pct": 2.5,
       "lat": NaN,
       "lng": NaN
+    },
+    {
+      "locality": "Kaloor",
+      "buy_price": 9600000.0,
+      "rent_price": 20000.0,
+      "gross_yield_pct": 2.5,
+      "lat": 10.1467961,
+      "lng": 76.2517878
     },
     {
       "locality": "Palluruthy",
@@ -5560,20 +5560,20 @@
       "lng": 76.3059882
     },
     {
-      "locality": "Kadavanthra",
-      "buy_price": 17250000.0,
-      "rent_price": 32000.0,
-      "gross_yield_pct": 2.23,
-      "lat": NaN,
-      "lng": NaN
-    },
-    {
       "locality": "Kalamassery",
       "buy_price": 14250000.0,
       "rent_price": 26500.0,
       "gross_yield_pct": 2.23,
       "lat": 10.0417851,
       "lng": 76.3164418
+    },
+    {
+      "locality": "Kadavanthra",
+      "buy_price": 17250000.0,
+      "rent_price": 32000.0,
+      "gross_yield_pct": 2.23,
+      "lat": NaN,
+      "lng": NaN
     },
     {
       "locality": "Ravipuram",
