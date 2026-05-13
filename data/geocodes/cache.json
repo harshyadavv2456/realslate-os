@@ -12711,5 +12711,120 @@
   "m v p colony_visakhapatnam": {
     "lat": 17.7421472,
     "lng": 83.3351812
+  },
+  "virar east_mumbai": null,
+  "safed pul_mumbai": null,
+  "hill road_mumbai": {
+    "lat": 19.0532515,
+    "lng": 72.8241634
+  },
+  "charkop gaon_mumbai": {
+    "lat": 19.2088598,
+    "lng": 72.820816
+  },
+  "rani jhansi road new_delhi ncr": null,
+  "beml layout rr nagar_bangalore": {
+    "lat": 12.9196528,
+    "lng": 77.5202202
+  },
+  "rajarajeshwari nagar_bangalore": {
+    "lat": 12.9274413,
+    "lng": 77.5155224
+  },
+  "kaggadasapura_bangalore": {
+    "lat": 12.9812262,
+    "lng": 77.6745845
+  },
+  "uttarahalli hobli_bangalore": null,
+  "sanjayanagara_bangalore": {
+    "lat": 13.0318634,
+    "lng": 77.5774383
+  },
+  "hayathnagar khalsa_hyderabad": {
+    "lat": 17.3277898,
+    "lng": 78.6052636
+  },
+  "old gst road_chennai": null,
+  "swamy nagar mudichur_chennai": null,
+  "dhayari_pune": {
+    "lat": 18.4373984,
+    "lng": 73.8190432
+  },
+  "mangaon_pune": {
+    "lat": 18.3295457,
+    "lng": 73.5296835
+  },
+  "kasba peth_pune": {
+    "lat": 18.5213749,
+    "lng": 73.8596235
+  },
+  "belur_kolkata": {
+    "lat": 22.6357323,
+    "lng": 88.3398223
+  },
+  "gokuldham_ahmedabad": {
+    "lat": 22.9796533,
+    "lng": 72.4561544
+  },
+  "sector 62_gurgaon": {
+    "lat": 28.407697,
+    "lng": 77.0823781
+  },
+  "sector 112_gurgaon": {
+    "lat": 28.5203402,
+    "lng": 77.0188612
+  },
+  "sector 53_noida": {
+    "lat": 28.591163,
+    "lng": 77.3627345
+  },
+  "c block sector 31_noida": {
+    "lat": 28.5787489,
+    "lng": 77.3441219
+  },
+  "sector 88_noida": {
+    "lat": 28.5292923,
+    "lng": 77.4241447
+  },
+  "sector 20_noida": {
+    "lat": 28.5832586,
+    "lng": 77.3313743
+  },
+  "sector 15 kharghar_navi mumbai": {
+    "lat": 19.038895,
+    "lng": 73.080393
+  },
+  "sector 44a seawoods_navi mumbai": {
+    "lat": 19.012699,
+    "lng": 73.0115861
+  },
+  "sector 22 turbhe_navi mumbai": {
+    "lat": 19.0786216,
+    "lng": 73.0135373
+  },
+  "sector 3 jankipuram extension_lucknow": null,
+  "keshav vihar_jaipur": {
+    "lat": 26.8718466,
+    "lng": 75.7742616
+  },
+  "chainpura_jaipur": {
+    "lat": 26.7768785,
+    "lng": 75.2433013
+  },
+  "samrudhhi highway gumgaon exist_nagpur": null,
+  "jaora compound_indore": null,
+  "raj mohalla_indore": {
+    "lat": 22.7147802,
+    "lng": 75.8379834
+  },
+  "kevdabaug_vadodara": null,
+  "vip road_vadodara": {
+    "lat": 22.3275073,
+    "lng": 73.2123876
+  },
+  "gondermau_bhopal": null,
+  "araku valley_visakhapatnam": {
+    "lat": 18.3240129,
+    "lng": 82.8855692
   }
 }
