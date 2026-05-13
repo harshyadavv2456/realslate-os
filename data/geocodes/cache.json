@@ -12826,5 +12826,39 @@
   "araku valley_visakhapatnam": {
     "lat": 18.3240129,
     "lng": 82.8855692
+  },
+  "siddharth nagar goregaon west_mumbai": {
+    "lat": 19.1580993,
+    "lng": 72.8432809
+  },
+  "lower palace orchards_bangalore": null,
+  "koramangala 80 feet road_bangalore": {
+    "lat": 12.9330648,
+    "lng": 77.6312713
+  },
+  "huda layout nalagandla_hyderabad": null,
+  "badhalawadi_pune": null,
+  "one north_pune": {
+    "lat": 18.5203168,
+    "lng": 73.9253045
+  },
+  "behala thana_kolkata": {
+    "lat": 22.5035284,
+    "lng": 88.3190032
+  },
+  "badam talla tollygunge_kolkata": null,
+  "block a sector 105_noida": null,
+  "aashiyana chauraha_lucknow": null,
+  "amausi_lucknow": {
+    "lat": 26.7742875,
+    "lng": 80.8414257
+  },
+  "harmada_jaipur": {
+    "lat": 27.0150482,
+    "lng": 75.7693282
+  },
+  "pardi_nagpur": {
+    "lat": 21.3298354,
+    "lng": 79.090662
   }
 }
