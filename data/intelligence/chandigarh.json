@@ -1,6 +1,6 @@
 {
   "city": "chandigarh",
-  "computed_at": "2026-05-14T06:44:05.032539",
+  "computed_at": "2026-05-14T12:51:06.285056",
   "summary": {
     "total_listings": 3335,
     "total_localities": 238,
@@ -1130,65 +1130,6 @@
       ]
     },
     {
-      "locality": "Sector 40",
-      "listing_type": "rent",
-      "listing_count": 21,
-      "median_price": 30000.0,
-      "p25_price": 15000.0,
-      "p75_price": 50000.0,
-      "min_price": 10000.0,
-      "max_price": 210000.0,
-      "avg_beds": 1.7894736842105263,
-      "avg_area": 1500.0,
-      "active_count": 21,
-      "owner_count": 8.0,
-      "agent_count": 13.0,
-      "avg_days_on_market": 22.904761904761905,
-      "new_this_week": 1,
-      "lat": 30.7379842,
-      "lng": 76.7354046,
-      "wow_pct": 22.22,
-      "mom_pct": 214.29,
-      "total_appreciation_pct": 76.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 25000.0,
-          "listing_count": 4
-        },
-        {
-          "week_key": "2026-06",
-          "median_price": 114000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-10",
-          "median_price": 14000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-11",
-          "median_price": 22500.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-12",
-          "median_price": 105000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-15",
-          "median_price": 36000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 44000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
       "locality": "Sector-35",
       "listing_type": "buy",
       "listing_count": 21,
@@ -1233,163 +1174,6 @@
         {
           "week_key": "2026-18",
           "median_price": 63750000.0,
-          "listing_count": 4
-        }
-      ]
-    },
-    {
-      "locality": "Sector-49",
-      "listing_type": "buy",
-      "listing_count": 21,
-      "median_price": 17000000.0,
-      "p25_price": 13000000.0,
-      "p75_price": 19800000.0,
-      "min_price": 8200000.0,
-      "max_price": 40000000.0,
-      "avg_beds": 2.75,
-      "avg_area": 2.142857142857143,
-      "active_count": 21,
-      "owner_count": 13.0,
-      "agent_count": 8.0,
-      "avg_days_on_market": 32.095238095238095,
-      "new_this_week": 1,
-      "lat": 30.6940288,
-      "lng": 76.7521386,
-      "wow_pct": 167.31,
-      "mom_pct": 131.67,
-      "total_appreciation_pct": 5.3,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 33000000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-06",
-          "median_price": 15100000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-10",
-          "median_price": 15000000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-12",
-          "median_price": 17500000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-15",
-          "median_price": 12600000.0,
-          "listing_count": 4
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 13000000.0,
-          "listing_count": 5
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 34750000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 21",
-      "listing_type": "buy",
-      "listing_count": 21,
-      "median_price": 100000000.0,
-      "p25_price": 70000000.0,
-      "p75_price": 210000000.0,
-      "min_price": 13500000.0,
-      "max_price": 230000000.0,
-      "avg_beds": 5.444444444444445,
-      "avg_area": 1.8571428571428572,
-      "active_count": 21,
-      "owner_count": 8.0,
-      "agent_count": 13.0,
-      "avg_days_on_market": 49.19047619047619,
-      "new_this_week": 0,
-      "lat": 30.7268962,
-      "lng": 76.7765379,
-      "wow_pct": -25.12,
-      "mom_pct": null,
-      "total_appreciation_pct": -14.72,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 90000000.0,
-          "listing_count": 6
-        },
-        {
-          "week_key": "2026-07",
-          "median_price": 145000000.0,
-          "listing_count": 6
-        },
-        {
-          "week_key": "2026-10",
-          "median_price": 102500000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 76750000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 27",
-      "listing_type": "rent",
-      "listing_count": 21,
-      "median_price": 45000.0,
-      "p25_price": 26000.0,
-      "p75_price": 80000.0,
-      "min_price": 12000.0,
-      "max_price": 250000.0,
-      "avg_beds": 2.25,
-      "avg_area": 128.0,
-      "active_count": 21,
-      "owner_count": 7.0,
-      "agent_count": 14.0,
-      "avg_days_on_market": 17.952380952380953,
-      "new_this_week": 2,
-      "lat": 30.7227459,
-      "lng": 76.7984247,
-      "wow_pct": 101.92,
-      "mom_pct": 75.0,
-      "total_appreciation_pct": -4.55,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 55000.0,
-          "listing_count": 4
-        },
-        {
-          "week_key": "2026-08",
-          "median_price": 30000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-10",
-          "median_price": 95000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-12",
-          "median_price": 90000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 26000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 52500.0,
           "listing_count": 4
         }
       ]
@@ -1459,55 +1243,217 @@
       ]
     },
     {
-      "locality": "Sector 20A",
-      "listing_type": "buy",
-      "listing_count": 19,
-      "median_price": 16500000.0,
-      "p25_price": 11500000.0,
-      "p75_price": 70000000.0,
-      "min_price": 5500000.0,
-      "max_price": 120000000.0,
-      "avg_beds": 4.052631578947368,
-      "avg_area": 2.6666666666666665,
-      "active_count": 19,
-      "owner_count": 15.0,
-      "agent_count": 4.0,
-      "avg_days_on_market": 41.94736842105263,
-      "new_this_week": 1,
-      "lat": 30.7241635,
-      "lng": 76.783159,
-      "wow_pct": 445.65,
-      "mom_pct": 560.53,
-      "total_appreciation_pct": 151.0,
+      "locality": "Sector 27",
+      "listing_type": "rent",
+      "listing_count": 21,
+      "median_price": 45000.0,
+      "p25_price": 26000.0,
+      "p75_price": 80000.0,
+      "min_price": 12000.0,
+      "max_price": 250000.0,
+      "avg_beds": 2.25,
+      "avg_area": 128.0,
+      "active_count": 21,
+      "owner_count": 7.0,
+      "agent_count": 14.0,
+      "avg_days_on_market": 17.952380952380953,
+      "new_this_week": 2,
+      "lat": 30.7227459,
+      "lng": 76.7984247,
+      "wow_pct": 101.92,
+      "mom_pct": 75.0,
+      "total_appreciation_pct": -4.55,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 25000000.0,
-          "listing_count": 5
+          "median_price": 55000.0,
+          "listing_count": 4
         },
         {
           "week_key": "2026-08",
-          "median_price": 9500000.0,
+          "median_price": 30000.0,
           "listing_count": 2
         },
         {
           "week_key": "2026-10",
-          "median_price": 91250000.0,
+          "median_price": 95000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-12",
+          "median_price": 90000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 26000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 52500.0,
+          "listing_count": 4
+        }
+      ]
+    },
+    {
+      "locality": "Sector 21",
+      "listing_type": "buy",
+      "listing_count": 21,
+      "median_price": 100000000.0,
+      "p25_price": 70000000.0,
+      "p75_price": 210000000.0,
+      "min_price": 13500000.0,
+      "max_price": 230000000.0,
+      "avg_beds": 5.444444444444445,
+      "avg_area": 1.8571428571428572,
+      "active_count": 21,
+      "owner_count": 8.0,
+      "agent_count": 13.0,
+      "avg_days_on_market": 49.19047619047619,
+      "new_this_week": 0,
+      "lat": 30.7268962,
+      "lng": 76.7765379,
+      "wow_pct": -25.12,
+      "mom_pct": null,
+      "total_appreciation_pct": -14.72,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 90000000.0,
+          "listing_count": 6
+        },
+        {
+          "week_key": "2026-07",
+          "median_price": 145000000.0,
+          "listing_count": 6
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 102500000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 76750000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 40",
+      "listing_type": "rent",
+      "listing_count": 21,
+      "median_price": 30000.0,
+      "p25_price": 15000.0,
+      "p75_price": 50000.0,
+      "min_price": 10000.0,
+      "max_price": 210000.0,
+      "avg_beds": 1.7894736842105263,
+      "avg_area": 1500.0,
+      "active_count": 21,
+      "owner_count": 8.0,
+      "agent_count": 13.0,
+      "avg_days_on_market": 22.904761904761905,
+      "new_this_week": 1,
+      "lat": 30.7379842,
+      "lng": 76.7354046,
+      "wow_pct": 22.22,
+      "mom_pct": 214.29,
+      "total_appreciation_pct": 76.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 25000.0,
+          "listing_count": 4
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 114000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 14000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-11",
+          "median_price": 22500.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-12",
+          "median_price": 105000.0,
           "listing_count": 2
         },
         {
           "week_key": "2026-15",
-          "median_price": 38750000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-16",
-          "median_price": 11500000.0,
+          "median_price": 36000.0,
           "listing_count": 2
         },
         {
           "week_key": "2026-17",
-          "median_price": 62750000.0,
+          "median_price": 44000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector-49",
+      "listing_type": "buy",
+      "listing_count": 21,
+      "median_price": 17000000.0,
+      "p25_price": 13000000.0,
+      "p75_price": 19800000.0,
+      "min_price": 8200000.0,
+      "max_price": 40000000.0,
+      "avg_beds": 2.75,
+      "avg_area": 2.142857142857143,
+      "active_count": 21,
+      "owner_count": 13.0,
+      "agent_count": 8.0,
+      "avg_days_on_market": 32.095238095238095,
+      "new_this_week": 1,
+      "lat": 30.6940288,
+      "lng": 76.7521386,
+      "wow_pct": 167.31,
+      "mom_pct": 131.67,
+      "total_appreciation_pct": 5.3,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 33000000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 15100000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 15000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-12",
+          "median_price": 17500000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-15",
+          "median_price": 12600000.0,
+          "listing_count": 4
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 13000000.0,
+          "listing_count": 5
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 34750000.0,
           "listing_count": 2
         }
       ]
@@ -1597,6 +1543,60 @@
           "week_key": "2026-11",
           "median_price": 180000.0,
           "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Sector 20A",
+      "listing_type": "buy",
+      "listing_count": 19,
+      "median_price": 16500000.0,
+      "p25_price": 11500000.0,
+      "p75_price": 70000000.0,
+      "min_price": 5500000.0,
+      "max_price": 120000000.0,
+      "avg_beds": 4.052631578947368,
+      "avg_area": 2.6666666666666665,
+      "active_count": 19,
+      "owner_count": 15.0,
+      "agent_count": 4.0,
+      "avg_days_on_market": 41.94736842105263,
+      "new_this_week": 1,
+      "lat": 30.7241635,
+      "lng": 76.783159,
+      "wow_pct": 445.65,
+      "mom_pct": 560.53,
+      "total_appreciation_pct": 151.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 25000000.0,
+          "listing_count": 5
+        },
+        {
+          "week_key": "2026-08",
+          "median_price": 9500000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 91250000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-15",
+          "median_price": 38750000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-16",
+          "median_price": 11500000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 62750000.0,
+          "listing_count": 2
         }
       ]
     },
@@ -1851,6 +1851,50 @@
       ]
     },
     {
+      "locality": "Sector 63",
+      "listing_type": "buy",
+      "listing_count": 17,
+      "median_price": 24500000.0,
+      "p25_price": 9900000.0,
+      "p75_price": 26500000.0,
+      "min_price": 1300000.0,
+      "max_price": 31500000.0,
+      "avg_beds": 2.235294117647059,
+      "avg_area": 3.7333333333333334,
+      "active_count": 17,
+      "owner_count": 12.0,
+      "agent_count": 5.0,
+      "avg_days_on_market": 19.11764705882353,
+      "new_this_week": 4,
+      "lat": 30.6929694,
+      "lng": 76.7364764,
+      "wow_pct": 28.57,
+      "mom_pct": null,
+      "total_appreciation_pct": 14.55,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 27500000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-11",
+          "median_price": 22000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-15",
+          "median_price": 24500000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 31500000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
       "locality": "Sector 18",
       "listing_type": "buy",
       "listing_count": 17,
@@ -1900,84 +1944,6 @@
       ]
     },
     {
-      "locality": "Sector 63",
-      "listing_type": "buy",
-      "listing_count": 17,
-      "median_price": 24500000.0,
-      "p25_price": 9900000.0,
-      "p75_price": 26500000.0,
-      "min_price": 1300000.0,
-      "max_price": 31500000.0,
-      "avg_beds": 2.235294117647059,
-      "avg_area": 3.7333333333333334,
-      "active_count": 17,
-      "owner_count": 12.0,
-      "agent_count": 5.0,
-      "avg_days_on_market": 19.11764705882353,
-      "new_this_week": 4,
-      "lat": 30.6929694,
-      "lng": 76.7364764,
-      "wow_pct": 28.57,
-      "mom_pct": null,
-      "total_appreciation_pct": 14.55,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 27500000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-11",
-          "median_price": 22000000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-15",
-          "median_price": 24500000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 31500000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Sector-22",
-      "listing_type": "buy",
-      "listing_count": 16,
-      "median_price": 37500000.0,
-      "p25_price": 11000000.0,
-      "p75_price": 50000000.0,
-      "min_price": 3500000.0,
-      "max_price": 340000000.0,
-      "avg_beds": 5.0,
-      "avg_area": 2.5,
-      "active_count": 16,
-      "owner_count": 7.0,
-      "agent_count": 9.0,
-      "avg_days_on_market": 20.625,
-      "new_this_week": 0,
-      "lat": 30.7334256,
-      "lng": 76.7713451,
-      "wow_pct": 315.91,
-      "mom_pct": null,
-      "total_appreciation_pct": 315.91,
-      "sparkline": [
-        {
-          "week_key": "2026-17",
-          "median_price": 11000000.0,
-          "listing_count": 5
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 45750000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
       "locality": "Kharar-Landran Road",
       "listing_type": "buy",
       "listing_count": 16,
@@ -2017,6 +1983,40 @@
       ]
     },
     {
+      "locality": "Sector-22",
+      "listing_type": "buy",
+      "listing_count": 16,
+      "median_price": 37500000.0,
+      "p25_price": 11000000.0,
+      "p75_price": 50000000.0,
+      "min_price": 3500000.0,
+      "max_price": 340000000.0,
+      "avg_beds": 5.0,
+      "avg_area": 2.5,
+      "active_count": 16,
+      "owner_count": 7.0,
+      "agent_count": 9.0,
+      "avg_days_on_market": 20.625,
+      "new_this_week": 0,
+      "lat": 30.7334256,
+      "lng": 76.7713451,
+      "wow_pct": 315.91,
+      "mom_pct": null,
+      "total_appreciation_pct": 315.91,
+      "sparkline": [
+        {
+          "week_key": "2026-17",
+          "median_price": 11000000.0,
+          "listing_count": 5
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 45750000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
       "locality": "Sector 45",
       "listing_type": "rent",
       "listing_count": 15,
@@ -2047,89 +2047,6 @@
           "week_key": "2026-15",
           "median_price": 19250.0,
           "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Naya Gaon",
-      "listing_type": "rent",
-      "listing_count": 14,
-      "median_price": 8300.0,
-      "p25_price": 6250.0,
-      "p75_price": 12625.0,
-      "min_price": 5000.0,
-      "max_price": 100000.0,
-      "avg_beds": 1.5833333333333333,
-      "avg_area": 1500.0,
-      "active_count": 14,
-      "owner_count": 14.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 39.5,
-      "new_this_week": 1,
-      "lat": null,
-      "lng": null,
-      "wow_pct": 527.91,
-      "mom_pct": null,
-      "total_appreciation_pct": 440.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 10000.0,
-          "listing_count": 5
-        },
-        {
-          "week_key": "2026-06",
-          "median_price": 11500.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-10",
-          "median_price": 8600.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 54000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 50",
-      "listing_type": "buy",
-      "listing_count": 14,
-      "median_price": 26000000.0,
-      "p25_price": 4170000.0000000005,
-      "p75_price": 34750000.0,
-      "min_price": 3510000.0,
-      "max_price": 37500000.0,
-      "avg_beds": 3.4615384615384617,
-      "avg_area": 1.25,
-      "active_count": 14,
-      "owner_count": 10.0,
-      "agent_count": 4.0,
-      "avg_days_on_market": 26.071428571428573,
-      "new_this_week": 0,
-      "lat": 30.6999953,
-      "lng": 76.7477452,
-      "wow_pct": -88.09,
-      "mom_pct": null,
-      "total_appreciation_pct": -88.88,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 34000000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-06",
-          "median_price": 31750000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 3779999.9999999995,
-          "listing_count": 5
         }
       ]
     },
@@ -2173,51 +2090,85 @@
       ]
     },
     {
-      "locality": "Sector 46",
+      "locality": "Sector 19",
       "listing_type": "rent",
       "listing_count": 14,
-      "median_price": 47000.0,
-      "p25_price": 30500.0,
-      "p75_price": 137500.0,
-      "min_price": 11000.0,
-      "max_price": 250000.0,
-      "avg_beds": 1.9166666666666667,
-      "avg_area": 1000.0,
+      "median_price": 79000.0,
+      "p25_price": 16750.0,
+      "p75_price": 107500.00000000001,
+      "min_price": 8000.0,
+      "max_price": 1000000.0,
+      "avg_beds": 2.3846153846153846,
+      "avg_area": NaN,
       "active_count": 14,
-      "owner_count": 5.0,
-      "agent_count": 9.0,
-      "avg_days_on_market": 18.071428571428573,
+      "owner_count": 9.0,
+      "agent_count": 5.0,
+      "avg_days_on_market": 42.214285714285715,
       "new_this_week": 1,
-      "lat": 30.7014028,
-      "lng": 76.7642252,
-      "wow_pct": -65.22,
-      "mom_pct": -76.3,
-      "total_appreciation_pct": -76.3,
+      "lat": 30.7282981,
+      "lng": 76.7930603,
+      "wow_pct": 175.0,
+      "mom_pct": null,
+      "total_appreciation_pct": 422.5,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 135000.0,
+          "median_price": 100000.0,
+          "listing_count": 4
+        },
+        {
+          "week_key": "2026-09",
+          "median_price": 13000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-14",
+          "median_price": 190000.0,
           "listing_count": 2
+        },
+        {
+          "week_key": "2026-15",
+          "median_price": 522500.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 50",
+      "listing_type": "buy",
+      "listing_count": 14,
+      "median_price": 26000000.0,
+      "p25_price": 4170000.0000000005,
+      "p75_price": 34750000.0,
+      "min_price": 3510000.0,
+      "max_price": 37500000.0,
+      "avg_beds": 3.4615384615384617,
+      "avg_area": 1.25,
+      "active_count": 14,
+      "owner_count": 10.0,
+      "agent_count": 4.0,
+      "avg_days_on_market": 26.071428571428573,
+      "new_this_week": 0,
+      "lat": 30.6999953,
+      "lng": 76.7477452,
+      "wow_pct": -88.09,
+      "mom_pct": null,
+      "total_appreciation_pct": -88.88,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 34000000.0,
+          "listing_count": 3
         },
         {
           "week_key": "2026-06",
-          "median_price": 40000.0,
+          "median_price": 31750000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-10",
-          "median_price": 44000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-11",
-          "median_price": 92000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-13",
-          "median_price": 32000.0,
-          "listing_count": 3
+          "week_key": "2026-17",
+          "median_price": 3779999.9999999995,
+          "listing_count": 5
         }
       ]
     },
@@ -2271,6 +2222,50 @@
       ]
     },
     {
+      "locality": "Naya Gaon",
+      "listing_type": "rent",
+      "listing_count": 14,
+      "median_price": 8300.0,
+      "p25_price": 6250.0,
+      "p75_price": 12625.0,
+      "min_price": 5000.0,
+      "max_price": 100000.0,
+      "avg_beds": 1.5833333333333333,
+      "avg_area": 1500.0,
+      "active_count": 14,
+      "owner_count": 14.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 39.5,
+      "new_this_week": 1,
+      "lat": null,
+      "lng": null,
+      "wow_pct": 527.91,
+      "mom_pct": null,
+      "total_appreciation_pct": 440.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 10000.0,
+          "listing_count": 5
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 11500.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 8600.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 54000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
       "locality": "Sector 63",
       "listing_type": "rent",
       "listing_count": 14,
@@ -2305,45 +2300,128 @@
       ]
     },
     {
-      "locality": "Sector 19",
+      "locality": "Sector 46",
       "listing_type": "rent",
       "listing_count": 14,
-      "median_price": 79000.0,
-      "p25_price": 16750.0,
-      "p75_price": 107500.00000000001,
-      "min_price": 8000.0,
-      "max_price": 1000000.0,
-      "avg_beds": 2.3846153846153846,
-      "avg_area": NaN,
+      "median_price": 47000.0,
+      "p25_price": 30500.0,
+      "p75_price": 137500.0,
+      "min_price": 11000.0,
+      "max_price": 250000.0,
+      "avg_beds": 1.9166666666666667,
+      "avg_area": 1000.0,
       "active_count": 14,
-      "owner_count": 9.0,
-      "agent_count": 5.0,
-      "avg_days_on_market": 42.214285714285715,
+      "owner_count": 5.0,
+      "agent_count": 9.0,
+      "avg_days_on_market": 18.071428571428573,
       "new_this_week": 1,
-      "lat": 30.7282981,
-      "lng": 76.7930603,
-      "wow_pct": 175.0,
-      "mom_pct": null,
-      "total_appreciation_pct": 422.5,
+      "lat": 30.7014028,
+      "lng": 76.7642252,
+      "wow_pct": -65.22,
+      "mom_pct": -76.3,
+      "total_appreciation_pct": -76.3,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 100000.0,
-          "listing_count": 4
-        },
-        {
-          "week_key": "2026-09",
-          "median_price": 13000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-14",
-          "median_price": 190000.0,
+          "median_price": 135000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-15",
-          "median_price": 522500.0,
+          "week_key": "2026-06",
+          "median_price": 40000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 44000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-11",
+          "median_price": 92000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-13",
+          "median_price": 32000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Sector 8",
+      "listing_type": "buy",
+      "listing_count": 13,
+      "median_price": 240000000.0,
+      "p25_price": 227500000.0,
+      "p75_price": 395500000.0,
+      "min_price": 2820000.0,
+      "max_price": 880000000.0,
+      "avg_beds": 4.846153846153846,
+      "avg_area": 2.0,
+      "active_count": 13,
+      "owner_count": 3.0,
+      "agent_count": 10.0,
+      "avg_days_on_market": 13.307692307692308,
+      "new_this_week": 0,
+      "lat": 30.7417025,
+      "lng": 76.7994536,
+      "wow_pct": 44.9,
+      "mom_pct": null,
+      "total_appreciation_pct": 44.15,
+      "sparkline": [
+        {
+          "week_key": "2026-11",
+          "median_price": 241250000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-12",
+          "median_price": 240000000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 347750000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 36",
+      "listing_type": "rent",
+      "listing_count": 13,
+      "median_price": 55000.0,
+      "p25_price": 18036.0,
+      "p75_price": 229999.99999999997,
+      "min_price": 6000.0,
+      "max_price": 250000.0,
+      "avg_beds": 2.769230769230769,
+      "avg_area": NaN,
+      "active_count": 13,
+      "owner_count": 3.0,
+      "agent_count": 10.0,
+      "avg_days_on_market": 16.0,
+      "new_this_week": 1,
+      "lat": 30.7324665,
+      "lng": 76.7549085,
+      "wow_pct": 42.55,
+      "mom_pct": null,
+      "total_appreciation_pct": -11.42,
+      "sparkline": [
+        {
+          "week_key": "2026-11",
+          "median_price": 140000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-16",
+          "median_price": 87000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 124017.99999999999,
           "listing_count": 2
         }
       ]
@@ -2393,123 +2471,6 @@
       ]
     },
     {
-      "locality": "Sector 40",
-      "listing_type": "buy",
-      "listing_count": 13,
-      "median_price": 39000000.0,
-      "p25_price": 29400000.0,
-      "p75_price": 57500000.0,
-      "min_price": 9500000.0,
-      "max_price": 75000000.0,
-      "avg_beds": 5.25,
-      "avg_area": 1.6,
-      "active_count": 13,
-      "owner_count": 3.0,
-      "agent_count": 10.0,
-      "avg_days_on_market": 30.923076923076923,
-      "new_this_week": 0,
-      "lat": 30.7379842,
-      "lng": 76.7354046,
-      "wow_pct": 113.64,
-      "mom_pct": null,
-      "total_appreciation_pct": -21.67,
-      "sparkline": [
-        {
-          "week_key": "2026-07",
-          "median_price": 60000000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-10",
-          "median_price": 22000000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 47000000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 8",
-      "listing_type": "buy",
-      "listing_count": 13,
-      "median_price": 240000000.0,
-      "p25_price": 227500000.0,
-      "p75_price": 395500000.0,
-      "min_price": 2820000.0,
-      "max_price": 880000000.0,
-      "avg_beds": 4.846153846153846,
-      "avg_area": 2.0,
-      "active_count": 13,
-      "owner_count": 3.0,
-      "agent_count": 10.0,
-      "avg_days_on_market": 13.307692307692308,
-      "new_this_week": 0,
-      "lat": 30.7417025,
-      "lng": 76.7994536,
-      "wow_pct": 44.9,
-      "mom_pct": null,
-      "total_appreciation_pct": 44.15,
-      "sparkline": [
-        {
-          "week_key": "2026-11",
-          "median_price": 241250000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-12",
-          "median_price": 240000000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 347750000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Naya Gaon",
-      "listing_type": "buy",
-      "listing_count": 13,
-      "median_price": 4000000.0,
-      "p25_price": 2500000.0,
-      "p75_price": 5500000.0,
-      "min_price": 1400000.0,
-      "max_price": 16500000.0,
-      "avg_beds": 2.875,
-      "avg_area": 2.0,
-      "active_count": 13,
-      "owner_count": 13.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 23.923076923076923,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": -64.48,
-      "mom_pct": null,
-      "total_appreciation_pct": -16.67,
-      "sparkline": [
-        {
-          "week_key": "2026-07",
-          "median_price": 3900000.0,
-          "listing_count": 4
-        },
-        {
-          "week_key": "2026-11",
-          "median_price": 9150000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 3250000.0,
-          "listing_count": 6
-        }
-      ]
-    },
-    {
       "locality": "Khara Mohali",
       "listing_type": "buy",
       "listing_count": 13,
@@ -2550,40 +2511,6 @@
           "week_key": "2026-15",
           "median_price": 4490000.0,
           "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Sector 27",
-      "listing_type": "buy",
-      "listing_count": 13,
-      "median_price": 71000000.0,
-      "p25_price": 5070000.0,
-      "p75_price": 82500000.0,
-      "min_price": 560000.0,
-      "max_price": 210000000.0,
-      "avg_beds": 5.076923076923077,
-      "avg_area": NaN,
-      "active_count": 13,
-      "owner_count": 6.0,
-      "agent_count": 7.0,
-      "avg_days_on_market": 16.76923076923077,
-      "new_this_week": 1,
-      "lat": 30.7227459,
-      "lng": 76.7984247,
-      "wow_pct": -95.35,
-      "mom_pct": null,
-      "total_appreciation_pct": -95.35,
-      "sparkline": [
-        {
-          "week_key": "2026-09",
-          "median_price": 64250000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 2985000.0,
-          "listing_count": 4
         }
       ]
     },
@@ -2632,6 +2559,118 @@
       ]
     },
     {
+      "locality": "Sector 27",
+      "listing_type": "buy",
+      "listing_count": 13,
+      "median_price": 71000000.0,
+      "p25_price": 5070000.0,
+      "p75_price": 82500000.0,
+      "min_price": 560000.0,
+      "max_price": 210000000.0,
+      "avg_beds": 5.076923076923077,
+      "avg_area": NaN,
+      "active_count": 13,
+      "owner_count": 6.0,
+      "agent_count": 7.0,
+      "avg_days_on_market": 16.76923076923077,
+      "new_this_week": 1,
+      "lat": 30.7227459,
+      "lng": 76.7984247,
+      "wow_pct": -95.35,
+      "mom_pct": null,
+      "total_appreciation_pct": -95.35,
+      "sparkline": [
+        {
+          "week_key": "2026-09",
+          "median_price": 64250000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 2985000.0,
+          "listing_count": 4
+        }
+      ]
+    },
+    {
+      "locality": "Sector 40",
+      "listing_type": "buy",
+      "listing_count": 13,
+      "median_price": 39000000.0,
+      "p25_price": 29400000.0,
+      "p75_price": 57500000.0,
+      "min_price": 9500000.0,
+      "max_price": 75000000.0,
+      "avg_beds": 5.25,
+      "avg_area": 1.6,
+      "active_count": 13,
+      "owner_count": 3.0,
+      "agent_count": 10.0,
+      "avg_days_on_market": 30.923076923076923,
+      "new_this_week": 0,
+      "lat": 30.7379842,
+      "lng": 76.7354046,
+      "wow_pct": 113.64,
+      "mom_pct": null,
+      "total_appreciation_pct": -21.67,
+      "sparkline": [
+        {
+          "week_key": "2026-07",
+          "median_price": 60000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 22000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 47000000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Naya Gaon",
+      "listing_type": "buy",
+      "listing_count": 13,
+      "median_price": 4000000.0,
+      "p25_price": 2500000.0,
+      "p75_price": 5500000.0,
+      "min_price": 1400000.0,
+      "max_price": 16500000.0,
+      "avg_beds": 2.875,
+      "avg_area": 2.0,
+      "active_count": 13,
+      "owner_count": 13.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 23.923076923076923,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": -64.48,
+      "mom_pct": null,
+      "total_appreciation_pct": -16.67,
+      "sparkline": [
+        {
+          "week_key": "2026-07",
+          "median_price": 3900000.0,
+          "listing_count": 4
+        },
+        {
+          "week_key": "2026-11",
+          "median_price": 9150000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 3250000.0,
+          "listing_count": 6
+        }
+      ]
+    },
+    {
       "locality": "Sector-11",
       "listing_type": "buy",
       "listing_count": 13,
@@ -2666,41 +2705,31 @@
       ]
     },
     {
-      "locality": "Sector 36",
+      "locality": "Phase I Industrial Area",
       "listing_type": "rent",
-      "listing_count": 13,
-      "median_price": 55000.0,
-      "p25_price": 18036.0,
-      "p75_price": 229999.99999999997,
-      "min_price": 6000.0,
-      "max_price": 250000.0,
-      "avg_beds": 2.769230769230769,
-      "avg_area": NaN,
-      "active_count": 13,
-      "owner_count": 3.0,
-      "agent_count": 10.0,
-      "avg_days_on_market": 16.0,
-      "new_this_week": 1,
-      "lat": 30.7324665,
-      "lng": 76.7549085,
-      "wow_pct": 42.55,
+      "listing_count": 12,
+      "median_price": 120000.0,
+      "p25_price": 61260.0,
+      "p75_price": 197500.0,
+      "min_price": 50000.0,
+      "max_price": 1200000.0,
+      "avg_beds": 1.8,
+      "avg_area": 1607.2857142857142,
+      "active_count": 12,
+      "owner_count": 10.0,
+      "agent_count": 2.0,
+      "avg_days_on_market": 52.583333333333336,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
       "mom_pct": null,
-      "total_appreciation_pct": -11.42,
+      "total_appreciation_pct": 0.0,
       "sparkline": [
         {
-          "week_key": "2026-11",
-          "median_price": 140000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-16",
-          "median_price": 87000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 124017.99999999999,
-          "listing_count": 2
+          "week_key": "2026-05",
+          "median_price": 120000.0,
+          "listing_count": 10
         }
       ]
     },
@@ -2783,113 +2812,6 @@
       ]
     },
     {
-      "locality": "Phase I Industrial Area",
-      "listing_type": "rent",
-      "listing_count": 12,
-      "median_price": 120000.0,
-      "p25_price": 61260.0,
-      "p75_price": 197500.0,
-      "min_price": 50000.0,
-      "max_price": 1200000.0,
-      "avg_beds": 1.8,
-      "avg_area": 1607.2857142857142,
-      "active_count": 12,
-      "owner_count": 10.0,
-      "agent_count": 2.0,
-      "avg_days_on_market": 52.583333333333336,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 120000.0,
-          "listing_count": 10
-        }
-      ]
-    },
-    {
-      "locality": "Sector-34",
-      "listing_type": "buy",
-      "listing_count": 11,
-      "median_price": 105500000.0,
-      "p25_price": 98750000.0,
-      "p75_price": 110000000.0,
-      "min_price": 89500000.0,
-      "max_price": 130000000.0,
-      "avg_beds": 6.7272727272727275,
-      "avg_area": 2.0,
-      "active_count": 11,
-      "owner_count": 2.0,
-      "agent_count": 9.0,
-      "avg_days_on_market": 17.363636363636363,
-      "new_this_week": 0,
-      "lat": 30.7199236,
-      "lng": 76.7652082,
-      "wow_pct": 7.5,
-      "mom_pct": null,
-      "total_appreciation_pct": -0.92,
-      "sparkline": [
-        {
-          "week_key": "2026-08",
-          "median_price": 108500000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-09",
-          "median_price": 100000000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-11",
-          "median_price": 107500000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 9",
-      "listing_type": "rent",
-      "listing_count": 11,
-      "median_price": 270000.0,
-      "p25_price": 82500.0,
-      "p75_price": 525000.0,
-      "min_price": 30000.0,
-      "max_price": 1150000.0,
-      "avg_beds": 3.0,
-      "avg_area": 1800.0,
-      "active_count": 11,
-      "owner_count": 3.0,
-      "agent_count": 8.0,
-      "avg_days_on_market": 28.90909090909091,
-      "new_this_week": 0,
-      "lat": 30.7474038,
-      "lng": 76.7939268,
-      "wow_pct": 320.29,
-      "mom_pct": null,
-      "total_appreciation_pct": 245.24,
-      "sparkline": [
-        {
-          "week_key": "2026-06",
-          "median_price": 210000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-14",
-          "median_price": 172500.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 725000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
       "locality": "Sector-38",
       "listing_type": "buy",
       "listing_count": 11,
@@ -2963,45 +2885,123 @@
       ]
     },
     {
-      "locality": "Sector 45",
-      "listing_type": "buy",
+      "locality": "Sector 9",
+      "listing_type": "rent",
       "listing_count": 11,
-      "median_price": 8500000.0,
-      "p25_price": 7000000.0,
-      "p75_price": 17000000.0,
-      "min_price": 6200000.0,
-      "max_price": 25000000.0,
-      "avg_beds": 2.272727272727273,
-      "avg_area": 2.1818181818181817,
+      "median_price": 270000.0,
+      "p25_price": 82500.0,
+      "p75_price": 525000.0,
+      "min_price": 30000.0,
+      "max_price": 1150000.0,
+      "avg_beds": 3.0,
+      "avg_area": 1800.0,
       "active_count": 11,
-      "owner_count": 8.0,
-      "agent_count": 3.0,
-      "avg_days_on_market": 34.36363636363637,
+      "owner_count": 3.0,
+      "agent_count": 8.0,
+      "avg_days_on_market": 28.90909090909091,
       "new_this_week": 0,
-      "lat": 30.7065858,
-      "lng": 76.7569256,
-      "wow_pct": -8.24,
+      "lat": 30.7474038,
+      "lng": 76.7939268,
+      "wow_pct": 320.29,
       "mom_pct": null,
-      "total_appreciation_pct": 122.86,
+      "total_appreciation_pct": 245.24,
       "sparkline": [
         {
           "week_key": "2026-06",
-          "median_price": 7000000.0,
-          "listing_count": 3
+          "median_price": 210000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-14",
+          "median_price": 172500.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 725000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector-34",
+      "listing_type": "buy",
+      "listing_count": 11,
+      "median_price": 105500000.0,
+      "p25_price": 98750000.0,
+      "p75_price": 110000000.0,
+      "min_price": 89500000.0,
+      "max_price": 130000000.0,
+      "avg_beds": 6.7272727272727275,
+      "avg_area": 2.0,
+      "active_count": 11,
+      "owner_count": 2.0,
+      "agent_count": 9.0,
+      "avg_days_on_market": 17.363636363636363,
+      "new_this_week": 0,
+      "lat": 30.7199236,
+      "lng": 76.7652082,
+      "wow_pct": 7.5,
+      "mom_pct": null,
+      "total_appreciation_pct": -0.92,
+      "sparkline": [
+        {
+          "week_key": "2026-08",
+          "median_price": 108500000.0,
+          "listing_count": 2
         },
         {
           "week_key": "2026-09",
-          "median_price": 15600000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-10",
-          "median_price": 17000000.0,
-          "listing_count": 2
+          "median_price": 100000000.0,
+          "listing_count": 3
         },
         {
           "week_key": "2026-11",
-          "median_price": 15600000.0,
+          "median_price": 107500000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 61",
+      "listing_type": "buy",
+      "listing_count": 11,
+      "median_price": 20000000.0,
+      "p25_price": 18500000.0,
+      "p75_price": 21500000.0,
+      "min_price": 16000000.0,
+      "max_price": 22500000.0,
+      "avg_beds": 2.090909090909091,
+      "avg_area": 2.4545454545454546,
+      "active_count": 11,
+      "owner_count": 6.0,
+      "agent_count": 5.0,
+      "avg_days_on_market": 24.545454545454547,
+      "new_this_week": 0,
+      "lat": 30.7088948,
+      "lng": 76.7307604,
+      "wow_pct": -10.47,
+      "mom_pct": null,
+      "total_appreciation_pct": 20.31,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 16000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 22500000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-15",
+          "median_price": 21500000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 19250000.0,
           "listing_count": 2
         }
       ]
@@ -3046,6 +3046,50 @@
         {
           "week_key": "2026-16",
           "median_price": 20750.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 45",
+      "listing_type": "buy",
+      "listing_count": 11,
+      "median_price": 8500000.0,
+      "p25_price": 7000000.0,
+      "p75_price": 17000000.0,
+      "min_price": 6200000.0,
+      "max_price": 25000000.0,
+      "avg_beds": 2.272727272727273,
+      "avg_area": 2.1818181818181817,
+      "active_count": 11,
+      "owner_count": 8.0,
+      "agent_count": 3.0,
+      "avg_days_on_market": 34.36363636363637,
+      "new_this_week": 0,
+      "lat": 30.7065858,
+      "lng": 76.7569256,
+      "wow_pct": -8.24,
+      "mom_pct": null,
+      "total_appreciation_pct": 122.86,
+      "sparkline": [
+        {
+          "week_key": "2026-06",
+          "median_price": 7000000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-09",
+          "median_price": 15600000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 17000000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-11",
+          "median_price": 15600000.0,
           "listing_count": 2
         }
       ]
@@ -3134,45 +3178,74 @@
       ]
     },
     {
-      "locality": "Sector 61",
-      "listing_type": "buy",
-      "listing_count": 11,
-      "median_price": 20000000.0,
-      "p25_price": 18500000.0,
-      "p75_price": 21500000.0,
-      "min_price": 16000000.0,
-      "max_price": 22500000.0,
-      "avg_beds": 2.090909090909091,
-      "avg_area": 2.4545454545454546,
-      "active_count": 11,
-      "owner_count": 6.0,
+      "locality": "Sector 38 West",
+      "listing_type": "rent",
+      "listing_count": 10,
+      "median_price": 29500.0,
+      "p25_price": 20000.0,
+      "p75_price": 45500.0,
+      "min_price": 14538.0,
+      "max_price": 75000.0,
+      "avg_beds": 2.2222222222222223,
+      "avg_area": 810.0,
+      "active_count": 10,
+      "owner_count": 5.0,
       "agent_count": 5.0,
-      "avg_days_on_market": 24.545454545454547,
+      "avg_days_on_market": 39.9,
       "new_this_week": 0,
-      "lat": 30.7088948,
-      "lng": 76.7307604,
-      "wow_pct": -10.47,
+      "lat": 30.7487237,
+      "lng": 76.7384934,
+      "wow_pct": -59.31,
       "mom_pct": null,
-      "total_appreciation_pct": 20.31,
+      "total_appreciation_pct": -7.81,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 16000000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-06",
-          "median_price": 22500000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-15",
-          "median_price": 21500000.0,
+          "median_price": 32000.0,
           "listing_count": 3
         },
         {
-          "week_key": "2026-17",
-          "median_price": 19250000.0,
+          "week_key": "2026-06",
+          "median_price": 72500.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-16",
+          "median_price": 29500.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 29",
+      "listing_type": "rent",
+      "listing_count": 10,
+      "median_price": 52500.0,
+      "p25_price": 30500.0,
+      "p75_price": 83750.0,
+      "min_price": 25000.0,
+      "max_price": 200000.0,
+      "avg_beds": 2.25,
+      "avg_area": 1600.0,
+      "active_count": 10,
+      "owner_count": 10.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 30.4,
+      "new_this_week": 1,
+      "lat": 30.7102571,
+      "lng": 76.7924166,
+      "wow_pct": -63.78,
+      "mom_pct": null,
+      "total_appreciation_pct": -63.78,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 92500.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-10",
+          "median_price": 33500.0,
           "listing_count": 2
         }
       ]
@@ -3212,35 +3285,132 @@
       ]
     },
     {
-      "locality": "Sector 29",
-      "listing_type": "rent",
+      "locality": "Sunny Enclave",
+      "listing_type": "buy",
       "listing_count": 10,
-      "median_price": 52500.0,
-      "p25_price": 30500.0,
-      "p75_price": 83750.0,
-      "min_price": 25000.0,
-      "max_price": 200000.0,
-      "avg_beds": 2.25,
-      "avg_area": 1600.0,
+      "median_price": 4400000.0,
+      "p25_price": 4000000.0,
+      "p75_price": 5250000.0,
+      "min_price": 3000000.0,
+      "max_price": 8800000.0,
+      "avg_beds": 2.3,
+      "avg_area": 6.142857142857143,
       "active_count": 10,
       "owner_count": 10.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 30.4,
+      "avg_days_on_market": 41.4,
       "new_this_week": 1,
-      "lat": 30.7102571,
-      "lng": 76.7924166,
-      "wow_pct": -63.78,
+      "lat": null,
+      "lng": null,
+      "wow_pct": -29.69,
       "mom_pct": null,
-      "total_appreciation_pct": -63.78,
+      "total_appreciation_pct": 5.88,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 92500.0,
+          "median_price": 4250000.0,
+          "listing_count": 4
+        },
+        {
+          "week_key": "2026-09",
+          "median_price": 6400000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-10",
-          "median_price": 33500.0,
+          "week_key": "2026-18",
+          "median_price": 4500000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Sector 42",
+      "listing_type": "rent",
+      "listing_count": 10,
+      "median_price": 30000.0,
+      "p25_price": 23500.0,
+      "p75_price": 38000.0,
+      "min_price": 11000.0,
+      "max_price": 50000.0,
+      "avg_beds": 2.142857142857143,
+      "avg_area": 841.0,
+      "active_count": 10,
+      "owner_count": 8.0,
+      "agent_count": 2.0,
+      "avg_days_on_market": 37.3,
+      "new_this_week": 0,
+      "lat": 30.7260846,
+      "lng": 76.7431497,
+      "wow_pct": -40.58,
+      "mom_pct": null,
+      "total_appreciation_pct": -40.58,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 34500.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-14",
+          "median_price": 20500.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 47",
+      "listing_type": "buy",
+      "listing_count": 10,
+      "median_price": 11500000.0,
+      "p25_price": 3957500.0,
+      "p75_price": 21125000.0,
+      "min_price": 1240000.0,
+      "max_price": 41500000.0,
+      "avg_beds": 3.4444444444444446,
+      "avg_area": 1.0,
+      "active_count": 10,
+      "owner_count": 7.0,
+      "agent_count": 3.0,
+      "avg_days_on_market": 20.6,
+      "new_this_week": 1,
+      "lat": 30.6958109,
+      "lng": 76.7690491,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-17",
+          "median_price": 2610000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Sector 48",
+      "listing_type": "rent",
+      "listing_count": 10,
+      "median_price": 20500.0,
+      "p25_price": 14125.0,
+      "p75_price": 30750.0,
+      "min_price": 9000.0,
+      "max_price": 45000.0,
+      "avg_beds": 1.7777777777777777,
+      "avg_area": NaN,
+      "active_count": 10,
+      "owner_count": 7.0,
+      "agent_count": 3.0,
+      "avg_days_on_market": 29.3,
+      "new_this_week": 0,
+      "lat": 30.6879366,
+      "lng": 76.7573244,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 29750.0,
           "listing_count": 2
         }
       ]
@@ -3314,113 +3484,6 @@
       ]
     },
     {
-      "locality": "Sunny Enclave",
-      "listing_type": "buy",
-      "listing_count": 10,
-      "median_price": 4400000.0,
-      "p25_price": 4000000.0,
-      "p75_price": 5250000.0,
-      "min_price": 3000000.0,
-      "max_price": 8800000.0,
-      "avg_beds": 2.3,
-      "avg_area": 6.142857142857143,
-      "active_count": 10,
-      "owner_count": 10.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 41.4,
-      "new_this_week": 1,
-      "lat": null,
-      "lng": null,
-      "wow_pct": -29.69,
-      "mom_pct": null,
-      "total_appreciation_pct": 5.88,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 4250000.0,
-          "listing_count": 4
-        },
-        {
-          "week_key": "2026-09",
-          "median_price": 6400000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 4500000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Sector 38 West",
-      "listing_type": "rent",
-      "listing_count": 10,
-      "median_price": 29500.0,
-      "p25_price": 20000.0,
-      "p75_price": 45500.0,
-      "min_price": 14538.0,
-      "max_price": 75000.0,
-      "avg_beds": 2.2222222222222223,
-      "avg_area": 810.0,
-      "active_count": 10,
-      "owner_count": 5.0,
-      "agent_count": 5.0,
-      "avg_days_on_market": 39.9,
-      "new_this_week": 0,
-      "lat": 30.7487237,
-      "lng": 76.7384934,
-      "wow_pct": -59.31,
-      "mom_pct": null,
-      "total_appreciation_pct": -7.81,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 32000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-06",
-          "median_price": 72500.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-16",
-          "median_price": 29500.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 48",
-      "listing_type": "rent",
-      "listing_count": 10,
-      "median_price": 20500.0,
-      "p25_price": 14125.0,
-      "p75_price": 30750.0,
-      "min_price": 9000.0,
-      "max_price": 45000.0,
-      "avg_beds": 1.7777777777777777,
-      "avg_area": NaN,
-      "active_count": 10,
-      "owner_count": 7.0,
-      "agent_count": 3.0,
-      "avg_days_on_market": 29.3,
-      "new_this_week": 0,
-      "lat": 30.6879366,
-      "lng": 76.7573244,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 29750.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
       "locality": "Sector 10",
       "listing_type": "buy",
       "listing_count": 10,
@@ -3446,98 +3509,6 @@
           "week_key": "2026-05",
           "median_price": 42500000.0,
           "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Sector 42",
-      "listing_type": "rent",
-      "listing_count": 10,
-      "median_price": 30000.0,
-      "p25_price": 23500.0,
-      "p75_price": 38000.0,
-      "min_price": 11000.0,
-      "max_price": 50000.0,
-      "avg_beds": 2.142857142857143,
-      "avg_area": 841.0,
-      "active_count": 10,
-      "owner_count": 8.0,
-      "agent_count": 2.0,
-      "avg_days_on_market": 37.3,
-      "new_this_week": 0,
-      "lat": 30.7260846,
-      "lng": 76.7431497,
-      "wow_pct": -40.58,
-      "mom_pct": null,
-      "total_appreciation_pct": -40.58,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 34500.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-14",
-          "median_price": 20500.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 47",
-      "listing_type": "buy",
-      "listing_count": 10,
-      "median_price": 11500000.0,
-      "p25_price": 3957500.0,
-      "p75_price": 21125000.0,
-      "min_price": 1240000.0,
-      "max_price": 41500000.0,
-      "avg_beds": 3.4444444444444446,
-      "avg_area": 1.0,
-      "active_count": 10,
-      "owner_count": 7.0,
-      "agent_count": 3.0,
-      "avg_days_on_market": 20.6,
-      "new_this_week": 1,
-      "lat": 30.6958109,
-      "lng": 76.7690491,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-17",
-          "median_price": 2610000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Nayagaon",
-      "listing_type": "rent",
-      "listing_count": 9,
-      "median_price": 9000.0,
-      "p25_price": 8500.0,
-      "p75_price": 14000.0,
-      "min_price": 5500.0,
-      "max_price": 55000.0,
-      "avg_beds": 1.5,
-      "avg_area": 280.0,
-      "active_count": 9,
-      "owner_count": 8.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 34.44444444444444,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 21750.0,
-          "listing_count": 2
         }
       ]
     },
@@ -3571,6 +3542,35 @@
         {
           "week_key": "2026-15",
           "median_price": 51750000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Nayagaon",
+      "listing_type": "rent",
+      "listing_count": 9,
+      "median_price": 9000.0,
+      "p25_price": 8500.0,
+      "p75_price": 14000.0,
+      "min_price": 5500.0,
+      "max_price": 55000.0,
+      "avg_beds": 1.5,
+      "avg_area": 280.0,
+      "active_count": 9,
+      "owner_count": 8.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 34.44444444444444,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 21750.0,
           "listing_count": 2
         }
       ]
@@ -3610,108 +3610,64 @@
       ]
     },
     {
-      "locality": "Sector 35D",
+      "locality": "Sector 51A",
       "listing_type": "buy",
       "listing_count": 9,
-      "median_price": 72500000.0,
-      "p25_price": 5260000.0,
-      "p75_price": 85000000.0,
-      "min_price": 830000.0000000001,
-      "max_price": 110000000.0,
-      "avg_beds": 5.142857142857143,
-      "avg_area": 1.0,
-      "active_count": 9,
-      "owner_count": 8.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 41.888888888888886,
-      "new_this_week": 1,
-      "lat": 30.7334421,
-      "lng": 76.7797143,
-      "wow_pct": -98.44,
-      "mom_pct": null,
-      "total_appreciation_pct": -98.3,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 78750000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-13",
-          "median_price": 86000000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 1340000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Sector 43",
-      "listing_type": "rent",
-      "listing_count": 9,
-      "median_price": 38000.0,
-      "p25_price": 28000.0,
-      "p75_price": 55000.0,
-      "min_price": 8500.0,
-      "max_price": 610000.0,
-      "avg_beds": 2.2222222222222223,
-      "avg_area": NaN,
+      "median_price": 18000000.0,
+      "p25_price": 16500000.0,
+      "p75_price": 20000000.0,
+      "min_price": 13400000.0,
+      "max_price": 25000000.0,
+      "avg_beds": 2.0,
+      "avg_area": 1.5555555555555556,
       "active_count": 9,
       "owner_count": 4.0,
       "agent_count": 5.0,
-      "avg_days_on_market": 21.88888888888889,
+      "avg_days_on_market": 52.77777777777778,
       "new_this_week": 0,
-      "lat": 30.7190935,
-      "lng": 76.7487931,
-      "wow_pct": 154.79,
+      "lat": 30.7358664,
+      "lng": 76.8042826,
+      "wow_pct": -14.06,
       "mom_pct": null,
-      "total_appreciation_pct": 154.79,
+      "total_appreciation_pct": -14.06,
       "sparkline": [
         {
-          "week_key": "2026-05",
-          "median_price": 18250.0,
+          "week_key": "2026-07",
+          "median_price": 19200000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-15",
-          "median_price": 46500.0,
+          "week_key": "2026-17",
+          "median_price": 16500000.0,
           "listing_count": 2
         }
       ]
     },
     {
-      "locality": "Hallo Majra",
-      "listing_type": "buy",
+      "locality": "Phase 1 Industrial Area",
+      "listing_type": "rent",
       "listing_count": 9,
-      "median_price": 7000000.0,
-      "p25_price": 3800000.0,
-      "p75_price": 8600000.0,
-      "min_price": 1220000.0,
-      "max_price": 13000000.0,
-      "avg_beds": 4.5,
-      "avg_area": 3.5,
+      "median_price": 110000.00000000001,
+      "p25_price": 100000.0,
+      "p75_price": 220000.00000000003,
+      "min_price": 20000.0,
+      "max_price": 360000.0,
+      "avg_beds": 2.1666666666666665,
+      "avg_area": 2566.6666666666665,
       "active_count": 9,
-      "owner_count": 9.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 56.333333333333336,
+      "owner_count": 7.0,
+      "agent_count": 2.0,
+      "avg_days_on_market": 30.88888888888889,
       "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": -53.72,
+      "lat": 30.7054046,
+      "lng": 76.8009569,
+      "wow_pct": null,
       "mom_pct": null,
-      "total_appreciation_pct": -53.72,
+      "total_appreciation_pct": 0.0,
       "sparkline": [
         {
-          "week_key": "2026-05",
-          "median_price": 7800000.0,
-          "listing_count": 4
-        },
-        {
           "week_key": "2026-17",
-          "median_price": 3610000.0,
+          "median_price": 235000.0,
           "listing_count": 2
         }
       ]
@@ -3786,35 +3742,6 @@
     },
     {
       "locality": "Sector 7",
-      "listing_type": "rent",
-      "listing_count": 9,
-      "median_price": 75000.0,
-      "p25_price": 59000.0,
-      "p75_price": 250000.0,
-      "min_price": 12000.0,
-      "max_price": 270000.0,
-      "avg_beds": 2.0,
-      "avg_area": 26.0,
-      "active_count": 9,
-      "owner_count": 4.0,
-      "agent_count": 5.0,
-      "avg_days_on_market": 30.77777777777778,
-      "new_this_week": 0,
-      "lat": 30.7358664,
-      "lng": 76.8042826,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-08",
-          "median_price": 260000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 7",
       "listing_type": "buy",
       "listing_count": 9,
       "median_price": 130000000.0,
@@ -3839,69 +3766,6 @@
           "week_key": "2026-08",
           "median_price": 217000000.0,
           "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Phase 1 Industrial Area",
-      "listing_type": "rent",
-      "listing_count": 9,
-      "median_price": 110000.00000000001,
-      "p25_price": 100000.0,
-      "p75_price": 220000.00000000003,
-      "min_price": 20000.0,
-      "max_price": 360000.0,
-      "avg_beds": 2.1666666666666665,
-      "avg_area": 2566.6666666666665,
-      "active_count": 9,
-      "owner_count": 7.0,
-      "agent_count": 2.0,
-      "avg_days_on_market": 30.88888888888889,
-      "new_this_week": 0,
-      "lat": 30.7054046,
-      "lng": 76.8009569,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-17",
-          "median_price": 235000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector-49",
-      "listing_type": "rent",
-      "listing_count": 9,
-      "median_price": 22000.0,
-      "p25_price": 11000.0,
-      "p75_price": 25000.0,
-      "min_price": 10000.0,
-      "max_price": 65000.0,
-      "avg_beds": 1.8888888888888888,
-      "avg_area": NaN,
-      "active_count": 9,
-      "owner_count": 7.0,
-      "agent_count": 2.0,
-      "avg_days_on_market": 50.0,
-      "new_this_week": 0,
-      "lat": 30.6940288,
-      "lng": 76.7521386,
-      "wow_pct": -66.67,
-      "mom_pct": null,
-      "total_appreciation_pct": -66.67,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 45000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-06",
-          "median_price": 15000.0,
-          "listing_count": 3
         }
       ]
     },
@@ -3945,35 +3809,132 @@
       ]
     },
     {
-      "locality": "Sector 51A",
-      "listing_type": "buy",
+      "locality": "Sector 7",
+      "listing_type": "rent",
       "listing_count": 9,
-      "median_price": 18000000.0,
-      "p25_price": 16500000.0,
-      "p75_price": 20000000.0,
-      "min_price": 13400000.0,
-      "max_price": 25000000.0,
+      "median_price": 75000.0,
+      "p25_price": 59000.0,
+      "p75_price": 250000.0,
+      "min_price": 12000.0,
+      "max_price": 270000.0,
       "avg_beds": 2.0,
-      "avg_area": 1.5555555555555556,
+      "avg_area": 26.0,
       "active_count": 9,
       "owner_count": 4.0,
       "agent_count": 5.0,
-      "avg_days_on_market": 52.77777777777778,
+      "avg_days_on_market": 30.77777777777778,
       "new_this_week": 0,
       "lat": 30.7358664,
       "lng": 76.8042826,
-      "wow_pct": -14.06,
+      "wow_pct": null,
       "mom_pct": null,
-      "total_appreciation_pct": -14.06,
+      "total_appreciation_pct": 0.0,
       "sparkline": [
         {
-          "week_key": "2026-07",
-          "median_price": 19200000.0,
+          "week_key": "2026-08",
+          "median_price": 260000.0,
           "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Hallo Majra",
+      "listing_type": "buy",
+      "listing_count": 9,
+      "median_price": 7000000.0,
+      "p25_price": 3800000.0,
+      "p75_price": 8600000.0,
+      "min_price": 1220000.0,
+      "max_price": 13000000.0,
+      "avg_beds": 4.5,
+      "avg_area": 3.5,
+      "active_count": 9,
+      "owner_count": 9.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 56.333333333333336,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": -53.72,
+      "mom_pct": null,
+      "total_appreciation_pct": -53.72,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 7800000.0,
+          "listing_count": 4
         },
         {
           "week_key": "2026-17",
-          "median_price": 16500000.0,
+          "median_price": 3610000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector-49",
+      "listing_type": "rent",
+      "listing_count": 9,
+      "median_price": 22000.0,
+      "p25_price": 11000.0,
+      "p75_price": 25000.0,
+      "min_price": 10000.0,
+      "max_price": 65000.0,
+      "avg_beds": 1.8888888888888888,
+      "avg_area": NaN,
+      "active_count": 9,
+      "owner_count": 7.0,
+      "agent_count": 2.0,
+      "avg_days_on_market": 50.0,
+      "new_this_week": 0,
+      "lat": 30.6940288,
+      "lng": 76.7521386,
+      "wow_pct": -66.67,
+      "mom_pct": null,
+      "total_appreciation_pct": -66.67,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 45000.0,
+          "listing_count": 3
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 15000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Sector 43",
+      "listing_type": "rent",
+      "listing_count": 9,
+      "median_price": 38000.0,
+      "p25_price": 28000.0,
+      "p75_price": 55000.0,
+      "min_price": 8500.0,
+      "max_price": 610000.0,
+      "avg_beds": 2.2222222222222223,
+      "avg_area": NaN,
+      "active_count": 9,
+      "owner_count": 4.0,
+      "agent_count": 5.0,
+      "avg_days_on_market": 21.88888888888889,
+      "new_this_week": 0,
+      "lat": 30.7190935,
+      "lng": 76.7487931,
+      "wow_pct": 154.79,
+      "mom_pct": null,
+      "total_appreciation_pct": 154.79,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 18250.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-15",
+          "median_price": 46500.0,
           "listing_count": 2
         }
       ]
@@ -4018,36 +3979,143 @@
       ]
     },
     {
-      "locality": "Shivalik Vihar",
+      "locality": "Sector 35D",
       "listing_type": "buy",
-      "listing_count": 8,
-      "median_price": 7500000.0,
-      "p25_price": 3770000.0,
-      "p75_price": 13549999.999999998,
-      "min_price": 1270000.0,
-      "max_price": 24400000.0,
-      "avg_beds": 2.6666666666666665,
-      "avg_area": NaN,
-      "active_count": 8,
+      "listing_count": 9,
+      "median_price": 72500000.0,
+      "p25_price": 5260000.0,
+      "p75_price": 85000000.0,
+      "min_price": 830000.0000000001,
+      "max_price": 110000000.0,
+      "avg_beds": 5.142857142857143,
+      "avg_area": 1.0,
+      "active_count": 9,
       "owner_count": 8.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 44.25,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": -80.31,
+      "agent_count": 1.0,
+      "avg_days_on_market": 41.888888888888886,
+      "new_this_week": 1,
+      "lat": 30.7334421,
+      "lng": 76.7797143,
+      "wow_pct": -98.44,
       "mom_pct": null,
-      "total_appreciation_pct": -80.31,
+      "total_appreciation_pct": -98.3,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 16200000.0,
+          "median_price": 78750000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-13",
+          "median_price": 86000000.0,
           "listing_count": 2
         },
         {
           "week_key": "2026-17",
-          "median_price": 3190000.0,
-          "listing_count": 4
+          "median_price": 1340000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Manimajra",
+      "listing_type": "buy",
+      "listing_count": 8,
+      "median_price": 14000000.0,
+      "p25_price": 10275000.000000002,
+      "p75_price": 26875000.0,
+      "min_price": 150000.0,
+      "max_price": 35000000.0,
+      "avg_beds": 4.333333333333333,
+      "avg_area": 1.8571428571428572,
+      "active_count": 8,
+      "owner_count": 8.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 81.0,
+      "new_this_week": 0,
+      "lat": 30.7127455,
+      "lng": 76.832944,
+      "wow_pct": 53.14,
+      "mom_pct": null,
+      "total_appreciation_pct": 112.77,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 11750000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 16325000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-07",
+          "median_price": 25000000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Sector 10",
+      "listing_type": "rent",
+      "listing_count": 8,
+      "median_price": 290000.0,
+      "p25_price": 242500.0,
+      "p75_price": 457500.0,
+      "min_price": 130000.0,
+      "max_price": 800000.0,
+      "avg_beds": 3.75,
+      "avg_area": NaN,
+      "active_count": 8,
+      "owner_count": 3.0,
+      "agent_count": 5.0,
+      "avg_days_on_market": 17.75,
+      "new_this_week": 0,
+      "lat": 30.7541885,
+      "lng": 76.7889605,
+      "wow_pct": -76.15,
+      "mom_pct": null,
+      "total_appreciation_pct": -76.15,
+      "sparkline": [
+        {
+          "week_key": "2026-11",
+          "median_price": 545000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-15",
+          "median_price": 130000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Sector 35C",
+      "listing_type": "rent",
+      "listing_count": 8,
+      "median_price": 75000.0,
+      "p25_price": 60000.0,
+      "p75_price": 157500.0,
+      "min_price": 18000.0,
+      "max_price": 450000.0,
+      "avg_beds": 2.0,
+      "avg_area": NaN,
+      "active_count": 8,
+      "owner_count": 3.0,
+      "agent_count": 5.0,
+      "avg_days_on_market": 26.625,
+      "new_this_week": 0,
+      "lat": 30.758285,
+      "lng": 76.7961609,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-10",
+          "median_price": 39000.0,
+          "listing_count": 2
         }
       ]
     },
@@ -4086,40 +4154,64 @@
       ]
     },
     {
-      "locality": "Sector 2",
+      "locality": "Sector 56",
       "listing_type": "buy",
       "listing_count": 8,
-      "median_price": 15750000.0,
-      "p25_price": 5600000.0,
-      "p75_price": 44000000.0,
-      "min_price": 4400000.0,
-      "max_price": 850000000.0,
-      "avg_beds": 5.333333333333333,
-      "avg_area": 2.142857142857143,
+      "median_price": 2500000.0,
+      "p25_price": 2200000.0,
+      "p75_price": 3600000.0,
+      "min_price": 1600000.0,
+      "max_price": 10500000.0,
+      "avg_beds": 2.125,
+      "avg_area": 2.7142857142857144,
       "active_count": 8,
-      "owner_count": 1.0,
-      "agent_count": 7.0,
-      "avg_days_on_market": 20.375,
+      "owner_count": 8.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 20.125,
       "new_this_week": 0,
-      "lat": 30.7637889,
-      "lng": 76.7913651,
-      "wow_pct": -86.36,
+      "lat": 30.7366451,
+      "lng": 76.7188952,
+      "wow_pct": null,
       "mom_pct": null,
-      "total_appreciation_pct": 36.36,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-17",
+          "median_price": 3000000.0,
+          "listing_count": 6
+        }
+      ]
+    },
+    {
+      "locality": "Sector 21D",
+      "listing_type": "rent",
+      "listing_count": 8,
+      "median_price": 62500.0,
+      "p25_price": 21875.0,
+      "p75_price": 127500.0,
+      "min_price": 8000.0,
+      "max_price": 160000.0,
+      "avg_beds": 2.4285714285714284,
+      "avg_area": NaN,
+      "active_count": 8,
+      "owner_count": 4.0,
+      "agent_count": 4.0,
+      "avg_days_on_market": 15.625,
+      "new_this_week": 1,
+      "lat": 30.7358664,
+      "lng": 76.8042826,
+      "wow_pct": 42.41,
+      "mom_pct": null,
+      "total_appreciation_pct": 42.41,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 4400000.0,
+          "median_price": 79000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-06",
-          "median_price": 44000000.0,
-          "listing_count": 3
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 6000000.0,
+          "week_key": "2026-11",
+          "median_price": 112500.0,
           "listing_count": 2
         }
       ]
@@ -4164,104 +4256,36 @@
       ]
     },
     {
-      "locality": "Sector 10",
-      "listing_type": "rent",
+      "locality": "Shivalik Vihar",
+      "listing_type": "buy",
       "listing_count": 8,
-      "median_price": 290000.0,
-      "p25_price": 242500.0,
-      "p75_price": 457500.0,
-      "min_price": 130000.0,
-      "max_price": 800000.0,
-      "avg_beds": 3.75,
+      "median_price": 7500000.0,
+      "p25_price": 3770000.0,
+      "p75_price": 13549999.999999998,
+      "min_price": 1270000.0,
+      "max_price": 24400000.0,
+      "avg_beds": 2.6666666666666665,
       "avg_area": NaN,
       "active_count": 8,
-      "owner_count": 3.0,
-      "agent_count": 5.0,
-      "avg_days_on_market": 17.75,
-      "new_this_week": 0,
-      "lat": 30.7541885,
-      "lng": 76.7889605,
-      "wow_pct": -76.15,
-      "mom_pct": null,
-      "total_appreciation_pct": -76.15,
-      "sparkline": [
-        {
-          "week_key": "2026-11",
-          "median_price": 545000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-15",
-          "median_price": 130000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Sector 56",
-      "listing_type": "buy",
-      "listing_count": 8,
-      "median_price": 2500000.0,
-      "p25_price": 2200000.0,
-      "p75_price": 3600000.0,
-      "min_price": 1600000.0,
-      "max_price": 10500000.0,
-      "avg_beds": 2.125,
-      "avg_area": 2.7142857142857144,
-      "active_count": 8,
       "owner_count": 8.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 20.125,
+      "avg_days_on_market": 44.25,
       "new_this_week": 0,
-      "lat": 30.7366451,
-      "lng": 76.7188952,
-      "wow_pct": null,
+      "lat": null,
+      "lng": null,
+      "wow_pct": -80.31,
       "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-17",
-          "median_price": 3000000.0,
-          "listing_count": 6
-        }
-      ]
-    },
-    {
-      "locality": "Manimajra",
-      "listing_type": "buy",
-      "listing_count": 8,
-      "median_price": 14000000.0,
-      "p25_price": 10275000.000000002,
-      "p75_price": 26875000.0,
-      "min_price": 150000.0,
-      "max_price": 35000000.0,
-      "avg_beds": 4.333333333333333,
-      "avg_area": 1.8571428571428572,
-      "active_count": 8,
-      "owner_count": 8.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 81.0,
-      "new_this_week": 0,
-      "lat": 30.7127455,
-      "lng": 76.832944,
-      "wow_pct": 53.14,
-      "mom_pct": null,
-      "total_appreciation_pct": 112.77,
+      "total_appreciation_pct": -80.31,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 11750000.0,
+          "median_price": 16200000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-06",
-          "median_price": 16325000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-07",
-          "median_price": 25000000.0,
-          "listing_count": 3
+          "week_key": "2026-17",
+          "median_price": 3190000.0,
+          "listing_count": 4
         }
       ]
     },
@@ -4289,187 +4313,43 @@
       "sparkline": []
     },
     {
-      "locality": "Sector 21D",
-      "listing_type": "rent",
+      "locality": "Sector 2",
+      "listing_type": "buy",
       "listing_count": 8,
-      "median_price": 62500.0,
-      "p25_price": 21875.0,
-      "p75_price": 127500.0,
-      "min_price": 8000.0,
-      "max_price": 160000.0,
-      "avg_beds": 2.4285714285714284,
-      "avg_area": NaN,
+      "median_price": 15750000.0,
+      "p25_price": 5600000.0,
+      "p75_price": 44000000.0,
+      "min_price": 4400000.0,
+      "max_price": 850000000.0,
+      "avg_beds": 5.333333333333333,
+      "avg_area": 2.142857142857143,
       "active_count": 8,
-      "owner_count": 4.0,
-      "agent_count": 4.0,
-      "avg_days_on_market": 15.625,
-      "new_this_week": 1,
-      "lat": 30.7358664,
-      "lng": 76.8042826,
-      "wow_pct": 42.41,
+      "owner_count": 1.0,
+      "agent_count": 7.0,
+      "avg_days_on_market": 20.375,
+      "new_this_week": 0,
+      "lat": 30.7637889,
+      "lng": 76.7913651,
+      "wow_pct": -86.36,
       "mom_pct": null,
-      "total_appreciation_pct": 42.41,
+      "total_appreciation_pct": 36.36,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 79000.0,
+          "median_price": 4400000.0,
           "listing_count": 2
         },
         {
-          "week_key": "2026-11",
-          "median_price": 112500.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 35C",
-      "listing_type": "rent",
-      "listing_count": 8,
-      "median_price": 75000.0,
-      "p25_price": 60000.0,
-      "p75_price": 157500.0,
-      "min_price": 18000.0,
-      "max_price": 450000.0,
-      "avg_beds": 2.0,
-      "avg_area": NaN,
-      "active_count": 8,
-      "owner_count": 3.0,
-      "agent_count": 5.0,
-      "avg_days_on_market": 26.625,
-      "new_this_week": 0,
-      "lat": 30.758285,
-      "lng": 76.7961609,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-10",
-          "median_price": 39000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 23",
-      "listing_type": "buy",
-      "listing_count": 7,
-      "median_price": 37000000.0,
-      "p25_price": 22380000.0,
-      "p75_price": 37750000.0,
-      "min_price": 7150000.0,
-      "max_price": 42500000.0,
-      "avg_beds": 5.6,
-      "avg_area": 1.5,
-      "active_count": 7,
-      "owner_count": 2.0,
-      "agent_count": 5.0,
-      "avg_days_on_market": 26.142857142857142,
-      "new_this_week": 1,
-      "lat": 30.7399177,
-      "lng": 76.7661953,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 26130000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 14",
-      "listing_type": "buy",
-      "listing_count": 7,
-      "median_price": 8000000.0,
-      "p25_price": 5250000.0,
-      "p75_price": 26250000.0,
-      "min_price": 2300000.0,
-      "max_price": 32500000.0,
-      "avg_beds": 5.166666666666667,
-      "avg_area": 9.666666666666666,
-      "active_count": 7,
-      "owner_count": 7.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 69.71428571428571,
-      "new_this_week": 1,
-      "lat": 30.7598462,
-      "lng": 76.7668339,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 8000000.0,
-          "listing_count": 5
-        }
-      ]
-    },
-    {
-      "locality": "Sector 39",
-      "listing_type": "buy",
-      "listing_count": 7,
-      "median_price": 5220000.0,
-      "p25_price": 1830000.0,
-      "p75_price": 14760000.0,
-      "min_price": 770000.0,
-      "max_price": 24300000.0,
-      "avg_beds": 3.142857142857143,
-      "avg_area": NaN,
-      "active_count": 7,
-      "owner_count": 7.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 21.428571428571427,
-      "new_this_week": 3,
-      "lat": 30.7437353,
-      "lng": 76.7302751,
-      "wow_pct": -64.94,
-      "mom_pct": null,
-      "total_appreciation_pct": -92.47,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 24300000.0,
-          "listing_count": 2
+          "week_key": "2026-06",
+          "median_price": 44000000.0,
+          "listing_count": 3
         },
         {
           "week_key": "2026-17",
-          "median_price": 5220000.0,
+          "median_price": 6000000.0,
           "listing_count": 2
-        },
-        {
-          "week_key": "2026-18",
-          "median_price": 1830000.0,
-          "listing_count": 3
         }
       ]
-    },
-    {
-      "locality": "Sector 32",
-      "listing_type": "rent",
-      "listing_count": 7,
-      "median_price": 56000.0,
-      "p25_price": 32000.0,
-      "p75_price": 230000.0,
-      "min_price": 8000.0,
-      "max_price": 280000.0,
-      "avg_beds": 1.8571428571428572,
-      "avg_area": NaN,
-      "active_count": 7,
-      "owner_count": 1.0,
-      "agent_count": 6.0,
-      "avg_days_on_market": 19.285714285714285,
-      "new_this_week": 1,
-      "lat": 30.7083938,
-      "lng": 76.7752933,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
     },
     {
       "locality": "Kharhar",
@@ -4499,6 +4379,29 @@
           "listing_count": 2
         }
       ]
+    },
+    {
+      "locality": "Sector 32",
+      "listing_type": "rent",
+      "listing_count": 7,
+      "median_price": 56000.0,
+      "p25_price": 32000.0,
+      "p75_price": 230000.0,
+      "min_price": 8000.0,
+      "max_price": 280000.0,
+      "avg_beds": 1.8571428571428572,
+      "avg_area": NaN,
+      "active_count": 7,
+      "owner_count": 1.0,
+      "agent_count": 6.0,
+      "avg_days_on_market": 19.285714285714285,
+      "new_this_week": 1,
+      "lat": 30.7083938,
+      "lng": 76.7752933,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
     },
     {
       "locality": "Sector 38 West",
@@ -4574,64 +4477,6 @@
       ]
     },
     {
-      "locality": "Sector 13",
-      "listing_type": "rent",
-      "listing_count": 7,
-      "median_price": 15000.0,
-      "p25_price": 10750.0,
-      "p75_price": 34000.0,
-      "min_price": 7000.0,
-      "max_price": 770000.0,
-      "avg_beds": 2.0,
-      "avg_area": NaN,
-      "active_count": 7,
-      "owner_count": 4.0,
-      "agent_count": 3.0,
-      "avg_days_on_market": 10.428571428571429,
-      "new_this_week": 2,
-      "lat": 30.7298446,
-      "lng": 76.7922308,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-18",
-          "median_price": 13000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Patiala Road",
-      "listing_type": "buy",
-      "listing_count": 7,
-      "median_price": 6450000.0,
-      "p25_price": 4600000.0,
-      "p75_price": 7095000.0,
-      "min_price": 2500000.0,
-      "max_price": 9950000.0,
-      "avg_beds": 2.8,
-      "avg_area": 2.5,
-      "active_count": 7,
-      "owner_count": 3.0,
-      "agent_count": 2.0,
-      "avg_days_on_market": 9.428571428571429,
-      "new_this_week": 2,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 4600000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
       "locality": "Sector 51",
       "listing_type": "buy",
       "listing_count": 7,
@@ -4671,21 +4516,89 @@
       ]
     },
     {
-      "locality": "Sunny Enclave",
-      "listing_type": "rent",
-      "listing_count": 6,
-      "median_price": 13000.0,
-      "p25_price": 10125.0,
-      "p75_price": 18500.0,
-      "min_price": 9000.0,
-      "max_price": 22000.0,
-      "avg_beds": 2.6666666666666665,
+      "locality": "Sector 23",
+      "listing_type": "buy",
+      "listing_count": 7,
+      "median_price": 37000000.0,
+      "p25_price": 22380000.0,
+      "p75_price": 37750000.0,
+      "min_price": 7150000.0,
+      "max_price": 42500000.0,
+      "avg_beds": 5.6,
+      "avg_area": 1.5,
+      "active_count": 7,
+      "owner_count": 2.0,
+      "agent_count": 5.0,
+      "avg_days_on_market": 26.142857142857142,
+      "new_this_week": 1,
+      "lat": 30.7399177,
+      "lng": 76.7661953,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 26130000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 39",
+      "listing_type": "buy",
+      "listing_count": 7,
+      "median_price": 5220000.0,
+      "p25_price": 1830000.0,
+      "p75_price": 14760000.0,
+      "min_price": 770000.0,
+      "max_price": 24300000.0,
+      "avg_beds": 3.142857142857143,
       "avg_area": NaN,
-      "active_count": 6,
-      "owner_count": 6.0,
+      "active_count": 7,
+      "owner_count": 7.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 20.166666666666668,
-      "new_this_week": 0,
+      "avg_days_on_market": 21.428571428571427,
+      "new_this_week": 3,
+      "lat": 30.7437353,
+      "lng": 76.7302751,
+      "wow_pct": -64.94,
+      "mom_pct": null,
+      "total_appreciation_pct": -92.47,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 24300000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-17",
+          "median_price": 5220000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-18",
+          "median_price": 1830000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Patiala Road",
+      "listing_type": "buy",
+      "listing_count": 7,
+      "median_price": 6450000.0,
+      "p25_price": 4600000.0,
+      "p75_price": 7095000.0,
+      "min_price": 2500000.0,
+      "max_price": 9950000.0,
+      "avg_beds": 2.8,
+      "avg_area": 2.5,
+      "active_count": 7,
+      "owner_count": 3.0,
+      "agent_count": 2.0,
+      "avg_days_on_market": 9.428571428571429,
+      "new_this_week": 2,
       "lat": null,
       "lng": null,
       "wow_pct": null,
@@ -4694,62 +4607,91 @@
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 9500.0,
-          "listing_count": 3
+          "median_price": 4600000.0,
+          "listing_count": 2
         }
       ]
     },
     {
-      "locality": "Sector 38C",
+      "locality": "Sector 13",
       "listing_type": "rent",
-      "listing_count": 6,
-      "median_price": 37500.0,
-      "p25_price": 27500.0,
-      "p75_price": 40000.0,
-      "min_price": 11000.0,
-      "max_price": 42000.0,
+      "listing_count": 7,
+      "median_price": 15000.0,
+      "p25_price": 10750.0,
+      "p75_price": 34000.0,
+      "min_price": 7000.0,
+      "max_price": 770000.0,
       "avg_beds": 2.0,
       "avg_area": NaN,
-      "active_count": 6,
-      "owner_count": 5.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 27.166666666666668,
-      "new_this_week": 0,
-      "lat": 30.7399177,
-      "lng": 76.7661953,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Dhanas",
-      "listing_type": "buy",
-      "listing_count": 6,
-      "median_price": 2240000.0,
-      "p25_price": 1342500.0,
-      "p75_price": 11792500.0,
-      "min_price": 1019999.9999999999,
-      "max_price": 45000000.0,
-      "avg_beds": 5.0,
-      "avg_area": NaN,
-      "active_count": 6,
-      "owner_count": 6.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 38.166666666666664,
-      "new_this_week": 0,
-      "lat": 30.7689995,
-      "lng": 76.7551503,
+      "active_count": 7,
+      "owner_count": 4.0,
+      "agent_count": 3.0,
+      "avg_days_on_market": 10.428571428571429,
+      "new_this_week": 2,
+      "lat": 30.7298446,
+      "lng": 76.7922308,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": 0.0,
       "sparkline": [
         {
-          "week_key": "2026-17",
-          "median_price": 1365000.0,
-          "listing_count": 4
+          "week_key": "2026-18",
+          "median_price": 13000.0,
+          "listing_count": 2
         }
       ]
+    },
+    {
+      "locality": "Sector 14",
+      "listing_type": "buy",
+      "listing_count": 7,
+      "median_price": 8000000.0,
+      "p25_price": 5250000.0,
+      "p75_price": 26250000.0,
+      "min_price": 2300000.0,
+      "max_price": 32500000.0,
+      "avg_beds": 5.166666666666667,
+      "avg_area": 9.666666666666666,
+      "active_count": 7,
+      "owner_count": 7.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 69.71428571428571,
+      "new_this_week": 1,
+      "lat": 30.7598462,
+      "lng": 76.7668339,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 8000000.0,
+          "listing_count": 5
+        }
+      ]
+    },
+    {
+      "locality": "Sector 40B",
+      "listing_type": "rent",
+      "listing_count": 6,
+      "median_price": 60000.0,
+      "p25_price": 20250.0,
+      "p75_price": 78750.0,
+      "min_price": 11500.0,
+      "max_price": 200000.0,
+      "avg_beds": 2.3333333333333335,
+      "avg_area": NaN,
+      "active_count": 6,
+      "owner_count": 5.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 43.833333333333336,
+      "new_this_week": 0,
+      "lat": 30.7358664,
+      "lng": 76.8042826,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
     },
     {
       "locality": "Sector 4",
@@ -4777,35 +4719,6 @@
           "week_key": "2026-05",
           "median_price": 320000000.0,
           "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Sector 22B",
-      "listing_type": "rent",
-      "listing_count": 6,
-      "median_price": 95000.0,
-      "p25_price": 34000.0,
-      "p75_price": 337500.0,
-      "min_price": 12000.0,
-      "max_price": 1400000.0,
-      "avg_beds": 3.5,
-      "avg_area": NaN,
-      "active_count": 6,
-      "owner_count": 3.0,
-      "agent_count": 3.0,
-      "avg_days_on_market": 32.0,
-      "new_this_week": 0,
-      "lat": 30.7319561,
-      "lng": 76.7766104,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-11",
-          "median_price": 706000.0,
-          "listing_count": 2
         }
       ]
     },
@@ -4839,6 +4752,35 @@
       ]
     },
     {
+      "locality": "Sector 22B",
+      "listing_type": "rent",
+      "listing_count": 6,
+      "median_price": 95000.0,
+      "p25_price": 34000.0,
+      "p75_price": 337500.0,
+      "min_price": 12000.0,
+      "max_price": 1400000.0,
+      "avg_beds": 3.5,
+      "avg_area": NaN,
+      "active_count": 6,
+      "owner_count": 3.0,
+      "agent_count": 3.0,
+      "avg_days_on_market": 32.0,
+      "new_this_week": 0,
+      "lat": 30.7319561,
+      "lng": 76.7766104,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-11",
+          "median_price": 706000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
       "locality": "Sector 6",
       "listing_type": "buy",
       "listing_count": 6,
@@ -4868,43 +4810,43 @@
       ]
     },
     {
-      "locality": "Sector 40B",
+      "locality": "Sector 38C",
       "listing_type": "rent",
       "listing_count": 6,
-      "median_price": 60000.0,
-      "p25_price": 20250.0,
-      "p75_price": 78750.0,
-      "min_price": 11500.0,
-      "max_price": 200000.0,
-      "avg_beds": 2.3333333333333335,
+      "median_price": 37500.0,
+      "p25_price": 27500.0,
+      "p75_price": 40000.0,
+      "min_price": 11000.0,
+      "max_price": 42000.0,
+      "avg_beds": 2.0,
       "avg_area": NaN,
       "active_count": 6,
       "owner_count": 5.0,
       "agent_count": 1.0,
-      "avg_days_on_market": 43.833333333333336,
+      "avg_days_on_market": 27.166666666666668,
       "new_this_week": 0,
-      "lat": 30.7358664,
-      "lng": 76.8042826,
+      "lat": 30.7399177,
+      "lng": 76.7661953,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": null,
       "sparkline": []
     },
     {
-      "locality": "Zirakpur Road",
-      "listing_type": "buy",
-      "listing_count": 5,
-      "median_price": 7500000.0,
-      "p25_price": 6200000.0,
-      "p75_price": 7500000.0,
-      "min_price": 6200000.0,
-      "max_price": 25000000.0,
-      "avg_beds": 2.5,
-      "avg_area": 2.8,
-      "active_count": 5,
-      "owner_count": 1.0,
-      "agent_count": 4.0,
-      "avg_days_on_market": 15.2,
+      "locality": "Sunny Enclave",
+      "listing_type": "rent",
+      "listing_count": 6,
+      "median_price": 13000.0,
+      "p25_price": 10125.0,
+      "p75_price": 18500.0,
+      "min_price": 9000.0,
+      "max_price": 22000.0,
+      "avg_beds": 2.6666666666666665,
+      "avg_area": NaN,
+      "active_count": 6,
+      "owner_count": 6.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 20.166666666666668,
       "new_this_week": 0,
       "lat": null,
       "lng": null,
@@ -4914,10 +4856,85 @@
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 7500000.0,
+          "median_price": 9500.0,
           "listing_count": 3
         }
       ]
+    },
+    {
+      "locality": "Dhanas",
+      "listing_type": "buy",
+      "listing_count": 6,
+      "median_price": 2240000.0,
+      "p25_price": 1342500.0,
+      "p75_price": 11792500.0,
+      "min_price": 1019999.9999999999,
+      "max_price": 45000000.0,
+      "avg_beds": 5.0,
+      "avg_area": NaN,
+      "active_count": 6,
+      "owner_count": 6.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 38.166666666666664,
+      "new_this_week": 0,
+      "lat": 30.7689995,
+      "lng": 76.7551503,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-17",
+          "median_price": 1365000.0,
+          "listing_count": 4
+        }
+      ]
+    },
+    {
+      "locality": "Sector 36",
+      "listing_type": "buy",
+      "listing_count": 5,
+      "median_price": 202500000.0,
+      "p25_price": 200000000.0,
+      "p75_price": 250000000.0,
+      "min_price": 192200000.0,
+      "max_price": 250000000.0,
+      "avg_beds": 4.8,
+      "avg_area": NaN,
+      "active_count": 5,
+      "owner_count": 0.0,
+      "agent_count": 5.0,
+      "avg_days_on_market": 15.4,
+      "new_this_week": 0,
+      "lat": 30.7324665,
+      "lng": 76.7549085,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Daria",
+      "listing_type": "rent",
+      "listing_count": 5,
+      "median_price": 100000.0,
+      "p25_price": 80000.0,
+      "p75_price": 180000.0,
+      "min_price": 30000.0,
+      "max_price": 270000.0,
+      "avg_beds": 1.5,
+      "avg_area": 10670.666666666666,
+      "active_count": 5,
+      "owner_count": 4.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 77.2,
+      "new_this_week": 0,
+      "lat": 30.6983838,
+      "lng": 76.8142779,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
     },
     {
       "locality": "Phase I Industrial Area",
@@ -4945,6 +4962,116 @@
           "week_key": "2026-05",
           "median_price": 800000000.0,
           "listing_count": 4
+        }
+      ]
+    },
+    {
+      "locality": "Khuda Ali Sher",
+      "listing_type": "buy",
+      "listing_count": 5,
+      "median_price": 80000000.0,
+      "p25_price": 45000000.0,
+      "p75_price": 115000000.0,
+      "min_price": 35000000.0,
+      "max_price": 135000000.0,
+      "avg_beds": 2.4,
+      "avg_area": NaN,
+      "active_count": 5,
+      "owner_count": 1.0,
+      "agent_count": 4.0,
+      "avg_days_on_market": 22.8,
+      "new_this_week": 0,
+      "lat": 30.7750633,
+      "lng": 76.8120289,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-11",
+          "median_price": 80000000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Dera Bassi",
+      "listing_type": "rent",
+      "listing_count": 5,
+      "median_price": 15000.0,
+      "p25_price": 10000.0,
+      "p75_price": 22000.0,
+      "min_price": 9000.0,
+      "max_price": 25000.0,
+      "avg_beds": 2.4,
+      "avg_area": NaN,
+      "active_count": 5,
+      "owner_count": 5.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 53.2,
+      "new_this_week": 0,
+      "lat": 30.5848605,
+      "lng": 76.8452066,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Sector 44D",
+      "listing_type": "buy",
+      "listing_count": 5,
+      "median_price": 15000000.0,
+      "p25_price": 15000000.0,
+      "p75_price": 15000000.0,
+      "min_price": 6500000.0,
+      "max_price": 17000000.0,
+      "avg_beds": 2.0,
+      "avg_area": 2.5,
+      "active_count": 5,
+      "owner_count": 1.0,
+      "agent_count": 4.0,
+      "avg_days_on_market": 9.2,
+      "new_this_week": 0,
+      "lat": 30.7358664,
+      "lng": 76.8042826,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-15",
+          "median_price": 15000000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Phase Ii Industrial Area",
+      "listing_type": "buy",
+      "listing_count": 5,
+      "median_price": 60000000.0,
+      "p25_price": 17500000.0,
+      "p75_price": 65000000.0,
+      "min_price": 16000000.0,
+      "max_price": 1500000000.0,
+      "avg_beds": NaN,
+      "avg_area": 1.0,
+      "active_count": 5,
+      "owner_count": 4.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 46.4,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-15",
+          "median_price": 38000000.0,
+          "listing_count": 2
         }
       ]
     },
@@ -5024,162 +5151,6 @@
       "sparkline": []
     },
     {
-      "locality": "Sector 36",
-      "listing_type": "buy",
-      "listing_count": 5,
-      "median_price": 202500000.0,
-      "p25_price": 200000000.0,
-      "p75_price": 250000000.0,
-      "min_price": 192200000.0,
-      "max_price": 250000000.0,
-      "avg_beds": 4.8,
-      "avg_area": NaN,
-      "active_count": 5,
-      "owner_count": 0.0,
-      "agent_count": 5.0,
-      "avg_days_on_market": 15.4,
-      "new_this_week": 0,
-      "lat": 30.7324665,
-      "lng": 76.7549085,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Phase Ii Industrial Area",
-      "listing_type": "buy",
-      "listing_count": 5,
-      "median_price": 60000000.0,
-      "p25_price": 17500000.0,
-      "p75_price": 65000000.0,
-      "min_price": 16000000.0,
-      "max_price": 1500000000.0,
-      "avg_beds": NaN,
-      "avg_area": 1.0,
-      "active_count": 5,
-      "owner_count": 4.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 46.4,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-15",
-          "median_price": 38000000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 44D",
-      "listing_type": "buy",
-      "listing_count": 5,
-      "median_price": 15000000.0,
-      "p25_price": 15000000.0,
-      "p75_price": 15000000.0,
-      "min_price": 6500000.0,
-      "max_price": 17000000.0,
-      "avg_beds": 2.0,
-      "avg_area": 2.5,
-      "active_count": 5,
-      "owner_count": 1.0,
-      "agent_count": 4.0,
-      "avg_days_on_market": 9.2,
-      "new_this_week": 0,
-      "lat": 30.7358664,
-      "lng": 76.8042826,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-15",
-          "median_price": 15000000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Dera Bassi",
-      "listing_type": "rent",
-      "listing_count": 5,
-      "median_price": 15000.0,
-      "p25_price": 10000.0,
-      "p75_price": 22000.0,
-      "min_price": 9000.0,
-      "max_price": 25000.0,
-      "avg_beds": 2.4,
-      "avg_area": NaN,
-      "active_count": 5,
-      "owner_count": 5.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 53.2,
-      "new_this_week": 0,
-      "lat": 30.5848605,
-      "lng": 76.8452066,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Khuda Ali Sher",
-      "listing_type": "buy",
-      "listing_count": 5,
-      "median_price": 80000000.0,
-      "p25_price": 45000000.0,
-      "p75_price": 115000000.0,
-      "min_price": 35000000.0,
-      "max_price": 135000000.0,
-      "avg_beds": 2.4,
-      "avg_area": NaN,
-      "active_count": 5,
-      "owner_count": 1.0,
-      "agent_count": 4.0,
-      "avg_days_on_market": 22.8,
-      "new_this_week": 0,
-      "lat": 30.7750633,
-      "lng": 76.8120289,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-11",
-          "median_price": 80000000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Daria",
-      "listing_type": "rent",
-      "listing_count": 5,
-      "median_price": 100000.0,
-      "p25_price": 80000.0,
-      "p75_price": 180000.0,
-      "min_price": 30000.0,
-      "max_price": 270000.0,
-      "avg_beds": 1.5,
-      "avg_area": 10670.666666666666,
-      "active_count": 5,
-      "owner_count": 4.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 77.2,
-      "new_this_week": 0,
-      "lat": 30.6983838,
-      "lng": 76.8142779,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
       "locality": "Madhya Marg",
       "listing_type": "buy",
       "listing_count": 5,
@@ -5214,6 +5185,35 @@
       ]
     },
     {
+      "locality": "Zirakpur Road",
+      "listing_type": "buy",
+      "listing_count": 5,
+      "median_price": 7500000.0,
+      "p25_price": 6200000.0,
+      "p75_price": 7500000.0,
+      "min_price": 6200000.0,
+      "max_price": 25000000.0,
+      "avg_beds": 2.5,
+      "avg_area": 2.8,
+      "active_count": 5,
+      "owner_count": 1.0,
+      "agent_count": 4.0,
+      "avg_days_on_market": 15.2,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 7500000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
       "locality": "Sector 5",
       "listing_type": "buy",
       "listing_count": 5,
@@ -5239,40 +5239,6 @@
           "week_key": "2026-05",
           "median_price": 485000000.0,
           "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Morinda Rd",
-      "listing_type": "buy",
-      "listing_count": 4,
-      "median_price": 11170000.0,
-      "p25_price": 5902500.000000001,
-      "p75_price": 19900000.0,
-      "min_price": 4290000.0,
-      "max_price": 31900000.0,
-      "avg_beds": NaN,
-      "avg_area": NaN,
-      "active_count": 4,
-      "owner_count": 0.0,
-      "agent_count": 4.0,
-      "avg_days_on_market": 26.0,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": -77.55,
-      "mom_pct": null,
-      "total_appreciation_pct": -77.55,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 23900000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-06",
-          "median_price": 5365000.0,
-          "listing_count": 2
         }
       ]
     },
@@ -5335,53 +5301,92 @@
       ]
     },
     {
-      "locality": "Vip Road",
-      "listing_type": "rent",
+      "locality": "Sector 28",
+      "listing_type": "buy",
       "listing_count": 4,
-      "median_price": 13000.0,
-      "p25_price": 10250.0,
-      "p75_price": 22000.0,
-      "min_price": 8000.0,
-      "max_price": 43000.0,
-      "avg_beds": 2.0,
-      "avg_area": 950.0,
+      "median_price": 415000000.0,
+      "p25_price": 324250000.0,
+      "p75_price": 471125000.0,
+      "min_price": 97000000.0,
+      "max_price": 594500000.0,
+      "avg_beds": 6.5,
+      "avg_area": NaN,
       "active_count": 4,
-      "owner_count": 3.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 23.5,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
+      "owner_count": 0.0,
+      "agent_count": 4.0,
+      "avg_days_on_market": 3.25,
+      "new_this_week": 1,
+      "lat": 30.7171935,
+      "lng": 76.8037247,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": null,
       "sparkline": []
     },
     {
-      "locality": "Kansal",
+      "locality": "Morinda Rd",
       "listing_type": "buy",
       "listing_count": 4,
-      "median_price": 5055000.0,
-      "p25_price": 1922500.0,
-      "p75_price": 14250000.0,
-      "min_price": 1360000.0,
-      "max_price": 33000000.0,
-      "avg_beds": 3.0,
-      "avg_area": 3.0,
+      "median_price": 11170000.0,
+      "p25_price": 5902500.000000001,
+      "p75_price": 19900000.0,
+      "min_price": 4290000.0,
+      "max_price": 31900000.0,
+      "avg_beds": NaN,
+      "avg_area": NaN,
       "active_count": 4,
-      "owner_count": 4.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 37.25,
+      "owner_count": 0.0,
+      "agent_count": 4.0,
+      "avg_days_on_market": 26.0,
       "new_this_week": 0,
       "lat": null,
       "lng": null,
-      "wow_pct": null,
+      "wow_pct": -77.55,
       "mom_pct": null,
-      "total_appreciation_pct": 0.0,
+      "total_appreciation_pct": -77.55,
       "sparkline": [
         {
+          "week_key": "2026-05",
+          "median_price": 23900000.0,
+          "listing_count": 2
+        },
+        {
+          "week_key": "2026-06",
+          "median_price": 5365000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 30",
+      "listing_type": "buy",
+      "listing_count": 4,
+      "median_price": 24005000.0,
+      "p25_price": 7087500.0,
+      "p75_price": 39750000.0,
+      "min_price": 1320000.0,
+      "max_price": 42000000.0,
+      "avg_beds": 2.0,
+      "avg_area": 2.0,
+      "active_count": 4,
+      "owner_count": 4.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 51.0,
+      "new_this_week": 0,
+      "lat": 30.7156808,
+      "lng": 76.7869663,
+      "wow_pct": -9.77,
+      "mom_pct": null,
+      "total_appreciation_pct": -9.77,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 24005000.0,
+          "listing_count": 2
+        },
+        {
           "week_key": "2026-17",
-          "median_price": 1735000.0,
+          "median_price": 21660000.0,
           "listing_count": 2
         }
       ]
@@ -5419,6 +5424,29 @@
           "listing_count": 2
         }
       ]
+    },
+    {
+      "locality": "Sector 38A",
+      "listing_type": "buy",
+      "listing_count": 4,
+      "median_price": 43750000.0,
+      "p25_price": 9000000.0,
+      "p75_price": 80125000.0,
+      "min_price": 9000000.0,
+      "max_price": 85000000.0,
+      "avg_beds": 3.25,
+      "avg_area": 2.0,
+      "active_count": 4,
+      "owner_count": 2.0,
+      "agent_count": 2.0,
+      "avg_days_on_market": 19.0,
+      "new_this_week": 0,
+      "lat": 30.7399177,
+      "lng": 76.7661953,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
     },
     {
       "locality": "Sector 40A",
@@ -5479,144 +5507,6 @@
       ]
     },
     {
-      "locality": "Sector 16",
-      "listing_type": "buy",
-      "listing_count": 4,
-      "median_price": 2075000.0,
-      "p25_price": 1315000.0,
-      "p75_price": 25872500.0,
-      "min_price": 1300000.0,
-      "max_price": 95000000.0,
-      "avg_beds": 3.0,
-      "avg_area": NaN,
-      "active_count": 4,
-      "owner_count": 3.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 0.0,
-      "new_this_week": 0,
-      "lat": 30.7467597,
-      "lng": 76.7775249,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-17",
-          "median_price": 1320000.0,
-          "listing_count": 3
-        }
-      ]
-    },
-    {
-      "locality": "Sector 30",
-      "listing_type": "buy",
-      "listing_count": 4,
-      "median_price": 24005000.0,
-      "p25_price": 7087500.0,
-      "p75_price": 39750000.0,
-      "min_price": 1320000.0,
-      "max_price": 42000000.0,
-      "avg_beds": 2.0,
-      "avg_area": 2.0,
-      "active_count": 4,
-      "owner_count": 4.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 51.0,
-      "new_this_week": 0,
-      "lat": 30.7156808,
-      "lng": 76.7869663,
-      "wow_pct": -9.77,
-      "mom_pct": null,
-      "total_appreciation_pct": -9.77,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 24005000.0,
-          "listing_count": 2
-        },
-        {
-          "week_key": "2026-17",
-          "median_price": 21660000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 33A",
-      "listing_type": "rent",
-      "listing_count": 4,
-      "median_price": 92500.0,
-      "p25_price": 62750.0,
-      "p75_price": 115000.00000000001,
-      "min_price": 26000.0,
-      "max_price": 130000.0,
-      "avg_beds": 3.0,
-      "avg_area": NaN,
-      "active_count": 4,
-      "owner_count": 4.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 62.5,
-      "new_this_week": 0,
-      "lat": 30.758285,
-      "lng": 76.7961609,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 92500.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 38A",
-      "listing_type": "buy",
-      "listing_count": 4,
-      "median_price": 43750000.0,
-      "p25_price": 9000000.0,
-      "p75_price": 80125000.0,
-      "min_price": 9000000.0,
-      "max_price": 85000000.0,
-      "avg_beds": 3.25,
-      "avg_area": 2.0,
-      "active_count": 4,
-      "owner_count": 2.0,
-      "agent_count": 2.0,
-      "avg_days_on_market": 19.0,
-      "new_this_week": 0,
-      "lat": 30.7399177,
-      "lng": 76.7661953,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Kharar-Landran Road",
-      "listing_type": "rent",
-      "listing_count": 4,
-      "median_price": 11250.0,
-      "p25_price": 7875.0,
-      "p75_price": 15625.0,
-      "min_price": 4500.0,
-      "max_price": 22000.0,
-      "avg_beds": 1.5,
-      "avg_area": NaN,
-      "active_count": 4,
-      "owner_count": 4.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 49.25,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
       "locality": "Adarsh Nagar",
       "listing_type": "buy",
       "listing_count": 4,
@@ -5646,6 +5536,29 @@
       ]
     },
     {
+      "locality": "Raipur Khurd",
+      "listing_type": "rent",
+      "listing_count": 4,
+      "median_price": 41500.0,
+      "p25_price": 38750.0,
+      "p75_price": 69750.0,
+      "min_price": 35000.0,
+      "max_price": 150000.0,
+      "avg_beds": NaN,
+      "avg_area": 4039.0,
+      "active_count": 4,
+      "owner_count": 4.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 43.25,
+      "new_this_week": 1,
+      "lat": 30.6774144,
+      "lng": 76.8117267,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
       "locality": "Sector 13",
       "listing_type": "buy",
       "listing_count": 4,
@@ -5670,6 +5583,110 @@
         {
           "week_key": "2026-13",
           "median_price": 5000000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Kharar-Landran Road",
+      "listing_type": "rent",
+      "listing_count": 4,
+      "median_price": 11250.0,
+      "p25_price": 7875.0,
+      "p75_price": 15625.0,
+      "min_price": 4500.0,
+      "max_price": 22000.0,
+      "avg_beds": 1.5,
+      "avg_area": NaN,
+      "active_count": 4,
+      "owner_count": 4.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 49.25,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Vip Road",
+      "listing_type": "rent",
+      "listing_count": 4,
+      "median_price": 13000.0,
+      "p25_price": 10250.0,
+      "p75_price": 22000.0,
+      "min_price": 8000.0,
+      "max_price": 43000.0,
+      "avg_beds": 2.0,
+      "avg_area": 950.0,
+      "active_count": 4,
+      "owner_count": 3.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 23.5,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Sector 16",
+      "listing_type": "buy",
+      "listing_count": 4,
+      "median_price": 2075000.0,
+      "p25_price": 1315000.0,
+      "p75_price": 25872500.0,
+      "min_price": 1300000.0,
+      "max_price": 95000000.0,
+      "avg_beds": 3.0,
+      "avg_area": NaN,
+      "active_count": 4,
+      "owner_count": 3.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 0.0,
+      "new_this_week": 0,
+      "lat": 30.7467597,
+      "lng": 76.7775249,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-17",
+          "median_price": 1320000.0,
+          "listing_count": 3
+        }
+      ]
+    },
+    {
+      "locality": "Sector 33A",
+      "listing_type": "rent",
+      "listing_count": 4,
+      "median_price": 92500.0,
+      "p25_price": 62750.0,
+      "p75_price": 115000.00000000001,
+      "min_price": 26000.0,
+      "max_price": 130000.0,
+      "avg_beds": 3.0,
+      "avg_area": NaN,
+      "active_count": 4,
+      "owner_count": 4.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 62.5,
+      "new_this_week": 0,
+      "lat": 30.758285,
+      "lng": 76.7961609,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 92500.0,
           "listing_count": 2
         }
       ]
@@ -5704,115 +5721,52 @@
       ]
     },
     {
-      "locality": "Sector 28",
+      "locality": "Kansal",
       "listing_type": "buy",
       "listing_count": 4,
-      "median_price": 415000000.0,
-      "p25_price": 324250000.0,
-      "p75_price": 471125000.0,
-      "min_price": 97000000.0,
-      "max_price": 594500000.0,
-      "avg_beds": 6.5,
-      "avg_area": NaN,
-      "active_count": 4,
-      "owner_count": 0.0,
-      "agent_count": 4.0,
-      "avg_days_on_market": 3.25,
-      "new_this_week": 1,
-      "lat": 30.7171935,
-      "lng": 76.8037247,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Raipur Khurd",
-      "listing_type": "rent",
-      "listing_count": 4,
-      "median_price": 41500.0,
-      "p25_price": 38750.0,
-      "p75_price": 69750.0,
-      "min_price": 35000.0,
-      "max_price": 150000.0,
-      "avg_beds": NaN,
-      "avg_area": 4039.0,
+      "median_price": 5055000.0,
+      "p25_price": 1922500.0,
+      "p75_price": 14250000.0,
+      "min_price": 1360000.0,
+      "max_price": 33000000.0,
+      "avg_beds": 3.0,
+      "avg_area": 3.0,
       "active_count": 4,
       "owner_count": 4.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 43.25,
-      "new_this_week": 1,
-      "lat": 30.6774144,
-      "lng": 76.8117267,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Sector 26",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 20000.0,
-      "p25_price": 16000.0,
-      "p75_price": 39640.0,
-      "min_price": 12000.0,
-      "max_price": 59280.0,
-      "avg_beds": 2.0,
-      "avg_area": 100.0,
-      "active_count": 3,
-      "owner_count": 2.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 53.333333333333336,
-      "new_this_week": 0,
-      "lat": 30.7300088,
-      "lng": 76.8091117,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Sector 37C",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 40000.0,
-      "p25_price": 35000.0,
-      "p75_price": 75000.0,
-      "min_price": 30000.0,
-      "max_price": 110000.00000000001,
-      "avg_beds": 2.0,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 2.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 20.333333333333332,
-      "new_this_week": 0,
-      "lat": 30.7212218,
-      "lng": 76.8145046,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Dhakoli",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 16000000.0,
-      "p25_price": 10500000.0,
-      "p75_price": 18000000.0,
-      "min_price": 5000000.0,
-      "max_price": 20000000.0,
-      "avg_beds": 3.0,
-      "avg_area": 2.0,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 42.666666666666664,
+      "avg_days_on_market": 37.25,
       "new_this_week": 0,
       "lat": null,
       "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-17",
+          "median_price": 1735000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 40B",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 90000000.0,
+      "p25_price": 88500000.0,
+      "p75_price": 90000000.0,
+      "min_price": 87000000.0,
+      "max_price": 90000000.0,
+      "avg_beds": 7.0,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 0.0,
+      "agent_count": 3.0,
+      "avg_days_on_market": 30.333333333333332,
+      "new_this_week": 0,
+      "lat": 30.7358664,
+      "lng": 76.8042826,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": null,
@@ -5848,261 +5802,30 @@
       ]
     },
     {
-      "locality": "Sector 40B",
+      "locality": "Sector 3",
       "listing_type": "buy",
       "listing_count": 3,
-      "median_price": 90000000.0,
-      "p25_price": 88500000.0,
-      "p75_price": 90000000.0,
-      "min_price": 87000000.0,
-      "max_price": 90000000.0,
-      "avg_beds": 7.0,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 0.0,
-      "agent_count": 3.0,
-      "avg_days_on_market": 30.333333333333332,
-      "new_this_week": 0,
-      "lat": 30.7358664,
-      "lng": 76.8042826,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Sector 26",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 1650000.0,
-      "p25_price": 1090000.0,
-      "p75_price": 86224999.99999999,
-      "min_price": 530000.0,
-      "max_price": 170799999.99999997,
-      "avg_beds": 1.5,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 35.0,
-      "new_this_week": 0,
-      "lat": 30.7300088,
-      "lng": 76.8091117,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-17",
-          "median_price": 1090000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 12",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 5000000.0,
-      "p25_price": 2905000.0,
-      "p75_price": 38500000.0,
-      "min_price": 810000.0,
-      "max_price": 72000000.0,
-      "avg_beds": 4.0,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 33.333333333333336,
-      "new_this_week": 1,
-      "lat": 30.7643982,
-      "lng": 76.7788534,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Sector 51",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 25000.0,
-      "p25_price": 19000.0,
-      "p75_price": 28500.0,
-      "min_price": 13000.0,
-      "max_price": 32000.0,
-      "avg_beds": 2.3333333333333335,
-      "avg_area": NaN,
+      "median_price": 14100000.0,
+      "p25_price": 10465000.0,
+      "p75_price": 14150000.0,
+      "min_price": 6830000.0,
+      "max_price": 14200000.0,
+      "avg_beds": 3.0,
+      "avg_area": 1.0,
       "active_count": 3,
       "owner_count": 2.0,
       "agent_count": 1.0,
-      "avg_days_on_market": 26.333333333333332,
-      "new_this_week": 1,
-      "lat": 30.7056233,
-      "lng": 76.742761,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Daria",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 10000000.0,
-      "p25_price": 7750000.0,
-      "p75_price": 10500000.0,
-      "min_price": 5500000.0,
-      "max_price": 11000000.0,
-      "avg_beds": 4.333333333333333,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 62.666666666666664,
+      "avg_days_on_market": 65.33333333333333,
       "new_this_week": 0,
-      "lat": 30.6983838,
-      "lng": 76.8142779,
+      "lat": 30.758285,
+      "lng": 76.7961609,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": 0.0,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 10500000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 9",
-      "listing_type": "buy",
-      "listing_count": 3,
-      "median_price": 2840000.0,
-      "p25_price": 2735000.0,
-      "p75_price": 10820000.0,
-      "min_price": 2630000.0,
-      "max_price": 18800000.0,
-      "avg_beds": 5.5,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 42.0,
-      "new_this_week": 0,
-      "lat": 30.7474038,
-      "lng": 76.7939268,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-17",
-          "median_price": 2735000.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Modern Housing Complex",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 18500.0,
-      "p25_price": 13750.0,
-      "p75_price": 19250.0,
-      "min_price": 9000.0,
-      "max_price": 20000.0,
-      "avg_beds": 1.6666666666666667,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 3.0,
-      "agent_count": 0.0,
-      "avg_days_on_market": 40.666666666666664,
-      "new_this_week": 0,
-      "lat": null,
-      "lng": null,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Sector 32D",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 65000.0,
-      "p25_price": 38000.0,
-      "p75_price": 162500.0,
-      "min_price": 11000.0,
-      "max_price": 260000.0,
-      "avg_beds": 1.3333333333333333,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 2.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 58.666666666666664,
-      "new_this_week": 0,
-      "lat": 30.7096021,
-      "lng": 76.7733758,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-05",
-          "median_price": 135500.0,
-          "listing_count": 2
-        }
-      ]
-    },
-    {
-      "locality": "Sector 41",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 12000.0,
-      "p25_price": 9000.0,
-      "p75_price": 33500.0,
-      "min_price": 6000.0,
-      "max_price": 55000.0,
-      "avg_beds": 1.0,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 2.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 3.3333333333333335,
-      "new_this_week": 1,
-      "lat": 30.7325449,
-      "lng": 76.7378014,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": null,
-      "sparkline": []
-    },
-    {
-      "locality": "Sector 40D",
-      "listing_type": "rent",
-      "listing_count": 3,
-      "median_price": 13000.0,
-      "p25_price": 13000.0,
-      "p75_price": 22500.0,
-      "min_price": 13000.0,
-      "max_price": 32000.0,
-      "avg_beds": 1.3333333333333333,
-      "avg_area": NaN,
-      "active_count": 3,
-      "owner_count": 2.0,
-      "agent_count": 1.0,
-      "avg_days_on_market": 10.333333333333334,
-      "new_this_week": 0,
-      "lat": 30.7399177,
-      "lng": 76.7661953,
-      "wow_pct": null,
-      "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-10",
-          "median_price": 22500.0,
+          "median_price": 10465000.0,
           "listing_count": 2
         }
       ]
@@ -6131,46 +5854,75 @@
       "sparkline": []
     },
     {
-      "locality": "Maloya Colony",
+      "locality": "Sector 29",
       "listing_type": "buy",
       "listing_count": 3,
-      "median_price": 2700000.0,
-      "p25_price": 2550000.0,
-      "p75_price": 16350000.0,
-      "min_price": 2400000.0,
-      "max_price": 30000000.0,
+      "median_price": 10300000.0,
+      "p25_price": 5620000.0,
+      "p75_price": 11400000.0,
+      "min_price": 940000.0,
+      "max_price": 12500000.0,
+      "avg_beds": 4.5,
+      "avg_area": 2.0,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 27.0,
+      "new_this_week": 0,
+      "lat": 30.7102571,
+      "lng": 76.7924166,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-17",
+          "median_price": 6720000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 12",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 5000000.0,
+      "p25_price": 2905000.0,
+      "p75_price": 38500000.0,
+      "min_price": 810000.0,
+      "max_price": 72000000.0,
       "avg_beds": 4.0,
       "avg_area": NaN,
       "active_count": 3,
       "owner_count": 3.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 34.0,
+      "avg_days_on_market": 33.333333333333336,
       "new_this_week": 1,
-      "lat": 30.7593709,
-      "lng": 76.7235047,
+      "lat": 30.7643982,
+      "lng": 76.7788534,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": null,
       "sparkline": []
     },
     {
-      "locality": "Sector 32C",
+      "locality": "Sector 37C",
       "listing_type": "rent",
       "listing_count": 3,
-      "median_price": 220000.00000000003,
-      "p25_price": 121250.00000000001,
-      "p75_price": 235000.0,
-      "min_price": 22500.0,
-      "max_price": 250000.0,
-      "avg_beds": 2.3333333333333335,
+      "median_price": 40000.0,
+      "p25_price": 35000.0,
+      "p75_price": 75000.0,
+      "min_price": 30000.0,
+      "max_price": 110000.00000000001,
+      "avg_beds": 2.0,
       "avg_area": NaN,
       "active_count": 3,
       "owner_count": 2.0,
       "agent_count": 1.0,
-      "avg_days_on_market": 33.333333333333336,
+      "avg_days_on_market": 20.333333333333332,
       "new_this_week": 0,
-      "lat": 30.7072906,
-      "lng": 76.7750615,
+      "lat": 30.7212218,
+      "lng": 76.8145046,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": null,
@@ -6206,62 +5958,310 @@
       ]
     },
     {
-      "locality": "Sector 29",
+      "locality": "Dhakoli",
       "listing_type": "buy",
       "listing_count": 3,
-      "median_price": 10300000.0,
-      "p25_price": 5620000.0,
-      "p75_price": 11400000.0,
-      "min_price": 940000.0,
-      "max_price": 12500000.0,
-      "avg_beds": 4.5,
+      "median_price": 16000000.0,
+      "p25_price": 10500000.0,
+      "p75_price": 18000000.0,
+      "min_price": 5000000.0,
+      "max_price": 20000000.0,
+      "avg_beds": 3.0,
       "avg_area": 2.0,
       "active_count": 3,
       "owner_count": 3.0,
       "agent_count": 0.0,
-      "avg_days_on_market": 27.0,
+      "avg_days_on_market": 42.666666666666664,
       "new_this_week": 0,
-      "lat": 30.7102571,
-      "lng": 76.7924166,
+      "lat": null,
+      "lng": null,
       "wow_pct": null,
       "mom_pct": null,
-      "total_appreciation_pct": 0.0,
-      "sparkline": [
-        {
-          "week_key": "2026-17",
-          "median_price": 6720000.0,
-          "listing_count": 2
-        }
-      ]
+      "total_appreciation_pct": null,
+      "sparkline": []
     },
     {
-      "locality": "Sector 3",
-      "listing_type": "buy",
+      "locality": "Sector 32C",
+      "listing_type": "rent",
       "listing_count": 3,
-      "median_price": 14100000.0,
-      "p25_price": 10465000.0,
-      "p75_price": 14150000.0,
-      "min_price": 6830000.0,
-      "max_price": 14200000.0,
-      "avg_beds": 3.0,
-      "avg_area": 1.0,
+      "median_price": 220000.00000000003,
+      "p25_price": 121250.00000000001,
+      "p75_price": 235000.0,
+      "min_price": 22500.0,
+      "max_price": 250000.0,
+      "avg_beds": 2.3333333333333335,
+      "avg_area": NaN,
       "active_count": 3,
       "owner_count": 2.0,
       "agent_count": 1.0,
-      "avg_days_on_market": 65.33333333333333,
+      "avg_days_on_market": 33.333333333333336,
       "new_this_week": 0,
-      "lat": 30.758285,
-      "lng": 76.7961609,
+      "lat": 30.7072906,
+      "lng": 76.7750615,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Sector 32D",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 65000.0,
+      "p25_price": 38000.0,
+      "p75_price": 162500.0,
+      "min_price": 11000.0,
+      "max_price": 260000.0,
+      "avg_beds": 1.3333333333333333,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 2.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 58.666666666666664,
+      "new_this_week": 0,
+      "lat": 30.7096021,
+      "lng": 76.7733758,
       "wow_pct": null,
       "mom_pct": null,
       "total_appreciation_pct": 0.0,
       "sparkline": [
         {
           "week_key": "2026-05",
-          "median_price": 10465000.0,
+          "median_price": 135500.0,
           "listing_count": 2
         }
       ]
+    },
+    {
+      "locality": "Modern Housing Complex",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 18500.0,
+      "p25_price": 13750.0,
+      "p75_price": 19250.0,
+      "min_price": 9000.0,
+      "max_price": 20000.0,
+      "avg_beds": 1.6666666666666667,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 40.666666666666664,
+      "new_this_week": 0,
+      "lat": null,
+      "lng": null,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Maloya Colony",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 2700000.0,
+      "p25_price": 2550000.0,
+      "p75_price": 16350000.0,
+      "min_price": 2400000.0,
+      "max_price": 30000000.0,
+      "avg_beds": 4.0,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 34.0,
+      "new_this_week": 1,
+      "lat": 30.7593709,
+      "lng": 76.7235047,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Sector 40D",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 13000.0,
+      "p25_price": 13000.0,
+      "p75_price": 22500.0,
+      "min_price": 13000.0,
+      "max_price": 32000.0,
+      "avg_beds": 1.3333333333333333,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 2.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 10.333333333333334,
+      "new_this_week": 0,
+      "lat": 30.7399177,
+      "lng": 76.7661953,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-10",
+          "median_price": 22500.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Daria",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 10000000.0,
+      "p25_price": 7750000.0,
+      "p75_price": 10500000.0,
+      "min_price": 5500000.0,
+      "max_price": 11000000.0,
+      "avg_beds": 4.333333333333333,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 62.666666666666664,
+      "new_this_week": 0,
+      "lat": 30.6983838,
+      "lng": 76.8142779,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-05",
+          "median_price": 10500000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 51",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 25000.0,
+      "p25_price": 19000.0,
+      "p75_price": 28500.0,
+      "min_price": 13000.0,
+      "max_price": 32000.0,
+      "avg_beds": 2.3333333333333335,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 2.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 26.333333333333332,
+      "new_this_week": 1,
+      "lat": 30.7056233,
+      "lng": 76.742761,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Sector 26",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 1650000.0,
+      "p25_price": 1090000.0,
+      "p75_price": 86224999.99999999,
+      "min_price": 530000.0,
+      "max_price": 170799999.99999997,
+      "avg_beds": 1.5,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 35.0,
+      "new_this_week": 0,
+      "lat": 30.7300088,
+      "lng": 76.8091117,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-17",
+          "median_price": 1090000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 9",
+      "listing_type": "buy",
+      "listing_count": 3,
+      "median_price": 2840000.0,
+      "p25_price": 2735000.0,
+      "p75_price": 10820000.0,
+      "min_price": 2630000.0,
+      "max_price": 18800000.0,
+      "avg_beds": 5.5,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 3.0,
+      "agent_count": 0.0,
+      "avg_days_on_market": 42.0,
+      "new_this_week": 0,
+      "lat": 30.7474038,
+      "lng": 76.7939268,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": 0.0,
+      "sparkline": [
+        {
+          "week_key": "2026-17",
+          "median_price": 2735000.0,
+          "listing_count": 2
+        }
+      ]
+    },
+    {
+      "locality": "Sector 26",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 20000.0,
+      "p25_price": 16000.0,
+      "p75_price": 39640.0,
+      "min_price": 12000.0,
+      "max_price": 59280.0,
+      "avg_beds": 2.0,
+      "avg_area": 100.0,
+      "active_count": 3,
+      "owner_count": 2.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 53.333333333333336,
+      "new_this_week": 0,
+      "lat": 30.7300088,
+      "lng": 76.8091117,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
+    },
+    {
+      "locality": "Sector 41",
+      "listing_type": "rent",
+      "listing_count": 3,
+      "median_price": 12000.0,
+      "p25_price": 9000.0,
+      "p75_price": 33500.0,
+      "min_price": 6000.0,
+      "max_price": 55000.0,
+      "avg_beds": 1.0,
+      "avg_area": NaN,
+      "active_count": 3,
+      "owner_count": 2.0,
+      "agent_count": 1.0,
+      "avg_days_on_market": 3.3333333333333335,
+      "new_this_week": 1,
+      "lat": 30.7325449,
+      "lng": 76.7378014,
+      "wow_pct": null,
+      "mom_pct": null,
+      "total_appreciation_pct": null,
+      "sparkline": []
     }
   ],
   "bhk_stats": [
@@ -6424,14 +6424,6 @@
       "lng": 76.8091117
     },
     {
-      "locality": "Sector-11",
-      "buy_price": 15000000.0,
-      "rent_price": 150000.0,
-      "gross_yield_pct": 12.0,
-      "lat": 30.7598707,
-      "lng": 76.7844987
-    },
-    {
       "locality": "Daria",
       "buy_price": 10000000.0,
       "rent_price": 100000.0,
@@ -6446,6 +6438,14 @@
       "gross_yield_pct": 12.0,
       "lat": 30.7319561,
       "lng": 76.7766104
+    },
+    {
+      "locality": "Sector-11",
+      "buy_price": 15000000.0,
+      "rent_price": 150000.0,
+      "gross_yield_pct": 12.0,
+      "lat": 30.7598707,
+      "lng": 76.7844987
     },
     {
       "locality": "Kaimbwala",
@@ -6656,20 +6656,20 @@
       "lng": 76.7521386
     },
     {
-      "locality": "Sector 61",
-      "buy_price": 20000000.0,
-      "rent_price": 25000.0,
-      "gross_yield_pct": 1.5,
-      "lat": 30.7088948,
-      "lng": 76.7307604
-    },
-    {
       "locality": "Sector 50",
       "buy_price": 26000000.0,
       "rent_price": 32500.0,
       "gross_yield_pct": 1.5,
       "lat": 30.6999953,
       "lng": 76.7477452
+    },
+    {
+      "locality": "Sector 61",
+      "buy_price": 20000000.0,
+      "rent_price": 25000.0,
+      "gross_yield_pct": 1.5,
+      "lat": 30.7088948,
+      "lng": 76.7307604
     },
     {
       "locality": "Sector 46",
@@ -6760,20 +6760,20 @@
       "lng": 76.8145046
     },
     {
-      "locality": "Sector-35",
-      "buy_price": 72500000.0,
-      "rent_price": 57500.0,
-      "gross_yield_pct": 0.95,
-      "lat": 30.7261215,
-      "lng": 76.7598867
-    },
-    {
       "locality": "Modern Housing Complex",
       "buy_price": 23250000.0,
       "rent_price": 18500.0,
       "gross_yield_pct": 0.95,
       "lat": NaN,
       "lng": NaN
+    },
+    {
+      "locality": "Sector-35",
+      "buy_price": 72500000.0,
+      "rent_price": 57500.0,
+      "gross_yield_pct": 0.95,
+      "lat": 30.7261215,
+      "lng": 76.7598867
     },
     {
       "locality": "Sector 41",
@@ -6832,20 +6832,20 @@
       "lng": 76.7503381
     },
     {
-      "locality": "Sector 23",
-      "buy_price": 37000000.0,
-      "rent_price": 23500.0,
-      "gross_yield_pct": 0.76,
-      "lat": 30.7399177,
-      "lng": 76.7661953
-    },
-    {
       "locality": "Sector 27",
       "buy_price": 71000000.0,
       "rent_price": 45000.0,
       "gross_yield_pct": 0.76,
       "lat": 30.7227459,
       "lng": 76.7984247
+    },
+    {
+      "locality": "Sector 23",
+      "buy_price": 37000000.0,
+      "rent_price": 23500.0,
+      "gross_yield_pct": 0.76,
+      "lat": 30.7399177,
+      "lng": 76.7661953
     },
     {
       "locality": "Sector 7",
@@ -6880,20 +6880,20 @@
       "lng": 76.7882538
     },
     {
-      "locality": "Sector-44",
-      "buy_price": 65000000.0,
-      "rent_price": 30000.0,
-      "gross_yield_pct": 0.55,
-      "lat": 30.7128952,
-      "lng": 76.7541146
-    },
-    {
       "locality": "Sector 38A",
       "buy_price": 43750000.0,
       "rent_price": 20000.0,
       "gross_yield_pct": 0.55,
       "lat": 30.7399177,
       "lng": 76.7661953
+    },
+    {
+      "locality": "Sector-44",
+      "buy_price": 65000000.0,
+      "rent_price": 30000.0,
+      "gross_yield_pct": 0.55,
+      "lat": 30.7128952,
+      "lng": 76.7541146
     },
     {
       "locality": "Sector 20",
@@ -6928,20 +6928,20 @@
       "lng": 76.7701435
     },
     {
-      "locality": "Sector-15",
-      "buy_price": 95000000.0,
-      "rent_price": 26000.0,
-      "gross_yield_pct": 0.33,
-      "lat": 30.7529928,
-      "lng": 76.772654
-    },
-    {
       "locality": "Sector 36",
       "buy_price": 202500000.0,
       "rent_price": 55000.0,
       "gross_yield_pct": 0.33,
       "lat": 30.7324665,
       "lng": 76.7549085
+    },
+    {
+      "locality": "Sector-15",
+      "buy_price": 95000000.0,
+      "rent_price": 26000.0,
+      "gross_yield_pct": 0.33,
+      "lat": 30.7529928,
+      "lng": 76.772654
     },
     {
       "locality": "Phase I Industrial Area",
@@ -15259,16 +15259,16 @@
       "median_price": 12750000.0
     },
     {
-      "property_type": "Office",
-      "listing_type": "buy",
-      "count": 30,
-      "median_price": 9045000.0
-    },
-    {
       "property_type": "plot",
       "listing_type": "buy",
       "count": 30,
       "median_price": 4192500.0
+    },
+    {
+      "property_type": "Office",
+      "listing_type": "buy",
+      "count": 30,
+      "median_price": 9045000.0
     },
     {
       "property_type": "plot",
@@ -15289,16 +15289,16 @@
       "median_price": 50000.0
     },
     {
-      "property_type": "Builder Floor",
-      "listing_type": "rent",
-      "count": 1,
-      "median_price": 28000.0
-    },
-    {
       "property_type": "independent_house",
       "listing_type": "rent",
       "count": 1,
       "median_price": 4975000.0
+    },
+    {
+      "property_type": "Builder Floor",
+      "listing_type": "rent",
+      "count": 1,
+      "median_price": 28000.0
     }
   ],
   "source_stats": [

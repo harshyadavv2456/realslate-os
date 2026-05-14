@@ -1,32 +1,32 @@
 {
-  "computed_at": "2026-05-14T06:44:20.389473",
+  "computed_at": "2026-05-14T12:51:20.826248",
   "total_records": 21.05,
   "cities": [
     {
       "city": "ahmedabad",
-      "total_listings": 9664,
-      "total_localities": 361,
+      "total_listings": 9718,
+      "total_localities": 362,
       "median_buy_price": 14000000.0,
       "median_rent_price": 45000.0,
-      "buy_count": 4557,
-      "rent_count": 5107,
-      "active_count": 9664,
-      "new_today": 0,
-      "new_this_week": 846,
-      "avg_days_on_market": 18.84519867549669
+      "buy_count": 4596,
+      "rent_count": 5122,
+      "active_count": 9718,
+      "new_today": 54,
+      "new_this_week": 900,
+      "avg_days_on_market": 19.020991973657132
     },
     {
       "city": "bangalore",
-      "total_listings": 14483,
-      "total_localities": 1047,
-      "median_buy_price": 20000000.0,
+      "total_listings": 14740,
+      "total_localities": 1073,
+      "median_buy_price": 19900000.0,
       "median_rent_price": 60000.0,
-      "buy_count": 7917,
-      "rent_count": 6566,
-      "active_count": 14483,
-      "new_today": 0,
-      "new_this_week": 1989,
-      "avg_days_on_market": 17.045501622592006
+      "buy_count": 8025,
+      "rent_count": 6715,
+      "active_count": 14740,
+      "new_today": 257,
+      "new_this_week": 2246,
+      "avg_days_on_market": 17.10135685210312
     },
     {
       "city": "bhopal",
@@ -56,16 +56,16 @@
     },
     {
       "city": "chennai",
-      "total_listings": 8527,
-      "total_localities": 843,
+      "total_listings": 8563,
+      "total_localities": 846,
       "median_buy_price": 10500000.0,
       "median_rent_price": 50000.0,
       "buy_count": 5478,
-      "rent_count": 3049,
-      "active_count": 8527,
-      "new_today": 0,
-      "new_this_week": 708,
-      "avg_days_on_market": 19.256831241937377
+      "rent_count": 3085,
+      "active_count": 8563,
+      "new_today": 36,
+      "new_this_week": 744,
+      "avg_days_on_market": 19.29849351862665
     },
     {
       "city": "coimbatore",
@@ -82,16 +82,16 @@
     },
     {
       "city": "delhi ncr",
-      "total_listings": 9381,
-      "total_localities": 676,
+      "total_listings": 9514,
+      "total_localities": 682,
       "median_buy_price": 27500000.0,
       "median_rent_price": 60000.0,
-      "buy_count": 5407,
-      "rent_count": 3974,
-      "active_count": 9381,
-      "new_today": 0,
-      "new_this_week": 953,
-      "avg_days_on_market": 22.102760899690864
+      "buy_count": 5499,
+      "rent_count": 4015,
+      "active_count": 9514,
+      "new_today": 133,
+      "new_this_week": 1086,
+      "avg_days_on_market": 22.321631280218625
     },
     {
       "city": "ghaziabad",
@@ -121,16 +121,16 @@
     },
     {
       "city": "hyderabad",
-      "total_listings": 10203,
-      "total_localities": 822,
+      "total_listings": 10272,
+      "total_localities": 825,
       "median_buy_price": 14200000.0,
       "median_rent_price": 60000.0,
-      "buy_count": 6521,
-      "rent_count": 3682,
-      "active_count": 10203,
-      "new_today": 0,
-      "new_this_week": 740,
-      "avg_days_on_market": 18.860237185141624
+      "buy_count": 6576,
+      "rent_count": 3696,
+      "active_count": 10272,
+      "new_today": 69,
+      "new_this_week": 809,
+      "avg_days_on_market": 18.97196261682243
     },
     {
       "city": "indore",
@@ -173,16 +173,16 @@
     },
     {
       "city": "kolkata",
-      "total_listings": 7930,
-      "total_localities": 726,
+      "total_listings": 8001,
+      "total_localities": 732,
       "median_buy_price": 7200000.0,
-      "median_rent_price": 33600.0,
-      "buy_count": 4859,
-      "rent_count": 3071,
-      "active_count": 7930,
-      "new_today": 0,
-      "new_this_week": 603,
-      "avg_days_on_market": 22.12887767969735
+      "median_rent_price": 34000.0,
+      "buy_count": 4902,
+      "rent_count": 3099,
+      "active_count": 8001,
+      "new_today": 71,
+      "new_this_week": 674,
+      "avg_days_on_market": 22.289463817022874
     },
     {
       "city": "lucknow",
@@ -199,16 +199,16 @@
     },
     {
       "city": "mumbai",
-      "total_listings": 12359,
-      "total_localities": 481,
+      "total_listings": 12545,
+      "total_localities": 486,
       "median_buy_price": 31000000.0,
       "median_rent_price": 95000.0,
-      "buy_count": 7134,
-      "rent_count": 5225,
-      "active_count": 12359,
-      "new_today": 0,
-      "new_this_week": 1176,
-      "avg_days_on_market": 18.007201229872965
+      "buy_count": 7247,
+      "rent_count": 5298,
+      "active_count": 12545,
+      "new_today": 186,
+      "new_this_week": 1362,
+      "avg_days_on_market": 18.210282981267436
     },
     {
       "city": "mysore",
@@ -264,16 +264,16 @@
     },
     {
       "city": "pune",
-      "total_listings": 12325,
+      "total_listings": 12438,
       "total_localities": 449,
       "median_buy_price": 13899999.999999998,
       "median_rent_price": 42000.0,
-      "buy_count": 7185,
-      "rent_count": 5140,
-      "active_count": 12325,
-      "new_today": 0,
-      "new_this_week": 972,
-      "avg_days_on_market": 17.771602434077078
+      "buy_count": 7248,
+      "rent_count": 5190,
+      "active_count": 12438,
+      "new_today": 113,
+      "new_this_week": 1085,
+      "avg_days_on_market": 17.93174143753015
     },
     {
       "city": "surat",

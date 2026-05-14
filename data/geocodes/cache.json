@@ -12860,5 +12860,87 @@
   "pardi_nagpur": {
     "lat": 21.3298354,
     "lng": 79.090662
-  }
+  },
+  "shimpoli_mumbai": {
+    "lat": 19.2238836,
+    "lng": 72.8476854
+  },
+  "century bazaar_mumbai": null,
+  "govandi east_mumbai": {
+    "lat": 19.0566802,
+    "lng": 72.9224217
+  },
+  "new link road_mumbai": {
+    "lat": 19.1418057,
+    "lng": 72.8337881
+  },
+  "dwarka sector 3 new_delhi ncr": {
+    "lat": 28.6096323,
+    "lng": 77.0371165
+  },
+  "najafgarh road new_delhi ncr": null,
+  "phase 1a om vihar new_delhi ncr": null,
+  "mansarover garden new_delhi ncr": null,
+  "block f chittaranjan park new_delhi ncr": null,
+  "block g saket new_delhi ncr": null,
+  "roop nagar new_delhi ncr": null,
+  "varanasi_bangalore": {
+    "lat": 13.0304962,
+    "lng": 77.6860657
+  },
+  "panduranga nagar_bangalore": {
+    "lat": 12.8930758,
+    "lng": 77.5961351
+  },
+  "nagarabhavi main road_bangalore": {
+    "lat": 12.9701824,
+    "lng": 77.5068243
+  },
+  "jalahalli west_bangalore": {
+    "lat": 13.0533332,
+    "lng": 77.5306036
+  },
+  "vajarahalli_bangalore": {
+    "lat": 12.8771394,
+    "lng": 77.5444517
+  },
+  "kodihalli_bangalore": {
+    "lat": 12.9635497,
+    "lng": 77.6460411
+  },
+  "new tippasandra_bangalore": {
+    "lat": 12.9743857,
+    "lng": 77.6469645
+  },
+  "block 1st hrbr layout_bangalore": {
+    "lat": 13.0099795,
+    "lng": 77.6434028
+  },
+  "jaya nagar east_bangalore": null,
+  "vijayanagara_bangalore": {
+    "lat": 12.9709391,
+    "lng": 77.5374285
+  },
+  "block 5th koramangala_bangalore": {
+    "lat": 12.935464,
+    "lng": 77.616304
+  },
+  "kaggalipura_bangalore": {
+    "lat": 12.8089587,
+    "lng": 77.5097006
+  },
+  "rock town colony_hyderabad": {
+    "lat": 17.3580492,
+    "lng": 78.5604086
+  },
+  "united india colony_chennai": {
+    "lat": 13.0511219,
+    "lng": 80.2247578
+  },
+  "somatane_pune": {
+    "lat": 18.703448,
+    "lng": 73.680582
+  },
+  "dhanori lohegaon road_pune": null,
+  "south city complex_kolkata": null
 }
