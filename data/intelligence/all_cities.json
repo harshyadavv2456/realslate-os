@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-05-14T13:15:51.933869",
+  "computed_at": "2026-05-14T13:22:58.822071",
   "total_records": 16.88,
   "cities": [
     {
@@ -270,17 +270,17 @@
     },
     {
       "city": "noida",
-      "total_listings": 8150,
-      "total_localities": 382,
+      "total_listings": 8188,
+      "total_localities": 386,
       "median_buy_price": 18000000.0,
       "median_rent_price": 42000.0,
-      "avg_buy_price": 95221609.99321727,
-      "buy_count": 4423,
-      "rent_count": 3727,
-      "active_count": 8150,
-      "new_this_week": 786,
-      "new_today": 20,
-      "avg_days_on_market": 19.202208588957056
+      "avg_buy_price": 94825647.12488769,
+      "buy_count": 4452,
+      "rent_count": 3736,
+      "active_count": 8188,
+      "new_this_week": 824,
+      "new_today": 58,
+      "avg_days_on_market": 19.269662921348313
     },
     {
       "city": "pune",
