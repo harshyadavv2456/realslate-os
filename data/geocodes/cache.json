@@ -12942,5 +12942,9 @@
     "lng": 73.680582
   },
   "dhanori lohegaon road_pune": null,
-  "south city complex_kolkata": null
+  "south city complex_kolkata": null,
+  "market of sector 10a_gurgaon": {
+    "lat": 28.4672918,
+    "lng": 77.0817598
+  }
 }

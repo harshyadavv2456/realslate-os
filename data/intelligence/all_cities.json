@@ -1,19 +1,20 @@
 {
-  "computed_at": "2026-05-14T12:51:20.826248",
-  "total_records": 21.05,
+  "computed_at": "2026-05-14T13:15:51.933869",
+  "total_records": 16.88,
   "cities": [
     {
       "city": "ahmedabad",
-      "total_listings": 9718,
+      "total_listings": 9757,
       "total_localities": 362,
       "median_buy_price": 14000000.0,
       "median_rent_price": 45000.0,
+      "avg_buy_price": 60172186.684073105,
       "buy_count": 4596,
-      "rent_count": 5122,
-      "active_count": 9718,
-      "new_today": 54,
-      "new_this_week": 900,
-      "avg_days_on_market": 19.020991973657132
+      "rent_count": 5161,
+      "active_count": 9757,
+      "new_this_week": 939,
+      "new_today": 93,
+      "avg_days_on_market": 19.041201188890028
     },
     {
       "city": "bangalore",
@@ -21,12 +22,13 @@
       "total_localities": 1073,
       "median_buy_price": 19900000.0,
       "median_rent_price": 60000.0,
+      "avg_buy_price": 28660271.028037384,
       "buy_count": 8025,
       "rent_count": 6715,
       "active_count": 14740,
-      "new_today": 257,
       "new_this_week": 2246,
-      "avg_days_on_market": 17.10135685210312
+      "new_today": 257,
+      "avg_days_on_market": 17.101424694708278
     },
     {
       "city": "bhopal",
@@ -34,11 +36,12 @@
       "total_localities": 520,
       "median_buy_price": 5600000.0,
       "median_rent_price": 20000.0,
+      "avg_buy_price": 66179699.743095696,
       "buy_count": 3114,
       "rent_count": 1694,
       "active_count": 4808,
-      "new_today": 0,
       "new_this_week": 270,
+      "new_today": 0,
       "avg_days_on_market": 26.300332778702163
     },
     {
@@ -47,11 +50,12 @@
       "total_localities": 238,
       "median_buy_price": 12700000.0,
       "median_rent_price": 34000.0,
+      "avg_buy_price": 95352087.52515091,
       "buy_count": 1988,
       "rent_count": 1347,
       "active_count": 3335,
-      "new_today": 0,
       "new_this_week": 179,
+      "new_today": 0,
       "avg_days_on_market": 31.505547226386806
     },
     {
@@ -60,11 +64,12 @@
       "total_localities": 846,
       "median_buy_price": 10500000.0,
       "median_rent_price": 50000.0,
+      "avg_buy_price": 32482188.755020082,
       "buy_count": 5478,
       "rent_count": 3085,
       "active_count": 8563,
-      "new_today": 36,
       "new_this_week": 744,
+      "new_today": 36,
       "avg_days_on_market": 19.29849351862665
     },
     {
@@ -73,11 +78,12 @@
       "total_localities": 628,
       "median_buy_price": 7500000.0,
       "median_rent_price": 20000.0,
+      "avg_buy_price": 18893481.66460651,
       "buy_count": 2427,
       "rent_count": 2646,
       "active_count": 5073,
-      "new_today": 0,
       "new_this_week": 425,
+      "new_today": 0,
       "avg_days_on_market": 20.385176424206584
     },
     {
@@ -86,12 +92,13 @@
       "total_localities": 682,
       "median_buy_price": 27500000.0,
       "median_rent_price": 60000.0,
+      "avg_buy_price": 56434891.25295508,
       "buy_count": 5499,
       "rent_count": 4015,
       "active_count": 9514,
-      "new_today": 133,
       "new_this_week": 1086,
-      "avg_days_on_market": 22.321631280218625
+      "new_today": 133,
+      "avg_days_on_market": 22.321736388480133
     },
     {
       "city": "ghaziabad",
@@ -99,25 +106,27 @@
       "total_localities": 347,
       "median_buy_price": 11399999.999999998,
       "median_rent_price": 23000.0,
+      "avg_buy_price": 21895198.06000451,
       "buy_count": 4433,
       "rent_count": 2568,
       "active_count": 7001,
-      "new_today": 0,
       "new_this_week": 559,
+      "new_today": 0,
       "avg_days_on_market": 19.99728610198543
     },
     {
       "city": "gurgaon",
-      "total_listings": 9115,
-      "total_localities": 308,
+      "total_listings": 9209,
+      "total_localities": 309,
       "median_buy_price": 34500000.0,
       "median_rent_price": 60000.0,
-      "buy_count": 5468,
-      "rent_count": 3647,
-      "active_count": 9115,
-      "new_today": 0,
-      "new_this_week": 818,
-      "avg_days_on_market": 20.482611080636314
+      "avg_buy_price": 105652737.62197326,
+      "buy_count": 5534,
+      "rent_count": 3675,
+      "active_count": 9209,
+      "new_this_week": 912,
+      "new_today": 94,
+      "avg_days_on_market": 20.63807145184059
     },
     {
       "city": "hyderabad",
@@ -125,11 +134,12 @@
       "total_localities": 825,
       "median_buy_price": 14200000.0,
       "median_rent_price": 60000.0,
+      "avg_buy_price": 38687903.740875915,
       "buy_count": 6576,
       "rent_count": 3696,
       "active_count": 10272,
-      "new_today": 69,
       "new_this_week": 809,
+      "new_today": 69,
       "avg_days_on_market": 18.97196261682243
     },
     {
@@ -138,11 +148,12 @@
       "total_localities": 580,
       "median_buy_price": 7500000.0,
       "median_rent_price": 23000.0,
+      "avg_buy_price": 25489275.506812893,
       "buy_count": 3009,
       "rent_count": 2431,
       "active_count": 5440,
-      "new_today": 0,
       "new_this_week": 441,
+      "new_today": 0,
       "avg_days_on_market": 21.397426470588236
     },
     {
@@ -151,11 +162,12 @@
       "total_localities": 621,
       "median_buy_price": 9900000.0,
       "median_rent_price": 28000.0,
+      "avg_buy_price": 16829682.749504294,
       "buy_count": 4539,
       "rent_count": 2880,
       "active_count": 7419,
-      "new_today": 0,
       "new_this_week": 709,
+      "new_today": 0,
       "avg_days_on_market": 20.17333872489554
     },
     {
@@ -164,11 +176,12 @@
       "total_localities": 281,
       "median_buy_price": 9700000.0,
       "median_rent_price": 28000.0,
+      "avg_buy_price": 22968008.24985268,
       "buy_count": 1697,
       "rent_count": 998,
       "active_count": 2695,
-      "new_today": 0,
       "new_this_week": 153,
+      "new_today": 0,
       "avg_days_on_market": 37.47421150278293
     },
     {
@@ -177,11 +190,12 @@
       "total_localities": 732,
       "median_buy_price": 7200000.0,
       "median_rent_price": 34000.0,
+      "avg_buy_price": 16268461.852305181,
       "buy_count": 4902,
       "rent_count": 3099,
       "active_count": 8001,
-      "new_today": 71,
       "new_this_week": 674,
+      "new_today": 71,
       "avg_days_on_market": 22.289463817022874
     },
     {
@@ -190,11 +204,12 @@
       "total_localities": 581,
       "median_buy_price": 10000000.0,
       "median_rent_price": 20000.0,
+      "avg_buy_price": 34557067.02412868,
       "buy_count": 3730,
       "rent_count": 2488,
       "active_count": 6218,
-      "new_today": 0,
       "new_this_week": 632,
+      "new_today": 0,
       "avg_days_on_market": 18.481344483756835
     },
     {
@@ -203,11 +218,12 @@
       "total_localities": 486,
       "median_buy_price": 31000000.0,
       "median_rent_price": 95000.0,
+      "avg_buy_price": 51966735.476749,
       "buy_count": 7247,
       "rent_count": 5298,
       "active_count": 12545,
-      "new_today": 186,
       "new_this_week": 1362,
+      "new_today": 186,
       "avg_days_on_market": 18.210282981267436
     },
     {
@@ -216,11 +232,12 @@
       "total_localities": 510,
       "median_buy_price": 9500000.0,
       "median_rent_price": 18000.0,
+      "avg_buy_price": 2311967632.0,
       "buy_count": 1875,
       "rent_count": 1426,
       "active_count": 3301,
-      "new_today": 0,
       "new_this_week": 202,
+      "new_today": 0,
       "avg_days_on_market": 33.00878521660103
     },
     {
@@ -229,11 +246,12 @@
       "total_localities": 580,
       "median_buy_price": 5660000.0,
       "median_rent_price": 22000.0,
+      "avg_buy_price": 12156924.079504725,
       "buy_count": 3069,
       "rent_count": 2257,
       "active_count": 5326,
-      "new_today": 0,
       "new_this_week": 382,
+      "new_today": 0,
       "avg_days_on_market": 23.817499061209162
     },
     {
@@ -242,25 +260,27 @@
       "total_localities": 341,
       "median_buy_price": 12600000.0,
       "median_rent_price": 45000.0,
+      "avg_buy_price": 22170265.758091994,
       "buy_count": 4696,
       "rent_count": 3107,
       "active_count": 7803,
-      "new_today": 0,
       "new_this_week": 527,
+      "new_today": 0,
       "avg_days_on_market": 20.934384211200822
     },
     {
       "city": "noida",
-      "total_listings": 8130,
-      "total_localities": 381,
+      "total_listings": 8150,
+      "total_localities": 382,
       "median_buy_price": 18000000.0,
       "median_rent_price": 42000.0,
-      "buy_count": 4403,
+      "avg_buy_price": 95221609.99321727,
+      "buy_count": 4423,
       "rent_count": 3727,
-      "active_count": 8130,
-      "new_today": 0,
-      "new_this_week": 766,
-      "avg_days_on_market": 19.14280442804428
+      "active_count": 8150,
+      "new_this_week": 786,
+      "new_today": 20,
+      "avg_days_on_market": 19.202208588957056
     },
     {
       "city": "pune",
@@ -268,11 +288,12 @@
       "total_localities": 449,
       "median_buy_price": 13899999.999999998,
       "median_rent_price": 42000.0,
+      "avg_buy_price": 58449124.58609272,
       "buy_count": 7248,
       "rent_count": 5190,
       "active_count": 12438,
-      "new_today": 113,
       "new_this_week": 1085,
+      "new_today": 113,
       "avg_days_on_market": 17.93174143753015
     },
     {
@@ -281,11 +302,12 @@
       "total_localities": 390,
       "median_buy_price": 6000000.0,
       "median_rent_price": 26750.0,
+      "avg_buy_price": 10955229.237128899,
       "buy_count": 2661,
       "rent_count": 1570,
       "active_count": 4231,
-      "new_today": 0,
       "new_this_week": 242,
+      "new_today": 0,
       "avg_days_on_market": 27.756322382415505
     },
     {
@@ -294,11 +316,12 @@
       "total_localities": 280,
       "median_buy_price": 13899999.999999998,
       "median_rent_price": 35000.0,
+      "avg_buy_price": 339132215.88594705,
       "buy_count": 4419,
       "rent_count": 2982,
       "active_count": 7401,
-      "new_today": 0,
       "new_this_week": 463,
+      "new_today": 0,
       "avg_days_on_market": 23.04648020537765
     },
     {
@@ -307,11 +330,12 @@
       "total_localities": 384,
       "median_buy_price": 5700000.0,
       "median_rent_price": 21000.0,
+      "avg_buy_price": 12441746.07703281,
       "buy_count": 3505,
       "rent_count": 2523,
       "active_count": 6028,
-      "new_today": 0,
       "new_this_week": 590,
+      "new_today": 0,
       "avg_days_on_market": 20.055242203052423
     },
     {
@@ -320,11 +344,12 @@
       "total_localities": 360,
       "median_buy_price": 5800000.0,
       "median_rent_price": 23000.0,
+      "avg_buy_price": 15700562.774363477,
       "buy_count": 3417,
       "rent_count": 1590,
       "active_count": 5007,
-      "new_today": 0,
       "new_this_week": 335,
+      "new_today": 0,
       "avg_days_on_market": 25.14419812262832
     }
   ]
