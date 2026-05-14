@@ -12985,5 +12985,24 @@
     "lat": 11.0285803,
     "lng": 77.0254937
   },
-  "sbm employees layout_mysore": null
+  "sbm employees layout_mysore": null,
+  "sector 5 rohini new_delhi ncr": null,
+  "block 5th hbr layout_bangalore": {
+    "lat": 13.0374664,
+    "lng": 77.628799
+  },
+  "chikkakannalli_bangalore": {
+    "lat": 12.893703,
+    "lng": 77.7081315
+  },
+  "hitech city road_hyderabad": {
+    "lat": 17.4696885,
+    "lng": 78.3851526
+  },
+  "padmavathi nagar iyyappanthangal_chennai": null,
+  "mandirtala shibpur_kolkata": {
+    "lat": 22.5699577,
+    "lng": 88.3174226
+  },
+  "sahid khudiram bose sarani_kolkata": null
 }
