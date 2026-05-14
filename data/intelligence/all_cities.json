@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-05-13T23:16:20.627916",
+  "computed_at": "2026-05-14T06:44:20.389473",
   "total_records": 21.05,
   "cities": [
     {
@@ -11,8 +11,8 @@
       "buy_count": 4557,
       "rent_count": 5107,
       "active_count": 9664,
-      "new_today": 143,
-      "new_this_week": 935,
+      "new_today": 0,
+      "new_this_week": 846,
       "avg_days_on_market": 18.84519867549669
     },
     {
@@ -24,8 +24,8 @@
       "buy_count": 7917,
       "rent_count": 6566,
       "active_count": 14483,
-      "new_today": 331,
-      "new_this_week": 2207,
+      "new_today": 0,
+      "new_this_week": 1989,
       "avg_days_on_market": 17.045501622592006
     },
     {
@@ -37,7 +37,7 @@
       "buy_count": 3114,
       "rent_count": 1694,
       "active_count": 4808,
-      "new_today": 33,
+      "new_today": 0,
       "new_this_week": 270,
       "avg_days_on_market": 26.300332778702163
     },
@@ -50,8 +50,8 @@
       "buy_count": 1988,
       "rent_count": 1347,
       "active_count": 3335,
-      "new_today": 23,
-      "new_this_week": 187,
+      "new_today": 0,
+      "new_this_week": 179,
       "avg_days_on_market": 31.505547226386806
     },
     {
@@ -63,8 +63,8 @@
       "buy_count": 5478,
       "rent_count": 3049,
       "active_count": 8527,
-      "new_today": 130,
-      "new_this_week": 794,
+      "new_today": 0,
+      "new_this_week": 708,
       "avg_days_on_market": 19.256831241937377
     },
     {
@@ -76,7 +76,7 @@
       "buy_count": 2427,
       "rent_count": 2646,
       "active_count": 5073,
-      "new_today": 53,
+      "new_today": 0,
       "new_this_week": 425,
       "avg_days_on_market": 20.385176424206584
     },
@@ -89,8 +89,8 @@
       "buy_count": 5407,
       "rent_count": 3974,
       "active_count": 9381,
-      "new_today": 143,
-      "new_this_week": 1052,
+      "new_today": 0,
+      "new_this_week": 953,
       "avg_days_on_market": 22.102760899690864
     },
     {
@@ -102,8 +102,8 @@
       "buy_count": 4433,
       "rent_count": 2568,
       "active_count": 7001,
-      "new_today": 74,
-      "new_this_week": 626,
+      "new_today": 0,
+      "new_this_week": 559,
       "avg_days_on_market": 19.99728610198543
     },
     {
@@ -115,8 +115,8 @@
       "buy_count": 5468,
       "rent_count": 3647,
       "active_count": 9115,
-      "new_today": 129,
-      "new_this_week": 892,
+      "new_today": 0,
+      "new_this_week": 818,
       "avg_days_on_market": 20.482611080636314
     },
     {
@@ -128,8 +128,8 @@
       "buy_count": 6521,
       "rent_count": 3682,
       "active_count": 10203,
-      "new_today": 111,
-      "new_this_week": 844,
+      "new_today": 0,
+      "new_this_week": 740,
       "avg_days_on_market": 18.860237185141624
     },
     {
@@ -141,7 +141,7 @@
       "buy_count": 3009,
       "rent_count": 2431,
       "active_count": 5440,
-      "new_today": 60,
+      "new_today": 0,
       "new_this_week": 441,
       "avg_days_on_market": 21.397426470588236
     },
@@ -154,8 +154,8 @@
       "buy_count": 4539,
       "rent_count": 2880,
       "active_count": 7419,
-      "new_today": 85,
-      "new_this_week": 741,
+      "new_today": 0,
+      "new_this_week": 709,
       "avg_days_on_market": 20.17333872489554
     },
     {
@@ -167,7 +167,7 @@
       "buy_count": 1697,
       "rent_count": 998,
       "active_count": 2695,
-      "new_today": 26,
+      "new_today": 0,
       "new_this_week": 153,
       "avg_days_on_market": 37.47421150278293
     },
@@ -180,8 +180,8 @@
       "buy_count": 4859,
       "rent_count": 3071,
       "active_count": 7930,
-      "new_today": 115,
-      "new_this_week": 691,
+      "new_today": 0,
+      "new_this_week": 603,
       "avg_days_on_market": 22.12887767969735
     },
     {
@@ -193,8 +193,8 @@
       "buy_count": 3730,
       "rent_count": 2488,
       "active_count": 6218,
-      "new_today": 63,
-      "new_this_week": 704,
+      "new_today": 0,
+      "new_this_week": 632,
       "avg_days_on_market": 18.481344483756835
     },
     {
@@ -206,22 +206,22 @@
       "buy_count": 7134,
       "rent_count": 5225,
       "active_count": 12359,
-      "new_today": 198,
-      "new_this_week": 1329,
+      "new_today": 0,
+      "new_this_week": 1176,
       "avg_days_on_market": 18.007201229872965
     },
     {
       "city": "mysore",
-      "total_listings": 3286,
-      "total_localities": 509,
-      "median_buy_price": 9450000.0,
+      "total_listings": 3301,
+      "total_localities": 510,
+      "median_buy_price": 9500000.0,
       "median_rent_price": 18000.0,
-      "buy_count": 1866,
-      "rent_count": 1420,
-      "active_count": 3286,
-      "new_today": 14,
-      "new_this_week": 187,
-      "avg_days_on_market": 33.15550821667681
+      "buy_count": 1875,
+      "rent_count": 1426,
+      "active_count": 3301,
+      "new_today": 0,
+      "new_this_week": 202,
+      "avg_days_on_market": 33.00878521660103
     },
     {
       "city": "nagpur",
@@ -232,7 +232,7 @@
       "buy_count": 3069,
       "rent_count": 2257,
       "active_count": 5326,
-      "new_today": 41,
+      "new_today": 0,
       "new_this_week": 382,
       "avg_days_on_market": 23.817499061209162
     },
@@ -245,8 +245,8 @@
       "buy_count": 4696,
       "rent_count": 3107,
       "active_count": 7803,
-      "new_today": 83,
-      "new_this_week": 591,
+      "new_today": 0,
+      "new_this_week": 527,
       "avg_days_on_market": 20.934384211200822
     },
     {
@@ -258,8 +258,8 @@
       "buy_count": 4403,
       "rent_count": 3727,
       "active_count": 8130,
-      "new_today": 135,
-      "new_this_week": 849,
+      "new_today": 0,
+      "new_this_week": 766,
       "avg_days_on_market": 19.14280442804428
     },
     {
@@ -271,22 +271,22 @@
       "buy_count": 7185,
       "rent_count": 5140,
       "active_count": 12325,
-      "new_today": 183,
-      "new_this_week": 1117,
+      "new_today": 0,
+      "new_this_week": 972,
       "avg_days_on_market": 17.771602434077078
     },
     {
       "city": "surat",
-      "total_listings": 4224,
+      "total_listings": 4231,
       "total_localities": 390,
       "median_buy_price": 6000000.0,
       "median_rent_price": 26750.0,
-      "buy_count": 2658,
-      "rent_count": 1566,
-      "active_count": 4224,
-      "new_today": 27,
-      "new_this_week": 235,
-      "avg_days_on_market": 27.76657196969697
+      "buy_count": 2661,
+      "rent_count": 1570,
+      "active_count": 4231,
+      "new_today": 0,
+      "new_this_week": 242,
+      "avg_days_on_market": 27.756322382415505
     },
     {
       "city": "thane",
@@ -297,22 +297,22 @@
       "buy_count": 4419,
       "rent_count": 2982,
       "active_count": 7401,
-      "new_today": 60,
-      "new_this_week": 515,
+      "new_today": 0,
+      "new_this_week": 463,
       "avg_days_on_market": 23.04648020537765
     },
     {
       "city": "vadodara",
-      "total_listings": 5996,
+      "total_listings": 6028,
       "total_localities": 384,
       "median_buy_price": 5700000.0,
       "median_rent_price": 21000.0,
-      "buy_count": 3481,
-      "rent_count": 2515,
-      "active_count": 5996,
-      "new_today": 52,
-      "new_this_week": 558,
-      "avg_days_on_market": 20.030020013342227
+      "buy_count": 3505,
+      "rent_count": 2523,
+      "active_count": 6028,
+      "new_today": 0,
+      "new_this_week": 590,
+      "avg_days_on_market": 20.055242203052423
     },
     {
       "city": "visakhapatnam",
@@ -323,9 +323,9 @@
       "buy_count": 3417,
       "rent_count": 1590,
       "active_count": 5007,
-      "new_today": 46,
+      "new_today": 0,
       "new_this_week": 335,
-      "avg_days_on_market": 25.125024965048933
+      "avg_days_on_market": 25.14419812262832
     }
   ]
 }
