@@ -12946,5 +12946,44 @@
   "market of sector 10a_gurgaon": {
     "lat": 28.4672918,
     "lng": 77.0817598
-  }
+  },
+  "sector 67_noida": {
+    "lat": 28.604823,
+    "lng": 77.3847901
+  },
+  "ghaziabad road_ghaziabad": {
+    "lat": 28.6306999,
+    "lng": 77.4688286
+  },
+  "rajni khand_lucknow": null,
+  "new friends colony_lucknow": null,
+  "bijnor banthra road_lucknow": null,
+  "sector g aliganj_lucknow": {
+    "lat": 26.8954845,
+    "lng": 80.9572678
+  },
+  "nandpuri_jaipur": {
+    "lat": 26.8970269,
+    "lng": 75.7829443
+  },
+  "sector 5 malviya nagar_jaipur": {
+    "lat": 26.8593668,
+    "lng": 75.8098088
+  },
+  "gopal bari_jaipur": null,
+  "hudkeshwar kh_nagpur": {
+    "lat": 21.1102206,
+    "lng": 79.1173141
+  },
+  "ajni_nagpur": {
+    "lat": 21.1269226,
+    "lng": 79.0825751
+  },
+  "it park/ sez for rent in trimurti nagar_nagpur": null,
+  "sihs colony_coimbatore": null,
+  "civil aerodrome post_coimbatore": {
+    "lat": 11.0285803,
+    "lng": 77.0254937
+  },
+  "sbm employees layout_mysore": null
 }
