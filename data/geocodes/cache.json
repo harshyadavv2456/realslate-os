@@ -13004,5 +13004,125 @@
     "lat": 22.5699577,
     "lng": 88.3174226
   },
-  "sahid khudiram bose sarani_kolkata": null
+  "sahid khudiram bose sarani_kolkata": null,
+  "veera desai industrial estate_mumbai": {
+    "lat": 19.139182,
+    "lng": 72.8366563
+  },
+  "beverly park_mumbai": {
+    "lat": 19.0972438,
+    "lng": 73.0014693
+  },
+  "sindhi society chembur_mumbai": {
+    "lat": 19.050289,
+    "lng": 72.8915885
+  },
+  "chattarpur enclave new_delhi ncr": {
+    "lat": 28.5035712,
+    "lng": 77.1884511
+  },
+  "kalkaji extension new_delhi ncr": null,
+  "friends colony new friends colony new_delhi ncr": {
+    "lat": 28.5702865,
+    "lng": 77.2668244
+  },
+  "cv raman nagar kaggadasapura_bangalore": {
+    "lat": 12.9855509,
+    "lng": 77.668072
+  },
+  "palace guttahalli_bangalore": {
+    "lat": 12.999489,
+    "lng": 77.5843469
+  },
+  "balaji layout cooke town_bangalore": {
+    "lat": 13.0003766,
+    "lng": 77.6233584
+  },
+  "kammasandra electronic city_bangalore": null,
+  "jigani anekal road_bangalore": {
+    "lat": 12.8114519,
+    "lng": 77.6603094
+  },
+  "chikkabanavara_bangalore": {
+    "lat": 13.0746787,
+    "lng": 77.5056373
+  },
+  "laggere_bangalore": {
+    "lat": 13.0108677,
+    "lng": 77.5207301
+  },
+  "naganathapura rayasandra_bangalore": null,
+  "magadi main road_bangalore": {
+    "lat": 12.9836286,
+    "lng": 77.5540526
+  },
+  "borewell road_bangalore": {
+    "lat": 12.9691916,
+    "lng": 77.7379913
+  },
+  "bommasandra industrial area_bangalore": {
+    "lat": 12.8137512,
+    "lng": 77.6953367
+  },
+  "singapura_bangalore": {
+    "lat": 13.0819544,
+    "lng": 77.5550718
+  },
+  "pedda golconda_hyderabad": null,
+  "kallakal_hyderabad": null,
+  "hitech city main road_hyderabad": {
+    "lat": 17.4696885,
+    "lng": 78.3851526
+  },
+  "mahabalipuram_chennai": {
+    "lat": 12.9685261,
+    "lng": 80.248769
+  },
+  "rangarajapuram main road_chennai": {
+    "lat": 13.0459028,
+    "lng": 80.2293
+  },
+  "kattavakkam_chennai": null,
+  "bhamboli_pune": {
+    "lat": 18.7860904,
+    "lng": 73.76411
+  },
+  "harish mukherjee road_kolkata": {
+    "lat": 22.5357139,
+    "lng": 88.3440573
+  },
+  "bagodara_ahmedabad": null,
+  "aec char rasta_ahmedabad": null,
+  "sector 2 palam vihar_gurgaon": {
+    "lat": 28.5054709,
+    "lng": 77.0381625
+  },
+  "sector 32_gurgaon": {
+    "lat": 28.4458035,
+    "lng": 77.0413169
+  },
+  "sector 89a_gurgaon": {
+    "lat": 28.4860888,
+    "lng": 77.084224
+  },
+  "sector 114_gurgaon": {
+    "lat": 28.5318781,
+    "lng": 77.0117794
+  },
+  "block b sector 36_noida": {
+    "lat": 28.4699536,
+    "lng": 77.5317416
+  },
+  "patel nagar 2nd_ghaziabad": {
+    "lat": 28.6760162,
+    "lng": 77.422914
+  },
+  "sector 6 vasundhara_ghaziabad": {
+    "lat": 28.665232,
+    "lng": 77.3753369
+  },
+  "agra road_jaipur": {
+    "lat": 26.9118897,
+    "lng": 75.8352695
+  }
 }
