@@ -13141,5 +13141,53 @@
   "piplya kumar_indore": {
     "lat": 22.7664749,
     "lng": 75.9130377
-  }
+  },
+  "phase 2 mayapuri industrial area new_delhi ncr": {
+    "lat": 28.6214065,
+    "lng": 77.1164791
+  },
+  "hegganahalli_bangalore": {
+    "lat": 13.0034737,
+    "lng": 77.5107376
+  },
+  "sri ram nagar kondapur_hyderabad": null,
+  "beach road_chennai": {
+    "lat": 12.9502392,
+    "lng": 80.2613808
+  },
+  "handewadi_pune": {
+    "lat": 18.4791276,
+    "lng": 73.9312672
+  },
+  "laxmi nagar balewadi_pune": {
+    "lat": 18.5707834,
+    "lng": 73.7748299
+  },
+  "fursungi_pune": {
+    "lat": 18.4726271,
+    "lng": 73.9791077
+  },
+  "andul mauri_kolkata": null,
+  "sector 21_noida": {
+    "lat": 28.5868228,
+    "lng": 77.3361622
+  },
+  "sector 8 rabale_navi mumbai": {
+    "lat": 19.1481414,
+    "lng": 72.994905
+  },
+  "janakpuri_ghaziabad": {
+    "lat": 28.6821536,
+    "lng": 77.3440202
+  },
+  "nehru enclave_lucknow": {
+    "lat": 26.8599766,
+    "lng": 80.9793608
+  },
+  "manak nagar_lucknow": {
+    "lat": 26.8106778,
+    "lng": 80.8909379
+  },
+  "officers campus extension_jaipur": null,
+  "lalaram nagar_indore": null
 }
