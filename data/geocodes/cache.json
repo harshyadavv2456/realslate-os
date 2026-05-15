@@ -13124,5 +13124,22 @@
   "agra road_jaipur": {
     "lat": 26.9118897,
     "lng": 75.8352695
+  },
+  "sector 44b_chandigarh": {
+    "lat": 30.7028775,
+    "lng": 76.7810869
+  },
+  "chhata meel_lucknow": null,
+  "itaunja_lucknow": {
+    "lat": 27.0777934,
+    "lng": 80.8929942
+  },
+  "unity city colony_lucknow": null,
+  "dubagga_lucknow": null,
+  "pushp vihar_indore": null,
+  "jail road_indore": null,
+  "piplya kumar_indore": {
+    "lat": 22.7664749,
+    "lng": 75.9130377
   }
 }
