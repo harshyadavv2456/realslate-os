@@ -13189,5 +13189,72 @@
     "lng": 80.8909379
   },
   "officers campus extension_jaipur": null,
-  "lalaram nagar_indore": null
+  "lalaram nagar_indore": null,
+  "bamnoli village new_delhi ncr": null,
+  "yeshwanthpur industrial suburb_bangalore": null,
+  "aecs layout marathahalli_bangalore": null,
+  "babusabpalya_bangalore": {
+    "lat": 13.0283523,
+    "lng": 77.650469
+  },
+  "muthanallur_bangalore": {
+    "lat": 12.887093,
+    "lng": 77.7386665
+  },
+  "west of chord road_bangalore": {
+    "lat": 12.9982067,
+    "lng": 77.5499224
+  },
+  "sholinganallur semmancheri_chennai": null,
+  "santhome_chennai": {
+    "lat": 13.0298372,
+    "lng": 80.275738
+  },
+  "vivekananda road_kolkata": {
+    "lat": 22.5848948,
+    "lng": 88.37585
+  },
+  "esplanade_kolkata": {
+    "lat": 22.563292,
+    "lng": 88.3503566
+  },
+  "rahara_kolkata": {
+    "lat": 22.7240621,
+    "lng": 88.3867065
+  },
+  "bidhan sarani_kolkata": {
+    "lat": 22.5873577,
+    "lng": 88.3682092
+  },
+  "ward number 4_kolkata": null,
+  "bishnupur rajarhat_kolkata": null,
+  "bopal road_ahmedabad": {
+    "lat": 23.0168635,
+    "lng": 72.4725529
+  },
+  "roadpali_navi mumbai": {
+    "lat": 19.0392786,
+    "lng": 73.0992311
+  },
+  "sector 3 new panvel east_navi mumbai": null,
+  "akash nagar_ghaziabad": null,
+  "arya nagar_lucknow": {
+    "lat": 26.8370192,
+    "lng": 80.9179222
+  },
+  "hanumant nagar_jaipur": null,
+  "kawas_surat": {
+    "lat": 21.1699353,
+    "lng": 72.68694
+  },
+  "tukdoji nagar_nagpur": {
+    "lat": 21.1233571,
+    "lng": 79.1050021
+  },
+  "pratham upvan_vadodara": null,
+  "gandarmau_bhopal": {
+    "lat": 23.3287658,
+    "lng": 77.3492801
+  },
+  "indus towne_bhopal": null
 }
