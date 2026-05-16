@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-05-15T23:07:18.708987",
+  "computed_at": "2026-05-16T07:00:36.406602",
   "total_records": 16.88,
   "cities": [
     {
@@ -12,8 +12,8 @@
       "buy_count": 4691,
       "rent_count": 5258,
       "active_count": 9949,
-      "new_this_week": 1131,
-      "new_today": 156,
+      "new_this_week": 954,
+      "new_today": 0,
       "avg_days_on_market": 19.136194592421347
     },
     {
@@ -26,8 +26,8 @@
       "buy_count": 8148,
       "rent_count": 6933,
       "active_count": 15081,
-      "new_this_week": 2587,
-      "new_today": 259,
+      "new_this_week": 2240,
+      "new_today": 0,
       "avg_days_on_market": 17.10887872157019
     },
     {
@@ -40,8 +40,8 @@
       "buy_count": 3179,
       "rent_count": 1719,
       "active_count": 4898,
-      "new_this_week": 360,
-      "new_today": 51,
+      "new_this_week": 267,
+      "new_today": 0,
       "avg_days_on_market": 26.768885259289505
     },
     {
@@ -54,8 +54,8 @@
       "buy_count": 2017,
       "rent_count": 1362,
       "active_count": 3379,
-      "new_this_week": 223,
-      "new_today": 23,
+      "new_this_week": 179,
+      "new_today": 0,
       "avg_days_on_market": 32.19917135247115
     },
     {
@@ -68,23 +68,23 @@
       "buy_count": 5608,
       "rent_count": 3141,
       "active_count": 8749,
-      "new_this_week": 930,
-      "new_today": 124,
+      "new_this_week": 770,
+      "new_today": 0,
       "avg_days_on_market": 19.416961938507256
     },
     {
       "city": "coimbatore",
-      "total_listings": 5177,
-      "total_localities": 636,
+      "total_listings": 5196,
+      "total_localities": 637,
       "median_buy_price": 7500000.0,
       "median_rent_price": 20000.0,
-      "avg_buy_price": 18775451.24899275,
-      "buy_count": 2482,
-      "rent_count": 2695,
-      "active_count": 5177,
-      "new_this_week": 529,
-      "new_today": 17,
-      "avg_days_on_market": 20.73826540467452
+      "avg_buy_price": 18788264.895330112,
+      "buy_count": 2484,
+      "rent_count": 2712,
+      "active_count": 5196,
+      "new_this_week": 419,
+      "new_today": 0,
+      "avg_days_on_market": 20.681678214010777
     },
     {
       "city": "delhi ncr",
@@ -96,8 +96,8 @@
       "buy_count": 5590,
       "rent_count": 4111,
       "active_count": 9701,
-      "new_this_week": 1273,
-      "new_today": 133,
+      "new_this_week": 1092,
+      "new_today": 0,
       "avg_days_on_market": 22.369549530976187
     },
     {
@@ -110,8 +110,8 @@
       "buy_count": 4536,
       "rent_count": 2624,
       "active_count": 7160,
-      "new_this_week": 718,
-      "new_today": 74,
+      "new_this_week": 580,
+      "new_today": 0,
       "avg_days_on_market": 20.40377094972067
     },
     {
@@ -124,8 +124,8 @@
       "buy_count": 5626,
       "rent_count": 3737,
       "active_count": 9363,
-      "new_this_week": 1066,
-      "new_today": 126,
+      "new_this_week": 872,
+      "new_today": 0,
       "avg_days_on_market": 20.7224180284097
     },
     {
@@ -138,8 +138,8 @@
       "buy_count": 6669,
       "rent_count": 3774,
       "active_count": 10443,
-      "new_this_week": 980,
-      "new_today": 122,
+      "new_this_week": 805,
+      "new_today": 0,
       "avg_days_on_market": 19.186823709661976
     },
     {
@@ -152,8 +152,8 @@
       "buy_count": 3081,
       "rent_count": 2475,
       "active_count": 5556,
-      "new_this_week": 557,
-      "new_today": 50,
+      "new_this_week": 431,
+      "new_today": 0,
       "avg_days_on_market": 21.78959683225342
     },
     {
@@ -166,23 +166,23 @@
       "buy_count": 4677,
       "rent_count": 2969,
       "active_count": 7646,
-      "new_this_week": 936,
-      "new_today": 102,
+      "new_this_week": 764,
+      "new_today": 0,
       "avg_days_on_market": 20.318990321736855
     },
     {
       "city": "kochi",
-      "total_listings": 2724,
+      "total_listings": 2732,
       "total_localities": 282,
       "median_buy_price": 9900000.0,
       "median_rent_price": 28000.0,
-      "avg_buy_price": 22985407.925407924,
-      "buy_count": 1716,
-      "rent_count": 1008,
-      "active_count": 2724,
-      "new_this_week": 182,
-      "new_today": 7,
-      "avg_days_on_market": 38.267254038179146
+      "avg_buy_price": 22965772.35772358,
+      "buy_count": 1722,
+      "rent_count": 1010,
+      "active_count": 2732,
+      "new_this_week": 153,
+      "new_today": 0,
+      "avg_days_on_market": 38.22913616398243
     },
     {
       "city": "kolkata",
@@ -194,8 +194,8 @@
       "buy_count": 4965,
       "rent_count": 3150,
       "active_count": 8115,
-      "new_this_week": 788,
-      "new_today": 93,
+      "new_this_week": 652,
+      "new_today": 0,
       "avg_days_on_market": 22.486013555144794
     },
     {
@@ -208,8 +208,8 @@
       "buy_count": 3849,
       "rent_count": 2560,
       "active_count": 6409,
-      "new_this_week": 823,
-      "new_today": 109,
+      "new_this_week": 654,
+      "new_today": 0,
       "avg_days_on_market": 18.612576064908723
     },
     {
@@ -222,23 +222,23 @@
       "buy_count": 7379,
       "rent_count": 5391,
       "active_count": 12770,
-      "new_this_week": 1587,
-      "new_today": 199,
+      "new_this_week": 1366,
+      "new_today": 0,
       "avg_days_on_market": 18.388018794048552
     },
     {
       "city": "mysore",
-      "total_listings": 3356,
-      "total_localities": 512,
+      "total_listings": 3367,
+      "total_localities": 513,
       "median_buy_price": 9300000.0,
       "median_rent_price": 18000.0,
-      "avg_buy_price": 2264031493.4725847,
-      "buy_count": 1915,
-      "rent_count": 1441,
-      "active_count": 3356,
-      "new_this_week": 257,
-      "new_today": 7,
-      "avg_days_on_market": 33.60905840286055
+      "avg_buy_price": 2255828517.169615,
+      "buy_count": 1922,
+      "rent_count": 1445,
+      "active_count": 3367,
+      "new_this_week": 206,
+      "new_today": 0,
+      "avg_days_on_market": 33.514107514107515
     },
     {
       "city": "nagpur",
@@ -250,8 +250,8 @@
       "buy_count": 3137,
       "rent_count": 2294,
       "active_count": 5431,
-      "new_this_week": 487,
-      "new_today": 39,
+      "new_this_week": 363,
+      "new_today": 0,
       "avg_days_on_market": 24.472472841097403
     },
     {
@@ -264,8 +264,8 @@
       "buy_count": 4774,
       "rent_count": 3172,
       "active_count": 7946,
-      "new_this_week": 670,
-      "new_today": 74,
+      "new_this_week": 546,
+      "new_today": 0,
       "avg_days_on_market": 21.286433425622956
     },
     {
@@ -278,8 +278,8 @@
       "buy_count": 4539,
       "rent_count": 3822,
       "active_count": 8361,
-      "new_this_week": 997,
-      "new_today": 125,
+      "new_this_week": 819,
+      "new_today": 0,
       "avg_days_on_market": 19.459155603396724
     },
     {
@@ -292,23 +292,23 @@
       "buy_count": 7351,
       "rent_count": 5274,
       "active_count": 12625,
-      "new_this_week": 1272,
-      "new_today": 163,
+      "new_this_week": 1081,
+      "new_today": 0,
       "avg_days_on_market": 18.093306930693068
     },
     {
       "city": "surat",
-      "total_listings": 4281,
+      "total_listings": 4293,
       "total_localities": 394,
       "median_buy_price": 6000000.0,
-      "median_rent_price": 26250.0,
-      "avg_buy_price": 10916076.066790352,
-      "buy_count": 2695,
-      "rent_count": 1586,
-      "active_count": 4281,
-      "new_this_week": 292,
-      "new_today": 10,
-      "avg_days_on_market": 28.317916374678813
+      "median_rent_price": 26000.0,
+      "avg_buy_price": 10913189.71893491,
+      "buy_count": 2704,
+      "rent_count": 1589,
+      "active_count": 4293,
+      "new_this_week": 231,
+      "new_today": 0,
+      "avg_days_on_market": 28.279990682506405
     },
     {
       "city": "thane",
@@ -320,37 +320,37 @@
       "buy_count": 4493,
       "rent_count": 3024,
       "active_count": 7517,
-      "new_this_week": 579,
-      "new_today": 68,
+      "new_this_week": 467,
+      "new_today": 0,
       "avg_days_on_market": 23.41705467606758
     },
     {
       "city": "vadodara",
-      "total_listings": 6131,
+      "total_listings": 6178,
       "total_localities": 391,
       "median_buy_price": 5700000.0,
       "median_rent_price": 21000.0,
-      "avg_buy_price": 12379480.774628123,
-      "buy_count": 3563,
-      "rent_count": 2568,
-      "active_count": 6131,
-      "new_this_week": 693,
-      "new_today": 15,
-      "avg_days_on_market": 20.509215462404175
+      "avg_buy_price": 12311427.381282978,
+      "buy_count": 3601,
+      "rent_count": 2577,
+      "active_count": 6178,
+      "new_this_week": 596,
+      "new_today": 0,
+      "avg_days_on_market": 20.491583036581417
     },
     {
       "city": "visakhapatnam",
-      "total_listings": 5076,
+      "total_listings": 5087,
       "total_localities": 365,
       "median_buy_price": 5800000.0,
       "median_rent_price": 23000.0,
-      "avg_buy_price": 15623817.526664745,
-      "buy_count": 3469,
-      "rent_count": 1607,
-      "active_count": 5076,
-      "new_this_week": 404,
-      "new_today": 11,
-      "avg_days_on_market": 25.60480693459417
+      "avg_buy_price": 15606480.586712683,
+      "buy_count": 3477,
+      "rent_count": 1610,
+      "active_count": 5087,
+      "new_this_week": 303,
+      "new_today": 0,
+      "avg_days_on_market": 25.620404953803813
     }
   ]
 }
