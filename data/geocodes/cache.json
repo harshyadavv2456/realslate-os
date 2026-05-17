@@ -13408,5 +13408,18 @@
   "banjari_bhopal": {
     "lat": 23.1772699,
     "lng": 77.4240915
+  },
+  "manjri budruk_pune": null,
+  "sector 4 airoli_navi mumbai": {
+    "lat": 19.1582719,
+    "lng": 72.9967088
+  },
+  "kaisarbagh_lucknow": {
+    "lat": 26.8603639,
+    "lng": 80.9291655
+  },
+  "behta_lucknow": {
+    "lat": 26.9869844,
+    "lng": 81.0187655
   }
 }
