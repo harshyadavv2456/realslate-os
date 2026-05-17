@@ -13256,5 +13256,157 @@
     "lat": 23.3287658,
     "lng": 77.3492801
   },
-  "indus towne_bhopal": null
+  "indus towne_bhopal": null,
+  "nalasopara west_mumbai": {
+    "lat": 19.012455,
+    "lng": 72.835058
+  },
+  "mathuradas road_mumbai": {
+    "lat": 19.1134598,
+    "lng": 72.8635619
+  },
+  "amboli_mumbai": {
+    "lat": 19.1281061,
+    "lng": 72.8495782
+  },
+  "vikram vihar lajpat nagar 4 new_delhi ncr": {
+    "lat": 28.5641939,
+    "lng": 77.2357301
+  },
+  "block h vikaspuri new_delhi ncr": null,
+  "new delhi main road new_delhi ncr": {
+    "lat": 28.7192948,
+    "lng": 77.1785294
+  },
+  "kodathi_bangalore": {
+    "lat": 12.8905129,
+    "lng": 77.7133427
+  },
+  "chamrajpet_bangalore": {
+    "lat": 12.9584184,
+    "lng": 77.5629161
+  },
+  "madanayakahalli_bangalore": null,
+  "shivakote_bangalore": {
+    "lat": 13.1342593,
+    "lng": 77.5152474
+  },
+  "reva college main road_bangalore": {
+    "lat": 13.1172617,
+    "lng": 77.6339854
+  },
+  "vijaya bank layout bommanahalli_bangalore": null,
+  "nagavara_bangalore": {
+    "lat": 13.0374647,
+    "lng": 77.623602
+  },
+  "new timberyard layout_bangalore": null,
+  "bidadi_bangalore": {
+    "lat": 12.8861649,
+    "lng": 77.5822896
+  },
+  "block 7th koramangala_bangalore": {
+    "lat": 12.9250087,
+    "lng": 77.6315006
+  },
+  "gaganpahad_hyderabad": {
+    "lat": 17.3549315,
+    "lng": 78.4785127
+  },
+  "suchitra_hyderabad": {
+    "lat": 17.5023414,
+    "lng": 78.4839362
+  },
+  "hyderguda_hyderabad": {
+    "lat": 17.4012791,
+    "lng": 78.4804894
+  },
+  "beeramguda main road_hyderabad": {
+    "lat": 17.50987,
+    "lng": 78.3006855
+  },
+  "tnhb colony velachery_chennai": {
+    "lat": 12.9914196,
+    "lng": 80.2120593
+  },
+  "pattabiram_chennai": {
+    "lat": 13.1215291,
+    "lng": 80.0639365
+  },
+  "paud road_pune": {
+    "lat": 18.5090315,
+    "lng": 73.8110946
+  },
+  "panihati_kolkata": {
+    "lat": 22.6950342,
+    "lng": 88.4073585
+  },
+  "dakshineswar_kolkata": {
+    "lat": 22.654827,
+    "lng": 88.3575776
+  },
+  "liluah_kolkata": {
+    "lat": 22.6209027,
+    "lng": 88.3394035
+  },
+  "block d sector 46 greenwood city_gurgaon": null,
+  "block a sector 45_gurgaon": {
+    "lat": 28.4164079,
+    "lng": 77.0441589
+  },
+  "sector 37_gurgaon": {
+    "lat": 28.4342681,
+    "lng": 76.999294
+  },
+  "sector 5 ulwe_navi mumbai": null,
+  "sector 11 vasundhara_ghaziabad": {
+    "lat": 28.656863,
+    "lng": 77.3673441
+  },
+  "sector 28d_chandigarh": {
+    "lat": 30.7160708,
+    "lng": 76.801212
+  },
+  "mubarakpur_lucknow": null,
+  "ruchi khand 1_lucknow": null,
+  "hariharpur_lucknow": null,
+  "naradpura_jaipur": {
+    "lat": 27.0031802,
+    "lng": 75.9195399
+  },
+  "sector 16 pratap nagar_jaipur": {
+    "lat": 26.8808145,
+    "lng": 75.7919299
+  },
+  "jhotwara industrial area_jaipur": {
+    "lat": 26.9585861,
+    "lng": 75.7527694
+  },
+  "siroli_jaipur": null,
+  "ringanabodi_nagpur": {
+    "lat": 21.1292055,
+    "lng": 78.7157992
+  },
+  "chikhali_nagpur": {
+    "lat": 20.7267258,
+    "lng": 79.5163929
+  },
+  "nandbagh colony_indore": null,
+  "tejpurgarbari_indore": null,
+  "vadakovai_coimbatore": {
+    "lat": 11.0151807,
+    "lng": 76.9536792
+  },
+  "rajendra nagar_mysore": {
+    "lat": 12.3410563,
+    "lng": 76.6662609
+  },
+  "bhaunri_bhopal": {
+    "lat": 23.279862,
+    "lng": 77.2894164
+  },
+  "banjari_bhopal": {
+    "lat": 23.1772699,
+    "lng": 77.4240915
+  }
 }
