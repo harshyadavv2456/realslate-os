@@ -13421,5 +13421,233 @@
   "behta_lucknow": {
     "lat": 26.9869844,
     "lng": 81.0187655
+  },
+  "royal palms_mumbai": {
+    "lat": 19.1538287,
+    "lng": 72.8863263
+  },
+  "tunga village_mumbai": {
+    "lat": 19.119371,
+    "lng": 72.8924338
+  },
+  "ulhasnagar_mumbai": null,
+  "anand niketan new_delhi ncr": {
+    "lat": 28.5785457,
+    "lng": 77.1638649
+  },
+  "block 1 tilak nagar new_delhi ncr": null,
+  "karam pura new_delhi ncr": null,
+  "phase 9th jp nagar_bangalore": {
+    "lat": 12.9106407,
+    "lng": 77.5845458
+  },
+  "4th t block east jayanagar_bangalore": {
+    "lat": 12.9302534,
+    "lng": 77.5903874
+  },
+  "bda layout hsr layout_bangalore": {
+    "lat": 12.9137415,
+    "lng": 77.6374623
+  },
+  "kammanahalli_bangalore": {
+    "lat": 13.0148544,
+    "lng": 77.6382029
+  },
+  "budigere road_bangalore": {
+    "lat": 13.079778,
+    "lng": 77.7372773
+  },
+  "kiadb industrial area_bangalore": {
+    "lat": 12.7836552,
+    "lng": 77.7461411
+  },
+  "battarahalli_bangalore": {
+    "lat": 13.0185286,
+    "lng": 77.7088302
+  },
+  "phase 4 jp nagar_bangalore": {
+    "lat": 12.9096941,
+    "lng": 77.5866067
+  },
+  "rose garden jp nagar_bangalore": {
+    "lat": 12.9020928,
+    "lng": 77.5954682
+  },
+  "kaval bairasandra_bangalore": null,
+  "sir m vishveswaraya layout_bangalore": null,
+  "it park/ sez for rent in whitefield_bangalore": null,
+  "harohalli_bangalore": {
+    "lat": 13.1305028,
+    "lng": 77.5804603
+  },
+  "anekal_bangalore": {
+    "lat": 12.7784026,
+    "lng": 77.7393213
+  },
+  "murgesh pallya_bangalore": null,
+  "sampangiram nagar_bangalore": null,
+  "aavalahalli_bangalore": null,
+  "hoysala nagar ramamurthy nagar_bangalore": null,
+  "doddaballapura main road_bangalore": null,
+  "thotada guddadhalli village_bangalore": null,
+  "mc layout_bangalore": {
+    "lat": 12.972681,
+    "lng": 77.5356957
+  },
+  "naagarabhaavi_bangalore": null,
+  "medipally_hyderabad": {
+    "lat": 17.4158985,
+    "lng": 78.6018454
+  },
+  "nizampet road_hyderabad": {
+    "lat": 17.5019746,
+    "lng": 78.3887841
+  },
+  "gundlapochampalli_hyderabad": null,
+  "mogappair eri scheme_chennai": {
+    "lat": 13.0768479,
+    "lng": 80.1755215
+  },
+  "lakshmipuram_chennai": {
+    "lat": 12.9864124,
+    "lng": 80.2221212
+  },
+  "karthikeyapuram_chennai": {
+    "lat": 12.9625935,
+    "lng": 80.1945242
+  },
+  "bopkhel_pune": {
+    "lat": 18.5775917,
+    "lng": 73.8533183
+  },
+  "rajaram patil nagar_pune": null,
+  "rajdanga main road_kolkata": {
+    "lat": 22.5131238,
+    "lng": 88.3896208
+  },
+  "raja bazar_kolkata": {
+    "lat": 22.5727779,
+    "lng": 88.3716794
+  },
+  "kaikhali main road_kolkata": null,
+  "sector 78_gurgaon": {
+    "lat": 28.3725283,
+    "lng": 76.9702955
+  },
+  "sector 23_gurgaon": {
+    "lat": 28.510319,
+    "lng": 77.0530094
+  },
+  "sector 71_gurgaon": {
+    "lat": 28.4064564,
+    "lng": 77.0233125
+  },
+  "it park/ sez for rent in b block sector 63_noida": null,
+  "sector 57_noida": {
+    "lat": 28.6050343,
+    "lng": 77.3534679
+  },
+  "block b sector 52_noida": {
+    "lat": 28.6128537,
+    "lng": 77.3778423
+  },
+  "sector 85_noida": {
+    "lat": 28.5180798,
+    "lng": 77.4044895
+  },
+  "block d sector 41_noida": {
+    "lat": 28.460509,
+    "lng": 77.5358738
+  },
+  "kharegaon_thane": {
+    "lat": 19.2036132,
+    "lng": 73.0015402
+  },
+  "tembhi naka_thane": {
+    "lat": 19.1970186,
+    "lng": 72.9772325
+  },
+  "sector 8 kharghar_navi mumbai": null,
+  "sector 10 sanpada_navi mumbai": {
+    "lat": 19.0607337,
+    "lng": 73.0116775
+  },
+  "bahrampur_ghaziabad": null,
+  "madhuban bapudham_ghaziabad": {
+    "lat": 28.7070611,
+    "lng": 77.4720075
+  },
+  "sector 47d_chandigarh": {
+    "lat": 30.7399177,
+    "lng": 76.7661953
+  },
+  "sector 8 indira nagar_lucknow": {
+    "lat": 26.8768189,
+    "lng": 80.9966737
+  },
+  "chander nagar_lucknow": null,
+  "sector 18 vrindavan yojana_lucknow": null,
+  "omex city_lucknow": null,
+  "preeti nagar_lucknow": null,
+  "phulera_jaipur": {
+    "lat": 26.8750866,
+    "lng": 75.2455501
+  },
+  "murlipura scheme_jaipur": {
+    "lat": 26.9720704,
+    "lng": 75.7629849
+  },
+  "narayan sagar a_jaipur": null,
+  "gopal pura mode_jaipur": null,
+  "new atish market_jaipur": null,
+  "vatika road_jaipur": {
+    "lat": 26.7229592,
+    "lng": 75.8116813
+  },
+  "dundi_surat": null,
+  "suman vihar_nagpur": null,
+  "suyog nagar_nagpur": {
+    "lat": 21.1066473,
+    "lng": 79.0835125
+  },
+  "pevtha_nagpur": null,
+  "regal square_indore": null,
+  "sainath colony_indore": {
+    "lat": 22.7184703,
+    "lng": 75.9015492
+  },
+  "pragati nagar_indore": null,
+  "malviya nagar_indore": {
+    "lat": 22.7045344,
+    "lng": 75.8651055
+  },
+  "kamachipuram_coimbatore": null,
+  "vcs nagar_coimbatore": null,
+  "palathurai_coimbatore": {
+    "lat": 10.8825295,
+    "lng": 76.9543402
+  },
+  "meena estate_coimbatore": null,
+  "balaji gardens_coimbatore": null,
+  "achipatti_coimbatore": null,
+  "pallimukku_kochi": {
+    "lat": 8.8764222,
+    "lng": 76.6238298
+  },
+  "nehru chacha nagar_vadodara": null,
+  "suryanagar_vadodara": null,
+  "bank employees colony_mysore": null,
+  "bilikere_mysore": {
+    "lat": 12.335592,
+    "lng": 76.450465
+  },
+  "bairagarh kalan_bhopal": {
+    "lat": 23.2914559,
+    "lng": 77.3084608
+  },
+  "new central jail_bhopal": null,
+  "srinivasa nagar_visakhapatnam": {
+    "lat": 17.7318084,
+    "lng": 83.2988143
   }
 }
