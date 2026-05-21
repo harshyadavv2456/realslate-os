@@ -13649,5 +13649,76 @@
   "srinivasa nagar_visakhapatnam": {
     "lat": 17.7318084,
     "lng": 83.2988143
+  },
+  "sat bari new_delhi ncr": null,
+  "basavanapura krishnarajapura_bangalore": null,
+  "ramaiah reddy layout ombr layout_bangalore": null,
+  "tnhb_chennai": {
+    "lat": 12.8874026,
+    "lng": 80.2335971
+  },
+  "veppampattu_chennai": {
+    "lat": 13.125886,
+    "lng": 80.0101118
+  },
+  "action area 1d_kolkata": {
+    "lat": 22.6129078,
+    "lng": 88.4665536
+  },
+  "bediapara south dumdum_kolkata": null,
+  "sector 95_gurgaon": {
+    "lat": 28.4149443,
+    "lng": 76.9114892
+  },
+  "block a sector 40_noida": null,
+  "sector 13 kharghar_navi mumbai": null,
+  "khar kopar_navi mumbai": null,
+  "sector 1 gomti nagar_lucknow": {
+    "lat": 26.8528761,
+    "lng": 80.9988505
+  },
+  "ahmamau_lucknow": {
+    "lat": 26.8010161,
+    "lng": 81.004746
+  },
+  "thana sanganer_jaipur": null,
+  "dcm_jaipur": {
+    "lat": 26.8985445,
+    "lng": 75.7592028
+  },
+  "sector 6 pratap nagar_jaipur": {
+    "lat": 26.9202329,
+    "lng": 75.7495761
+  },
+  "transport nagar_jaipur": {
+    "lat": 26.9125998,
+    "lng": 75.8406173
+  },
+  "mahindra sez_jaipur": {
+    "lat": 26.8398593,
+    "lng": 75.6551815
+  },
+  "himmatnagar_jaipur": null,
+  "mahapura colony_jaipur": null,
+  "hanuman nagar extension_jaipur": {
+    "lat": 26.9228384,
+    "lng": 75.7344735
+  },
+  "delhi-jaipur expressway_jaipur": null,
+  "parvat patia_surat": null,
+  "vidur nagar_indore": null,
+  "jawahar marg_indore": {
+    "lat": 22.7164232,
+    "lng": 75.8571008
+  },
+  "big bazaar street_coimbatore": null,
+  "nagaraja puram_coimbatore": null,
+  "tulsi nagar_bhopal": {
+    "lat": 23.2288568,
+    "lng": 77.4059977
+  },
+  "kasturba nagar_bhopal": {
+    "lat": 23.2316836,
+    "lng": 77.4395255
   }
 }
