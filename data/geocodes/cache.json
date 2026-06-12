@@ -20931,5 +20931,37 @@
     "lng": 77.4583924
   },
   "it park/ sez for rent in dwarakanagar_visakhapatnam": null,
-  "chengal rao peta_visakhapatnam": null
+  "chengal rao peta_visakhapatnam": null,
+  "baba nagar mogappair west_chennai": null,
+  "taljai tekdi road_pune": null,
+  "motera koteshwar road_ahmedabad": null,
+  "sector 11 kopar khairane_navi mumbai": {
+    "lat": 19.1056227,
+    "lng": 72.9988648
+  },
+  "kanawani village_ghaziabad": {
+    "lat": 28.6499784,
+    "lng": 77.384546
+  },
+  "lalru_chandigarh": null,
+  "kundari rakabganj_lucknow": null,
+  "baba farid nagar_nagpur": null,
+  "vinay nagar_indore": {
+    "lat": 22.6934041,
+    "lng": 75.8469486
+  },
+  "karunya nagar_coimbatore": {
+    "lat": 10.941866,
+    "lng": 76.7517757
+  },
+  "kathir naickenpalayam_coimbatore": null,
+  "north paravur_kochi": {
+    "lat": 10.1493275,
+    "lng": 76.2372196
+  },
+  "devagalli_mysore": null,
+  "gandhi nagar_visakhapatnam": {
+    "lat": 17.8244414,
+    "lng": 83.3463377
+  }
 }
