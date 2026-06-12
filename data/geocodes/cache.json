@@ -20963,5 +20963,10 @@
   "gandhi nagar_visakhapatnam": {
     "lat": 17.8244414,
     "lng": 83.3463377
-  }
+  },
+  "alamnagar_lucknow": {
+    "lat": 26.8415195,
+    "lng": 80.8682662
+  },
+  "mayur vihar_lucknow": null
 }
