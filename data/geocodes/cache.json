@@ -20968,5 +20968,70 @@
     "lat": 26.8415195,
     "lng": 80.8682662
   },
-  "mayur vihar_lucknow": null
+  "mayur vihar_lucknow": null,
+  "maragondanahalli_bangalore": {
+    "lat": 13.0376489,
+    "lng": 77.6922232
+  },
+  "smv layout 4th block road_bangalore": {
+    "lat": 12.9406404,
+    "lng": 77.4802411
+  },
+  "bilekahalli_bangalore": {
+    "lat": 12.9046331,
+    "lng": 77.6070945
+  },
+  "ss farm house_bangalore": {
+    "lat": 12.9844375,
+    "lng": 77.7054255
+  },
+  "muddamma garden extension_bangalore": null,
+  "herohalli sunkadakatte_bangalore": {
+    "lat": 12.9876847,
+    "lng": 77.4932046
+  },
+  "kachohalli_bangalore": {
+    "lat": 13.0097462,
+    "lng": 77.4794715
+  },
+  "koralur_bangalore": null,
+  "mahadeva kodigehalli_bangalore": {
+    "lat": 13.1442645,
+    "lng": 77.702781
+  },
+  "hulimangala_bangalore": {
+    "lat": 12.8226963,
+    "lng": 77.6495447
+  },
+  "jakkur plantation_bangalore": {
+    "lat": 13.0834599,
+    "lng": 77.5980019
+  },
+  "neeladri investment layout_bangalore": {
+    "lat": 12.8470395,
+    "lng": 77.6473395
+  },
+  "khanammet_hyderabad": null,
+  "velachery west_chennai": null,
+  "chandlodiya_ahmedabad": {
+    "lat": 23.0751633,
+    "lng": 72.5440359
+  },
+  "redicon vedantam_noida": null,
+  "shelghar_navi mumbai": null,
+  "khadra_lucknow": {
+    "lat": 26.8802898,
+    "lng": 80.9166001
+  },
+  "laxmi nagar jhotwara industrial area_jaipur": null,
+  "paldi meena_jaipur": null,
+  "10-b scheme_jaipur": {
+    "lat": 26.9154576,
+    "lng": 75.8189817
+  },
+  "sahara bypass road_bhopal": null,
+  "nerellavalasa_visakhapatnam": {
+    "lat": 18.0471813,
+    "lng": 83.3661932
+  }
 }
