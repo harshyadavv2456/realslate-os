@@ -21033,5 +21033,96 @@
   "nerellavalasa_visakhapatnam": {
     "lat": 18.0471813,
     "lng": 83.3661932
-  }
+  },
+  "lbs road_mumbai": {
+    "lat": 19.084469,
+    "lng": 72.8846352
+  },
+  "hari nagar new_delhi ncr": {
+    "lat": 28.6307216,
+    "lng": 77.1242288
+  },
+  "annaiah reddy layout dodda banaswadi_bangalore": null,
+  "hesaraghatta_bangalore": {
+    "lat": 13.1042269,
+    "lng": 77.4730361
+  },
+  "old madiwala_bangalore": {
+    "lat": 12.9612429,
+    "lng": 77.6369997
+  },
+  "sulikunte_bangalore": {
+    "lat": 12.8881819,
+    "lng": 77.7292185
+  },
+  "rajasree layout_bangalore": {
+    "lat": 13.0686085,
+    "lng": 77.5562896
+  },
+  "chandapura dommasandra road_bangalore": {
+    "lat": 12.8500965,
+    "lng": 77.7289596
+  },
+  "chinmaya mission hospital road_bangalore": {
+    "lat": 12.9785334,
+    "lng": 77.6437489
+  },
+  "hal_bangalore": {
+    "lat": 12.9557759,
+    "lng": 77.6881147
+  },
+  "munnekolala_bangalore": {
+    "lat": 12.9480839,
+    "lng": 77.7090175
+  },
+  "neredmet cross road_hyderabad": null,
+  "jalladiampet pallikaranai_chennai": null,
+  "barathi nagar_chennai": null,
+  "ags colony velachery_chennai": {
+    "lat": 12.9782313,
+    "lng": 80.2120528
+  },
+  "pirangut road_pune": {
+    "lat": 18.5118236,
+    "lng": 73.6820006
+  },
+  "manjri bk_pune": {
+    "lat": 18.5058249,
+    "lng": 73.9623288
+  },
+  "purna das road_kolkata": {
+    "lat": 22.5176326,
+    "lng": 88.3581207
+  },
+  "lake gardens road_kolkata": {
+    "lat": 22.5115433,
+    "lng": 88.3539067
+  },
+  "sodepur road_kolkata": {
+    "lat": 22.6966132,
+    "lng": 88.445945
+  },
+  "khidirpur_kolkata": {
+    "lat": 22.5376181,
+    "lng": 88.3158211
+  },
+  "kalol_ahmedabad": null,
+  "darai_chandigarh": null,
+  "green city_lucknow": null,
+  "shyam vihar_jaipur": {
+    "lat": 26.9044357,
+    "lng": 75.7529725
+  },
+  "kumbha marg_jaipur": {
+    "lat": 26.7993489,
+    "lng": 75.8180176
+  },
+  "green valley resort_nagpur": null,
+  "shahu nagar_nagpur": {
+    "lat": 21.0961034,
+    "lng": 79.1005805
+  },
+  "nitaniya_indore": null,
+  "ramwadi_vadodara": null,
+  "gavity 9 prashant layout_mysore": null
 }
