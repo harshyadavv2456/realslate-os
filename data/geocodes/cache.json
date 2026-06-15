@@ -21124,5 +21124,30 @@
   },
   "nitaniya_indore": null,
   "ramwadi_vadodara": null,
-  "gavity 9 prashant layout_mysore": null
+  "gavity 9 prashant layout_mysore": null,
+  "primal nagar_mumbai": null,
+  "pocket a sector 13 dwarka new_delhi ncr": null,
+  "malakunta financial district_hyderabad": null,
+  "block g sector 41_noida": {
+    "lat": 28.5701239,
+    "lng": 77.3240992
+  },
+  "bhangel_noida": {
+    "lat": 28.526927,
+    "lng": 77.3878357
+  },
+  "sector 49a_chandigarh": {
+    "lat": 30.7399177,
+    "lng": 76.7661953
+  },
+  "priyadarshani_lucknow": null,
+  "block b indira nagar_lucknow": {
+    "lat": 26.877459,
+    "lng": 80.97638
+  },
+  "bahadura_nagpur": {
+    "lat": 21.1017698,
+    "lng": 79.1528037
+  },
+  "sr puram_visakhapatnam": null
 }
