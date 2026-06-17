@@ -21516,5 +21516,98 @@
   "nh -5_visakhapatnam": {
     "lat": 17.6935526,
     "lng": 83.2921297
+  },
+  "peddar road_mumbai": {
+    "lat": 18.9727555,
+    "lng": 72.8093794
+  },
+  "sangeet samrat naushad ali road_mumbai": null,
+  "union park pali hill_mumbai": {
+    "lat": 19.0687787,
+    "lng": 72.8261815
+  },
+  "mira road_mumbai": {
+    "lat": 19.1878962,
+    "lng": 72.8365955
+  },
+  "shiv nagar janakpuri new_delhi ncr": null,
+  "kalyan vihar new_delhi ncr": {
+    "lat": 28.6814958,
+    "lng": 77.3283939
+  },
+  "shanti kunj main new_delhi ncr": null,
+  "chhattarpur new_delhi ncr": null,
+  "kirari suleman nagar new_delhi ncr": null,
+  "phase 1 om vihar new_delhi ncr": null,
+  "billapura_bangalore": {
+    "lat": 12.8410686,
+    "lng": 77.7887246
+  },
+  "bhuvaneswari nagar cv raman nagar_bangalore": null,
+  "dodda aladmara road_bangalore": null,
+  "arasinakunte_bangalore": {
+    "lat": 13.0824543,
+    "lng": 77.4161472
+  },
+  "gunjur road_bangalore": {
+    "lat": 12.9369364,
+    "lng": 77.7498514
+  },
+  "adakamaranahalli_bangalore": {
+    "lat": 13.0657041,
+    "lng": 77.4425319
+  },
+  "maruthi sevanagar_bangalore": {
+    "lat": 13.0026039,
+    "lng": 77.6347249
+  },
+  "punjagutta officers colony_hyderabad": null,
+  "ismailkhanpet_hyderabad": null,
+  "it park/ sez for rent in madhapur_hyderabad": null,
+  "shanmuga nagar pozhichalur_chennai": null,
+  "agaramthen_chennai": null,
+  "st thomas mount_chennai": {
+    "lat": 12.995,
+    "lng": 80.198582
+  },
+  "annanur_chennai": null,
+  "vallakkottai_chennai": null,
+  "canal road_pune": {
+    "lat": 18.5026832,
+    "lng": 73.8194109
+  },
+  "jangali maharaj road_pune": null,
+  "katraj kondhwa road_pune": {
+    "lat": 18.453026,
+    "lng": 73.8891376
+  },
+  "chowbaga_kolkata": {
+    "lat": 22.5035398,
+    "lng": 88.4008279
+  },
+  "nirnay nagar_ahmedabad": {
+    "lat": 23.0697965,
+    "lng": 72.5524459
+  },
+  "vardhaman garden_thane": null,
+  "sector 8 ghansoli_navi mumbai": {
+    "lat": 19.1202459,
+    "lng": 72.9959529
+  },
+  "gaurabagh_lucknow": null,
+  "kanji house_nagpur": null,
+  "zari_nagpur": null,
+  "mondha_nagpur": {
+    "lat": 21.0459895,
+    "lng": 78.9572114
+  },
+  "ramana maruti nagar_nagpur": null,
+  "udayampalayam\ufffd_coimbatore": {
+    "lat": 11.010698,
+    "lng": 77.004737
+  },
+  "rajendranagar_mysore": {
+    "lat": 12.3323999,
+    "lng": 76.6672293
   }
 }
