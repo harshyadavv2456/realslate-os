@@ -21864,5 +21864,89 @@
   "purna market_visakhapatnam": {
     "lat": 17.7093575,
     "lng": 83.2970453
+  },
+  "bdd chawl_mumbai": {
+    "lat": 18.9923128,
+    "lng": 72.8305062
+  },
+  "chakala industrial area midc_mumbai": null,
+  "juhu versova link road_mumbai": {
+    "lat": 19.1219328,
+    "lng": 72.8257301
+  },
+  "main market shakarpur new_delhi ncr": null,
+  "balaji layout raghuvanahalli_bangalore": null,
+  "kothnur narayanapura_bangalore": null,
+  "sompura_bangalore": {
+    "lat": 12.8778283,
+    "lng": 77.4972385
+  },
+  "maruthi nagar dasarahalli_bangalore": null,
+  "neeladri road_bangalore": {
+    "lat": 12.8525678,
+    "lng": 77.6436309
+  },
+  "bheemanakuppe_bangalore": {
+    "lat": 12.9072993,
+    "lng": 77.4397866
+  },
+  "stage 2nd peenya_bangalore": {
+    "lat": 13.0271609,
+    "lng": 77.5148644
+  },
+  "bn reddy colony banjara hills_hyderabad": {
+    "lat": 17.4237643,
+    "lng": 78.4283681
+  },
+  "hasthinapuram_chennai": null,
+  "ags colony extension_chennai": null,
+  "thandalam_chennai": null,
+  "melnallathur_chennai": null,
+  "tirumallaivayal colony_chennai": null,
+  "anna salai_chennai": {
+    "lat": 13.0219832,
+    "lng": 80.2263424
+  },
+  "it park/ sez for rent in tharamani_chennai": null,
+  "baguihati main road_kolkata": {
+    "lat": 22.6120368,
+    "lng": 88.4400247
+  },
+  "gujarat housing board naranpura_ahmedabad": {
+    "lat": 23.063875,
+    "lng": 72.5554731
+  },
+  "vipul world_gurgaon": {
+    "lat": 28.4128327,
+    "lng": 77.0345031
+  },
+  "sector 8_gurgaon": {
+    "lat": 28.4598966,
+    "lng": 77.0198043
+  },
+  "nirvana country 2_gurgaon": {
+    "lat": 28.4150509,
+    "lng": 77.0642955
+  },
+  "dev sai sportshome_noida": null,
+  "harihar nagar_lucknow": null,
+  "sanjay gandhi puram_lucknow": {
+    "lat": 26.8691612,
+    "lng": 80.9725552
+  },
+  "mahadev nagar_jaipur": {
+    "lat": 26.9036702,
+    "lng": 75.7414983
+  },
+  "vitthal nagar_nagpur": null,
+  "juni_indore": {
+    "lat": 22.7230256,
+    "lng": 75.8622642
+  },
+  "airport area_kochi": null,
+  "pushpak township_vadodara": null,
+  "bima kunj_bhopal": {
+    "lat": 23.1801939,
+    "lng": 77.4173755
   }
 }
