@@ -21948,5 +21948,51 @@
   "bima kunj_bhopal": {
     "lat": 23.1801939,
     "lng": 77.4173755
-  }
+  },
+  "govandi west_mumbai": {
+    "lat": 19.0499791,
+    "lng": 72.9169786
+  },
+  "poorna prajna layout_bangalore": {
+    "lat": 12.908823,
+    "lng": 77.535944
+  },
+  "gunjur mugalur road_bangalore": null,
+  "dasanapura bangalore rural_bangalore": null,
+  "hennur bagalur main road_bangalore": {
+    "lat": 13.1303308,
+    "lng": 77.6665845
+  },
+  "hrbr layout 2nd block_bangalore": {
+    "lat": 13.02404,
+    "lng": 77.6400268
+  },
+  "2nd block kalyan nagar_bangalore": {
+    "lat": 13.0193779,
+    "lng": 77.6430195
+  },
+  "kesnand road_pune": {
+    "lat": 18.563399,
+    "lng": 74.0452223
+  },
+  "cp nagar 1_ahmedabad": null,
+  "palam vihar extension_gurgaon": {
+    "lat": 28.5007712,
+    "lng": 77.0398992
+  },
+  "sector 30 kharghar_navi mumbai": null,
+  "ram nagar kaushambi_ghaziabad": null,
+  "jail road_lucknow": null,
+  "major shaitan singh colony_jaipur": null,
+  "kishanpole bazar_jaipur": {
+    "lat": 26.9206086,
+    "lng": 75.8173403
+  },
+  "narayan city_jaipur": {
+    "lat": 26.8921584,
+    "lng": 75.8154896
+  },
+  "udhyog nagar_indore": null,
+  "pratap nagar police lane_vadodara": null,
+  "pendurthi juttada adavivaram srpuram_visakhapatnam": null
 }
