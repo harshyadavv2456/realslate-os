@@ -21994,5 +21994,210 @@
   },
   "udhyog nagar_indore": null,
   "pratap nagar police lane_vadodara": null,
-  "pendurthi juttada adavivaram srpuram_visakhapatnam": null
+  "pendurthi juttada adavivaram srpuram_visakhapatnam": null,
+  "mazgaon_mumbai": {
+    "lat": 18.9697337,
+    "lng": 72.8406201
+  },
+  "sion chunabhatti_mumbai": null,
+  "swami samarth nagar_mumbai": {
+    "lat": 19.1430985,
+    "lng": 72.8246055
+  },
+  "opera house_mumbai": {
+    "lat": 18.9560477,
+    "lng": 72.8155711
+  },
+  "pedder road_mumbai": {
+    "lat": 18.9730483,
+    "lng": 72.8101437
+  },
+  "gundavali_mumbai": {
+    "lat": 19.1145125,
+    "lng": 72.8551556
+  },
+  "virender nagar new_delhi ncr": null,
+  "paschim puri new_delhi ncr": null,
+  "bahapur new_delhi ncr": null,
+  "block b sewak park new_delhi ncr": null,
+  "rishi nagar new_delhi ncr": null,
+  "block c anand niketan new_delhi ncr": null,
+  "raj nagar 2 extension new_delhi ncr": null,
+  "vaishali colony new_delhi ncr": null,
+  "block c bhajanpura new_delhi ncr": {
+    "lat": 28.699998,
+    "lng": 77.2709397
+  },
+  "tri nagar new_delhi ncr": null,
+  "sector a vasant kunj new_delhi ncr": null,
+  "lok vihar pritam pura new_delhi ncr": null,
+  "rani bagh new_delhi ncr": {
+    "lat": 28.690109,
+    "lng": 77.1343765
+  },
+  "mandi new_delhi ncr": {
+    "lat": 28.6256122,
+    "lng": 77.2341966
+  },
+  "yemalur main road_bangalore": {
+    "lat": 12.9490103,
+    "lng": 77.6887274
+  },
+  "block 3rd stage 3rd banashankari_bangalore": null,
+  "venkatala_bangalore": {
+    "lat": 13.1122071,
+    "lng": 77.6026475
+  },
+  "shirdi sai layout_bangalore": {
+    "lat": 12.9135912,
+    "lng": 77.6067733
+  },
+  "block 5th stage 6th banashankari_bangalore": {
+    "lat": 12.8778987,
+    "lng": 77.5089292
+  },
+  "bagalur cross_bangalore": {
+    "lat": 13.121902,
+    "lng": 77.6108084
+  },
+  "gunjur balagere road_bangalore": {
+    "lat": 12.9312267,
+    "lng": 77.730136
+  },
+  "nagawara_bangalore": {
+    "lat": 13.0422794,
+    "lng": 77.6248577
+  },
+  "addagutta society_hyderabad": null,
+  "chikkadpally_hyderabad": {
+    "lat": 17.400939,
+    "lng": 78.4976319
+  },
+  "gudimalkapur_hyderabad": {
+    "lat": 17.3879203,
+    "lng": 78.4371165
+  },
+  "kolluru_hyderabad": null,
+  "manikonda_hyderabad": {
+    "lat": 17.3999951,
+    "lng": 78.3861689
+  },
+  "lingareddyguda shadnagar_hyderabad": {
+    "lat": 17.0905361,
+    "lng": 78.2236218
+  },
+  "ghatkesar bypass road_hyderabad": null,
+  "gill nagar_chennai": {
+    "lat": 13.0640552,
+    "lng": 80.2247182
+  },
+  "sekkadu madhavaram milk colony_chennai": null,
+  "sawardari_pune": null,
+  "belgachia_kolkata": {
+    "lat": 22.6059241,
+    "lng": 88.3863913
+  },
+  "amherst street_kolkata": null,
+  "goyal intercity_ahmedabad": {
+    "lat": 23.0502872,
+    "lng": 72.5256724
+  },
+  "sardarnagar_ahmedabad": {
+    "lat": 23.0811113,
+    "lng": 72.6242288
+  },
+  "sector 15_gurgaon": {
+    "lat": 28.3843199,
+    "lng": 76.9122326
+  },
+  "ashok vihar phase 3 extension_gurgaon": {
+    "lat": 28.495084,
+    "lng": 77.0248389
+  },
+  "sector 6_gurgaon": {
+    "lat": 28.4753259,
+    "lng": 77.0258279
+  },
+  "block a sector 26_noida": {
+    "lat": 28.5911592,
+    "lng": 77.3525353
+  },
+  "twin chalet_noida": null,
+  "block d sector 61_noida": {
+    "lat": 28.460509,
+    "lng": 77.5358738
+  },
+  "block b sector 47_noida": {
+    "lat": 28.4716537,
+    "lng": 77.5307693
+  },
+  "vangani beyond_thane": null,
+  "jawahar nagar_ghaziabad": {
+    "lat": 28.7246509,
+    "lng": 77.289906
+  },
+  "sugamau road_lucknow": null,
+  "vikram nagar_lucknow": {
+    "lat": 26.7776645,
+    "lng": 80.8720519
+  },
+  "chandan road_lucknow": null,
+  "vivek khand - 3_lucknow": null,
+  "chandrakala colony_jaipur": null,
+  "prajapati vihar_jaipur": null,
+  "choti chopad_jaipur": {
+    "lat": 26.9246247,
+    "lng": 75.8190096
+  },
+  "renwal_jaipur": {
+    "lat": 27.1504106,
+    "lng": 75.3565244
+  },
+  "jawahar nagar colony_jaipur": {
+    "lat": 26.8685465,
+    "lng": 75.7969727
+  },
+  "katarpura_jaipur": null,
+  "gyan vihar_jaipur": {
+    "lat": 26.8914127,
+    "lng": 75.7443163
+  },
+  "sudharshanpura_jaipur": null,
+  "soni falia_surat": null,
+  "ved road_surat": {
+    "lat": 21.2156371,
+    "lng": 72.8225901
+  },
+  "kalmana_nagpur": null,
+  "sneh nagar_indore": null,
+  "narain bagh_indore": null,
+  "lokmanya nagar ext_indore": null,
+  "kushwaha nagar_indore": null,
+  "nadupalayam_coimbatore": null,
+  "arasampalayam_coimbatore": {
+    "lat": 10.8469074,
+    "lng": 77.0432853
+  },
+  "seerapalayam_coimbatore": null,
+  "anugraha gardens_coimbatore": null,
+  "anaimalai_coimbatore": {
+    "lat": 10.5822989,
+    "lng": 76.9343247
+  },
+  "tauta nagar_coimbatore": null,
+  "bajwa_vadodara": null,
+  "vadodara east block ii_vadodara": null,
+  "adakanahalli industrial area_mysore": null,
+  "raisen_bhopal": {
+    "lat": 23.249244,
+    "lng": 77.4952683
+  },
+  "revidi_visakhapatnam": {
+    "lat": 17.9641784,
+    "lng": 83.3728604
+  },
+  "saripalli_visakhapatnam": {
+    "lat": 17.8408802,
+    "lng": 83.2011968
+  }
 }
