@@ -48,45 +48,10 @@ CITY_COORDS = {
 
 def load_cache():
     os.makedirs(os.path.dirname(GEOCACHE_FILE), exist_ok=True)
-    if not os.path.exists(GEOCACHE_FILE):
-        return {}
-
-    with open(GEOCACHE_FILE, encoding='utf-8') as f:
-        raw = f.read()
-
-    try:
-        return json.loads(raw)
-    except json.JSONDecodeError as e:
-        # Self-heal: recover the first complete valid JSON object in the
-        # file and discard anything after it (trailing garbage from a
-        # previous interrupted/locked write - e.g. antivirus scanning a
-        # freshly-written file). Preserves existing geocodes instead of
-        # crashing the whole pipeline or wiping the cache.
-        print(f"  WARNING: cache.json corrupted ({e}). Attempting auto-recovery...")
-        decoder = json.JSONDecoder()
-        try:
-            obj, end_idx = decoder.raw_decode(raw)
-        except json.JSONDecodeError:
-            print("  Could not recover any valid data from cache.json. Starting with empty cache.")
-            backup = GEOCACHE_FILE + '.corrupted'
-            try:
-                import shutil
-                shutil.copy2(GEOCACHE_FILE, backup)
-                print(f"  Corrupted file backed up to {backup}")
-            except Exception:
-                pass
-            return {}
-
-        discarded = len(raw) - end_idx
-        print(f"  Recovered {len(obj)} cache entries, discarded {discarded} trailing corrupt bytes.")
-        # Write back the cleaned version immediately so this doesn't
-        # need re-recovering on the next run.
-        try:
-            with open(GEOCACHE_FILE, 'w', encoding='utf-8') as f:
-                json.dump(obj, f, indent=2)
-        except Exception as write_err:
-            print(f"  WARNING: could not save cleaned cache back to disk: {write_err}")
-        return obj
+    if os.path.exists(GEOCACHE_FILE):
+        with open(GEOCACHE_FILE) as f:
+            return json.load(f)
+    return {}
 
 
 def save_cache(cache):

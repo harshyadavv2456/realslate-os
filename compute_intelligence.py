@@ -46,34 +46,8 @@ def compute():
         print(f"  DATA_DRIVE={DATA_DRIVE} — did parse_and_export.py run first, and on the same drive?")
         sys.exit(1)
 
-    # Validate each file individually first. A single corrupted/truncated
-    # parquet file (e.g. from antivirus locking a freshly-written file, or
-    # a crashed write) should not take down the whole run - skip it and
-    # keep going with the rest, but say so loudly so it gets noticed.
     con = duckdb.connect()
-    good_files = []
-    bad_files = []
-    for f in files:
-        fpath = f.replace(chr(92), '/')
-        try:
-            con.execute(f"SELECT COUNT(*) FROM read_parquet('{fpath}')").fetchone()
-            good_files.append(f)
-        except Exception as e:
-            bad_files.append((f, str(e)))
-
-    if bad_files:
-        print(f"WARNING: {len(bad_files)} parquet file(s) failed validation and will be SKIPPED this run:")
-        for f, err in bad_files:
-            print(f"  SKIPPED: {f}")
-            print(f"    reason: {err}")
-        print("  These cities/months will be missing from this run's intelligence until")
-        print("  re-scraped (parse_and_export.py will overwrite them next time it runs).")
-
-    if not good_files:
-        print("FATAL: no valid parquet files remain after validation.")
-        sys.exit(1)
-
-    fs = ", ".join([f"'{f.replace(chr(92), '/')}'" for f in good_files])
+    fs = ", ".join([f"'{f.replace(chr(92), '/')}'" for f in files])
     con.execute(f"CREATE VIEW listings AS SELECT * FROM read_parquet([{fs}])")
 
     total = con.execute("SELECT COUNT(*) FROM listings").fetchone()[0]
@@ -248,7 +222,7 @@ def compute():
                 -- Only use most common BHK in each locality (avoids mix-shift)
                 dominant_bhk AS (
                     SELECT locality, listing_type,
-                        MODE() WITHIN GROUP (ORDER BY CAST(beds AS INTEGER)) as dom_bhk
+                        MODE() WITHIN GROUP (ORDER BY bhk) as dom_bhk
                     FROM listings
                     WHERE city = '{city}' AND beds >= 1 AND beds <= 5 AND price > 0
                     GROUP BY locality, listing_type

@@ -16,8 +16,9 @@ import sys
 from datetime import datetime
 
 PORT = 8000
-DASHBOARD_DIR = r'D:\RealSlateOS'
-INTEL_DIR = r'D:\RealSlateOS\data\intelligence'
+DATA_DRIVE = os.environ.get('DATA_DRIVE', 'E:')
+DASHBOARD_DIR = os.path.join(DATA_DRIVE, r'\RealSlateOS')
+INTEL_DIR = os.path.join(DATA_DRIVE, r'\RealSlateOS\data\intelligence')
 
 
 class RealSlateHandler(http.server.SimpleHTTPRequestHandler):

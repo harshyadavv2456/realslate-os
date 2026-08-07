@@ -1,0 +1,11 @@
+================================================================ 
+REALSLATE PIPELINE — 13-05-2026 16:44:08.90 
+================================================================ 
+ 
+[16:44:08.96] STEP 1: RealSlate Scraper 
+Traceback (most recent call last):
+  File "D:\RealSlate\realslate_core\runners\run_all_india.py", line 40, in <module>
+    from loguru import logger
+ModuleNotFoundError: No module named 'loguru'
+[16:44:09.34] WARNING: Scraper errors, continuing 
+[16:44:09.38] STEP 2: parse_and_export 
