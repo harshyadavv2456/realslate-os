@@ -22199,5 +22199,47 @@
   "saripalli_visakhapatnam": {
     "lat": 17.8408802,
     "lng": 83.2011968
-  }
+  },
+  "block b 2b janakpuri new_delhi ncr": null,
+  "block d mansarover garden new_delhi ncr": null,
+  "nagasandra_bangalore": {
+    "lat": 13.0479536,
+    "lng": 77.5001422
+  },
+  "krishna rajendra road_bangalore": {
+    "lat": 12.931652,
+    "lng": 77.5736556
+  },
+  "madannapet colony_hyderabad": null,
+  "nacharam mallapur road_hyderabad": {
+    "lat": 17.4219911,
+    "lng": 78.544827
+  },
+  "padmavathy nagar velachery_chennai": null,
+  "rs 239_kolkata": {
+    "lat": 22.5768631,
+    "lng": 88.4349264
+  },
+  "kalyani_kolkata": {
+    "lat": 22.9749723,
+    "lng": 88.4345915
+  },
+  "navarangpura gam_ahmedabad": null,
+  "linkin road_ahmedabad": null,
+  "sector 74_gurgaon": {
+    "lat": 28.4110081,
+    "lng": 77.0101209
+  },
+  "raghunath puri_jaipur": null,
+  "vishal nagar_jaipur": {
+    "lat": 26.917067,
+    "lng": 75.8004209
+  },
+  "officers enclave_jaipur": null,
+  "purani chungi_jaipur": {
+    "lat": 26.8987863,
+    "lng": 75.7584067
+  },
+  "mahesh nagar phatak_jaipur": null,
+  "gkd nagar_coimbatore": null
 }
