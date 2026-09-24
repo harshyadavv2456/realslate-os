@@ -22250,5 +22250,107 @@
   "amarabati_kolkata": {
     "lat": 22.6987862,
     "lng": 88.3886385
-  }
+  },
+  "chandivali farm road_mumbai": {
+    "lat": 19.1146801,
+    "lng": 72.895471
+  },
+  "khar road_mumbai": {
+    "lat": 19.0682411,
+    "lng": 72.8400412
+  },
+  "gaddiannaram_hyderabad": {
+    "lat": 17.3636842,
+    "lng": 78.523971
+  },
+  "sd road_hyderabad": {
+    "lat": 17.4230639,
+    "lng": 78.346391
+  },
+  "lingojiguda saroornagar_hyderabad": {
+    "lat": 17.3480794,
+    "lng": 78.5478969
+  },
+  "venus colony_chennai": {
+    "lat": 13.0401069,
+    "lng": 80.2549202
+  },
+  "nehru nagar chromepet_chennai": null,
+  "perungavoor_chennai": null,
+  "vyasarpadi industrial estate_chennai": null,
+  "jak nagar_chennai": null,
+  "revathipuram_chennai": null,
+  "basunagar_kolkata": {
+    "lat": 22.6974185,
+    "lng": 88.4619034
+  },
+  "block a9 kalyani_kolkata": null,
+  "barrackpore barasat road_kolkata": {
+    "lat": 22.7671956,
+    "lng": 88.3730731
+  },
+  "sanand viramgam highway_ahmedabad": {
+    "lat": 23.0189015,
+    "lng": 72.3286411
+  },
+  "jagat nagar part 1_ahmedabad": null,
+  "subhash nagar thane west_thane": null,
+  "devad_navi mumbai": null,
+  "sector 8 vashi_navi mumbai": {
+    "lat": 19.075784,
+    "lng": 72.9952364
+  },
+  "bhikanpur_ghaziabad": {
+    "lat": 28.7515282,
+    "lng": 77.4557755
+  },
+  "lohgarh_chandigarh": null,
+  "sector 47 d_chandigarh": {
+    "lat": 30.6958109,
+    "lng": 76.7690491
+  },
+  "rajpura_chandigarh": null,
+  "tara nagar_jaipur": {
+    "lat": 26.9354696,
+    "lng": 75.7382159
+  },
+  "everest vihar_jaipur": {
+    "lat": 26.8824014,
+    "lng": 75.7532466
+  },
+  "surat textile market_surat": null,
+  "s b center udhna darwaja ring road_surat": null,
+  "subham row house_surat": null,
+  "mandvi_surat": {
+    "lat": 21.254926,
+    "lng": 73.3046407
+  },
+  "mouza sondapar_nagpur": null,
+  "parvati nagar_nagpur": {
+    "lat": 21.1971686,
+    "lng": 79.143185
+  },
+  "sawali_nagpur": {
+    "lat": 21.4781501,
+    "lng": 78.7913704
+  },
+  "sanjeevani coop society_nagpur": null,
+  "guru nanak colony_indore": {
+    "lat": 22.7019735,
+    "lng": 75.849349
+  },
+  "pigdambar_indore": {
+    "lat": 22.6182716,
+    "lng": 75.7978325
+  },
+  "ring road eb sector_indore": null,
+  "annur metu palayam_coimbatore": null,
+  "palladam_coimbatore": {
+    "lat": 10.8861099,
+    "lng": 77.0005353
+  },
+  "chettypalayam_coimbatore": null,
+  "sahyog soceity_vadodara": null,
+  "nadir colony_bhopal": null,
+  "gotam near_bhopal": null
 }
