@@ -1,0 +1,353 @@
+# Housing.com Configuration - RealSlate Core
+# Pan-India BUY + RENT coverage (expanded from 6 to 24 cities)
+# Last validated: 2026-02
+
+site:
+  name: "Housing.com"
+  base_url: "https://housing.com"
+  enabled: true
+  priority: 1
+  
+  min_delay_seconds: 8
+  max_delay_seconds: 25
+  max_pages_per_day: 400
+
+listing_types:
+  - buy
+  - rent
+
+cities:
+  # --- Tier 1 ---
+  - name: "Mumbai"
+    slug: "mumbai"
+    url_patterns:
+      buy: "/in/buy/real-estate-mumbai"
+      rent: "/in/rent/real-estate-mumbai"
+    enabled: true
+    
+  - name: "Delhi"
+    slug: "delhi"
+    url_patterns:
+      buy: "/in/buy/real-estate-delhi"
+      rent: "/in/rent/real-estate-delhi"
+    enabled: true
+    
+  - name: "Bangalore"
+    slug: "bangalore"
+    url_patterns:
+      buy: "/in/buy/real-estate-bangalore"
+      rent: "/in/rent/real-estate-bangalore"
+    enabled: true
+    
+  - name: "Hyderabad"
+    slug: "hyderabad"
+    url_patterns:
+      buy: "/in/buy/real-estate-hyderabad"
+      rent: "/in/rent/real-estate-hyderabad"
+    enabled: true
+    
+  - name: "Chennai"
+    slug: "chennai"
+    url_patterns:
+      buy: "/in/buy/real-estate-chennai"
+      rent: "/in/rent/real-estate-chennai"
+    enabled: true
+    
+  - name: "Pune"
+    slug: "pune"
+    url_patterns:
+      buy: "/in/buy/real-estate-pune"
+      rent: "/in/rent/real-estate-pune"
+    enabled: true
+    
+  - name: "Kolkata"
+    slug: "kolkata"
+    url_patterns:
+      buy: "/in/buy/real-estate-kolkata"
+      rent: "/in/rent/real-estate-kolkata"
+    enabled: true
+    
+  - name: "Ahmedabad"
+    slug: "ahmedabad"
+    url_patterns:
+      buy: "/in/buy/real-estate-ahmedabad"
+      rent: "/in/rent/real-estate-ahmedabad"
+    enabled: true
+
+  # --- Tier 2 ---
+  - name: "Gurgaon"
+    slug: "gurgaon"
+    url_patterns:
+      buy: "/in/buy/real-estate-gurgaon"
+      rent: "/in/rent/real-estate-gurgaon"
+    enabled: true
+
+  - name: "Noida"
+    slug: "noida"
+    url_patterns:
+      buy: "/in/buy/real-estate-noida"
+      rent: "/in/rent/real-estate-noida"
+    enabled: true
+
+  - name: "Thane"
+    slug: "thane"
+    url_patterns:
+      buy: "/in/buy/real-estate-thane"
+      rent: "/in/rent/real-estate-thane"
+    enabled: true
+
+  - name: "Navi Mumbai"
+    slug: "navi-mumbai"
+    url_patterns:
+      buy: "/in/buy/real-estate-navi_mumbai"
+      rent: "/in/rent/real-estate-navi_mumbai"
+    enabled: true
+
+  - name: "Lucknow"
+    slug: "lucknow"
+    url_patterns:
+      buy: "/in/buy/real-estate-lucknow"
+      rent: "/in/rent/real-estate-lucknow"
+    enabled: true
+
+  - name: "Jaipur"
+    slug: "jaipur"
+    url_patterns:
+      buy: "/in/buy/real-estate-jaipur"
+      rent: "/in/rent/real-estate-jaipur"
+    enabled: true
+
+  - name: "Chandigarh"
+    slug: "chandigarh"
+    url_patterns:
+      buy: "/in/buy/real-estate-chandigarh"
+      rent: "/in/rent/real-estate-chandigarh"
+    enabled: true
+
+  # --- Tier 3 ---
+  - name: "Indore"
+    slug: "indore"
+    url_patterns:
+      buy: "/in/buy/real-estate-indore"
+      rent: "/in/rent/real-estate-indore"
+    enabled: true
+
+  - name: "Nagpur"
+    slug: "nagpur"
+    url_patterns:
+      buy: "/in/buy/real-estate-nagpur"
+      rent: "/in/rent/real-estate-nagpur"
+    enabled: true
+
+  - name: "Coimbatore"
+    slug: "coimbatore"
+    url_patterns:
+      buy: "/in/buy/real-estate-coimbatore"
+      rent: "/in/rent/real-estate-coimbatore"
+    enabled: true
+
+  - name: "Kochi"
+    slug: "kochi"
+    url_patterns:
+      buy: "/in/buy/real-estate-kochi"
+      rent: "/in/rent/real-estate-kochi"
+    enabled: true
+
+  - name: "Visakhapatnam"
+    slug: "vizag"
+    url_patterns:
+      buy: "/in/buy/real-estate-visakhapatnam"
+      rent: "/in/rent/real-estate-visakhapatnam"
+    enabled: true
+
+  - name: "Vadodara"
+    slug: "vadodara"
+    url_patterns:
+      buy: "/in/buy/real-estate-vadodara"
+      rent: "/in/rent/real-estate-vadodara"
+    enabled: true
+
+  - name: "Surat"
+    slug: "surat"
+    url_patterns:
+      buy: "/in/buy/real-estate-surat"
+      rent: "/in/rent/real-estate-surat"
+    enabled: true
+
+  - name: "Ghaziabad"
+    slug: "ghaziabad"
+    url_patterns:
+      buy: "/in/buy/real-estate-ghaziabad"
+      rent: "/in/rent/real-estate-ghaziabad"
+    enabled: true
+
+  - name: "Bhopal"
+    slug: "bhopal"
+    url_patterns:
+      buy: "/in/buy/real-estate-bhopal"
+      rent: "/in/rent/real-estate-bhopal"
+    enabled: true
+
+selectors:
+  listing_container:
+    - selector: "[class*='infinite-scroll']"
+      type: "css"
+    - selector: "[class*='SearchResult']"
+      type: "css"
+    - selector: "[data-q='search-results']"
+      type: "css"
+    - selector: "[class*='listing-container']"
+      type: "css"
+      
+  listing_card:
+    - selector: "[class*='SearchCard']"
+      type: "css"
+    - selector: "[class*='listing-card']"
+      type: "css"
+    - selector: "[data-testid='search-card']"
+      type: "css"
+    - selector: "[class*='PropertyCard']"
+      type: "css"
+      
+  next_page:
+    - selector: "[class*='pagination-next']"
+      type: "css"
+    - selector: "button[aria-label='Next']"
+      type: "css"
+
+  price:
+    - selector: "[class*='Price']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='price']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='amount']"
+      type: "css"
+      attribute: "text"
+      
+  address:
+    - selector: "[class*='Address']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='address']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='title']"
+      type: "css"
+      attribute: "text"
+      
+  locality:
+    - selector: "[class*='locality']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='Locality']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='location']"
+      type: "css"
+      attribute: "text"
+      
+  beds:
+    - selector: "[class*='Bedroom']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='bhk']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='bed']"
+      type: "css"
+      attribute: "text"
+      
+  bathrooms:
+    - selector: "[class*='Bathroom']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='bath']"
+      type: "css"
+      attribute: "text"
+      
+  area:
+    - selector: "[class*='Area']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='super-area']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='carpet']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='sqft']"
+      type: "css"
+      attribute: "text"
+      
+  detail_link:
+    - selector: "[class*='SearchCard'] a"
+      type: "css"
+      attribute: "href"
+    - selector: "a[href*='/buy/']"
+      type: "css"
+      attribute: "href"
+    - selector: "a[href*='/rent/']"
+      type: "css"
+      attribute: "href"
+    - selector: "[class*='PropertyCard'] a"
+      type: "css"
+      attribute: "href"
+      
+  property_type:
+    - selector: "[class*='PropertyType']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='property-type']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='type']"
+      type: "css"
+      attribute: "text"
+      
+  posted_date:
+    - selector: "[class*='PostedDate']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='posted']"
+      type: "css"
+      attribute: "text"
+      
+  builder_name:
+    - selector: "[class*='Developer']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='builder']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='agent']"
+      type: "css"
+      attribute: "text"
+      
+  description:
+    - selector: "[class*='Description']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='description']"
+      type: "css"
+      attribute: "text"
+
+pagination:
+  type: "infinite_scroll"
+  max_scrolls: 50
+  scroll_wait_seconds: 2
+
+transformations:
+  price:
+    - action: "convert_indian_notation"
+      
+  area:
+    - action: "regex"
+      pattern: "[^0-9.]"
+      replacement: ""
+    - action: "to_float"
+
+anti_bot:
+  cloudflare_bypass: false
+  captcha_handling: "skip"

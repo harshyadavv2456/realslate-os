@@ -1,0 +1,377 @@
+# MagicBricks.com Configuration - RealSlate Core
+# Pan-India BUY + RENT coverage
+# Last validated: 2026-02
+
+site:
+  name: "MagicBricks"
+  base_url: "https://www.magicbricks.com"
+  enabled: true
+  priority: 1
+  
+  min_delay_seconds: 6
+  max_delay_seconds: 20
+  max_pages_per_day: 500
+
+listing_types:
+  - buy
+  - rent
+
+cities:
+  # --- Tier 1 ---
+  - name: "Mumbai"
+    slug: "mumbai"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Mumbai"
+      rent: "/property-for-rent/residential-real-estate?cityName=Mumbai"
+    enabled: true
+    
+  - name: "Delhi"
+    slug: "delhi"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=New-Delhi"
+      rent: "/property-for-rent/residential-real-estate?cityName=New-Delhi"
+    enabled: true
+    
+  - name: "Bangalore"
+    slug: "bangalore"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Bangalore"
+      rent: "/property-for-rent/residential-real-estate?cityName=Bangalore"
+    enabled: true
+    
+  - name: "Hyderabad"
+    slug: "hyderabad"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Hyderabad"
+      rent: "/property-for-rent/residential-real-estate?cityName=Hyderabad"
+    enabled: true
+    
+  - name: "Chennai"
+    slug: "chennai"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Chennai"
+      rent: "/property-for-rent/residential-real-estate?cityName=Chennai"
+    enabled: true
+    
+  - name: "Pune"
+    slug: "pune"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Pune"
+      rent: "/property-for-rent/residential-real-estate?cityName=Pune"
+    enabled: true
+    
+  - name: "Kolkata"
+    slug: "kolkata"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Kolkata"
+      rent: "/property-for-rent/residential-real-estate?cityName=Kolkata"
+    enabled: true
+    
+  - name: "Ahmedabad"
+    slug: "ahmedabad"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Ahmedabad"
+      rent: "/property-for-rent/residential-real-estate?cityName=Ahmedabad"
+    enabled: true
+
+  # --- Tier 2 ---
+  - name: "Gurgaon"
+    slug: "gurgaon"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Gurgaon"
+      rent: "/property-for-rent/residential-real-estate?cityName=Gurgaon"
+    enabled: true
+    
+  - name: "Noida"
+    slug: "noida"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Noida"
+      rent: "/property-for-rent/residential-real-estate?cityName=Noida"
+    enabled: true
+    
+  - name: "Thane"
+    slug: "thane"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Thane"
+      rent: "/property-for-rent/residential-real-estate?cityName=Thane"
+    enabled: true
+    
+  - name: "Navi Mumbai"
+    slug: "navi-mumbai"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Navi-Mumbai"
+      rent: "/property-for-rent/residential-real-estate?cityName=Navi-Mumbai"
+    enabled: true
+    
+  - name: "Ghaziabad"
+    slug: "ghaziabad"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Ghaziabad"
+      rent: "/property-for-rent/residential-real-estate?cityName=Ghaziabad"
+    enabled: true
+    
+  - name: "Lucknow"
+    slug: "lucknow"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Lucknow"
+      rent: "/property-for-rent/residential-real-estate?cityName=Lucknow"
+    enabled: true
+    
+  - name: "Jaipur"
+    slug: "jaipur"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Jaipur"
+      rent: "/property-for-rent/residential-real-estate?cityName=Jaipur"
+    enabled: true
+    
+  - name: "Chandigarh"
+    slug: "chandigarh"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Chandigarh"
+      rent: "/property-for-rent/residential-real-estate?cityName=Chandigarh"
+    enabled: true
+
+  # --- Tier 3 ---
+  - name: "Indore"
+    slug: "indore"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Indore"
+      rent: "/property-for-rent/residential-real-estate?cityName=Indore"
+    enabled: true
+    
+  - name: "Bhopal"
+    slug: "bhopal"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Bhopal"
+      rent: "/property-for-rent/residential-real-estate?cityName=Bhopal"
+    enabled: true
+    
+  - name: "Nagpur"
+    slug: "nagpur"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Nagpur"
+      rent: "/property-for-rent/residential-real-estate?cityName=Nagpur"
+    enabled: true
+    
+  - name: "Coimbatore"
+    slug: "coimbatore"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Coimbatore"
+      rent: "/property-for-rent/residential-real-estate?cityName=Coimbatore"
+    enabled: true
+    
+  - name: "Kochi"
+    slug: "kochi"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Kochi"
+      rent: "/property-for-rent/residential-real-estate?cityName=Kochi"
+    enabled: true
+    
+  - name: "Visakhapatnam"
+    slug: "vizag"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Visakhapatnam"
+      rent: "/property-for-rent/residential-real-estate?cityName=Visakhapatnam"
+    enabled: true
+    
+  - name: "Vadodara"
+    slug: "vadodara"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Vadodara"
+      rent: "/property-for-rent/residential-real-estate?cityName=Vadodara"
+    enabled: true
+    
+  - name: "Surat"
+    slug: "surat"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Surat"
+      rent: "/property-for-rent/residential-real-estate?cityName=Surat"
+    enabled: true
+    
+  - name: "Mysore"
+    slug: "mysore"
+    url_patterns:
+      buy: "/property-for-sale/residential-real-estate?cityName=Mysore"
+      rent: "/property-for-rent/residential-real-estate?cityName=Mysore"
+    enabled: true
+
+selectors:
+  listing_container:
+    - selector: "#srchRslts"
+      type: "css"
+    - selector: ".mb-srp__list"
+      type: "css"
+    - selector: "div[data-labelname='SRP-Card']"
+      type: "css"
+      
+  listing_card:
+    - selector: ".mb-srp__card"
+      type: "css"
+    - selector: "[data-id]"
+      type: "css"
+    - selector: "div.mb-srp__card--body"
+      type: "css"
+      
+  next_page:
+    - selector: "a.mb-pagination__next"
+      type: "css"
+    - selector: "[data-page='next']"
+      type: "css"
+
+  price:
+    - selector: ".mb-srp__card__price--amount"
+      type: "css"
+      attribute: "text"
+    - selector: "[data-summary='price'] span"
+      type: "css"
+      attribute: "text"
+    - selector: ".mb-srp__card__price"
+      type: "css"
+      attribute: "text"
+      
+  address:
+    - selector: ".mb-srp__card__society--name"
+      type: "css"
+      attribute: "text"
+    - selector: ".mb-srp__card--title"
+      type: "css"
+      attribute: "text"
+    - selector: ".mb-srp__card__society--name--a"
+      type: "css"
+      attribute: "text"
+      
+  locality:
+    - selector: ".mb-srp__card__society--name + a"
+      type: "css"
+      attribute: "text"
+    - selector: ".mb-srp__card__locality"
+      type: "css"
+      attribute: "text"
+      
+  beds:
+    - selector: ".mb-srp__card__summary--value"
+      type: "css"
+      attribute: "text"
+      index: 0
+    - selector: "[data-summary='bedroom']"
+      type: "css"
+      attribute: "text"
+    - selector: ".mb-srp__card__summary__list--item:first-child .mb-srp__card__summary--value"
+      type: "css"
+      attribute: "text"
+      
+  bathrooms:
+    - selector: ".mb-srp__card__summary__list--item:nth-child(2) .mb-srp__card__summary--value"
+      type: "css"
+      attribute: "text"
+    - selector: "[data-summary='bathroom']"
+      type: "css"
+      attribute: "text"
+      
+  area:
+    - selector: ".mb-srp__card__summary__list--item:nth-child(3) .mb-srp__card__summary--value"
+      type: "css"
+      attribute: "text"
+    - selector: "[data-summary='area']"
+      type: "css"
+      attribute: "text"
+    - selector: ".mb-srp__card__area"
+      type: "css"
+      attribute: "text"
+      
+  detail_link:
+    - selector: ".mb-srp__card__title--link"
+      type: "css"
+      attribute: "href"
+    - selector: ".mb-srp__card a[href*='/property-details']"
+      type: "css"
+      attribute: "href"
+    - selector: "a[href*='/buy-']"
+      type: "css"
+      attribute: "href"
+      
+  property_type:
+    - selector: ".mb-srp__card__estimate--description"
+      type: "css"
+      attribute: "text"
+    - selector: ".mb-srp__card__type"
+      type: "css"
+      attribute: "text"
+      
+  posted_date:
+    - selector: ".mb-srp__card__date"
+      type: "css"
+      attribute: "text"
+    - selector: "[data-summary='age']"
+      type: "css"
+      attribute: "text"
+      
+  builder_name:
+    - selector: ".mb-srp__card__developer__name"
+      type: "css"
+      attribute: "text"
+    - selector: ".mb-srp__card__ads--name"
+      type: "css"
+      attribute: "text"
+      
+  description:
+    - selector: ".mb-srp__card--desc"
+      type: "css"
+      attribute: "text"
+    - selector: ".mb-srp__card__summary--desc"
+      type: "css"
+      attribute: "text"
+      
+  amenities:
+    - selector: ".mb-srp__card__amenities li"
+      type: "css"
+      attribute: "text"
+      multiple: true
+      
+  floor:
+    - selector: "[data-summary='floor']"
+      type: "css"
+      attribute: "text"
+      
+  furnishing:
+    - selector: "[data-summary='furnishing']"
+      type: "css"
+      attribute: "text"
+
+pagination:
+  type: "url_param"
+  max_pages: 50
+  url_param: "page"
+  start_page: 1
+
+transformations:
+  price:
+    - action: "regex"
+      pattern: "[₹,\\s]"
+      replacement: ""
+    - action: "convert_indian_notation"
+      
+  area:
+    - action: "regex"
+      pattern: "[^0-9.]"
+      replacement: ""
+    - action: "to_float"
+    
+  beds:
+    - action: "regex"
+      pattern: "(\\d+)"
+      group: 1
+    - action: "to_int"
+    
+  bathrooms:
+    - action: "regex"
+      pattern: "(\\d+)"
+      group: 1
+    - action: "to_int"
+
+anti_bot:
+  cloudflare_bypass: false
+  captcha_handling: "skip"
+  
+  headers:
+    Accept-Language: "en-IN,en;q=0.9"

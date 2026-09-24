@@ -13,9 +13,10 @@ import glob
 from datetime import datetime
 
 # ── DRIVE CONFIG ─────────────────────────────────────────────────
-DATA_DRIVE = os.environ.get('DATA_DRIVE', 'E:')
-RAW_DIR   = os.path.join(DATA_DRIVE, r'\RealSlateOS\data\raw')
-INTEL_DIR = os.path.join(DATA_DRIVE, r'\RealSlateOS\data\intelligence')
+from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parent.parent
+RAW_DIR   = os.environ.get('RAW_DIR', str(REPO_ROOT / 'data' / 'raw'))
+INTEL_DIR = os.environ.get('INTEL_DIR', str(REPO_ROOT / 'data' / 'intelligence'))
 
 def nan_safe(v):
     """Convert NaN/None to None for JSON safety."""
@@ -39,11 +40,11 @@ def safe_dict(d):
 def compute():
     os.makedirs(INTEL_DIR, exist_ok=True)
 
-    files = glob.glob(f"{RAW_DIR}\\*.parquet")
+    files = glob.glob(os.path.join(RAW_DIR, '*.parquet'))
     files = [f for f in files if 'price_events' not in f]
     if not files:
         print(f"FATAL: No parquet files found in {RAW_DIR}")
-        print(f"  DATA_DRIVE={DATA_DRIVE} — did parse_and_export.py run first, and on the same drive?")
+        print(f"  RAW_DIR={RAW_DIR} — did parse_and_export.py run first?")
         sys.exit(1)
 
     # Validate each file individually first. A single corrupted/truncated

@@ -1,0 +1,10 @@
+crawler
+scripts
+pipeline
+logs
+.github
+data/raw
+*.bat
+*.py
+SETUP.md
+requirements.txt

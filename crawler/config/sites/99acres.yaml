@@ -1,0 +1,377 @@
+# 99acres.com Configuration - RealSlate Core
+# Pan-India BUY + RENT coverage
+# Last validated: 2026-02
+
+site:
+  name: "99acres"
+  base_url: "https://www.99acres.com"
+  enabled: true
+  priority: 1
+  
+  min_delay_seconds: 6
+  max_delay_seconds: 20
+  max_pages_per_day: 500
+
+listing_types:
+  - buy
+  - rent
+
+# All major Indian cities with BUY + RENT patterns
+cities:
+  # --- Tier 1 ---
+  - name: "Mumbai"
+    slug: "mumbai"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/mumbai?city=19&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/mumbai?city=19&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Delhi NCR"
+    slug: "delhi-ncr"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/delhi-ncr?city=74&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/delhi-ncr?city=74&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Bangalore"
+    slug: "bangalore"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/bangalore?city=9&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/bangalore?city=9&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Hyderabad"
+    slug: "hyderabad"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/hyderabad?city=12&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/hyderabad?city=12&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Chennai"
+    slug: "chennai"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/chennai?city=10&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/chennai?city=10&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Pune"
+    slug: "pune"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/pune?city=21&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/pune?city=21&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Kolkata"
+    slug: "kolkata"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/kolkata?city=17&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/kolkata?city=17&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Ahmedabad"
+    slug: "ahmedabad"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/ahmedabad?city=1&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/ahmedabad?city=1&preference=S&area_unit=1&res_com=R"
+    enabled: true
+
+  # --- Tier 2 ---
+  - name: "Gurgaon"
+    slug: "gurgaon"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/gurgaon?city=11&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/gurgaon?city=11&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Noida"
+    slug: "noida"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/noida?city=20&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/noida?city=20&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Thane"
+    slug: "thane"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/thane?city=23&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/thane?city=23&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Navi Mumbai"
+    slug: "navi-mumbai"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/navi-mumbai?city=73&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/navi-mumbai?city=73&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Ghaziabad"
+    slug: "ghaziabad"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/ghaziabad?city=49&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/ghaziabad?city=49&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Lucknow"
+    slug: "lucknow"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/lucknow?city=18&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/lucknow?city=18&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Jaipur"
+    slug: "jaipur"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/jaipur?city=13&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/jaipur?city=13&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Chandigarh"
+    slug: "chandigarh"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/chandigarh?city=38&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/chandigarh?city=38&preference=S&area_unit=1&res_com=R"
+    enabled: true
+
+  # --- Tier 3 ---
+  - name: "Indore"
+    slug: "indore"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/indore?city=51&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/indore?city=51&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Bhopal"
+    slug: "bhopal"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/bhopal?city=6&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/bhopal?city=6&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Nagpur"
+    slug: "nagpur"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/nagpur?city=24&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/nagpur?city=24&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Coimbatore"
+    slug: "coimbatore"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/coimbatore?city=39&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/coimbatore?city=39&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Kochi"
+    slug: "kochi"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/kochi?city=16&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/kochi?city=16&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Visakhapatnam"
+    slug: "vizag"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/visakhapatnam?city=26&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/visakhapatnam?city=26&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Vadodara"
+    slug: "vadodara"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/vadodara?city=25&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/vadodara?city=25&preference=S&area_unit=1&res_com=R"
+    enabled: true
+    
+  - name: "Surat"
+    slug: "surat"
+    url_patterns:
+      buy: "/search/property/buy/residential-all/surat?city=22&preference=S&area_unit=1&res_com=R"
+      rent: "/search/property/rent/residential-all/surat?city=22&preference=S&area_unit=1&res_com=R"
+    enabled: true
+
+selectors:
+  listing_container:
+    - selector: ".srpWrap"
+      type: "css"
+    - selector: "#srpTuple"
+      type: "css"
+    - selector: "section.pageComponent"
+      type: "css"
+      
+  listing_card:
+    - selector: "[id^='srpTuple_']"
+      type: "css"
+    - selector: ".tupleNew__outerTupleWrap"
+      type: "css"
+    - selector: "section.srpTuple"
+      type: "css"
+    - selector: ".tupleNew"
+      type: "css"
+      
+  next_page:
+    - selector: "a.pageNext"
+      type: "css"
+    - selector: "[data-page='next']"
+      type: "css"
+    - selector: "a[title='Next']"
+      type: "css"
+
+  price:
+    - selector: ".tupleNew__priceWrap span"
+      type: "css"
+      attribute: "text"
+    - selector: ".tupleNew__priceValWrap span"
+      type: "css"
+      attribute: "text"
+    - selector: "[data-label='price']"
+      type: "css"
+      attribute: "text"
+    - selector: ".tupleNew__price"
+      type: "css"
+      attribute: "text"
+      
+  address:
+    - selector: ".tupleNew__locationName"
+      type: "css"
+      attribute: "text"
+    - selector: ".tupleNew__propTitle"
+      type: "css"
+      attribute: "text"
+    - selector: ".tupleNew__society"
+      type: "css"
+      attribute: "text"
+      
+  locality:
+    - selector: ".tupleNew__locationName"
+      type: "css"
+      attribute: "text"
+    - selector: ".tupleNew__localityName"
+      type: "css"
+      attribute: "text"
+      
+  beds:
+    - selector: ".tupleNew__area1Type"
+      type: "css"
+      attribute: "text"
+    - selector: "[data-label='bedroom']"
+      type: "css"
+      attribute: "text"
+    - selector: ".configurationCards span"
+      type: "css"
+      attribute: "text"
+      index: 0
+      
+  bathrooms:
+    - selector: ".tupleNew__bathVal"
+      type: "css"
+      attribute: "text"
+    - selector: "[data-label='bathroom']"
+      type: "css"
+      attribute: "text"
+      
+  area:
+    - selector: ".tupleNew__builtupArea"
+      type: "css"
+      attribute: "text"
+    - selector: ".tupleNew__areaWrap span"
+      type: "css"
+      attribute: "text"
+    - selector: "[data-label='area']"
+      type: "css"
+      attribute: "text"
+    - selector: ".tupleNew__superArea"
+      type: "css"
+      attribute: "text"
+      
+  detail_link:
+    - selector: ".tupleNew__heading a"
+      type: "css"
+      attribute: "href"
+    - selector: ".tupleNew__propTitle a"
+      type: "css"
+      attribute: "href"
+    - selector: "a[href*='/property/']"
+      type: "css"
+      attribute: "href"
+      
+  property_type:
+    - selector: ".tupleNew__propType"
+      type: "css"
+      attribute: "text"
+    - selector: ".tupleNew__area1Type"
+      type: "css"
+      attribute: "text"
+      
+  posted_date:
+    - selector: ".tupleNew__postedOn"
+      type: "css"
+      attribute: "text"
+    - selector: "[data-label='posted']"
+      type: "css"
+      attribute: "text"
+      
+  builder_name:
+    - selector: ".tupleNew__developerName"
+      type: "css"
+      attribute: "text"
+    - selector: ".tupleNew__agentDetail"
+      type: "css"
+      attribute: "text"
+      
+  description:
+    - selector: ".tupleNew__descText"
+      type: "css"
+      attribute: "text"
+    - selector: ".tupleNew__desc"
+      type: "css"
+      attribute: "text"
+      
+  floor:
+    - selector: "[data-label='floor']"
+      type: "css"
+      attribute: "text"
+      
+  furnishing:
+    - selector: "[data-label='furnishing']"
+      type: "css"
+      attribute: "text"
+      
+  facing:
+    - selector: "[data-label='facing']"
+      type: "css"
+      attribute: "text"
+
+pagination:
+  type: "url_param"
+  max_pages: 50
+  url_param: "page"
+  start_page: 1
+  
+  total_count_selector: ".srpHeading__tupCnt"
+
+transformations:
+  price:
+    - action: "regex"
+      pattern: "[₹,\\s]"
+      replacement: ""
+    - action: "convert_indian_notation"
+      
+  area:
+    - action: "regex"
+      pattern: "[^0-9.]"
+      replacement: ""
+    - action: "to_float"
+    
+  beds:
+    - action: "regex"
+      pattern: "(\\d+)\\s*BHK"
+      group: 1
+    - action: "to_int"
+
+anti_bot:
+  cloudflare_bypass: false
+  captcha_handling: "skip"
+  
+  headers:
+    Accept-Language: "en-IN,en;q=0.9"
+    Referer: "https://www.99acres.com"

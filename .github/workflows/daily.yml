@@ -1,63 +1,161 @@
-name: RealSlate OS — Intelligence Update + Deploy
+name: RealSlate OS - Crawl and Publish
 
+# Every 6 hours: incremental crawl (state kept in the Actions cache).
+# The first run of each UTC day (00:xx) also publishes: exports data, recomputes
+# intelligence, commits it to main, and Vercel redeploys from that push.
 on:
-  push:
-    paths:
-      - 'data/raw/**'
-      - 'data/intelligence/**'
+  schedule:
+    - cron: '17 */6 * * *'
   workflow_dispatch:
+    inputs:
+      publish:
+        description: 'Also publish data to the repo and redeploy'
+        type: boolean
+        default: true
+      max_pages:
+        description: 'Max pages per city'
+        default: '10'
+
+concurrency:
+  group: realslate-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  # All secrets are injected from GitHub Actions secrets; nothing is stored in the repo.
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  SMTP_HOST: ${{ secrets.SMTP_HOST }}
+  SMTP_PORT: ${{ secrets.SMTP_PORT }}
+  SMTP_USER: ${{ secrets.SMTP_USER }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+  EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
+  VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
 
 jobs:
-  update-intelligence:
+  crawl-and-publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 340
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Setup Python 3.11
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Cache pip
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            crawler/requirements.txt
 
       - name: Install dependencies
         run: |
-          pip install pandas pyarrow duckdb requests --quiet
+          pip install -r requirements.txt -r crawler/requirements.txt
+          playwright install --with-deps chromium
 
-      - name: Parse addresses
-        run: python pipeline/parse_and_export.py
+      - name: Restore crawler database
+        id: dbcache
+        uses: actions/cache/restore@v4
+        with:
+          path: crawler/realslate.db
+          key: realslate-db-${{ github.run_id }}
+          restore-keys: realslate-db-
+
+      - name: Crawl (incremental)
+        id: crawl
+        working-directory: crawler
         continue-on-error: true
-
-      - name: Compute intelligence + appreciation
-        run: python pipeline/compute_intelligence.py
-
-      - name: Geocode new localities (incremental)
-        run: python pipeline/geocode_localities.py
-        continue-on-error: true
-
-      - name: Commit updated intelligence
+        env:
+          ENVIRONMENT: production
+          DB_TYPE: sqlite
+          DB_PATH: realslate.db
+          BROWSER_HEADLESS: 'true'
+          PROXY_ENABLED: 'false'
+          TELEGRAM_ENABLED: ${{ secrets.TELEGRAM_BOT_TOKEN != '' && 'true' || 'false' }}
+          EMAIL_ENABLED: ${{ secrets.SMTP_HOST != '' && 'true' || 'false' }}
         run: |
-          git config user.name "RealSlate Bot"
-          git config user.email "bot@realslate.in"
-          git add data/intelligence/ data/geocodes/
-          git diff --staged --quiet || git commit -m "intel: $(date +'%Y-%m-%d %H:%M') auto-update [skip ci]"
-          git push
+          python runners/run_all_india.py --mode incremental --max-pages "${{ github.event.inputs.max_pages || '10' }}"
 
-      - name: Trigger Vercel redeploy
-        if: success()
+      - name: Checkpoint and save crawler database
+        if: always() && hashFiles('crawler/realslate.db') != ''
         run: |
-          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
-            curl -s -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
-            echo "Vercel deploy triggered."
+          python - <<'EOF'
+          import sqlite3
+          c = sqlite3.connect('crawler/realslate.db')
+          c.execute('PRAGMA wal_checkpoint(TRUNCATE)')
+          c.close()
+          EOF
+          rm -f crawler/realslate.db-wal crawler/realslate.db-shm
+
+      - name: Save crawler database cache
+        if: always() && hashFiles('crawler/realslate.db') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: crawler/realslate.db
+          key: realslate-db-${{ github.run_id }}
+
+      - name: Decide whether to publish
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            [ "${{ github.event.inputs.publish }}" = "true" ] && echo "publish=true" >> "$GITHUB_OUTPUT" || echo "publish=false" >> "$GITHUB_OUTPUT"
+          elif [ "$(date -u +%H)" -lt 6 ]; then
+            echo "publish=true" >> "$GITHUB_OUTPUT"
           else
-            echo "No VERCEL_DEPLOY_HOOK secret set. Vercel will auto-deploy from git push."
+            echo "publish=false" >> "$GITHUB_OUTPUT"
           fi
+          # raw parquet is large: commit it weekly (Sunday) or when a new month file appears
+          echo "weekday=$(date -u +%u)" >> "$GITHUB_OUTPUT"
+
+      - name: Export and compute intelligence
+        if: steps.gate.outputs.publish == 'true' && hashFiles('crawler/realslate.db') != ''
+        run: |
+          python pipeline/parse_and_export.py
+          python pipeline/compute_intelligence.py
+          python pipeline/geocode_localities.py || echo "geocoding failed, continuing"
+
+      - name: Commit data
+        id: commit
+        if: steps.gate.outputs.publish == 'true'
+        run: |
+          git config user.name "realslate-bot"
+          git config user.email "realslate-bot@users.noreply.github.com"
+          git add data/intelligence data/geocodes
+          # weekly raw snapshot, plus any brand-new raw file
+          if [ "${{ steps.gate.outputs.weekday }}" = "7" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            git add data/raw
+          else
+            git add --intent-to-add data/raw && git diff --name-only --diff-filter=A data/raw | xargs -r git add
+          fi
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes."
+          else
+            git commit -m "data: $(date -u +'%Y-%m-%d %H:%M') UTC daily update"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin HEAD:main && break
+              sleep 5
+            done
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Vercel's GitHub integration deploys on the push above. The hook is an
+      # optional extra for setups where the git integration is not connected.
+      - name: Trigger Vercel deploy hook (optional)
+        if: steps.commit.outputs.changed == 'true' && env.VERCEL_DEPLOY_HOOK != ''
+        run: curl -fsS -X POST "$VERCEL_DEPLOY_HOOK" > /dev/null && echo "Deploy hook triggered"
+
+      - name: Notify
+        if: always()
+        run: |
+          RESULT="crawl=${{ steps.crawl.outcome }} publish=${{ steps.gate.outputs.publish }} committed=${{ steps.commit.outputs.changed || 'n/a' }}"
+          if [ "${{ steps.crawl.outcome }}" = "success" ]; then TITLE="RealSlate run OK"; else TITLE="RealSlate run PROBLEM"; fi
+          python scripts/notify.py "$TITLE" "$RESULT
+          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+      - name: Fail the job if crawl failed
+        if: steps.crawl.outcome == 'failure'
+        run: exit 1

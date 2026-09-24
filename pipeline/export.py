@@ -3,8 +3,10 @@ import pandas as pd
 import os
 from datetime import datetime
 
-DB_PATH = r'D:\RealSlate\realslate_core\realslate.db'
-OUTPUT_DIR = r'D:\RealSlateOS\data\raw'
+from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DB_PATH = os.environ.get('REALSLATE_DB', str(REPO_ROOT / 'crawler' / 'realslate.db'))
+OUTPUT_DIR = os.environ.get('RAW_DIR', str(REPO_ROOT / 'data' / 'raw'))
 
 def export():
     print(f"[{datetime.now()}] Connecting to DB...")

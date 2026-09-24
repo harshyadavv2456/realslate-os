@@ -4,8 +4,10 @@ import pandas as pd
 import json
 import os
 
-DB_PATH = r'D:\RealSlate\realslate_core\realslate.db'
-OUTPUT_DIR = r'D:\RealSlateOS\data\raw'
+from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DB_PATH = os.environ.get('REALSLATE_DB', str(REPO_ROOT / 'crawler' / 'realslate.db'))
+OUTPUT_DIR = os.environ.get('RAW_DIR', str(REPO_ROOT / 'data' / 'raw'))
 
 def parse_address(address, city):
     if not address:
@@ -142,6 +144,12 @@ def run():
     for city, group in df.groupby('city'):
         city_clean = city.lower().strip().replace(' ', '_')
         path = os.path.join(OUTPUT_DIR, f"{city_clean}_{ym}.parquet")
+        # Guard: a fresh/empty CI database must not clobber a fuller export.
+        if os.path.exists(path) and not os.environ.get('FORCE_EXPORT'):
+            prev_rows = len(pd.read_parquet(path, columns=['id']))
+            if len(group) < prev_rows * 0.9:
+                print(f"  {city:<15} SKIPPED: {len(group)} rows < 90% of existing {prev_rows}")
+                continue
         group.to_parquet(path, index=False, compression='snappy')
         
         loc_pct = round(group['locality'].notna().mean()*100, 1)

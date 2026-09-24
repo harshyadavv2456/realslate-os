@@ -120,3 +120,26 @@ Is it "a good project"? As a systems-building exercise and as a demonstration of
 One thing worth sitting with before November: RealSlate's ultimate value proposition is undefined. You've got Intima, Phantom, FinVest, and RealSlate all "parked" — but RealSlate's role in your ecosystem is the least clear of the four. FinVest has an explicit path (SEBI RA research infra). Intima has a market (B2B2C health). RealSlate right now is "a very large pile of India real estate data" without a stated destination — product, internal tool, or acquisition-bait dataset. That's a decision, not a coding task, and it's worth making before you sink the post-November scraper-fix hours in, so those hours go toward the right shape of "fixed."
 
 For now: it's done, it's automated, it's off your plate. Good work — go pass CA Final.
+
+---
+
+## Automation (GitHub Actions + Vercel)
+
+`.github/workflows/daily.yml` runs every 6 hours:
+
+1. Restores the crawler SQLite DB from the Actions cache and runs
+   `python runners/run_all_india.py --mode incremental --max-pages 10` (in `crawler/`).
+2. The first run of each UTC day also exports parquet, recomputes intelligence + geocodes,
+   commits `data/` to `main`, and Vercel redeploys from that push. Raw parquet is committed weekly (Sundays) to limit repo growth.
+3. Sends a status message to Telegram / email (whichever are configured).
+
+### Secrets (Settings -> Secrets and variables -> Actions). All optional; nothing is stored in the repo.
+
+| Secret | Purpose |
+|---|---|
+| `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` | Telegram alerts |
+| `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_SENDER`, `EMAIL_RECIPIENTS` | Email alerts (recipients comma-separated) |
+| `VERCEL_DEPLOY_HOOK` | Only if the Vercel Git integration is not connected |
+
+Run it by hand: Actions -> "RealSlate OS - Crawl and Publish" -> Run workflow.
+Local run: `cd crawler && python runners/run_all_india.py --mode incremental --max-pages 10`.

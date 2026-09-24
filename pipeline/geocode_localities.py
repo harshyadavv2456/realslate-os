@@ -12,9 +12,10 @@ import sys
 import requests
 
 # ── DRIVE CONFIG ─────────────────────────────────────────────────
-DATA_DRIVE = os.environ.get('DATA_DRIVE', 'E:')
-INTEL_DIR = os.path.join(DATA_DRIVE, r'\RealSlateOS\data\intelligence')
-GEOCACHE_FILE = os.path.join(DATA_DRIVE, r'\RealSlateOS\data\geocodes\cache.json')
+from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parent.parent
+INTEL_DIR = os.environ.get('INTEL_DIR', str(REPO_ROOT / 'data' / 'intelligence'))
+GEOCACHE_FILE = os.environ.get('GEOCACHE_FILE', str(REPO_ROOT / 'data' / 'geocodes' / 'cache.json'))
 
 # Known city coordinates — used as search bias
 CITY_COORDS = {

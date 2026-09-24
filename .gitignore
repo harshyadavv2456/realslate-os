@@ -1,0 +1,31 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.yaml
+.vercel
+
+# Crawler runtime state
+crawler/*.db
+crawler/*.db-*
+crawler/logs/
+crawler/exports/
+crawler/reports/
+crawler/.checkpoints/
+crawler/.selector_health/
+crawler/.dom_snapshots/
+crawler/sessions/
+*.db
+*.db-shm
+*.db-wal
+
+# Python / OS
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+Thumbs.db

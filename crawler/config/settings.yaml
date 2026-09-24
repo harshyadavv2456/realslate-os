@@ -1,0 +1,226 @@
+# RealSlate Core Configuration
+# Production-grade settings for real estate crawling
+
+system:
+  name: "RealSlate Crawler"
+  version: "2.0.0"
+  environment: ${ENVIRONMENT:-development}  # development, staging, production
+  
+database:
+  # Use SQLite for local testing, PostgreSQL for production
+  type: ${DB_TYPE:-sqlite}
+  path: ${DB_PATH:-realslate.db}
+  
+  # PostgreSQL settings (used when type: postgresql)
+  host: ${DB_HOST:-localhost}
+  port: ${DB_PORT:-5432}
+  name: ${DB_NAME:-realslate}
+  user: ${DB_USER:-realslate}
+  password: ${DB_PASSWORD:-}
+  
+  # Connection pool (PostgreSQL)
+  pool_size: ${DB_POOL_SIZE:-5}
+  max_overflow: ${DB_MAX_OVERFLOW:-10}
+  pool_recycle: 1800  # Recycle connections every 30 min
+  echo: false
+  
+  # Maintenance
+  auto_vacuum: true
+  vacuum_schedule_hours: 24
+
+browser:
+  headless: ${BROWSER_HEADLESS:-true}
+  slow_mo: 100  # milliseconds between actions
+  timeout: 60000  # page load timeout ms
+  viewport:
+    width: 1920
+    height: 1080
+  
+  # Fingerprint evasion
+  stealth_mode: true
+  random_user_agents: true
+  
+  # Resource blocking for speed and bandwidth
+  block_resources:
+    - "image"
+    - "font"
+    - "media"
+    - "stylesheet"
+  
+  # Browser recycling (prevents memory leaks)
+  max_requests_per_browser: 500
+  max_browser_age_seconds: 3600
+  max_contexts: 3
+  
+  # Watchdog (detects browser freeze)
+  watchdog_timeout: 120
+
+proxy:
+  enabled: ${PROXY_ENABLED:-false}
+  
+  # Rotation strategy: round_robin, random, least_used, best_performance
+  rotation_strategy: ${PROXY_ROTATION:-round_robin}
+  
+  # Proxy health
+  max_failures: 5
+  ban_duration_minutes: 30
+  min_success_rate: 0.5
+  
+  # Proxy sources (multiple supported)
+  proxy_file: ${PROXY_FILE:-}  # Path to file with proxies (one per line)
+  
+  # Inline proxies (format: protocol://user:pass@host:port)
+  proxies: []
+  # Example:
+  # - url: "http://user:pass@proxy1.example.com:8080"
+  #   country: "IN"
+  # - url: "socks5://proxy2.example.com:1080"
+
+crawling:
+  # Rate limiting (will be adjusted dynamically based on errors)
+  min_delay_seconds: 5
+  max_delay_seconds: 30
+  page_load_wait: 3
+  
+  # Human behavior simulation
+  scroll_enabled: true
+  scroll_pause_min: 0.5
+  scroll_pause_max: 2.0
+  mouse_movement: true
+  
+  # Limits
+  max_pages_per_site_per_day: 500
+  max_listings_per_session: 1500
+  max_retries: 3
+  retry_delay_seconds: 60
+  
+  # Session management
+  session_duration_minutes: 30
+  cookie_persistence: true
+  
+  # Concurrent crawling (keep low for 2GB RAM)
+  max_concurrent_sites: 1
+  max_concurrent_pages: 1
+
+checkpoint:
+  # Checkpoint directory
+  directory: ".checkpoints"
+  
+  # Recovery settings
+  max_pending_listings: 100
+  stale_hours: 24
+  
+  # Auto-save interval
+  save_interval_pages: 1
+
+validation:
+  # Price validation (INR)
+  min_price: 100000  # 1 Lakh
+  max_price: 10000000000  # 1000 Crore
+  
+  # Area validation (sq ft)
+  min_area: 50
+  max_area: 1000000
+  
+  # Required fields
+  required_fields:
+    - price
+    - address
+  
+  # Completeness threshold
+  min_completeness_score: 0.4
+
+deduplication:
+  # Similarity thresholds
+  address_similarity_threshold: 0.85
+  url_hash_enabled: true
+  geo_clustering_radius_meters: 50
+  
+  # Dedup window
+  lookback_days: 30
+  
+  # Cache limits (prevents memory growth)
+  max_url_cache_size: 100000
+  max_address_cache_size: 50000
+
+monitoring:
+  # Metrics
+  prometheus_enabled: true
+  prometheus_port: ${PROMETHEUS_PORT:-9090}
+  
+  # Selector health tracking
+  selector_data_dir: ".selector_health"
+  
+  # Alerts
+  alerts_enabled: true
+  alert_channels:
+    telegram:
+      enabled: ${TELEGRAM_ENABLED:-false}
+      bot_token: ${TELEGRAM_BOT_TOKEN:-}
+      chat_id: ${TELEGRAM_CHAT_ID:-}
+    email:
+      enabled: ${EMAIL_ENABLED:-false}
+      smtp_host: ${SMTP_HOST:-}
+      smtp_port: ${SMTP_PORT:-587}
+      smtp_user: ${SMTP_USER:-}
+      smtp_password: ${SMTP_PASSWORD:-}
+      sender: ${EMAIL_SENDER:-}
+      recipients: ${EMAIL_RECIPIENTS:-}  # comma-separated
+  
+  # Thresholds
+  error_rate_threshold: 0.2
+  completeness_threshold: 0.6
+  
+  # Health check
+  health_check_interval_minutes: 15
+  
+  # Resource monitoring
+  memory_warning_percent: 80
+  disk_warning_gb: 2
+
+logging:
+  level: ${LOG_LEVEL:-INFO}
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level: <8} | {name}:{function}:{line} | {message}"
+  rotation: "100 MB"
+  retention: "30 days"
+  compression: "gz"
+  log_dir: "logs"
+  
+  # Log sanitization (removes sensitive data)
+  sanitize_secrets: true
+  secret_patterns:
+    - "password"
+    - "token"
+    - "secret"
+    - "key"
+    - "auth"
+
+scheduler:
+  enabled: true
+  daily_run_hour: 2  # 2 AM
+  daily_run_minute: 0
+  timezone: "Asia/Kolkata"
+  
+  # Site rotation
+  rotate_sites: true
+  sites_per_day: 5
+  
+  # Retry settings
+  max_retries_per_site: 3
+  retry_delay_minutes: 30
+
+storage:
+  # Raw HTML storage
+  store_raw_html: true
+  store_raw_html_on_error_only: false
+  raw_html_retention_days: 7
+  compress_html: true
+  
+  # Export
+  export_enabled: true
+  export_format: "csv"
+  export_dir: "exports"
+  
+  # Cleanup
+  auto_cleanup: true
+  cleanup_schedule_hours: 24

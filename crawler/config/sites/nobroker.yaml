@@ -1,0 +1,223 @@
+# NoBroker.com Configuration - RealSlate Core
+# Pan-India BUY + RENT coverage (expanded from 5 to 24 cities)
+# Last validated: 2026-02
+
+site:
+  name: "NoBroker"
+  base_url: "https://www.nobroker.in"
+  enabled: true
+  priority: 2
+  
+  min_delay_seconds: 10
+  max_delay_seconds: 35
+  max_pages_per_day: 300
+
+listing_types:
+  - buy
+  - rent
+
+cities:
+  # --- Tier 1 (NoBroker primary markets) ---
+  - name: "Mumbai"
+    slug: "mumbai"
+    url_patterns:
+      buy: "/property/buy/mumbai/Mumbai?searchParam=W3sibGF0IjoxOS4wNzYwLCJsb24iOjcyLjg3NzcsInBsYWNlSWQiOiJDaElKd2UxRUZmS0l3anNSYy1fSjlCaGdLSDgiLCJwbGFjZU5hbWUiOiJNdW1iYWkifV0=&sharedAccommodation=0"
+      rent: "/property/rent/mumbai/Mumbai?searchParam=W3sibGF0IjoxOS4wNzYwLCJsb24iOjcyLjg3NzcsInBsYWNlSWQiOiJDaElKd2UxRUZmS0l3anNSYy1fSjlCaGdLSDgiLCJwbGFjZU5hbWUiOiJNdW1iYWkifV0=&sharedAccommodation=0"
+    enabled: true
+    
+  - name: "Bangalore"
+    slug: "bangalore"
+    url_patterns:
+      buy: "/property/buy/bangalore/Bangalore?searchParam=W3sibGF0IjoxMi45NzE2LCJsb24iOjc3LjU5NDYsInBsYWNlSWQiOiJDaElKYlU2MGJiclFyalNSZ2xxS3d0Z2dJc2ciLCJwbGFjZU5hbWUiOiJCYW5nYWxvcmUifV0=&sharedAccommodation=0"
+      rent: "/property/rent/bangalore/Bangalore?searchParam=W3sibGF0IjoxMi45NzE2LCJsb24iOjc3LjU5NDYsInBsYWNlSWQiOiJDaElKYlU2MGJiclFyalNSZ2xxS3d0Z2dJc2ciLCJwbGFjZU5hbWUiOiJCYW5nYWxvcmUifV0=&sharedAccommodation=0"
+    enabled: true
+    
+  - name: "Pune"
+    slug: "pune"
+    url_patterns:
+      buy: "/property/buy/pune/Pune?searchParam=W3sibGF0IjoxOC41MjA0LCJsb24iOjczLjg1NjcsInBsYWNlSWQiOiJDaElKQVJGR1pyaTJ3anNSVnlKX3hIaEgwOFkiLCJwbGFjZU5hbWUiOiJQdW5lIn1d&sharedAccommodation=0"
+      rent: "/property/rent/pune/Pune?searchParam=W3sibGF0IjoxOC41MjA0LCJsb24iOjczLjg1NjcsInBsYWNlSWQiOiJDaElKQVJGR1pyaTJ3anNSVnlKX3hIaEgwOFkiLCJwbGFjZU5hbWUiOiJQdW5lIn1d&sharedAccommodation=0"
+    enabled: true
+    
+  - name: "Chennai"
+    slug: "chennai"
+    url_patterns:
+      buy: "/property/buy/chennai/Chennai?searchParam=W3sibGF0IjoxMy4wODI3LCJsb24iOjgwLjI3MDcsInBsYWNlSWQiOiJDaElKWVROMm5nQlVyam9SWnNuNEY5TFVIV2MiLCJwbGFjZU5hbWUiOiJDaGVubmFpIn1d&sharedAccommodation=0"
+      rent: "/property/rent/chennai/Chennai?searchParam=W3sibGF0IjoxMy4wODI3LCJsb24iOjgwLjI3MDcsInBsYWNlSWQiOiJDaElKWVROMm5nQlVyam9SWnNuNEY5TFVIV2MiLCJwbGFjZU5hbWUiOiJDaGVubmFpIn1d&sharedAccommodation=0"
+    enabled: true
+    
+  - name: "Hyderabad"
+    slug: "hyderabad"
+    url_patterns:
+      buy: "/property/buy/hyderabad/Hyderabad?searchParam=W3sibGF0IjoxNy4zODUwLCJsb24iOjc4LjQ4NjcsInBsYWNlSWQiOiJDaElKRzZiTlZhV09yakI0TnFwVjJSXzRIWjgiLCJwbGFjZU5hbWUiOiJIeWRlcmFiYWQifV0=&sharedAccommodation=0"
+      rent: "/property/rent/hyderabad/Hyderabad?searchParam=W3sibGF0IjoxNy4zODUwLCJsb24iOjc4LjQ4NjcsInBsYWNlSWQiOiJDaElKRzZiTlZhV09yakI0TnFwVjJSXzRIWjgiLCJwbGFjZU5hbWUiOiJIeWRlcmFiYWQifV0=&sharedAccommodation=0"
+    enabled: true
+    
+  - name: "Delhi NCR"
+    slug: "delhi-ncr"
+    url_patterns:
+      buy: "/property/buy/delhi/Delhi?searchParam=W3sibGF0IjoyOC42MTM5LCJsb24iOjc3LjIwOTAsInBsYWNlSWQiOiJDaElKTDJQZGl0VW9lajBSR0d2dUEzTjdNblEiLCJwbGFjZU5hbWUiOiJEZWxoaSJ9XQ==&sharedAccommodation=0"
+      rent: "/property/rent/delhi/Delhi?searchParam=W3sibGF0IjoyOC42MTM5LCJsb24iOjc3LjIwOTAsInBsYWNlSWQiOiJDaElKTDJQZGl0VW9lajBSR0d2dUEzTjdNblEiLCJwbGFjZU5hbWUiOiJEZWxoaSJ9XQ==&sharedAccommodation=0"
+    enabled: true
+
+  # --- Tier 2 (NoBroker expanding markets) ---
+  - name: "Kolkata"
+    slug: "kolkata"
+    url_patterns:
+      buy: "/property/buy/kolkata/Kolkata?searchParam=W3sibGF0IjoyMi41NzI2LCJsb24iOjg4LjM2MzksInBsYWNlSWQiOiJDaElKWjk4OVg4Z0xGczhSWG1lNTVuejF0ZzAiLCJwbGFjZU5hbWUiOiJLb2xrYXRhIn1d&sharedAccommodation=0"
+      rent: "/property/rent/kolkata/Kolkata?searchParam=W3sibGF0IjoyMi41NzI2LCJsb24iOjg4LjM2MzksInBsYWNlSWQiOiJDaElKWjk4OVg4Z0xGczhSWG1lNTVuejF0ZzAiLCJwbGFjZU5hbWUiOiJLb2xrYXRhIn1d&sharedAccommodation=0"
+    enabled: true
+
+  - name: "Ahmedabad"
+    slug: "ahmedabad"
+    url_patterns:
+      buy: "/property/buy/ahmedabad/Ahmedabad?searchParam=W3sibGF0IjoyMy4wMjI1LCJsb24iOjcyLjU3MTQsInBsYWNlSWQiOiJDaElKU1JvV2d5cUt5anNSLXlHS2dFVXpMajgiLCJwbGFjZU5hbWUiOiJBaG1lZGFiYWQifV0=&sharedAccommodation=0"
+      rent: "/property/rent/ahmedabad/Ahmedabad?searchParam=W3sibGF0IjoyMy4wMjI1LCJsb24iOjcyLjU3MTQsInBsYWNlSWQiOiJDaElKU1JvV2d5cUt5anNSLXlHS2dFVXpMajgiLCJwbGFjZU5hbWUiOiJBaG1lZGFiYWQifV0=&sharedAccommodation=0"
+    enabled: true
+
+selectors:
+  listing_container:
+    - selector: "[class*='card-list']"
+      type: "css"
+    - selector: "[class*='property-list']"
+      type: "css"
+    - selector: "[class*='nb__card-container']"
+      type: "css"
+      
+  listing_card:
+    - selector: "[class*='nb-card']"
+      type: "css"
+    - selector: "article[class*='card']"
+      type: "css"
+    - selector: "[data-property-id]"
+      type: "css"
+    - selector: "[class*='card-info']"
+      type: "css"
+      
+  next_page:
+    - selector: "button[class*='next']"
+      type: "css"
+    - selector: "[aria-label='Next']"
+      type: "css"
+
+  price:
+    - selector: "[class*='heading-price']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='price']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='rent']"
+      type: "css"
+      attribute: "text"
+      
+  address:
+    - selector: "[class*='detail-header']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='address']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='title']"
+      type: "css"
+      attribute: "text"
+      
+  locality:
+    - selector: "[class*='locality']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='sublocality']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='location']"
+      type: "css"
+      attribute: "text"
+      
+  beds:
+    - selector: "[class*='bhk']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='bedroom']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='config']"
+      type: "css"
+      attribute: "text"
+      
+  bathrooms:
+    - selector: "[class*='bath']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='bathroom']"
+      type: "css"
+      attribute: "text"
+      
+  area:
+    - selector: "[class*='area']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='sqft']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='carpet']"
+      type: "css"
+      attribute: "text"
+      
+  detail_link:
+    - selector: "a[href*='/property/']"
+      type: "css"
+      attribute: "href"
+    - selector: "[class*='card'] a[href]"
+      type: "css"
+      attribute: "href"
+      
+  property_type:
+    - selector: "[class*='property-type']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='type']"
+      type: "css"
+      attribute: "text"
+      
+  posted_date:
+    - selector: "[class*='posted']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='date']"
+      type: "css"
+      attribute: "text"
+      
+  description:
+    - selector: "[class*='description']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='desc']"
+      type: "css"
+      attribute: "text"
+      
+  builder_name:
+    - selector: "[class*='owner']"
+      type: "css"
+      attribute: "text"
+    - selector: "[class*='agent']"
+      type: "css"
+      attribute: "text"
+
+pagination:
+  type: "infinite_scroll"
+  max_scrolls: 100
+  scroll_wait_seconds: 3
+
+transformations:
+  price:
+    - action: "convert_indian_notation"
+      
+  area:
+    - action: "regex"
+      pattern: "[^0-9.]"
+      replacement: ""
+    - action: "to_float"
+
+anti_bot:
+  cloudflare_bypass: true
+  captcha_handling: "skip"
