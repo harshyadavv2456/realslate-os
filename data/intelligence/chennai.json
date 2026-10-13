@@ -1,6 +1,6 @@
 {
   "city": "chennai",
-  "computed_at": "2026-10-11T05:57:27.033402",
+  "computed_at": "2026-10-13T00:48:44.769389",
   "summary": {
     "total_listings": 25500.0,
     "total_localities": 1250.0,
@@ -22254,20 +22254,20 @@
       "lng": null
     },
     {
-      "locality": "Velappanchavadi",
-      "buy_price": 8650000.0,
-      "rent_price": 35000.0,
-      "gross_yield_pct": 4.86,
-      "lat": 13.0610323,
-      "lng": 80.1386139
-    },
-    {
       "locality": "Minjur",
       "buy_price": 1730000.0,
       "rent_price": 7000.0,
       "gross_yield_pct": 4.86,
       "lat": 13.2878195,
       "lng": 80.2558605
+    },
+    {
+      "locality": "Velappanchavadi",
+      "buy_price": 8650000.0,
+      "rent_price": 35000.0,
+      "gross_yield_pct": 4.86,
+      "lat": 13.0610323,
+      "lng": 80.1386139
     },
     {
       "locality": "Thazhambur",
@@ -22654,17 +22654,17 @@
       "lng": null
     },
     {
-      "locality": "Potheri",
-      "buy_price": 5850000.0,
-      "rent_price": 15500.0,
+      "locality": "Jalladianpet",
+      "buy_price": 4900000.0,
+      "rent_price": 13000.0,
       "gross_yield_pct": 3.18,
       "lat": null,
       "lng": null
     },
     {
-      "locality": "Jalladianpet",
-      "buy_price": 4900000.0,
-      "rent_price": 13000.0,
+      "locality": "Potheri",
+      "buy_price": 5850000.0,
+      "rent_price": 15500.0,
       "gross_yield_pct": 3.18,
       "lat": null,
       "lng": null
