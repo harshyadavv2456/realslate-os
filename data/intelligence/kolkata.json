@@ -1,6 +1,6 @@
 {
   "city": "kolkata",
-  "computed_at": "2026-10-13T00:48:46.786055",
+  "computed_at": "2026-10-14T05:01:56.751997",
   "summary": {
     "total_listings": 24471.0,
     "total_localities": 948.0,
@@ -19628,20 +19628,20 @@
       "lng": null
     },
     {
-      "locality": "Alipore",
-      "buy_price": 20000000.0,
-      "rent_price": 180000.0,
-      "gross_yield_pct": 10.8,
-      "lat": 22.5264928,
-      "lng": 88.3323692
-    },
-    {
       "locality": "Chowringhee",
       "buy_price": 20000000.0,
       "rent_price": 180000.0,
       "gross_yield_pct": 10.8,
       "lat": 22.5622355,
       "lng": 88.3507922
+    },
+    {
+      "locality": "Alipore",
+      "buy_price": 20000000.0,
+      "rent_price": 180000.0,
+      "gross_yield_pct": 10.8,
+      "lat": 22.5264928,
+      "lng": 88.3323692
     },
     {
       "locality": "Action Area 1B",
@@ -20452,20 +20452,20 @@
       "lng": 88.4991673
     },
     {
-      "locality": "Belghoria",
-      "buy_price": 2700000.0,
-      "rent_price": 8000.0,
-      "gross_yield_pct": 3.56,
-      "lat": 22.6519848,
-      "lng": 88.3849116
-    },
-    {
       "locality": "Howrah 1",
       "buy_price": 4800000.0,
       "rent_price": 14250.0,
       "gross_yield_pct": 3.56,
       "lat": 22.5850528,
       "lng": 88.3469761
+    },
+    {
+      "locality": "Belghoria",
+      "buy_price": 2700000.0,
+      "rent_price": 8000.0,
+      "gross_yield_pct": 3.56,
+      "lat": 22.6519848,
+      "lng": 88.3849116
     },
     {
       "locality": "Patuli",
@@ -20796,20 +20796,20 @@
       "lng": 88.3453908
     },
     {
-      "locality": "Sinthee",
-      "buy_price": 8500000.0,
-      "rent_price": 15750.0,
-      "gross_yield_pct": 2.22,
-      "lat": 22.6319288,
-      "lng": 88.3778696
-    },
-    {
       "locality": "Jodhpur Gardens",
       "buy_price": 13500000.0,
       "rent_price": 25000.0,
       "gross_yield_pct": 2.22,
       "lat": 22.5048704,
       "lng": 88.3649242
+    },
+    {
+      "locality": "Sinthee",
+      "buy_price": 8500000.0,
+      "rent_price": 15750.0,
+      "gross_yield_pct": 2.22,
+      "lat": 22.6319288,
+      "lng": 88.3778696
     },
     {
       "locality": "Haltu",
@@ -51786,20 +51786,20 @@
       "weeks_of_data": 9.0
     },
     {
-      "locality": "Joka",
-      "wow_pct": -22.22,
-      "mom_pct": 16.67,
-      "total_pct": 40.0,
-      "method": "bhk_2bhk_segmented",
-      "weeks_of_data": 6.0
-    },
-    {
       "locality": "Garia Main Road",
       "wow_pct": null,
       "mom_pct": 16.67,
       "total_pct": 16.67,
       "method": "bhk_2bhk_segmented",
       "weeks_of_data": 5.0
+    },
+    {
+      "locality": "Joka",
+      "wow_pct": -22.22,
+      "mom_pct": 16.67,
+      "total_pct": 40.0,
+      "method": "bhk_2bhk_segmented",
+      "weeks_of_data": 6.0
     },
     {
       "locality": "Narendrapur Rajpur Sonarpur",
