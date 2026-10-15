@@ -1,6 +1,6 @@
 {
   "city": "mysore",
-  "computed_at": "2026-10-14T05:01:57.360486",
+  "computed_at": "2026-10-15T04:50:39.173854",
   "summary": {
     "total_listings": 9946.0,
     "total_localities": 640.0,
@@ -11031,20 +11031,20 @@
       "lng": null
     },
     {
-      "locality": "Kalidasa Road",
-      "buy_price": 12000000.0,
-      "rent_price": 20000.0,
-      "gross_yield_pct": 2.0,
-      "lat": 12.3259839,
-      "lng": 76.6198366
-    },
-    {
       "locality": "Arvind Nagar",
       "buy_price": 7500000.0,
       "rent_price": 12500.0,
       "gross_yield_pct": 2.0,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Kalidasa Road",
+      "buy_price": 12000000.0,
+      "rent_price": 20000.0,
+      "gross_yield_pct": 2.0,
+      "lat": 12.3259839,
+      "lng": 76.6198366
     },
     {
       "locality": "N R Mohalla",
@@ -11231,20 +11231,20 @@
       "lng": 76.6007405
     },
     {
-      "locality": "Beml Layout",
-      "buy_price": 9500000.0,
-      "rent_price": 12000.0,
-      "gross_yield_pct": 1.52,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Police Layout",
       "buy_price": 13000000.0,
       "rent_price": 16500.0,
       "gross_yield_pct": 1.52,
       "lat": 12.2972059,
       "lng": 76.6757909
+    },
+    {
+      "locality": "Beml Layout",
+      "buy_price": 9500000.0,
+      "rent_price": 12000.0,
+      "gross_yield_pct": 1.52,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Stage 3Rd Vijayanagar",
@@ -11311,17 +11311,17 @@
       "lng": null
     },
     {
-      "locality": "Vidyashankara Layout",
-      "buy_price": 9690000.0,
-      "rent_price": 11000.0,
+      "locality": "Ramkrishna Nagar",
+      "buy_price": 13200000.0,
+      "rent_price": 15000.0,
       "gross_yield_pct": 1.36,
       "lat": null,
       "lng": null
     },
     {
-      "locality": "Ramkrishna Nagar",
-      "buy_price": 13200000.0,
-      "rent_price": 15000.0,
+      "locality": "Vidyashankara Layout",
+      "buy_price": 9690000.0,
+      "rent_price": 11000.0,
       "gross_yield_pct": 1.36,
       "lat": null,
       "lng": null
@@ -11431,20 +11431,20 @@
       "lng": 76.6238185
     },
     {
-      "locality": "Kr Mohalla",
-      "buy_price": 30000000.0,
-      "rent_price": 27500.0,
-      "gross_yield_pct": 1.1,
-      "lat": 12.29818,
-      "lng": 76.65021
-    },
-    {
       "locality": "Vani Vilas Mohalla",
       "buy_price": 24000000.0,
       "rent_price": 22000.0,
       "gross_yield_pct": 1.1,
       "lat": 12.3034735,
       "lng": 76.6522759
+    },
+    {
+      "locality": "Kr Mohalla",
+      "buy_price": 30000000.0,
+      "rent_price": 27500.0,
+      "gross_yield_pct": 1.1,
+      "lat": 12.29818,
+      "lng": 76.65021
     },
     {
       "locality": "Tk Layout",
@@ -11559,20 +11559,20 @@
       "lng": 76.628297
     },
     {
-      "locality": "Belagola",
-      "buy_price": 20000000.0,
-      "rent_price": 12500.0,
-      "gross_yield_pct": 0.75,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Yadavagiri",
       "buy_price": 16500000.0,
       "rent_price": 10250.0,
       "gross_yield_pct": 0.75,
       "lat": 12.327919,
       "lng": 76.6391525
+    },
+    {
+      "locality": "Belagola",
+      "buy_price": 20000000.0,
+      "rent_price": 12500.0,
+      "gross_yield_pct": 0.75,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Brindavan Extension",
