@@ -1,6 +1,6 @@
 {
   "city": "navi mumbai",
-  "computed_at": "2026-10-15T04:50:39.487352",
+  "computed_at": "2026-10-16T04:40:22.722648",
   "summary": {
     "total_listings": 23163.0,
     "total_localities": 437.0,
@@ -9542,20 +9542,20 @@
       "lng": 73.0115861
     },
     {
-      "locality": "Sector 19 Kharghar",
-      "buy_price": 13000000.0,
-      "rent_price": 71000.0,
-      "gross_yield_pct": 6.55,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Nerul East",
       "buy_price": 16500000.0,
       "rent_price": 90000.0,
       "gross_yield_pct": 6.55,
       "lat": 19.0370909,
       "lng": 73.0233188
+    },
+    {
+      "locality": "Sector 19 Kharghar",
+      "buy_price": 13000000.0,
+      "rent_price": 71000.0,
+      "gross_yield_pct": 6.55,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Sector 1 Sanpada",
@@ -9902,20 +9902,20 @@
       "lng": null
     },
     {
-      "locality": "Kamothe",
-      "buy_price": 7500000.0,
-      "rent_price": 20000.0,
-      "gross_yield_pct": 3.2,
-      "lat": 19.0164338,
-      "lng": 73.0806552
-    },
-    {
       "locality": "Navde",
       "buy_price": 5250000.0,
       "rent_price": 14000.0,
       "gross_yield_pct": 3.2,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Kamothe",
+      "buy_price": 7500000.0,
+      "rent_price": 20000.0,
+      "gross_yield_pct": 3.2,
+      "lat": 19.0164338,
+      "lng": 73.0806552
     },
     {
       "locality": "Kharghar",
@@ -9950,7 +9950,7 @@
       "lng": 72.9967088
     },
     {
-      "locality": "Sector 11 Kharghar",
+      "locality": "Sector 36 Kamothe",
       "buy_price": 10000000.0,
       "rent_price": 25000.0,
       "gross_yield_pct": 3.0,
@@ -9958,7 +9958,7 @@
       "lng": null
     },
     {
-      "locality": "Sector 36 Kamothe",
+      "locality": "Sector 11 Kharghar",
       "buy_price": 10000000.0,
       "rent_price": 25000.0,
       "gross_yield_pct": 3.0,
@@ -10030,20 +10030,20 @@
       "lng": null
     },
     {
-      "locality": "Nerul",
-      "buy_price": 30000000.0,
-      "rent_price": 65000.0,
-      "gross_yield_pct": 2.6,
-      "lat": 19.0335938,
-      "lng": 73.018164
-    },
-    {
       "locality": "Sector 15 Cbd Belapur",
       "buy_price": 41000000.0,
       "rent_price": 89000.0,
       "gross_yield_pct": 2.6,
       "lat": 19.0234849,
       "lng": 73.0384895
+    },
+    {
+      "locality": "Nerul",
+      "buy_price": 30000000.0,
+      "rent_price": 65000.0,
+      "gross_yield_pct": 2.6,
+      "lat": 19.0335938,
+      "lng": 73.018164
     },
     {
       "locality": "Seawoods",
