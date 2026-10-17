@@ -1,6 +1,6 @@
 {
   "city": "bangalore",
-  "computed_at": "2026-10-16T04:40:20.530288",
+  "computed_at": "2026-10-17T04:37:43.577112",
   "summary": {
     "total_listings": 49638.0,
     "total_localities": 2151.0,
@@ -30605,20 +30605,20 @@
       "lng": 77.5919
     },
     {
-      "locality": "Varthur",
-      "buy_price": 12950000.0,
-      "rent_price": 50000.0,
-      "gross_yield_pct": 4.63,
-      "lat": 12.9406508,
-      "lng": 77.746988
-    },
-    {
       "locality": "Sarjapura Attibele Road",
       "buy_price": 15550000.0,
       "rent_price": 60000.0,
       "gross_yield_pct": 4.63,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Varthur",
+      "buy_price": 12950000.0,
+      "rent_price": 50000.0,
+      "gross_yield_pct": 4.63,
+      "lat": 12.9406508,
+      "lng": 77.746988
     },
     {
       "locality": "New Bel Road",
@@ -30725,20 +30725,20 @@
       "lng": 77.6404672
     },
     {
-      "locality": "Lavelle Road",
-      "buy_price": 101000000.0,
-      "rent_price": 350000.0,
-      "gross_yield_pct": 4.16,
-      "lat": 12.9722287,
-      "lng": 77.5986661
-    },
-    {
       "locality": "Horamavu",
       "buy_price": 12700000.0,
       "rent_price": 44000.0,
       "gross_yield_pct": 4.16,
       "lat": 13.0273312,
       "lng": 77.6601508
+    },
+    {
+      "locality": "Lavelle Road",
+      "buy_price": 101000000.0,
+      "rent_price": 350000.0,
+      "gross_yield_pct": 4.16,
+      "lat": 12.9722287,
+      "lng": 77.5986661
     },
     {
       "locality": "Jayamahal",
@@ -31085,20 +31085,20 @@
       "lng": 77.6512362
     },
     {
-      "locality": "Gunjur",
-      "buy_price": 16200000.000000002,
-      "rent_price": 42000.0,
-      "gross_yield_pct": 3.11,
-      "lat": 12.9209772,
-      "lng": 77.7361016
-    },
-    {
       "locality": "Phase 1 Electronics City",
       "buy_price": 13500000.0,
       "rent_price": 35000.0,
       "gross_yield_pct": 3.11,
       "lat": 12.844773,
       "lng": 77.6605993
+    },
+    {
+      "locality": "Gunjur",
+      "buy_price": 16200000.000000002,
+      "rent_price": 42000.0,
+      "gross_yield_pct": 3.11,
+      "lat": 12.9209772,
+      "lng": 77.7361016
     },
     {
       "locality": "Hbr Layout",
@@ -31405,12 +31405,12 @@
       "lng": 77.6315006
     },
     {
-      "locality": "Bagalakunte",
-      "buy_price": 13000000.0,
-      "rent_price": 24500.0,
+      "locality": "Cunningham Road",
+      "buy_price": 106199999.99999999,
+      "rent_price": 200000.0,
       "gross_yield_pct": 2.26,
-      "lat": null,
-      "lng": null
+      "lat": 12.9857312,
+      "lng": 77.5960537
     },
     {
       "locality": "Dommasandra",
@@ -31421,12 +31421,12 @@
       "lng": 77.7534769
     },
     {
-      "locality": "Cunningham Road",
-      "buy_price": 106199999.99999999,
-      "rent_price": 200000.0,
+      "locality": "Bagalakunte",
+      "buy_price": 13000000.0,
+      "rent_price": 24500.0,
       "gross_yield_pct": 2.26,
-      "lat": 12.9857312,
-      "lng": 77.5960537
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Off Hosur Road",
@@ -32061,20 +32061,20 @@
       "lng": 77.6335951
     },
     {
-      "locality": "Block 2Nd Hrbr Layout",
-      "buy_price": 141900000.0,
-      "rent_price": 140000.0,
-      "gross_yield_pct": 1.18,
-      "lat": 13.022258,
-      "lng": 77.6433948
-    },
-    {
       "locality": "Balagere",
       "buy_price": 23400000.0,
       "rent_price": 23000.0,
       "gross_yield_pct": 1.18,
       "lat": 12.9377243,
       "lng": 77.7280705
+    },
+    {
+      "locality": "Block 2Nd Hrbr Layout",
+      "buy_price": 141900000.0,
+      "rent_price": 140000.0,
+      "gross_yield_pct": 1.18,
+      "lat": 13.022258,
+      "lng": 77.6433948
     },
     {
       "locality": "Block 8 Jaya Nagar",
@@ -32189,20 +32189,20 @@
       "lng": 77.6110455
     },
     {
-      "locality": "Phase 8Th Jp Nagar",
-      "buy_price": 47500000.0,
-      "rent_price": 33500.0,
-      "gross_yield_pct": 0.85,
-      "lat": 12.9104062,
-      "lng": 77.5951099
-    },
-    {
       "locality": "Frazer Town",
       "buy_price": 120000000.0,
       "rent_price": 85000.0,
       "gross_yield_pct": 0.85,
       "lat": 12.9975851,
       "lng": 77.6136744
+    },
+    {
+      "locality": "Phase 8Th Jp Nagar",
+      "buy_price": 47500000.0,
+      "rent_price": 33500.0,
+      "gross_yield_pct": 0.85,
+      "lat": 12.9104062,
+      "lng": 77.5951099
     },
     {
       "locality": "Mathikere",

@@ -1,6 +1,6 @@
 {
   "city": "coimbatore",
-  "computed_at": "2026-10-16T04:40:21.056014",
+  "computed_at": "2026-10-17T04:37:44.440069",
   "summary": {
     "total_listings": 15590.0,
     "total_localities": 858.0,
@@ -15264,20 +15264,20 @@
       "lng": 77.0363987
     },
     {
-      "locality": "Anaimalai",
-      "buy_price": 15000000.0,
-      "rent_price": 75000.0,
-      "gross_yield_pct": 6.0,
-      "lat": 10.5822989,
-      "lng": 76.9343247
-    },
-    {
       "locality": "Koundampalayam",
       "buy_price": 6000000.0,
       "rent_price": 30000.0,
       "gross_yield_pct": 6.0,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Anaimalai",
+      "buy_price": 15000000.0,
+      "rent_price": 75000.0,
+      "gross_yield_pct": 6.0,
+      "lat": 10.5822989,
+      "lng": 76.9343247
     },
     {
       "locality": "Veerapandi Pirivu",
@@ -15744,20 +15744,20 @@
       "lng": null
     },
     {
-      "locality": "Myleripalayam",
-      "buy_price": 9000000.0,
-      "rent_price": 20000.0,
-      "gross_yield_pct": 2.67,
-      "lat": 10.8702488,
-      "lng": 77.0228645
-    },
-    {
       "locality": "Athipalayam",
       "buy_price": 5400000.0,
       "rent_price": 12000.0,
       "gross_yield_pct": 2.67,
       "lat": 11.1291418,
       "lng": 76.9807251
+    },
+    {
+      "locality": "Myleripalayam",
+      "buy_price": 9000000.0,
+      "rent_price": 20000.0,
+      "gross_yield_pct": 2.67,
+      "lat": 10.8702488,
+      "lng": 77.0228645
     },
     {
       "locality": "E B Colony",
@@ -15824,20 +15824,20 @@
       "lng": 76.9726023
     },
     {
-      "locality": "Mullai Nagar",
-      "buy_price": 9500000.0,
-      "rent_price": 20750.0,
-      "gross_yield_pct": 2.62,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Tidel Park",
       "buy_price": 12470000.0,
       "rent_price": 27250.0,
       "gross_yield_pct": 2.62,
       "lat": 11.0321578,
       "lng": 77.0201433
+    },
+    {
+      "locality": "Mullai Nagar",
+      "buy_price": 9500000.0,
+      "rent_price": 20750.0,
+      "gross_yield_pct": 2.62,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Vadavalli",
@@ -15984,20 +15984,20 @@
       "lng": 77.1857437
     },
     {
-      "locality": "Pattanam Pudur",
-      "buy_price": 6800000.0,
-      "rent_price": 13000.0,
-      "gross_yield_pct": 2.29,
-      "lat": 10.9865998,
-      "lng": 77.0604158
-    },
-    {
       "locality": "Bommanampalayam",
       "buy_price": 10500000.0,
       "rent_price": 20000.0,
       "gross_yield_pct": 2.29,
       "lat": 11.0287247,
       "lng": 76.8826329
+    },
+    {
+      "locality": "Pattanam Pudur",
+      "buy_price": 6800000.0,
+      "rent_price": 13000.0,
+      "gross_yield_pct": 2.29,
+      "lat": 10.9865998,
+      "lng": 77.0604158
     },
     {
       "locality": "Vadakovai",
@@ -16104,17 +16104,17 @@
       "lng": 76.9547225
     },
     {
-      "locality": "Kavundam Palayam",
-      "buy_price": 10000000.0,
-      "rent_price": 16500.0,
+      "locality": "Narasimhanaicken Palayam",
+      "buy_price": 8500000.0,
+      "rent_price": 14000.0,
       "gross_yield_pct": 1.98,
       "lat": null,
       "lng": null
     },
     {
-      "locality": "Narasimhanaicken Palayam",
-      "buy_price": 8500000.0,
-      "rent_price": 14000.0,
+      "locality": "Kavundam Palayam",
+      "buy_price": 10000000.0,
+      "rent_price": 16500.0,
       "gross_yield_pct": 1.98,
       "lat": null,
       "lng": null
@@ -16360,20 +16360,20 @@
       "lng": 76.9226605
     },
     {
-      "locality": "Cheran Nagar",
-      "buy_price": 18000000.0,
-      "rent_price": 18000.0,
-      "gross_yield_pct": 1.2,
-      "lat": 10.6784001,
-      "lng": 77.0033564
-    },
-    {
       "locality": "Irugur",
       "buy_price": 14000000.0,
       "rent_price": 14000.0,
       "gross_yield_pct": 1.2,
       "lat": 11.0182228,
       "lng": 77.0655208
+    },
+    {
+      "locality": "Cheran Nagar",
+      "buy_price": 18000000.0,
+      "rent_price": 18000.0,
+      "gross_yield_pct": 1.2,
+      "lat": 10.6784001,
+      "lng": 77.0033564
     },
     {
       "locality": "Jeeva Nagar Sri Sivasakthi Nagar",
@@ -16456,20 +16456,20 @@
       "lng": 77.0254937
     },
     {
-      "locality": "Ponnaiah Rajapuram",
-      "buy_price": 8000000.0,
-      "rent_price": 5750.0,
-      "gross_yield_pct": 0.86,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "K K Pudur",
       "buy_price": 21750000.0,
       "rent_price": 15500.0,
       "gross_yield_pct": 0.86,
       "lat": 10.6777687,
       "lng": 76.9127035
+    },
+    {
+      "locality": "Ponnaiah Rajapuram",
+      "buy_price": 8000000.0,
+      "rent_price": 5750.0,
+      "gross_yield_pct": 0.86,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Ganapathi Police Quarters",

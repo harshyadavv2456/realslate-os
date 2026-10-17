@@ -1,6 +1,6 @@
 {
   "city": "hyderabad",
-  "computed_at": "2026-10-16T04:40:21.576737",
+  "computed_at": "2026-10-17T04:37:45.264264",
   "summary": {
     "total_listings": 30688.0,
     "total_localities": 1182.0,
@@ -19992,20 +19992,20 @@
       "lng": 78.3644736
     },
     {
-      "locality": "Journalists Colony Phase 3",
-      "buy_price": 12000000.0,
-      "rent_price": 40000.0,
-      "gross_yield_pct": 4.0,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Mayuri Nagar Miyapur",
       "buy_price": 9000000.0,
       "rent_price": 30000.0,
       "gross_yield_pct": 4.0,
       "lat": 17.5116535,
       "lng": 78.3676991
+    },
+    {
+      "locality": "Journalists Colony Phase 3",
+      "buy_price": 12000000.0,
+      "rent_price": 40000.0,
+      "gross_yield_pct": 4.0,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Serilingampalle M",
@@ -20064,20 +20064,20 @@
       "lng": 78.4054408
     },
     {
-      "locality": "Prakash Nagar Begumpet",
-      "buy_price": 10400000.0,
-      "rent_price": 32000.0,
-      "gross_yield_pct": 3.69,
-      "lat": 17.4444022,
-      "lng": 78.467713
-    },
-    {
       "locality": "Gangaram Chanda Nagar",
       "buy_price": 13000000.0,
       "rent_price": 40000.0,
       "gross_yield_pct": 3.69,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Prakash Nagar Begumpet",
+      "buy_price": 10400000.0,
+      "rent_price": 32000.0,
+      "gross_yield_pct": 3.69,
+      "lat": 17.4444022,
+      "lng": 78.467713
     },
     {
       "locality": "Chengicherla",

@@ -1,6 +1,6 @@
 {
   "city": "noida",
-  "computed_at": "2026-10-16T04:40:22.844243",
+  "computed_at": "2026-10-17T04:37:47.287444",
   "summary": {
     "total_listings": 26379.0,
     "total_localities": 522.0,
@@ -11443,14 +11443,6 @@
       "lng": null
     },
     {
-      "locality": "Block C Sector 108",
-      "buy_price": 31800000.0,
-      "rent_price": 75000.0,
-      "gross_yield_pct": 2.83,
-      "lat": 28.5787489,
-      "lng": 77.3441219
-    },
-    {
       "locality": "Sector 50",
       "buy_price": 22900000.0,
       "rent_price": 54000.0,
@@ -11459,12 +11451,20 @@
       "lng": 77.3674862
     },
     {
-      "locality": "Sector 70",
-      "buy_price": 13799999.999999998,
-      "rent_price": 31000.0,
+      "locality": "Block C Sector 108",
+      "buy_price": 31800000.0,
+      "rent_price": 75000.0,
+      "gross_yield_pct": 2.83,
+      "lat": 28.5787489,
+      "lng": 77.3441219
+    },
+    {
+      "locality": "Noida Greater Noida Expressway",
+      "buy_price": 10000000.0,
+      "rent_price": 22500.0,
       "gross_yield_pct": 2.7,
-      "lat": 28.5976614,
-      "lng": 77.3842607
+      "lat": 28.5198157,
+      "lng": 77.3776247
     },
     {
       "locality": "Noida Extension",
@@ -11475,12 +11475,12 @@
       "lng": 77.432198
     },
     {
-      "locality": "Noida Greater Noida Expressway",
-      "buy_price": 10000000.0,
-      "rent_price": 22500.0,
+      "locality": "Sector 70",
+      "buy_price": 13799999.999999998,
+      "rent_price": 31000.0,
       "gross_yield_pct": 2.7,
-      "lat": 28.5198157,
-      "lng": 77.3776247
+      "lat": 28.5976614,
+      "lng": 77.3842607
     },
     {
       "locality": "Sector 76",
@@ -11611,20 +11611,20 @@
       "lng": 77.5358738
     },
     {
-      "locality": "Greater Noida West",
-      "buy_price": 10200000.0,
-      "rent_price": 12000.0,
-      "gross_yield_pct": 1.41,
-      "lat": 28.5642539,
-      "lng": 77.4739447
-    },
-    {
       "locality": "Block A Sector 65",
       "buy_price": 280000000.0,
       "rent_price": 330000.0,
       "gross_yield_pct": 1.41,
       "lat": 28.5911592,
       "lng": 77.3525353
+    },
+    {
+      "locality": "Greater Noida West",
+      "buy_price": 10200000.0,
+      "rent_price": 12000.0,
+      "gross_yield_pct": 1.41,
+      "lat": 28.5642539,
+      "lng": 77.4739447
     },
     {
       "locality": "Sector 33",
@@ -11643,20 +11643,20 @@
       "lng": null
     },
     {
-      "locality": "Sector 63",
-      "buy_price": 200000000.0,
-      "rent_price": 200000.0,
-      "gross_yield_pct": 1.2,
-      "lat": 28.6120749,
-      "lng": 77.3778122
-    },
-    {
       "locality": "Bock A Sector 46",
       "buy_price": 55000000.0,
       "rent_price": 55000.0,
       "gross_yield_pct": 1.2,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Sector 63",
+      "buy_price": 200000000.0,
+      "rent_price": 200000.0,
+      "gross_yield_pct": 1.2,
+      "lat": 28.6120749,
+      "lng": 77.3778122
     },
     {
       "locality": "Sector 46",
@@ -11787,20 +11787,20 @@
       "lng": 77.5317416
     },
     {
-      "locality": "Golf Course Metro",
-      "buy_price": 46000000.0,
-      "rent_price": 30750.0,
-      "gross_yield_pct": 0.8,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Block D Sector 47",
       "buy_price": 210000000.0,
       "rent_price": 140000.0,
       "gross_yield_pct": 0.8,
       "lat": 28.460509,
       "lng": 77.5358738
+    },
+    {
+      "locality": "Golf Course Metro",
+      "buy_price": 46000000.0,
+      "rent_price": 30750.0,
+      "gross_yield_pct": 0.8,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "G Block Sector 63",
@@ -11811,20 +11811,20 @@
       "lng": 77.3240992
     },
     {
-      "locality": "Sector 52",
-      "buy_price": 26000000.0,
-      "rent_price": 17000.0,
-      "gross_yield_pct": 0.78,
-      "lat": 28.5885198,
-      "lng": 77.3689065
-    },
-    {
       "locality": "Block A Sector 59",
       "buy_price": 150000000.0,
       "rent_price": 97500.0,
       "gross_yield_pct": 0.78,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Sector 52",
+      "buy_price": 26000000.0,
+      "rent_price": 17000.0,
+      "gross_yield_pct": 0.78,
+      "lat": 28.5885198,
+      "lng": 77.3689065
     },
     {
       "locality": "Block B Sector 105",
@@ -11859,17 +11859,17 @@
       "lng": 77.3240992
     },
     {
-      "locality": "Block E Sector 40",
-      "buy_price": 111250000.0,
-      "rent_price": 67500.0,
+      "locality": "E Block Sector 63",
+      "buy_price": 115000000.0,
+      "rent_price": 70000.0,
       "gross_yield_pct": 0.73,
       "lat": null,
       "lng": null
     },
     {
-      "locality": "E Block Sector 63",
-      "buy_price": 115000000.0,
-      "rent_price": 70000.0,
+      "locality": "Block E Sector 40",
+      "buy_price": 111250000.0,
+      "rent_price": 67500.0,
       "gross_yield_pct": 0.73,
       "lat": null,
       "lng": null
@@ -11899,20 +11899,20 @@
       "lng": 77.3471077
     },
     {
-      "locality": "Block B Sector 41",
-      "buy_price": 61500000.0,
-      "rent_price": 35000.0,
-      "gross_yield_pct": 0.68,
-      "lat": 28.4720151,
-      "lng": 77.5298849
-    },
-    {
       "locality": "Block B Sector 6",
       "buy_price": 79000000.0,
       "rent_price": 45000.0,
       "gross_yield_pct": 0.68,
       "lat": 28.6092332,
       "lng": 77.3471077
+    },
+    {
+      "locality": "Block B Sector 41",
+      "buy_price": 61500000.0,
+      "rent_price": 35000.0,
+      "gross_yield_pct": 0.68,
+      "lat": 28.4720151,
+      "lng": 77.5298849
     },
     {
       "locality": "Sector 26",
@@ -11939,14 +11939,6 @@
       "lng": 77.3687445
     },
     {
-      "locality": "Block A Sector 23",
-      "buy_price": 48065000.0,
-      "rent_price": 25000.0,
-      "gross_yield_pct": 0.62,
-      "lat": 28.5911592,
-      "lng": 77.3525353
-    },
-    {
       "locality": "A Block Sector 31",
       "buy_price": 86500000.0,
       "rent_price": 45000.0,
@@ -11955,12 +11947,12 @@
       "lng": 77.3782928
     },
     {
-      "locality": "Block B Sector 92",
-      "buy_price": 82500000.0,
-      "rent_price": 42250.0,
-      "gross_yield_pct": 0.61,
-      "lat": 28.6197533,
-      "lng": 77.3703883
+      "locality": "Block A Sector 23",
+      "buy_price": 48065000.0,
+      "rent_price": 25000.0,
+      "gross_yield_pct": 0.62,
+      "lat": 28.5911592,
+      "lng": 77.3525353
     },
     {
       "locality": "Sector 31",
@@ -11969,6 +11961,14 @@
       "gross_yield_pct": 0.61,
       "lat": 28.577205,
       "lng": 77.3437035
+    },
+    {
+      "locality": "Block B Sector 92",
+      "buy_price": 82500000.0,
+      "rent_price": 42250.0,
+      "gross_yield_pct": 0.61,
+      "lat": 28.6197533,
+      "lng": 77.3703883
     },
     {
       "locality": "Sector 36",
