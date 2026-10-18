@@ -1,6 +1,6 @@
 {
   "city": "ghaziabad",
-  "computed_at": "2026-10-17T04:37:44.865418",
+  "computed_at": "2026-10-18T04:43:18.973520",
   "summary": {
     "total_listings": 21991.0,
     "total_localities": 449.0,
@@ -8633,20 +8633,20 @@
       "lng": 77.3613151
     },
     {
-      "locality": "Niti Khand 1",
-      "buy_price": 11250000.0,
-      "rent_price": 27500.0,
-      "gross_yield_pct": 2.93,
-      "lat": 28.6434594,
-      "lng": 77.3760988
-    },
-    {
       "locality": "Kaushambi",
       "buy_price": 18000000.0,
       "rent_price": 44000.0,
       "gross_yield_pct": 2.93,
       "lat": 28.6452857,
       "lng": 77.3243429
+    },
+    {
+      "locality": "Niti Khand 1",
+      "buy_price": 11250000.0,
+      "rent_price": 27500.0,
+      "gross_yield_pct": 2.93,
+      "lat": 28.6434594,
+      "lng": 77.3760988
     },
     {
       "locality": "Raj Nagar Extension",
@@ -8705,20 +8705,20 @@
       "lng": 77.40736
     },
     {
-      "locality": "Chhapraula",
-      "buy_price": 5250000.0,
-      "rent_price": 10500.0,
-      "gross_yield_pct": 2.4,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Sector 13 Vasundhara",
       "buy_price": 11000000.0,
       "rent_price": 22000.0,
       "gross_yield_pct": 2.4,
       "lat": 28.6548581,
       "lng": 77.3643307
+    },
+    {
+      "locality": "Chhapraula",
+      "buy_price": 5250000.0,
+      "rent_price": 10500.0,
+      "gross_yield_pct": 2.4,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Tronica City",
@@ -8801,20 +8801,20 @@
       "lng": 77.3576545
     },
     {
-      "locality": "Vaishali",
-      "buy_price": 14400000.0,
-      "rent_price": 24000.0,
-      "gross_yield_pct": 2.0,
-      "lat": 28.6496701,
-      "lng": 77.339575
-    },
-    {
       "locality": "Raj Nagar",
       "buy_price": 18000000.0,
       "rent_price": 30000.0,
       "gross_yield_pct": 2.0,
       "lat": 28.6818623,
       "lng": 77.4461161
+    },
+    {
+      "locality": "Vaishali",
+      "buy_price": 14400000.0,
+      "rent_price": 24000.0,
+      "gross_yield_pct": 2.0,
+      "lat": 28.6496701,
+      "lng": 77.339575
     },
     {
       "locality": "Sector 2B Vasundhara",

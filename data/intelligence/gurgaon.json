@@ -1,6 +1,6 @@
 {
   "city": "gurgaon",
-  "computed_at": "2026-10-17T04:37:45.049146",
+  "computed_at": "2026-10-18T04:43:19.159171",
   "summary": {
     "total_listings": 28506.0,
     "total_localities": 388.0,
@@ -10738,20 +10738,20 @@
       "lng": 77.0795656
     },
     {
-      "locality": "Sector 82",
-      "buy_price": 18450000.0,
-      "rent_price": 50000.0,
-      "gross_yield_pct": 3.25,
-      "lat": 28.3931076,
-      "lng": 76.9588762
-    },
-    {
       "locality": "Block A Sushant Lok Phase 1",
       "buy_price": 48000000.0,
       "rent_price": 130000.0,
       "gross_yield_pct": 3.25,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Sector 82",
+      "buy_price": 18450000.0,
+      "rent_price": 50000.0,
+      "gross_yield_pct": 3.25,
+      "lat": 28.3931076,
+      "lng": 76.9588762
     },
     {
       "locality": "Sohna Road",
@@ -10850,20 +10850,20 @@
       "lng": null
     },
     {
-      "locality": "Sector 5",
-      "buy_price": 26500000.0,
-      "rent_price": 59000.0,
-      "gross_yield_pct": 2.67,
-      "lat": 28.4803924,
-      "lng": 77.0190946
-    },
-    {
       "locality": "Sector 50",
       "buy_price": 44950000.0,
       "rent_price": 100000.0,
       "gross_yield_pct": 2.67,
       "lat": 28.4166536,
       "lng": 77.0611745
+    },
+    {
+      "locality": "Sector 5",
+      "buy_price": 26500000.0,
+      "rent_price": 59000.0,
+      "gross_yield_pct": 2.67,
+      "lat": 28.4803924,
+      "lng": 77.0190946
     },
     {
       "locality": "Dlf City 4",
@@ -10994,20 +10994,20 @@
       "lng": 76.9719998
     },
     {
-      "locality": "Block C Sushant Lok Phase 1",
-      "buy_price": 36500000.0,
-      "rent_price": 68500.0,
-      "gross_yield_pct": 2.25,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Sector 51",
       "buy_price": 31250000.0,
       "rent_price": 58500.0,
       "gross_yield_pct": 2.25,
       "lat": 28.4287011,
       "lng": 77.0666877
+    },
+    {
+      "locality": "Block C Sushant Lok Phase 1",
+      "buy_price": 36500000.0,
+      "rent_price": 68500.0,
+      "gross_yield_pct": 2.25,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Sector 109",
@@ -11202,14 +11202,6 @@
       "lng": 77.0868304
     },
     {
-      "locality": "Sector 4",
-      "buy_price": 25000000.0,
-      "rent_price": 32500.0,
-      "gross_yield_pct": 1.56,
-      "lat": 28.4750063,
-      "lng": 77.0103535
-    },
-    {
       "locality": "Sector 23",
       "buy_price": 30000000.0,
       "rent_price": 39000.0,
@@ -11224,6 +11216,14 @@
       "gross_yield_pct": 1.56,
       "lat": 28.4538067,
       "lng": 77.0971861
+    },
+    {
+      "locality": "Sector 4",
+      "buy_price": 25000000.0,
+      "rent_price": 32500.0,
+      "gross_yield_pct": 1.56,
+      "lat": 28.4750063,
+      "lng": 77.0103535
     },
     {
       "locality": "Sector 55",
@@ -11418,20 +11418,20 @@
       "lng": 77.0220391
     },
     {
-      "locality": "Palam Vihar",
-      "buy_price": 35000000.0,
-      "rent_price": 30000.0,
-      "gross_yield_pct": 1.03,
-      "lat": 28.4983353,
-      "lng": 77.0203007
-    },
-    {
       "locality": "Sector 70",
       "buy_price": 38000000.0,
       "rent_price": 32500.0,
       "gross_yield_pct": 1.03,
       "lat": 28.3947261,
       "lng": 77.0223138
+    },
+    {
+      "locality": "Palam Vihar",
+      "buy_price": 35000000.0,
+      "rent_price": 30000.0,
+      "gross_yield_pct": 1.03,
+      "lat": 28.4983353,
+      "lng": 77.0203007
     },
     {
       "locality": "Sector 40",

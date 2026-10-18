@@ -1,6 +1,6 @@
 {
   "city": "bangalore",
-  "computed_at": "2026-10-17T04:37:43.577112",
+  "computed_at": "2026-10-18T04:43:17.688256",
   "summary": {
     "total_listings": 49638.0,
     "total_localities": 2151.0,
@@ -30621,20 +30621,20 @@
       "lng": 77.746988
     },
     {
-      "locality": "New Bel Road",
-      "buy_price": 26000000.0,
-      "rent_price": 100000.0,
-      "gross_yield_pct": 4.62,
-      "lat": 13.0429636,
-      "lng": 77.5614756
-    },
-    {
       "locality": "Cooke Town",
       "buy_price": 26000000.0,
       "rent_price": 100000.0,
       "gross_yield_pct": 4.62,
       "lat": 13.0021998,
       "lng": 77.6251814
+    },
+    {
+      "locality": "New Bel Road",
+      "buy_price": 26000000.0,
+      "rent_price": 100000.0,
+      "gross_yield_pct": 4.62,
+      "lat": 13.0429636,
+      "lng": 77.5614756
     },
     {
       "locality": "Kasavanahalli Main Road",
@@ -30725,20 +30725,20 @@
       "lng": 77.6404672
     },
     {
-      "locality": "Horamavu",
-      "buy_price": 12700000.0,
-      "rent_price": 44000.0,
-      "gross_yield_pct": 4.16,
-      "lat": 13.0273312,
-      "lng": 77.6601508
-    },
-    {
       "locality": "Lavelle Road",
       "buy_price": 101000000.0,
       "rent_price": 350000.0,
       "gross_yield_pct": 4.16,
       "lat": 12.9722287,
       "lng": 77.5986661
+    },
+    {
+      "locality": "Horamavu",
+      "buy_price": 12700000.0,
+      "rent_price": 44000.0,
+      "gross_yield_pct": 4.16,
+      "lat": 13.0273312,
+      "lng": 77.6601508
     },
     {
       "locality": "Jayamahal",
@@ -30757,20 +30757,20 @@
       "lng": 77.5373851
     },
     {
-      "locality": "Balaji Layout Cooke Town",
-      "buy_price": 30000000.0,
-      "rent_price": 100000.0,
-      "gross_yield_pct": 4.0,
-      "lat": 13.0003766,
-      "lng": 77.6233584
-    },
-    {
       "locality": "Haralur",
       "buy_price": 21000000.0,
       "rent_price": 70000.0,
       "gross_yield_pct": 4.0,
       "lat": 12.9044856,
       "lng": 77.6654434
+    },
+    {
+      "locality": "Balaji Layout Cooke Town",
+      "buy_price": 30000000.0,
+      "rent_price": 100000.0,
+      "gross_yield_pct": 4.0,
+      "lat": 13.0003766,
+      "lng": 77.6233584
     },
     {
       "locality": "Kanakapura Road",
@@ -30925,20 +30925,20 @@
       "lng": 77.6451795
     },
     {
-      "locality": "Domlur",
-      "buy_price": 35000000.0,
-      "rent_price": 100000.0,
-      "gross_yield_pct": 3.43,
-      "lat": 12.9624669,
-      "lng": 77.6381958
-    },
-    {
       "locality": "Nagavara",
       "buy_price": 18900000.0,
       "rent_price": 54000.0,
       "gross_yield_pct": 3.43,
       "lat": 13.0374647,
       "lng": 77.623602
+    },
+    {
+      "locality": "Domlur",
+      "buy_price": 35000000.0,
+      "rent_price": 100000.0,
+      "gross_yield_pct": 3.43,
+      "lat": 12.9624669,
+      "lng": 77.6381958
     },
     {
       "locality": "Vasanth Nagar",
@@ -30949,20 +30949,20 @@
       "lng": 77.591459
     },
     {
-      "locality": "Arekere",
-      "buy_price": 31000000.0,
-      "rent_price": 87500.0,
-      "gross_yield_pct": 3.39,
-      "lat": 12.8872086,
-      "lng": 77.5960493
-    },
-    {
       "locality": "Uttarahalli Hobli",
       "buy_price": 24800000.0,
       "rent_price": 70000.0,
       "gross_yield_pct": 3.39,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Arekere",
+      "buy_price": 31000000.0,
+      "rent_price": 87500.0,
+      "gross_yield_pct": 3.39,
+      "lat": 12.8872086,
+      "lng": 77.5960493
     },
     {
       "locality": "Kpc Layout Kasavanahalli",
@@ -30973,14 +30973,6 @@
       "lng": 77.6758423
     },
     {
-      "locality": "Kodigehalli Main Road",
-      "buy_price": 11600000.0,
-      "rent_price": 32000.0,
-      "gross_yield_pct": 3.31,
-      "lat": 12.9974376,
-      "lng": 77.7211395
-    },
-    {
       "locality": "Shivaji Nagar",
       "buy_price": 29000000.0,
       "rent_price": 80000.0,
@@ -30989,12 +30981,12 @@
       "lng": 77.6004488
     },
     {
-      "locality": "Sarjapur Road",
-      "buy_price": 18200000.0,
-      "rent_price": 50000.0,
-      "gross_yield_pct": 3.3,
-      "lat": 12.9239942,
-      "lng": 77.6530304
+      "locality": "Kodigehalli Main Road",
+      "buy_price": 11600000.0,
+      "rent_price": 32000.0,
+      "gross_yield_pct": 3.31,
+      "lat": 12.9974376,
+      "lng": 77.7211395
     },
     {
       "locality": "Thanisandra",
@@ -31003,6 +30995,14 @@
       "gross_yield_pct": 3.3,
       "lat": 13.0522499,
       "lng": 77.6316152
+    },
+    {
+      "locality": "Sarjapur Road",
+      "buy_price": 18200000.0,
+      "rent_price": 50000.0,
+      "gross_yield_pct": 3.3,
+      "lat": 12.9239942,
+      "lng": 77.6530304
     },
     {
       "locality": "Vittal Mallya Road",
@@ -31021,20 +31021,20 @@
       "lng": 77.4837568
     },
     {
-      "locality": "Belathur",
-      "buy_price": 12400000.0,
-      "rent_price": 33500.0,
-      "gross_yield_pct": 3.24,
-      "lat": 12.9989822,
-      "lng": 77.7408733
-    },
-    {
       "locality": "Manayata Tech Park",
       "buy_price": 11100000.000000002,
       "rent_price": 30000.0,
       "gross_yield_pct": 3.24,
       "lat": 13.0453348,
       "lng": 77.626837
+    },
+    {
+      "locality": "Belathur",
+      "buy_price": 12400000.0,
+      "rent_price": 33500.0,
+      "gross_yield_pct": 3.24,
+      "lat": 12.9989822,
+      "lng": 77.7408733
     },
     {
       "locality": "Anekal",
@@ -31085,20 +31085,20 @@
       "lng": 77.6512362
     },
     {
-      "locality": "Phase 1 Electronics City",
-      "buy_price": 13500000.0,
-      "rent_price": 35000.0,
-      "gross_yield_pct": 3.11,
-      "lat": 12.844773,
-      "lng": 77.6605993
-    },
-    {
       "locality": "Gunjur",
       "buy_price": 16200000.000000002,
       "rent_price": 42000.0,
       "gross_yield_pct": 3.11,
       "lat": 12.9209772,
       "lng": 77.7361016
+    },
+    {
+      "locality": "Phase 1 Electronics City",
+      "buy_price": 13500000.0,
+      "rent_price": 35000.0,
+      "gross_yield_pct": 3.11,
+      "lat": 12.844773,
+      "lng": 77.6605993
     },
     {
       "locality": "Hbr Layout",
@@ -31285,20 +31285,20 @@
       "lng": 77.5408913
     },
     {
-      "locality": "Abbaiah Reddy Layout",
-      "buy_price": 9115000.0,
-      "rent_price": 19000.0,
-      "gross_yield_pct": 2.5,
-      "lat": 12.9792262,
-      "lng": 77.680936
-    },
-    {
       "locality": "Samethanahalli",
       "buy_price": 11500000.0,
       "rent_price": 24000.0,
       "gross_yield_pct": 2.5,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Abbaiah Reddy Layout",
+      "buy_price": 9115000.0,
+      "rent_price": 19000.0,
+      "gross_yield_pct": 2.5,
+      "lat": 12.9792262,
+      "lng": 77.680936
     },
     {
       "locality": "Richmond Town",
@@ -31389,14 +31389,6 @@
       "lng": 77.5843744
     },
     {
-      "locality": "Marathahalli",
-      "buy_price": 34750000.0,
-      "rent_price": 66500.0,
-      "gross_yield_pct": 2.3,
-      "lat": 12.9552572,
-      "lng": 77.6984163
-    },
-    {
       "locality": "Block 1St Koramangala",
       "buy_price": 33900000.0,
       "rent_price": 65000.0,
@@ -31405,12 +31397,20 @@
       "lng": 77.6315006
     },
     {
-      "locality": "Cunningham Road",
-      "buy_price": 106199999.99999999,
-      "rent_price": 200000.0,
+      "locality": "Marathahalli",
+      "buy_price": 34750000.0,
+      "rent_price": 66500.0,
+      "gross_yield_pct": 2.3,
+      "lat": 12.9552572,
+      "lng": 77.6984163
+    },
+    {
+      "locality": "Bagalakunte",
+      "buy_price": 13000000.0,
+      "rent_price": 24500.0,
       "gross_yield_pct": 2.26,
-      "lat": 12.9857312,
-      "lng": 77.5960537
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Dommasandra",
@@ -31421,12 +31421,12 @@
       "lng": 77.7534769
     },
     {
-      "locality": "Bagalakunte",
-      "buy_price": 13000000.0,
-      "rent_price": 24500.0,
+      "locality": "Cunningham Road",
+      "buy_price": 106199999.99999999,
+      "rent_price": 200000.0,
       "gross_yield_pct": 2.26,
-      "lat": null,
-      "lng": null
+      "lat": 12.9857312,
+      "lng": 77.5960537
     },
     {
       "locality": "Off Hosur Road",
@@ -31509,14 +31509,6 @@
       "lng": 77.6151478
     },
     {
-      "locality": "Palace Road",
-      "buy_price": 60000000.0,
-      "rent_price": 100000.0,
-      "gross_yield_pct": 2.0,
-      "lat": 12.9845259,
-      "lng": 77.5880134
-    },
-    {
       "locality": "Stage 2Nd Banashankari",
       "buy_price": 42050000.0,
       "rent_price": 70000.0,
@@ -31525,12 +31517,12 @@
       "lng": 77.5694193
     },
     {
-      "locality": "Harlur",
-      "buy_price": 25000000.0,
-      "rent_price": 41500.0,
-      "gross_yield_pct": 1.99,
-      "lat": 12.9058923,
-      "lng": 77.675465
+      "locality": "Palace Road",
+      "buy_price": 60000000.0,
+      "rent_price": 100000.0,
+      "gross_yield_pct": 2.0,
+      "lat": 12.9845259,
+      "lng": 77.5880134
     },
     {
       "locality": "Cox Town",
@@ -31539,6 +31531,14 @@
       "gross_yield_pct": 1.99,
       "lat": 12.9934858,
       "lng": 77.6251081
+    },
+    {
+      "locality": "Harlur",
+      "buy_price": 25000000.0,
+      "rent_price": 41500.0,
+      "gross_yield_pct": 1.99,
+      "lat": 12.9058923,
+      "lng": 77.675465
     },
     {
       "locality": "Vijayanagara",
@@ -31573,12 +31573,12 @@
       "lng": 77.7375086
     },
     {
-      "locality": "Medahalli",
-      "buy_price": 11000000.0,
-      "rent_price": 18000.0,
+      "locality": "Rr Nagar",
+      "buy_price": 19550000.0,
+      "rent_price": 32000.0,
       "gross_yield_pct": 1.96,
-      "lat": 13.0278454,
-      "lng": 77.7206079
+      "lat": 12.9314733,
+      "lng": 77.5290964
     },
     {
       "locality": "Shanthala Nagar Ashok Nagar",
@@ -31589,12 +31589,12 @@
       "lng": 77.6040599
     },
     {
-      "locality": "Rr Nagar",
-      "buy_price": 19550000.0,
-      "rent_price": 32000.0,
+      "locality": "Medahalli",
+      "buy_price": 11000000.0,
+      "rent_price": 18000.0,
       "gross_yield_pct": 1.96,
-      "lat": 12.9314733,
-      "lng": 77.5290964
+      "lat": 13.0278454,
+      "lng": 77.7206079
     },
     {
       "locality": "Raghuvanahalli Bangalore City Municipal Corporation Layout",
@@ -31613,20 +31613,20 @@
       "lng": 77.595715
     },
     {
-      "locality": "Subramanyapura",
-      "buy_price": 16750000.0,
-      "rent_price": 27000.0,
-      "gross_yield_pct": 1.93,
-      "lat": 12.8992578,
-      "lng": 77.5321721
-    },
-    {
       "locality": "West Of Chord Road",
       "buy_price": 19900000.0,
       "rent_price": 32000.0,
       "gross_yield_pct": 1.93,
       "lat": 12.9982067,
       "lng": 77.5499224
+    },
+    {
+      "locality": "Subramanyapura",
+      "buy_price": 16750000.0,
+      "rent_price": 27000.0,
+      "gross_yield_pct": 1.93,
+      "lat": 12.8992578,
+      "lng": 77.5321721
     },
     {
       "locality": "Stage 4Th Btm Layout",
@@ -31693,20 +31693,20 @@
       "lng": 77.6935252
     },
     {
-      "locality": "Stage 2 Indiranagar",
-      "buy_price": 40000000.0,
-      "rent_price": 60000.0,
-      "gross_yield_pct": 1.8,
-      "lat": 12.9732913,
-      "lng": 77.6404672
-    },
-    {
       "locality": "Gandhi Bazaar",
       "buy_price": 50000000.0,
       "rent_price": 75000.0,
       "gross_yield_pct": 1.8,
       "lat": 12.9457868,
       "lng": 77.5706743
+    },
+    {
+      "locality": "Stage 2 Indiranagar",
+      "buy_price": 40000000.0,
+      "rent_price": 60000.0,
+      "gross_yield_pct": 1.8,
+      "lat": 12.9732913,
+      "lng": 77.6404672
     },
     {
       "locality": "Ramamurthy Nagar",
@@ -31749,20 +31749,20 @@
       "lng": 77.5866067
     },
     {
-      "locality": "Koramangala",
-      "buy_price": 45000000.0,
-      "rent_price": 65000.0,
-      "gross_yield_pct": 1.73,
-      "lat": 12.9357366,
-      "lng": 77.624081
-    },
-    {
       "locality": "Hesaraghatta",
       "buy_price": 10400000.0,
       "rent_price": 15000.0,
       "gross_yield_pct": 1.73,
       "lat": 13.1042269,
       "lng": 77.4730361
+    },
+    {
+      "locality": "Koramangala",
+      "buy_price": 45000000.0,
+      "rent_price": 65000.0,
+      "gross_yield_pct": 1.73,
+      "lat": 12.9357366,
+      "lng": 77.624081
     },
     {
       "locality": "Phase 2Nd Judicial Layout",
@@ -31877,20 +31877,20 @@
       "lng": 77.5356931
     },
     {
-      "locality": "J P Nagar",
-      "buy_price": 39400000.0,
-      "rent_price": 50000.0,
-      "gross_yield_pct": 1.52,
-      "lat": 12.9109539,
-      "lng": 77.5978198
-    },
-    {
       "locality": "Basavanagudi",
       "buy_price": 30000000.0,
       "rent_price": 38000.0,
       "gross_yield_pct": 1.52,
       "lat": 12.9417261,
       "lng": 77.5755021
+    },
+    {
+      "locality": "J P Nagar",
+      "buy_price": 39400000.0,
+      "rent_price": 50000.0,
+      "gross_yield_pct": 1.52,
+      "lat": 12.9109539,
+      "lng": 77.5978198
     },
     {
       "locality": "Deepanjali Nagar",
@@ -31957,20 +31957,20 @@
       "lng": null
     },
     {
-      "locality": "Bellandur",
-      "buy_price": 60000000.0,
-      "rent_price": 67500.0,
-      "gross_yield_pct": 1.35,
-      "lat": 12.9320495,
-      "lng": 77.6842915
-    },
-    {
       "locality": "Padmanabhanagar",
       "buy_price": 40000000.0,
       "rent_price": 45000.0,
       "gross_yield_pct": 1.35,
       "lat": 12.9181024,
       "lng": 77.5576638
+    },
+    {
+      "locality": "Bellandur",
+      "buy_price": 60000000.0,
+      "rent_price": 67500.0,
+      "gross_yield_pct": 1.35,
+      "lat": 12.9320495,
+      "lng": 77.6842915
     },
     {
       "locality": "Sadashiva Nagar",
@@ -32029,6 +32029,14 @@
       "lng": null
     },
     {
+      "locality": "Reva College Main Road",
+      "buy_price": 20000000.0,
+      "rent_price": 20000.0,
+      "gross_yield_pct": 1.2,
+      "lat": 13.1172617,
+      "lng": 77.6339854
+    },
+    {
       "locality": "Benson Town",
       "buy_price": 85000000.0,
       "rent_price": 85000.0,
@@ -32045,14 +32053,6 @@
       "lng": 77.676929
     },
     {
-      "locality": "Reva College Main Road",
-      "buy_price": 20000000.0,
-      "rent_price": 20000.0,
-      "gross_yield_pct": 1.2,
-      "lat": 13.1172617,
-      "lng": 77.6339854
-    },
-    {
       "locality": "Rk Hegde Nagar",
       "buy_price": 25500000.0,
       "rent_price": 25000.0,
@@ -32061,20 +32061,20 @@
       "lng": 77.6335951
     },
     {
-      "locality": "Balagere",
-      "buy_price": 23400000.0,
-      "rent_price": 23000.0,
-      "gross_yield_pct": 1.18,
-      "lat": 12.9377243,
-      "lng": 77.7280705
-    },
-    {
       "locality": "Block 2Nd Hrbr Layout",
       "buy_price": 141900000.0,
       "rent_price": 140000.0,
       "gross_yield_pct": 1.18,
       "lat": 13.022258,
       "lng": 77.6433948
+    },
+    {
+      "locality": "Balagere",
+      "buy_price": 23400000.0,
+      "rent_price": 23000.0,
+      "gross_yield_pct": 1.18,
+      "lat": 12.9377243,
+      "lng": 77.7280705
     },
     {
       "locality": "Block 8 Jaya Nagar",
@@ -32189,20 +32189,20 @@
       "lng": 77.6110455
     },
     {
-      "locality": "Frazer Town",
-      "buy_price": 120000000.0,
-      "rent_price": 85000.0,
-      "gross_yield_pct": 0.85,
-      "lat": 12.9975851,
-      "lng": 77.6136744
-    },
-    {
       "locality": "Phase 8Th Jp Nagar",
       "buy_price": 47500000.0,
       "rent_price": 33500.0,
       "gross_yield_pct": 0.85,
       "lat": 12.9104062,
       "lng": 77.5951099
+    },
+    {
+      "locality": "Frazer Town",
+      "buy_price": 120000000.0,
+      "rent_price": 85000.0,
+      "gross_yield_pct": 0.85,
+      "lat": 12.9975851,
+      "lng": 77.6136744
     },
     {
       "locality": "Mathikere",
