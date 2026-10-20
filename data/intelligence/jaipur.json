@@ -1,6 +1,6 @@
 {
   "city": "jaipur",
-  "computed_at": "2026-10-19T04:51:37.330689",
+  "computed_at": "2026-10-20T04:59:42.925822",
   "summary": {
     "total_listings": 23561.0,
     "total_localities": 1033.0,
@@ -16775,20 +16775,20 @@
       "lng": null
     },
     {
-      "locality": "Adarsh Nagar",
-      "buy_price": 9800000.0,
-      "rent_price": 32000.0,
-      "gross_yield_pct": 3.92,
-      "lat": 26.8986698,
-      "lng": 75.8163567
-    },
-    {
       "locality": "Meenawala",
       "buy_price": 4900000.0,
       "rent_price": 16000.0,
       "gross_yield_pct": 3.92,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Adarsh Nagar",
+      "buy_price": 9800000.0,
+      "rent_price": 32000.0,
+      "gross_yield_pct": 3.92,
+      "lat": 26.8986698,
+      "lng": 75.8163567
     },
     {
       "locality": "Vaishali Nagar",
@@ -16863,20 +16863,20 @@
       "lng": 75.6673731
     },
     {
-      "locality": "Sector 9 Malviya Nagar",
-      "buy_price": 10000000.0,
-      "rent_price": 30000.0,
-      "gross_yield_pct": 3.6,
-      "lat": 26.8593668,
-      "lng": 75.8098088
-    },
-    {
       "locality": "Tonk Fatak",
       "buy_price": 6000000.0,
       "rent_price": 18000.0,
       "gross_yield_pct": 3.6,
       "lat": 26.8795752,
       "lng": 75.7990905
+    },
+    {
+      "locality": "Sector 9 Malviya Nagar",
+      "buy_price": 10000000.0,
+      "rent_price": 30000.0,
+      "gross_yield_pct": 3.6,
+      "lat": 26.8593668,
+      "lng": 75.8098088
     },
     {
       "locality": "Sirsi",
@@ -17015,17 +17015,17 @@
       "lng": 75.7723631
     },
     {
-      "locality": "Nri Colony",
-      "buy_price": 16500000.0,
-      "rent_price": 40000.0,
+      "locality": "Mansarovar Extension",
+      "buy_price": 10300000.0,
+      "rent_price": 25000.0,
       "gross_yield_pct": 2.91,
       "lat": null,
       "lng": null
     },
     {
-      "locality": "Mansarovar Extension",
-      "buy_price": 10300000.0,
-      "rent_price": 25000.0,
+      "locality": "Nri Colony",
+      "buy_price": 16500000.0,
+      "rent_price": 40000.0,
       "gross_yield_pct": 2.91,
       "lat": null,
       "lng": null
@@ -17191,20 +17191,20 @@
       "lng": 75.8966957
     },
     {
-      "locality": "Raja Park",
-      "buy_price": 15000000.0,
-      "rent_price": 30000.0,
-      "gross_yield_pct": 2.4,
-      "lat": 26.8966396,
-      "lng": 75.8271072
-    },
-    {
       "locality": "Barkat Nagar",
       "buy_price": 12500000.0,
       "rent_price": 25000.0,
       "gross_yield_pct": 2.4,
       "lat": 26.8769857,
       "lng": 75.7926809
+    },
+    {
+      "locality": "Raja Park",
+      "buy_price": 15000000.0,
+      "rent_price": 30000.0,
+      "gross_yield_pct": 2.4,
+      "lat": 26.8966396,
+      "lng": 75.8271072
     },
     {
       "locality": "Model Town - C",
@@ -17247,20 +17247,20 @@
       "lng": 75.2912378
     },
     {
-      "locality": "Gokul Vatika",
-      "buy_price": 31500000.0,
-      "rent_price": 60000.0,
-      "gross_yield_pct": 2.29,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Sodala",
       "buy_price": 10500000.0,
       "rent_price": 20000.0,
       "gross_yield_pct": 2.29,
       "lat": 26.9020365,
       "lng": 75.7735936
+    },
+    {
+      "locality": "Gokul Vatika",
+      "buy_price": 31500000.0,
+      "rent_price": 60000.0,
+      "gross_yield_pct": 2.29,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Sitapura Industrial Area",
@@ -17295,20 +17295,20 @@
       "lng": null
     },
     {
-      "locality": "Kanakpura",
-      "buy_price": 8900000.0,
-      "rent_price": 16000.0,
-      "gross_yield_pct": 2.16,
-      "lat": 26.9291996,
-      "lng": 75.703282
-    },
-    {
       "locality": "Manglam City",
       "buy_price": 5000000.0,
       "rent_price": 9000.0,
       "gross_yield_pct": 2.16,
       "lat": 26.9566598,
       "lng": 75.6948992
+    },
+    {
+      "locality": "Kanakpura",
+      "buy_price": 8900000.0,
+      "rent_price": 16000.0,
+      "gross_yield_pct": 2.16,
+      "lat": 26.9291996,
+      "lng": 75.703282
     },
     {
       "locality": "Kamla Nehru Nagar",
@@ -17359,20 +17359,20 @@
       "lng": 75.7958012
     },
     {
-      "locality": "Johari Bazar",
-      "buy_price": 8100000.0,
-      "rent_price": 13500.0,
-      "gross_yield_pct": 2.0,
-      "lat": 26.9193844,
-      "lng": 75.8258553
-    },
-    {
       "locality": "Sindhi Colony",
       "buy_price": 18000000.0,
       "rent_price": 30000.0,
       "gross_yield_pct": 2.0,
       "lat": 26.8939438,
       "lng": 75.8181919
+    },
+    {
+      "locality": "Johari Bazar",
+      "buy_price": 8100000.0,
+      "rent_price": 13500.0,
+      "gross_yield_pct": 2.0,
+      "lat": 26.9193844,
+      "lng": 75.8258553
     },
     {
       "locality": "Mansarovar",
@@ -17623,20 +17623,20 @@
       "lng": 75.7509072
     },
     {
-      "locality": "Janta Colony",
-      "buy_price": 36000000.0,
-      "rent_price": 29250.0,
-      "gross_yield_pct": 0.98,
-      "lat": 26.9062568,
-      "lng": 75.8381512
-    },
-    {
       "locality": "Swej Farm",
       "buy_price": 27000000.0,
       "rent_price": 22000.0,
       "gross_yield_pct": 0.98,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Janta Colony",
+      "buy_price": 36000000.0,
+      "rent_price": 29250.0,
+      "gross_yield_pct": 0.98,
+      "lat": 26.9062568,
+      "lng": 75.8381512
     },
     {
       "locality": "Jawahar Nagar",
