@@ -1,6 +1,6 @@
 {
   "city": "mysore",
-  "computed_at": "2026-10-20T04:59:43.911765",
+  "computed_at": "2026-10-21T04:58:47.141412",
   "summary": {
     "total_listings": 9946.0,
     "total_localities": 640.0,
@@ -10879,14 +10879,6 @@
       "lng": 76.6228781
     },
     {
-      "locality": "Bogadi",
-      "buy_price": 10000000.0,
-      "rent_price": 22500.0,
-      "gross_yield_pct": 2.7,
-      "lat": 12.3006471,
-      "lng": 76.5983895
-    },
-    {
       "locality": "Hebbal Industrial Area",
       "buy_price": 30000000.0,
       "rent_price": 67500.0,
@@ -10895,12 +10887,12 @@
       "lng": null
     },
     {
-      "locality": "Bogadi 2Nd Stage",
-      "buy_price": 11250000.0,
-      "rent_price": 23500.0,
-      "gross_yield_pct": 2.51,
-      "lat": 12.2956554,
-      "lng": 76.6159621
+      "locality": "Bogadi",
+      "buy_price": 10000000.0,
+      "rent_price": 22500.0,
+      "gross_yield_pct": 2.7,
+      "lat": 12.3006471,
+      "lng": 76.5983895
     },
     {
       "locality": "Chamundipuram",
@@ -10909,6 +10901,14 @@
       "gross_yield_pct": 2.51,
       "lat": 12.2885812,
       "lng": 76.6481518
+    },
+    {
+      "locality": "Bogadi 2Nd Stage",
+      "buy_price": 11250000.0,
+      "rent_price": 23500.0,
+      "gross_yield_pct": 2.51,
+      "lat": 12.2956554,
+      "lng": 76.6159621
     },
     {
       "locality": "Sathgalli",
@@ -11103,17 +11103,17 @@
       "lng": 76.6760574
     },
     {
-      "locality": "Madagalli",
-      "buy_price": 8800000.0,
-      "rent_price": 12750.0,
+      "locality": "Vijayanagar 4Th Stage",
+      "buy_price": 14500000.0,
+      "rent_price": 21000.0,
       "gross_yield_pct": 1.74,
       "lat": null,
       "lng": null
     },
     {
-      "locality": "Vijayanagar 4Th Stage",
-      "buy_price": 14500000.0,
-      "rent_price": 21000.0,
+      "locality": "Madagalli",
+      "buy_price": 8800000.0,
+      "rent_price": 12750.0,
       "gross_yield_pct": 1.74,
       "lat": null,
       "lng": null
@@ -11135,14 +11135,6 @@
       "lng": 76.620832
     },
     {
-      "locality": "Roopa Nagar",
-      "buy_price": 17500000.0,
-      "rent_price": 25000.0,
-      "gross_yield_pct": 1.71,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Srirampura",
       "buy_price": 14000000.0,
       "rent_price": 20000.0,
@@ -11151,12 +11143,12 @@
       "lng": 76.622815
     },
     {
-      "locality": "Udayagiri",
-      "buy_price": 14000000.0,
-      "rent_price": 20000.0,
+      "locality": "Roopa Nagar",
+      "buy_price": 17500000.0,
+      "rent_price": 25000.0,
       "gross_yield_pct": 1.71,
-      "lat": 12.3250331,
-      "lng": 76.6751327
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Chamarajapuram Mohalla",
@@ -11165,6 +11157,14 @@
       "gross_yield_pct": 1.71,
       "lat": 12.3103502,
       "lng": 76.6475116
+    },
+    {
+      "locality": "Udayagiri",
+      "buy_price": 14000000.0,
+      "rent_price": 20000.0,
+      "gross_yield_pct": 1.71,
+      "lat": 12.3250331,
+      "lng": 76.6751327
     },
     {
       "locality": "Vivekanada Nagar",
@@ -11351,7 +11351,7 @@
       "lng": 76.6559466
     },
     {
-      "locality": "T Narsipura Road",
+      "locality": "Lal Bahadur Shastri Nagar",
       "buy_price": 9100000.0,
       "rent_price": 10000.0,
       "gross_yield_pct": 1.32,
@@ -11359,7 +11359,7 @@
       "lng": null
     },
     {
-      "locality": "Lal Bahadur Shastri Nagar",
+      "locality": "T Narsipura Road",
       "buy_price": 9100000.0,
       "rent_price": 10000.0,
       "gross_yield_pct": 1.32,
@@ -11375,6 +11375,14 @@
       "lng": null
     },
     {
+      "locality": "Srinagara Layout",
+      "buy_price": 9000000.0,
+      "rent_price": 9000.0,
+      "gross_yield_pct": 1.2,
+      "lat": null,
+      "lng": null
+    },
+    {
       "locality": "Giridarshini Layout",
       "buy_price": 7000000.0,
       "rent_price": 7000.0,
@@ -11383,12 +11391,12 @@
       "lng": null
     },
     {
-      "locality": "Srinagara Layout",
-      "buy_price": 9000000.0,
-      "rent_price": 9000.0,
-      "gross_yield_pct": 1.2,
-      "lat": null,
-      "lng": null
+      "locality": "Ramakrishnanagar",
+      "buy_price": 15500000.0,
+      "rent_price": 15000.0,
+      "gross_yield_pct": 1.16,
+      "lat": 12.2927168,
+      "lng": 76.6166856
     },
     {
       "locality": "Kanaka Das Nagar",
@@ -11405,14 +11413,6 @@
       "gross_yield_pct": 1.16,
       "lat": null,
       "lng": null
-    },
-    {
-      "locality": "Ramakrishnanagar",
-      "buy_price": 15500000.0,
-      "rent_price": 15000.0,
-      "gross_yield_pct": 1.16,
-      "lat": 12.2927168,
-      "lng": 76.6166856
     },
     {
       "locality": "Bannimantap",
@@ -11511,20 +11511,20 @@
       "lng": 76.6284048
     },
     {
-      "locality": "Visveshwara Nagar",
-      "buy_price": 25000000.0,
-      "rent_price": 18000.0,
-      "gross_yield_pct": 0.86,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Kuvempunagar",
       "buy_price": 35000000.0,
       "rent_price": 25000.0,
       "gross_yield_pct": 0.86,
       "lat": 12.2933904,
       "lng": 76.6308591
+    },
+    {
+      "locality": "Visveshwara Nagar",
+      "buy_price": 25000000.0,
+      "rent_price": 18000.0,
+      "gross_yield_pct": 0.86,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Siddhartha Nagar",

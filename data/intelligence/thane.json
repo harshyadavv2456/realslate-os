@@ -1,6 +1,6 @@
 {
   "city": "thane",
-  "computed_at": "2026-10-20T04:59:45.054943",
+  "computed_at": "2026-10-21T04:58:48.376658",
   "summary": {
     "total_listings": 23272.0,
     "total_localities": 394.0,
@@ -7349,20 +7349,20 @@
       "lng": 73.0240782
     },
     {
-      "locality": "Mira Road",
-      "buy_price": 9900000.0,
-      "rent_price": 30000.0,
-      "gross_yield_pct": 3.64,
-      "lat": 19.2816975,
-      "lng": 72.8560676
-    },
-    {
       "locality": "Patlipada",
       "buy_price": 13200000.0,
       "rent_price": 40000.0,
       "gross_yield_pct": 3.64,
       "lat": 19.2493501,
       "lng": 72.9760694
+    },
+    {
+      "locality": "Mira Road",
+      "buy_price": 9900000.0,
+      "rent_price": 30000.0,
+      "gross_yield_pct": 3.64,
+      "lat": 19.2816975,
+      "lng": 72.8560676
     },
     {
       "locality": "Balkum Naka",
