@@ -1,6 +1,6 @@
 {
   "city": "visakhapatnam",
-  "computed_at": "2026-10-21T04:58:48.772662",
+  "computed_at": "2026-10-22T04:59:52.726984",
   "summary": {
     "total_listings": 14674.0,
     "total_localities": 497.0,
@@ -9396,14 +9396,6 @@
       "lng": 83.3097826
     },
     {
-      "locality": "China Gadili",
-      "buy_price": 5600000.0,
-      "rent_price": 20000.0,
-      "gross_yield_pct": 4.29,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Vishalakshi Nagar",
       "buy_price": 14000000.0,
       "rent_price": 50000.0,
@@ -9418,6 +9410,14 @@
       "gross_yield_pct": 4.29,
       "lat": 17.7357588,
       "lng": 83.2924808
+    },
+    {
+      "locality": "China Gadili",
+      "buy_price": 5600000.0,
+      "rent_price": 20000.0,
+      "gross_yield_pct": 4.29,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Akkireddipalem",
@@ -9468,20 +9468,20 @@
       "lng": null
     },
     {
-      "locality": "East Point Colony",
-      "buy_price": 9000000.0,
-      "rent_price": 30000.0,
-      "gross_yield_pct": 4.0,
-      "lat": 17.7670062,
-      "lng": 83.3027097
-    },
-    {
       "locality": "Vadlapudi",
       "buy_price": 7500000.0,
       "rent_price": 25000.0,
       "gross_yield_pct": 4.0,
       "lat": 17.6933158,
       "lng": 83.1876013
+    },
+    {
+      "locality": "East Point Colony",
+      "buy_price": 9000000.0,
+      "rent_price": 30000.0,
+      "gross_yield_pct": 4.0,
+      "lat": 17.7670062,
+      "lng": 83.3027097
     },
     {
       "locality": "Ram Nagar",
@@ -9716,20 +9716,20 @@
       "lng": 83.20117
     },
     {
-      "locality": "Sujatha Nagar",
-      "buy_price": 4575000.0,
-      "rent_price": 9999.0,
-      "gross_yield_pct": 2.62,
-      "lat": 17.7979242,
-      "lng": 83.2154314
-    },
-    {
       "locality": "Gopalapatnam",
       "buy_price": 5500000.0,
       "rent_price": 12000.0,
       "gross_yield_pct": 2.62,
       "lat": 17.7483718,
       "lng": 83.2200109
+    },
+    {
+      "locality": "Sujatha Nagar",
+      "buy_price": 4575000.0,
+      "rent_price": 9999.0,
+      "gross_yield_pct": 2.62,
+      "lat": 17.7979242,
+      "lng": 83.2154314
     },
     {
       "locality": "Nad Kotha Road",
@@ -9756,20 +9756,20 @@
       "lng": 83.3068022
     },
     {
-      "locality": "Kapuluppada",
-      "buy_price": 7065000.0,
-      "rent_price": 15000.0,
-      "gross_yield_pct": 2.55,
-      "lat": 17.8536175,
-      "lng": 83.3855601
-    },
-    {
       "locality": "Sheelanagar",
       "buy_price": 5880000.0,
       "rent_price": 12500.0,
       "gross_yield_pct": 2.55,
       "lat": 17.7523509,
       "lng": 83.1781533
+    },
+    {
+      "locality": "Kapuluppada",
+      "buy_price": 7065000.0,
+      "rent_price": 15000.0,
+      "gross_yield_pct": 2.55,
+      "lat": 17.8536175,
+      "lng": 83.3855601
     },
     {
       "locality": "Isukathota",
@@ -9812,17 +9812,17 @@
       "lng": 82.8564262
     },
     {
-      "locality": "Cbm Compound",
-      "buy_price": 15150000.0,
-      "rent_price": 30000.0,
+      "locality": "Chinnamusidivada",
+      "buy_price": 4800000.0,
+      "rent_price": 9500.0,
       "gross_yield_pct": 2.38,
       "lat": null,
       "lng": null
     },
     {
-      "locality": "Chinnamusidivada",
-      "buy_price": 4800000.0,
-      "rent_price": 9500.0,
+      "locality": "Cbm Compound",
+      "buy_price": 15150000.0,
+      "rent_price": 30000.0,
       "gross_yield_pct": 2.38,
       "lat": null,
       "lng": null
@@ -9844,6 +9844,14 @@
       "lng": 83.3063183
     },
     {
+      "locality": "Chodavaram",
+      "buy_price": 5200000.0,
+      "rent_price": 10000.0,
+      "gross_yield_pct": 2.31,
+      "lat": 17.8262784,
+      "lng": 82.9408642
+    },
+    {
       "locality": "Sagar Nagar",
       "buy_price": 13000000.0,
       "rent_price": 25000.0,
@@ -9858,14 +9866,6 @@
       "gross_yield_pct": 2.31,
       "lat": 17.7160909,
       "lng": 83.314629
-    },
-    {
-      "locality": "Chodavaram",
-      "buy_price": 5200000.0,
-      "rent_price": 10000.0,
-      "gross_yield_pct": 2.31,
-      "lat": 17.8262784,
-      "lng": 82.9408642
     },
     {
       "locality": "Chinna Waltair",
@@ -9980,20 +9980,20 @@
       "lng": 83.3307817
     },
     {
-      "locality": "Malkapuram",
-      "buy_price": 3760000.0,
-      "rent_price": 5200.0,
-      "gross_yield_pct": 1.66,
-      "lat": 17.6825868,
-      "lng": 83.2445442
-    },
-    {
       "locality": "Simhapuri Colony",
       "buy_price": 8700000.0,
       "rent_price": 12000.0,
       "gross_yield_pct": 1.66,
       "lat": 17.7805994,
       "lng": 83.2243934
+    },
+    {
+      "locality": "Malkapuram",
+      "buy_price": 3760000.0,
+      "rent_price": 5200.0,
+      "gross_yield_pct": 1.66,
+      "lat": 17.6825868,
+      "lng": 83.2445442
     },
     {
       "locality": "Panduranga Puram",

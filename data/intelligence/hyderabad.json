@@ -1,6 +1,6 @@
 {
   "city": "hyderabad",
-  "computed_at": "2026-10-21T04:58:45.641634",
+  "computed_at": "2026-10-22T04:59:49.390693",
   "summary": {
     "total_listings": 30688.0,
     "total_localities": 1182.0,
@@ -1025,7 +1025,7 @@
       "listing_count": 64.0,
       "median_price": 5360000.0,
       "p25_price": 4125000.0,
-      "p75_price": 6607500.000000001,
+      "p75_price": 6607500.0,
       "sqft_sample_count": 0.0,
       "median_price_per_sqft": null,
       "avg_area_sqft": null,
@@ -19704,20 +19704,20 @@
       "lng": 78.5007272
     },
     {
-      "locality": "Shamshabad",
-      "buy_price": 24750000.0,
-      "rent_price": 125000.0,
-      "gross_yield_pct": 6.06,
-      "lat": 17.257207,
-      "lng": 78.3451039
-    },
-    {
       "locality": "Mallapur",
       "buy_price": 9500000.0,
       "rent_price": 48000.0,
       "gross_yield_pct": 6.06,
       "lat": 17.4405369,
       "lng": 78.5788551
+    },
+    {
+      "locality": "Shamshabad",
+      "buy_price": 24750000.0,
+      "rent_price": 125000.0,
+      "gross_yield_pct": 6.06,
+      "lat": 17.257207,
+      "lng": 78.3451039
     },
     {
       "locality": "Phase 5Th Kphb",
@@ -20160,20 +20160,20 @@
       "lng": 78.4885006
     },
     {
-      "locality": "Appa Junction Area",
-      "buy_price": 12750000.0,
-      "rent_price": 33000.0,
-      "gross_yield_pct": 3.11,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Nallagandla Tellapur Road",
       "buy_price": 13500000.0,
       "rent_price": 35000.0,
       "gross_yield_pct": 3.11,
       "lat": 17.4745821,
       "lng": 78.2991398
+    },
+    {
+      "locality": "Appa Junction Area",
+      "buy_price": 12750000.0,
+      "rent_price": 33000.0,
+      "gross_yield_pct": 3.11,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Yapral",
@@ -20592,20 +20592,20 @@
       "lng": 78.3643036
     },
     {
-      "locality": "Ibrahim Bagh",
-      "buy_price": 57950000.0,
-      "rent_price": 28000.0,
-      "gross_yield_pct": 0.58,
-      "lat": 17.3819639,
-      "lng": 78.3817498
-    },
-    {
       "locality": "Upperpally",
       "buy_price": 44200000.0,
       "rent_price": 21250.0,
       "gross_yield_pct": 0.58,
       "lat": 17.35768,
       "lng": 78.4200013
+    },
+    {
+      "locality": "Ibrahim Bagh",
+      "buy_price": 57950000.0,
+      "rent_price": 28000.0,
+      "gross_yield_pct": 0.58,
+      "lat": 17.3819639,
+      "lng": 78.3817498
     },
     {
       "locality": "Old Nallakunta",
