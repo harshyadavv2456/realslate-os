@@ -1,6 +1,6 @@
 {
   "city": "indore",
-  "computed_at": "2026-10-23T05:07:57.108687",
+  "computed_at": "2026-10-24T04:45:46.229862",
   "summary": {
     "total_listings": 17155.0,
     "total_localities": 797.0,
@@ -15110,20 +15110,20 @@
       "lng": null
     },
     {
-      "locality": "Gokul Nagar",
-      "buy_price": 1700000.0,
-      "rent_price": 16000.0,
-      "gross_yield_pct": 11.29,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Kanadiya",
       "buy_price": 6380000.0,
       "rent_price": 60000.0,
       "gross_yield_pct": 11.29,
       "lat": 22.7680562,
       "lng": 76.0139349
+    },
+    {
+      "locality": "Gokul Nagar",
+      "buy_price": 1700000.0,
+      "rent_price": 16000.0,
+      "gross_yield_pct": 11.29,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Lasudia Mori",
@@ -15758,17 +15758,17 @@
       "lng": 75.8333435
     },
     {
-      "locality": "Bhawrasla",
-      "buy_price": 5075000.0,
-      "rent_price": 14250.0,
+      "locality": "Arandia",
+      "buy_price": 8900000.0,
+      "rent_price": 25000.0,
       "gross_yield_pct": 3.37,
       "lat": null,
       "lng": null
     },
     {
-      "locality": "Arandia",
-      "buy_price": 8900000.0,
-      "rent_price": 25000.0,
+      "locality": "Bhawrasla",
+      "buy_price": 5075000.0,
+      "rent_price": 14250.0,
       "gross_yield_pct": 3.37,
       "lat": null,
       "lng": null
@@ -15846,17 +15846,17 @@
       "lng": 75.8843134
     },
     {
-      "locality": "Vaibhav Nagar",
-      "buy_price": 8850000.0,
-      "rent_price": 21500.0,
+      "locality": "South Tukoganj",
+      "buy_price": 11500000.0,
+      "rent_price": 28000.0,
       "gross_yield_pct": 2.92,
       "lat": null,
       "lng": null
     },
     {
-      "locality": "South Tukoganj",
-      "buy_price": 11500000.0,
-      "rent_price": 28000.0,
+      "locality": "Vaibhav Nagar",
+      "buy_price": 8850000.0,
+      "rent_price": 21500.0,
       "gross_yield_pct": 2.92,
       "lat": null,
       "lng": null
@@ -16070,17 +16070,17 @@
       "lng": 75.8781052
     },
     {
-      "locality": "Satellite By Pass",
-      "buy_price": 12000000.0,
-      "rent_price": 20000.0,
+      "locality": "Regal Square",
+      "buy_price": 15000000.0,
+      "rent_price": 25000.0,
       "gross_yield_pct": 2.0,
       "lat": null,
       "lng": null
     },
     {
-      "locality": "Regal Square",
-      "buy_price": 15000000.0,
-      "rent_price": 25000.0,
+      "locality": "Satellite By Pass",
+      "buy_price": 12000000.0,
+      "rent_price": 20000.0,
       "gross_yield_pct": 2.0,
       "lat": null,
       "lng": null
@@ -16126,20 +16126,20 @@
       "lng": null
     },
     {
-      "locality": "Sai Kripa Colony",
-      "buy_price": 22500000.0,
-      "rent_price": 36000.0,
-      "gross_yield_pct": 1.92,
-      "lat": 22.7492967,
-      "lng": 75.9146905
-    },
-    {
       "locality": "Sudama Nagar",
       "buy_price": 10000000.0,
       "rent_price": 16000.0,
       "gross_yield_pct": 1.92,
       "lat": 22.6883222,
       "lng": 75.8321475
+    },
+    {
+      "locality": "Sai Kripa Colony",
+      "buy_price": 22500000.0,
+      "rent_price": 36000.0,
+      "gross_yield_pct": 1.92,
+      "lat": 22.7492967,
+      "lng": 75.9146905
     },
     {
       "locality": "Gumasta Nagar",
@@ -16334,20 +16334,20 @@
       "lng": null
     },
     {
-      "locality": "Sukhliya Gram",
-      "buy_price": 13900000.0,
-      "rent_price": 11000.0,
-      "gross_yield_pct": 0.95,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Mahalakshmi Nagar",
       "buy_price": 22750000.0,
       "rent_price": 18000.0,
       "gross_yield_pct": 0.95,
       "lat": 22.7567892,
       "lng": 75.9086514
+    },
+    {
+      "locality": "Sukhliya Gram",
+      "buy_price": 13900000.0,
+      "rent_price": 11000.0,
+      "gross_yield_pct": 0.95,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Panchwati Colony",
