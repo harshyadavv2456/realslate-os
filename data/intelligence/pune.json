@@ -1,6 +1,6 @@
 {
   "city": "pune",
-  "computed_at": "2026-10-24T04:45:47.429013",
+  "computed_at": "2026-10-25T04:53:08.966563",
   "summary": {
     "total_listings": 36122.0,
     "total_localities": 616.0,
@@ -12203,20 +12203,20 @@
       "lng": 73.8502149
     },
     {
-      "locality": "Warje",
-      "buy_price": 11500000.0,
-      "rent_price": 35000.0,
-      "gross_yield_pct": 3.65,
-      "lat": 18.4820444,
-      "lng": 73.8001705
-    },
-    {
       "locality": "Charholi Bk",
       "buy_price": 11500000.0,
       "rent_price": 35000.0,
       "gross_yield_pct": 3.65,
       "lat": 18.6607802,
       "lng": 73.8913309
+    },
+    {
+      "locality": "Warje",
+      "buy_price": 11500000.0,
+      "rent_price": 35000.0,
+      "gross_yield_pct": 3.65,
+      "lat": 18.4820444,
+      "lng": 73.8001705
     },
     {
       "locality": "Katraj",
@@ -12291,20 +12291,20 @@
       "lng": 73.9496109
     },
     {
-      "locality": "Sahakar Nagar Parvati Paytha",
-      "buy_price": 59700000.0,
-      "rent_price": 152500.0,
-      "gross_yield_pct": 3.07,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Hadapsar Industrial Estate",
       "buy_price": 25050000.0,
       "rent_price": 64000.0,
       "gross_yield_pct": 3.07,
       "lat": 18.5098942,
       "lng": 73.9159609
+    },
+    {
+      "locality": "Sahakar Nagar Parvati Paytha",
+      "buy_price": 59700000.0,
+      "rent_price": 152500.0,
+      "gross_yield_pct": 3.07,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Lohegaon",
@@ -12371,20 +12371,20 @@
       "lng": null
     },
     {
-      "locality": "Hadapsar",
-      "buy_price": 10850000.0,
-      "rent_price": 24000.0,
-      "gross_yield_pct": 2.65,
-      "lat": 18.5007741,
-      "lng": 73.9379146
-    },
-    {
       "locality": "Kondhwa Bk",
       "buy_price": 12000000.0,
       "rent_price": 26500.0,
       "gross_yield_pct": 2.65,
       "lat": 18.4779905,
       "lng": 73.8940627
+    },
+    {
+      "locality": "Hadapsar",
+      "buy_price": 10850000.0,
+      "rent_price": 24000.0,
+      "gross_yield_pct": 2.65,
+      "lat": 18.5007741,
+      "lng": 73.9379146
     },
     {
       "locality": "Shivaji Nagar",
@@ -12395,14 +12395,6 @@
       "lng": 73.8496602
     },
     {
-      "locality": "Khed Shivapur",
-      "buy_price": 91530000.0,
-      "rent_price": 200000.0,
-      "gross_yield_pct": 2.62,
-      "lat": 18.3391133,
-      "lng": 73.8392736
-    },
-    {
       "locality": "Pashan",
       "buy_price": 22900000.0,
       "rent_price": 50000.0,
@@ -12411,12 +12403,12 @@
       "lng": 73.7952542
     },
     {
-      "locality": "Airport Road",
-      "buy_price": 10500000.0,
-      "rent_price": 22000.0,
-      "gross_yield_pct": 2.51,
-      "lat": 18.5783193,
-      "lng": 73.9060752
+      "locality": "Khed Shivapur",
+      "buy_price": 91530000.0,
+      "rent_price": 200000.0,
+      "gross_yield_pct": 2.62,
+      "lat": 18.3391133,
+      "lng": 73.8392736
     },
     {
       "locality": "Mumbai Pune Expressway",
@@ -12425,6 +12417,14 @@
       "gross_yield_pct": 2.51,
       "lat": 18.6631642,
       "lng": 73.7207441
+    },
+    {
+      "locality": "Airport Road",
+      "buy_price": 10500000.0,
+      "rent_price": 22000.0,
+      "gross_yield_pct": 2.51,
+      "lat": 18.5783193,
+      "lng": 73.9060752
     },
     {
       "locality": "Karvenagar",
@@ -12443,20 +12443,20 @@
       "lng": 73.8101957
     },
     {
-      "locality": "Mohammed Wadi",
-      "buy_price": 14000000.0,
-      "rent_price": 28000.0,
-      "gross_yield_pct": 2.4,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Karve Road",
       "buy_price": 21000000.0,
       "rent_price": 42000.0,
       "gross_yield_pct": 2.4,
       "lat": 18.4998369,
       "lng": 73.8136669
+    },
+    {
+      "locality": "Mohammed Wadi",
+      "buy_price": 14000000.0,
+      "rent_price": 28000.0,
+      "gross_yield_pct": 2.4,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Ram Nagar Bavdhan",

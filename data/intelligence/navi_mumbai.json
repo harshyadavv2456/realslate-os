@@ -1,6 +1,6 @@
 {
   "city": "navi mumbai",
-  "computed_at": "2026-10-24T04:45:47.186692",
+  "computed_at": "2026-10-25T04:53:08.557573",
   "summary": {
     "total_listings": 23163.0,
     "total_localities": 437.0,
@@ -9654,20 +9654,20 @@
       "lng": null
     },
     {
-      "locality": "Sector 35 Kamothe",
-      "buy_price": 6000000.0,
-      "rent_price": 25000.0,
-      "gross_yield_pct": 5.0,
-      "lat": 19.0173837,
-      "lng": 73.0954838
-    },
-    {
       "locality": "Khar Kopar",
       "buy_price": 6000000.0,
       "rent_price": 25000.0,
       "gross_yield_pct": 5.0,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Sector 35 Kamothe",
+      "buy_price": 6000000.0,
+      "rent_price": 25000.0,
+      "gross_yield_pct": 5.0,
+      "lat": 19.0173837,
+      "lng": 73.0954838
     },
     {
       "locality": "Koproli",
@@ -9950,7 +9950,7 @@
       "lng": 72.9967088
     },
     {
-      "locality": "Sector 36 Kamothe",
+      "locality": "Sector 11 Kharghar",
       "buy_price": 10000000.0,
       "rent_price": 25000.0,
       "gross_yield_pct": 3.0,
@@ -9958,7 +9958,7 @@
       "lng": null
     },
     {
-      "locality": "Sector 11 Kharghar",
+      "locality": "Sector 36 Kamothe",
       "buy_price": 10000000.0,
       "rent_price": 25000.0,
       "gross_yield_pct": 3.0,

@@ -1,6 +1,6 @@
 {
   "city": "mumbai",
-  "computed_at": "2026-10-24T04:45:46.825970",
+  "computed_at": "2026-10-25T04:53:07.932426",
   "summary": {
     "total_listings": 38155.0,
     "total_localities": 695.0,
@@ -14676,14 +14676,6 @@
       "lng": null
     },
     {
-      "locality": "Tilak Nagar Chembur",
-      "buy_price": 30000000.0,
-      "rent_price": 75000.0,
-      "gross_yield_pct": 3.0,
-      "lat": 19.0692377,
-      "lng": 72.8978464
-    },
-    {
       "locality": "Sai Dham Nagar Charkop Gaon",
       "buy_price": 20000000.0,
       "rent_price": 50000.0,
@@ -14698,6 +14690,14 @@
       "gross_yield_pct": 3.0,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Tilak Nagar Chembur",
+      "buy_price": 30000000.0,
+      "rent_price": 75000.0,
+      "gross_yield_pct": 3.0,
+      "lat": 19.0692377,
+      "lng": 72.8978464
     },
     {
       "locality": "Deonar Chembur",
@@ -14724,20 +14724,20 @@
       "lng": null
     },
     {
-      "locality": "Swami Vivekananda Road",
-      "buy_price": 36000000.0,
-      "rent_price": 84500.0,
-      "gross_yield_pct": 2.82,
-      "lat": 19.0752663,
-      "lng": 72.8353407
-    },
-    {
       "locality": "Mulund East",
       "buy_price": 18500000.0,
       "rent_price": 43500.0,
       "gross_yield_pct": 2.82,
       "lat": 19.1704719,
       "lng": 72.9610447
+    },
+    {
+      "locality": "Swami Vivekananda Road",
+      "buy_price": 36000000.0,
+      "rent_price": 84500.0,
+      "gross_yield_pct": 2.82,
+      "lat": 19.0752663,
+      "lng": 72.8353407
     },
     {
       "locality": "Mahavir Nagar Kandivali West",
@@ -14892,20 +14892,20 @@
       "lng": 72.840301
     },
     {
-      "locality": "Dahisar East",
-      "buy_price": 16500000.0,
-      "rent_price": 33000.0,
-      "gross_yield_pct": 2.4,
-      "lat": 19.2599822,
-      "lng": 72.8598732
-    },
-    {
       "locality": "Kala Nagar",
       "buy_price": 150000000.0,
       "rent_price": 300000.0,
       "gross_yield_pct": 2.4,
       "lat": 19.0546701,
       "lng": 72.8485093
+    },
+    {
+      "locality": "Dahisar East",
+      "buy_price": 16500000.0,
+      "rent_price": 33000.0,
+      "gross_yield_pct": 2.4,
+      "lat": 19.2599822,
+      "lng": 72.8598732
     },
     {
       "locality": "Kanjurmarg West",
