@@ -1,6 +1,6 @@
 {
   "city": "ghaziabad",
-  "computed_at": "2026-10-27T05:14:23.548473",
+  "computed_at": "2026-10-28T05:52:42.210191",
   "summary": {
     "total_listings": 21991.0,
     "total_localities": 449.0,
@@ -8577,20 +8577,20 @@
       "lng": 77.4604051
     },
     {
-      "locality": "Sector 12 Pratap Vihar",
-      "buy_price": 8850000.0,
-      "rent_price": 25000.0,
-      "gross_yield_pct": 3.39,
-      "lat": 28.6444638,
-      "lng": 77.4097432
-    },
-    {
       "locality": "Dlf Ankur Vihar",
       "buy_price": 2300000.0,
       "rent_price": 6500.0,
       "gross_yield_pct": 3.39,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Sector 12 Pratap Vihar",
+      "buy_price": 8850000.0,
+      "rent_price": 25000.0,
+      "gross_yield_pct": 3.39,
+      "lat": 28.6444638,
+      "lng": 77.4097432
     },
     {
       "locality": "Shakti Khand 3",
@@ -8633,20 +8633,20 @@
       "lng": 77.3613151
     },
     {
-      "locality": "Kaushambi",
-      "buy_price": 18000000.0,
-      "rent_price": 44000.0,
-      "gross_yield_pct": 2.93,
-      "lat": 28.6452857,
-      "lng": 77.3243429
-    },
-    {
       "locality": "Niti Khand 1",
       "buy_price": 11250000.0,
       "rent_price": 27500.0,
       "gross_yield_pct": 2.93,
       "lat": 28.6434594,
       "lng": 77.3760988
+    },
+    {
+      "locality": "Kaushambi",
+      "buy_price": 18000000.0,
+      "rent_price": 44000.0,
+      "gross_yield_pct": 2.93,
+      "lat": 28.6452857,
+      "lng": 77.3243429
     },
     {
       "locality": "Raj Nagar Extension",
@@ -8705,6 +8705,14 @@
       "lng": 77.3346949
     },
     {
+      "locality": "Sector 13 Vasundhara",
+      "buy_price": 11000000.0,
+      "rent_price": 22000.0,
+      "gross_yield_pct": 2.4,
+      "lat": 28.6548581,
+      "lng": 77.3643307
+    },
+    {
       "locality": "Tronica City",
       "buy_price": 7500000.0,
       "rent_price": 15000.0,
@@ -8721,12 +8729,12 @@
       "lng": null
     },
     {
-      "locality": "Sector 13 Vasundhara",
-      "buy_price": 11000000.0,
-      "rent_price": 22000.0,
-      "gross_yield_pct": 2.4,
-      "lat": 28.6548581,
-      "lng": 77.3643307
+      "locality": "Vasundhara",
+      "buy_price": 10200000.0,
+      "rent_price": 20000.0,
+      "gross_yield_pct": 2.35,
+      "lat": 28.6619725,
+      "lng": 77.3732972
     },
     {
       "locality": "Crossings Republik",
@@ -8735,14 +8743,6 @@
       "gross_yield_pct": 2.35,
       "lat": 28.6284686,
       "lng": 77.434157
-    },
-    {
-      "locality": "Vasundhara",
-      "buy_price": 10200000.0,
-      "rent_price": 20000.0,
-      "gross_yield_pct": 2.35,
-      "lat": 28.6619725,
-      "lng": 77.3732972
     },
     {
       "locality": "Nehru Nagar",
@@ -8801,20 +8801,20 @@
       "lng": 77.3576545
     },
     {
-      "locality": "Vaishali",
-      "buy_price": 14400000.0,
-      "rent_price": 24000.0,
-      "gross_yield_pct": 2.0,
-      "lat": 28.6496701,
-      "lng": 77.339575
-    },
-    {
       "locality": "Raj Nagar",
       "buy_price": 18000000.0,
       "rent_price": 30000.0,
       "gross_yield_pct": 2.0,
       "lat": 28.6818623,
       "lng": 77.4461161
+    },
+    {
+      "locality": "Vaishali",
+      "buy_price": 14400000.0,
+      "rent_price": 24000.0,
+      "gross_yield_pct": 2.0,
+      "lat": 28.6496701,
+      "lng": 77.339575
     },
     {
       "locality": "Sector 2B Vasundhara",
@@ -8889,20 +8889,20 @@
       "lng": null
     },
     {
-      "locality": "Niti Khand 2",
-      "buy_price": 25000000.0,
-      "rent_price": 30000.0,
-      "gross_yield_pct": 1.44,
-      "lat": 28.6434594,
-      "lng": 77.3760988
-    },
-    {
       "locality": "Sewa Nagar",
       "buy_price": 5000000.0,
       "rent_price": 6000.0,
       "gross_yield_pct": 1.44,
       "lat": 28.6767079,
       "lng": 77.4097251
+    },
+    {
+      "locality": "Niti Khand 2",
+      "buy_price": 25000000.0,
+      "rent_price": 30000.0,
+      "gross_yield_pct": 1.44,
+      "lat": 28.6434594,
+      "lng": 77.3760988
     },
     {
       "locality": "Sector 17 Vasundhara",
@@ -8993,20 +8993,20 @@
       "lng": 77.422914
     },
     {
-      "locality": "Ghukna",
-      "buy_price": 15000000.0,
-      "rent_price": 10000.0,
-      "gross_yield_pct": 0.8,
-      "lat": 28.6793414,
-      "lng": 77.4364847
-    },
-    {
       "locality": "Behta Hazipur",
       "buy_price": 15000000.0,
       "rent_price": 10000.0,
       "gross_yield_pct": 0.8,
       "lat": 28.7202123,
       "lng": 77.3036492
+    },
+    {
+      "locality": "Ghukna",
+      "buy_price": 15000000.0,
+      "rent_price": 10000.0,
+      "gross_yield_pct": 0.8,
+      "lat": 28.6793414,
+      "lng": 77.4364847
     },
     {
       "locality": "Manoj Vihar",
