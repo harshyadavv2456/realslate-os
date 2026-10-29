@@ -1,6 +1,6 @@
 {
   "city": "chennai",
-  "computed_at": "2026-10-28T05:52:41.475410",
+  "computed_at": "2026-10-29T05:57:00.962344",
   "summary": {
     "total_listings": 25500.0,
     "total_localities": 1250.0,
@@ -22150,20 +22150,20 @@
       "lng": 80.1440498
     },
     {
-      "locality": "Uthandi",
-      "buy_price": 30000000.0,
-      "rent_price": 140000.0,
-      "gross_yield_pct": 5.6,
-      "lat": 12.8687677,
-      "lng": 80.247209
-    },
-    {
       "locality": "Mount Road",
       "buy_price": 75000000.0,
       "rent_price": 350000.0,
       "gross_yield_pct": 5.6,
       "lat": 13.0258973,
       "lng": 80.2312262
+    },
+    {
+      "locality": "Uthandi",
+      "buy_price": 30000000.0,
+      "rent_price": 140000.0,
+      "gross_yield_pct": 5.6,
+      "lat": 12.8687677,
+      "lng": 80.247209
     },
     {
       "locality": "Panaiyur",
@@ -22366,7 +22366,7 @@
       "lng": 80.1534231
     },
     {
-      "locality": "Urapakkam",
+      "locality": "Kilambakkam",
       "buy_price": 6790000.000000001,
       "rent_price": 25000.0,
       "gross_yield_pct": 4.42,
@@ -22374,7 +22374,7 @@
       "lng": null
     },
     {
-      "locality": "Kilambakkam",
+      "locality": "Urapakkam",
       "buy_price": 6790000.000000001,
       "rent_price": 25000.0,
       "gross_yield_pct": 4.42,
@@ -22462,14 +22462,6 @@
       "lng": 80.1882897
     },
     {
-      "locality": "Madhavaram Milk Colony",
-      "buy_price": 5000000.0,
-      "rent_price": 16000.0,
-      "gross_yield_pct": 3.84,
-      "lat": 13.1554081,
-      "lng": 80.2425246
-    },
-    {
       "locality": "Pallavaram",
       "buy_price": 15000000.0,
       "rent_price": 48000.0,
@@ -22478,12 +22470,12 @@
       "lng": 80.1520504
     },
     {
-      "locality": "Chetpet",
-      "buy_price": 38700000.0,
-      "rent_price": 120000.0,
-      "gross_yield_pct": 3.72,
-      "lat": 13.0717448,
-      "lng": 80.2437973
+      "locality": "Madhavaram Milk Colony",
+      "buy_price": 5000000.0,
+      "rent_price": 16000.0,
+      "gross_yield_pct": 3.84,
+      "lat": 13.1554081,
+      "lng": 80.2425246
     },
     {
       "locality": "Velachery",
@@ -22492,6 +22484,14 @@
       "gross_yield_pct": 3.72,
       "lat": 12.9801655,
       "lng": 80.2228506
+    },
+    {
+      "locality": "Chetpet",
+      "buy_price": 38700000.0,
+      "rent_price": 120000.0,
+      "gross_yield_pct": 3.72,
+      "lat": 13.0717448,
+      "lng": 80.2437973
     },
     {
       "locality": "Iyyappanthangal",
@@ -22606,20 +22606,20 @@
       "lng": 80.1846272
     },
     {
-      "locality": "Nanmangalam Manikandan Nagar",
-      "buy_price": 8320000.0,
-      "rent_price": 23000.0,
-      "gross_yield_pct": 3.32,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Santhosapuram",
       "buy_price": 8320000.0,
       "rent_price": 23000.0,
       "gross_yield_pct": 3.32,
       "lat": 12.9100538,
       "lng": 80.1727961
+    },
+    {
+      "locality": "Nanmangalam Manikandan Nagar",
+      "buy_price": 8320000.0,
+      "rent_price": 23000.0,
+      "gross_yield_pct": 3.32,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Tondiarpet",
@@ -22814,20 +22814,20 @@
       "lng": null
     },
     {
-      "locality": "Pallikaranai",
-      "buy_price": 9800000.0,
-      "rent_price": 22000.0,
-      "gross_yield_pct": 2.69,
-      "lat": 12.9304748,
-      "lng": 80.2077692
-    },
-    {
       "locality": "Guduvancheri",
       "buy_price": 4900000.0,
       "rent_price": 11000.0,
       "gross_yield_pct": 2.69,
       "lat": 12.8439997,
       "lng": 80.0603546
+    },
+    {
+      "locality": "Pallikaranai",
+      "buy_price": 9800000.0,
+      "rent_price": 22000.0,
+      "gross_yield_pct": 2.69,
+      "lat": 12.9304748,
+      "lng": 80.2077692
     },
     {
       "locality": "Kattupakkam",
@@ -22838,14 +22838,6 @@
       "lng": 80.122765
     },
     {
-      "locality": "Annanagar East",
-      "buy_price": 32000000.0,
-      "rent_price": 70000.0,
-      "gross_yield_pct": 2.63,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Kilpauk",
       "buy_price": 27400000.000000004,
       "rent_price": 60000.0,
@@ -22854,12 +22846,12 @@
       "lng": 80.2379864
     },
     {
-      "locality": "Kamaraj Nagar Thiruvanmiyur",
-      "buy_price": 16399999.999999998,
-      "rent_price": 35500.0,
-      "gross_yield_pct": 2.6,
-      "lat": 12.9942424,
-      "lng": 80.2569278
+      "locality": "Annanagar East",
+      "buy_price": 32000000.0,
+      "rent_price": 70000.0,
+      "gross_yield_pct": 2.63,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Choolaimedu",
@@ -22868,6 +22860,14 @@
       "gross_yield_pct": 2.6,
       "lat": 13.0666287,
       "lng": 80.2305198
+    },
+    {
+      "locality": "Kamaraj Nagar Thiruvanmiyur",
+      "buy_price": 16399999.999999998,
+      "rent_price": 35500.0,
+      "gross_yield_pct": 2.6,
+      "lat": 12.9942424,
+      "lng": 80.2569278
     },
     {
       "locality": "Egmore",
@@ -22918,20 +22918,20 @@
       "lng": null
     },
     {
-      "locality": "Besant Nagar",
-      "buy_price": 58700000.0,
-      "rent_price": 120000.0,
-      "gross_yield_pct": 2.45,
-      "lat": 12.9996907,
-      "lng": 80.2682259
-    },
-    {
       "locality": "Saligramam",
       "buy_price": 20050000.0,
       "rent_price": 41000.0,
       "gross_yield_pct": 2.45,
       "lat": 13.0583406,
       "lng": 80.1985327
+    },
+    {
+      "locality": "Besant Nagar",
+      "buy_price": 58700000.0,
+      "rent_price": 120000.0,
+      "gross_yield_pct": 2.45,
+      "lat": 12.9996907,
+      "lng": 80.2682259
     },
     {
       "locality": "Kk Nagar West",
@@ -22942,20 +22942,20 @@
       "lng": 80.1933467
     },
     {
-      "locality": "Akkarai",
-      "buy_price": 50000000.0,
-      "rent_price": 100000.0,
-      "gross_yield_pct": 2.4,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Poes Garden",
       "buy_price": 120000000.0,
       "rent_price": 240000.0,
       "gross_yield_pct": 2.4,
       "lat": 13.0437065,
       "lng": 80.253316
+    },
+    {
+      "locality": "Akkarai",
+      "buy_price": 50000000.0,
+      "rent_price": 100000.0,
+      "gross_yield_pct": 2.4,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Mandaveli",
@@ -22982,20 +22982,20 @@
       "lng": 80.2251326
     },
     {
-      "locality": "Keelkattalai",
-      "buy_price": 10400000.0,
-      "rent_price": 20000.0,
-      "gross_yield_pct": 2.31,
-      "lat": 12.9521755,
-      "lng": 80.1860309
-    },
-    {
       "locality": "Dhandeeswaram",
       "buy_price": 14300000.0,
       "rent_price": 27500.0,
       "gross_yield_pct": 2.31,
       "lat": 12.9829795,
       "lng": 80.2219649
+    },
+    {
+      "locality": "Keelkattalai",
+      "buy_price": 10400000.0,
+      "rent_price": 20000.0,
+      "gross_yield_pct": 2.31,
+      "lat": 12.9521755,
+      "lng": 80.1860309
     },
     {
       "locality": "Kottivakkam",
@@ -23014,20 +23014,20 @@
       "lng": 80.1922978
     },
     {
-      "locality": "Vengambakkam",
-      "buy_price": 6350000.0,
-      "rent_price": 12000.0,
-      "gross_yield_pct": 2.27,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Kolathur",
       "buy_price": 11900000.0,
       "rent_price": 22500.0,
       "gross_yield_pct": 2.27,
       "lat": 13.1241127,
       "lng": 80.2046276
+    },
+    {
+      "locality": "Vengambakkam",
+      "buy_price": 6350000.0,
+      "rent_price": 12000.0,
+      "gross_yield_pct": 2.27,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Mannivakkam",
@@ -23070,20 +23070,20 @@
       "lng": 80.2831179
     },
     {
-      "locality": "Puzhuthivakkam",
-      "buy_price": 7500000.0,
-      "rent_price": 12800.0,
-      "gross_yield_pct": 2.05,
-      "lat": 12.9691428,
-      "lng": 80.2062626
-    },
-    {
       "locality": "Shastri Nagar Adyar",
       "buy_price": 58500000.0,
       "rent_price": 100000.0,
       "gross_yield_pct": 2.05,
       "lat": 12.9987729,
       "lng": 80.2599116
+    },
+    {
+      "locality": "Puzhuthivakkam",
+      "buy_price": 7500000.0,
+      "rent_price": 12800.0,
+      "gross_yield_pct": 2.05,
+      "lat": 12.9691428,
+      "lng": 80.2062626
     },
     {
       "locality": "Kovur",
@@ -23150,20 +23150,20 @@
       "lng": 80.1507648
     },
     {
-      "locality": "Pattabiram",
-      "buy_price": 9900000.0,
-      "rent_price": 15000.0,
-      "gross_yield_pct": 1.82,
-      "lat": 13.1215291,
-      "lng": 80.0639365
-    },
-    {
       "locality": "Jawahar Nagar Perambur",
       "buy_price": 12500000.0,
       "rent_price": 19000.0,
       "gross_yield_pct": 1.82,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Pattabiram",
+      "buy_price": 9900000.0,
+      "rent_price": 15000.0,
+      "gross_yield_pct": 1.82,
+      "lat": 13.1215291,
+      "lng": 80.0639365
     },
     {
       "locality": "Anna Nagar",
@@ -23262,14 +23262,6 @@
       "lng": null
     },
     {
-      "locality": "Perambur",
-      "buy_price": 13500000.0,
-      "rent_price": 16000.0,
-      "gross_yield_pct": 1.42,
-      "lat": 13.1121242,
-      "lng": 80.245022
-    },
-    {
       "locality": "Kosapet",
       "buy_price": 11000000.0,
       "rent_price": 13000.0,
@@ -23278,12 +23270,12 @@
       "lng": 80.2547909
     },
     {
-      "locality": "Mogappair East",
-      "buy_price": 25500000.0,
-      "rent_price": 30000.0,
-      "gross_yield_pct": 1.41,
-      "lat": 13.0835142,
-      "lng": 80.1840779
+      "locality": "Perambur",
+      "buy_price": 13500000.0,
+      "rent_price": 16000.0,
+      "gross_yield_pct": 1.42,
+      "lat": 13.1121242,
+      "lng": 80.245022
     },
     {
       "locality": "Puzhal",
@@ -23292,6 +23284,14 @@
       "gross_yield_pct": 1.41,
       "lat": 13.1636492,
       "lng": 80.2038067
+    },
+    {
+      "locality": "Mogappair East",
+      "buy_price": 25500000.0,
+      "rent_price": 30000.0,
+      "gross_yield_pct": 1.41,
+      "lat": 13.0835142,
+      "lng": 80.1840779
     },
     {
       "locality": "Veppampattu",
@@ -23310,20 +23310,20 @@
       "lng": 80.2081378
     },
     {
-      "locality": "Mrc Nagar",
-      "buy_price": 100000000.0,
-      "rent_price": 100000.0,
-      "gross_yield_pct": 1.2,
-      "lat": 13.0196693,
-      "lng": 80.2706525
-    },
-    {
       "locality": "Ambattur Industrial Estate",
       "buy_price": 65000000.0,
       "rent_price": 65000.0,
       "gross_yield_pct": 1.2,
       "lat": 13.0922855,
       "lng": 80.1675492
+    },
+    {
+      "locality": "Mrc Nagar",
+      "buy_price": 100000000.0,
+      "rent_price": 100000.0,
+      "gross_yield_pct": 1.2,
+      "lat": 13.0196693,
+      "lng": 80.2706525
     },
     {
       "locality": "Teynampet",
