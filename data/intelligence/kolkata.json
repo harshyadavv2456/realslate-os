@@ -1,6 +1,6 @@
 {
   "city": "kolkata",
-  "computed_at": "2026-10-30T05:58:00.195590",
+  "computed_at": "2026-10-31T05:54:44.869403",
   "summary": {
     "total_listings": 24471.0,
     "total_localities": 948.0,
@@ -19564,20 +19564,20 @@
       "lng": 88.3466256
     },
     {
-      "locality": "Madhyamgram",
-      "buy_price": 5000000.0,
-      "rent_price": 60000.0,
-      "gross_yield_pct": 14.4,
-      "lat": 22.6947839,
-      "lng": 88.4530183
-    },
-    {
       "locality": "Action Area 2D",
       "buy_price": 7500000.0,
       "rent_price": 90000.0,
       "gross_yield_pct": 14.4,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Madhyamgram",
+      "buy_price": 5000000.0,
+      "rent_price": 60000.0,
+      "gross_yield_pct": 14.4,
+      "lat": 22.6947839,
+      "lng": 88.4530183
     },
     {
       "locality": "Gopalpur Gram",
@@ -19796,20 +19796,20 @@
       "lng": 88.3528358
     },
     {
-      "locality": "Ariadaha",
-      "buy_price": 3800000.0,
-      "rent_price": 20000.0,
-      "gross_yield_pct": 6.32,
-      "lat": 22.6674338,
-      "lng": 88.3672058
-    },
-    {
       "locality": "Behala Chowrasta",
       "buy_price": 3800000.0,
       "rent_price": 20000.0,
       "gross_yield_pct": 6.32,
       "lat": 22.4873548,
       "lng": 88.3133794
+    },
+    {
+      "locality": "Ariadaha",
+      "buy_price": 3800000.0,
+      "rent_price": 20000.0,
+      "gross_yield_pct": 6.32,
+      "lat": 22.6674338,
+      "lng": 88.3672058
     },
     {
       "locality": "South City Complex",
@@ -19876,20 +19876,20 @@
       "lng": null
     },
     {
-      "locality": "Ajoy Nagar Santoshpur",
-      "buy_price": 6300000.0,
-      "rent_price": 30000.0,
-      "gross_yield_pct": 5.71,
-      "lat": null,
-      "lng": null
-    },
-    {
       "locality": "Barrackpore",
       "buy_price": 4200000.0,
       "rent_price": 20000.0,
       "gross_yield_pct": 5.71,
       "lat": 22.7641623,
       "lng": 88.3776088
+    },
+    {
+      "locality": "Ajoy Nagar Santoshpur",
+      "buy_price": 6300000.0,
+      "rent_price": 30000.0,
+      "gross_yield_pct": 5.71,
+      "lat": null,
+      "lng": null
     },
     {
       "locality": "Narendrapur",
@@ -19924,20 +19924,20 @@
       "lng": 88.4276832
     },
     {
-      "locality": "Purba Barisha",
-      "buy_price": 4500000.0,
-      "rent_price": 20000.0,
-      "gross_yield_pct": 5.33,
-      "lat": 22.4562288,
-      "lng": 88.3071623
-    },
-    {
       "locality": "Bally",
       "buy_price": 2700000.0,
       "rent_price": 12000.0,
       "gross_yield_pct": 5.33,
       "lat": 22.6469581,
       "lng": 88.343612
+    },
+    {
+      "locality": "Purba Barisha",
+      "buy_price": 4500000.0,
+      "rent_price": 20000.0,
+      "gross_yield_pct": 5.33,
+      "lat": 22.4562288,
+      "lng": 88.3071623
     },
     {
       "locality": "Dum Dum Cantonment",
@@ -20308,20 +20308,20 @@
       "lng": 88.3377899
     },
     {
-      "locality": "Joka",
-      "buy_price": 4500000.0,
-      "rent_price": 15000.0,
-      "gross_yield_pct": 4.0,
-      "lat": 22.4440967,
-      "lng": 88.3017146
-    },
-    {
       "locality": "Kamalgazi Sonarpur Road",
       "buy_price": 7500000.0,
       "rent_price": 25000.0,
       "gross_yield_pct": 4.0,
       "lat": 22.444246,
       "lng": 88.4110832
+    },
+    {
+      "locality": "Joka",
+      "buy_price": 4500000.0,
+      "rent_price": 15000.0,
+      "gross_yield_pct": 4.0,
+      "lat": 22.4440967,
+      "lng": 88.3017146
     },
     {
       "locality": "Prafulla Kanan",
@@ -20492,20 +20492,20 @@
       "lng": 88.4773881
     },
     {
-      "locality": "Jadavpur Central Road",
-      "buy_price": 6600000.0,
-      "rent_price": 19000.0,
-      "gross_yield_pct": 3.45,
-      "lat": 22.4959545,
-      "lng": 88.3704675
-    },
-    {
       "locality": "Entally",
       "buy_price": 13899999.999999998,
       "rent_price": 40000.0,
       "gross_yield_pct": 3.45,
       "lat": null,
       "lng": null
+    },
+    {
+      "locality": "Jadavpur Central Road",
+      "buy_price": 6600000.0,
+      "rent_price": 19000.0,
+      "gross_yield_pct": 3.45,
+      "lat": 22.4959545,
+      "lng": 88.3704675
     },
     {
       "locality": "Salt Lake City",
@@ -20660,6 +20660,14 @@
       "lng": 88.3716794
     },
     {
+      "locality": "Eastern Park",
+      "buy_price": 6300000.0,
+      "rent_price": 14000.0,
+      "gross_yield_pct": 2.67,
+      "lat": 22.526678,
+      "lng": 88.3360418
+    },
+    {
       "locality": "Belur Math",
       "buy_price": 4500000.0,
       "rent_price": 10000.0,
@@ -20674,14 +20682,6 @@
       "gross_yield_pct": 2.67,
       "lat": 22.5415942,
       "lng": 88.3456331
-    },
-    {
-      "locality": "Eastern Park",
-      "buy_price": 6300000.0,
-      "rent_price": 14000.0,
-      "gross_yield_pct": 2.67,
-      "lat": 22.526678,
-      "lng": 88.3360418
     },
     {
       "locality": "Airport 2 Number Gate",
