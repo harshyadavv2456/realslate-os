@@ -24702,5 +24702,1631 @@
   "siripuram_visakhapatnam": {
     "lat": 17.7208185,
     "lng": 83.3172191
-  }
+  },
+  "tata colony mulund east_mumbai": {
+    "lat": 19.1647631,
+    "lng": 72.9624012
+  },
+  "grant road west_mumbai": {
+    "lat": 18.9617981,
+    "lng": 72.8245674
+  },
+  "gorai 2_mumbai": {
+    "lat": 19.2283752,
+    "lng": 72.8258655
+  },
+  "jerbai wadia road_mumbai": null,
+  "miragaon_mumbai": null,
+  "patil wadi madh_mumbai": null,
+  "ashok van_mumbai": null,
+  "ghodbunder road_mumbai": null,
+  "phase 1 indralok_mumbai": null,
+  "borla_mumbai": {
+    "lat": 19.046357,
+    "lng": 72.9025304
+  },
+  "cgs colony antop hill_mumbai": {
+    "lat": 19.028923,
+    "lng": 72.8666936
+  },
+  "uttan_mumbai": {
+    "lat": 19.2532885,
+    "lng": 72.7904864
+  },
+  "nirmal nagar mulund west_mumbai": {
+    "lat": 19.1714346,
+    "lng": 72.951673
+  },
+  "aram nagar_mumbai": {
+    "lat": 19.1321779,
+    "lng": 72.8126528
+  },
+  "iit area_mumbai": null,
+  "juhu lane_mumbai": {
+    "lat": 19.1147466,
+    "lng": 72.8397574
+  },
+  "mahatma gandhi nagar_mumbai": {
+    "lat": 19.0628417,
+    "lng": 72.8499185
+  },
+  "vasai road_mumbai": null,
+  "akurli road_mumbai": {
+    "lat": 19.2016599,
+    "lng": 72.8589528
+  },
+  "panchsheel co operative housing society_mumbai": null,
+  "ashok nagar kandivali east_mumbai": {
+    "lat": 19.1990566,
+    "lng": 72.8554323
+  },
+  "nana chowk area_mumbai": null,
+  "rbi colony_mumbai": {
+    "lat": 19.0233855,
+    "lng": 73.0519079
+  },
+  "nerul_mumbai": {
+    "lat": 19.0335938,
+    "lng": 73.018164
+  },
+  "vasant oscar_mumbai": {
+    "lat": 19.169646,
+    "lng": 72.9373246
+  },
+  "sai nagar vasai west_mumbai": null,
+  "vile parle_mumbai": {
+    "lat": 19.0999098,
+    "lng": 72.8440038
+  },
+  "golden nest phase 1_mumbai": null,
+  "kashimira_mumbai": null,
+  "gauri shankar wadi no 2_mumbai": {
+    "lat": 19.0861621,
+    "lng": 72.9122535
+  },
+  "nehru road_mumbai": {
+    "lat": 19.0978493,
+    "lng": 72.8483829
+  },
+  "dharavi village_mumbai": null,
+  "tardeo road_mumbai": {
+    "lat": 18.9628835,
+    "lng": 72.813514
+  },
+  "shop no12 dda market phase 4 ashok vihar delhi 52 new_delhi ncr": null,
+  "jyoti nagar new_delhi ncr": {
+    "lat": 28.5764928,
+    "lng": 77.1960439
+  },
+  "vasant kunj 2 new_delhi ncr": {
+    "lat": 28.5411684,
+    "lng": 77.1547579
+  },
+  "mata mohalla new_delhi ncr": null,
+  "block k rajouri garden new_delhi ncr": null,
+  "samaypur libaspur road new_delhi ncr": null,
+  "begum pur new_delhi ncr": null,
+  "block f rajouri garden new_delhi ncr": null,
+  "sector 13 rama krishna puram new_delhi ncr": null,
+  "rohtak road new_delhi ncr": {
+    "lat": 28.6624722,
+    "lng": 77.1853223
+  },
+  "freedom fighter colony new_delhi ncr": null,
+  "block ag poorbi shalimar bag new_delhi ncr": null,
+  "block wz hari nagar new_delhi ncr": null,
+  "bharat nagar new friends colony new_delhi ncr": {
+    "lat": 28.5702865,
+    "lng": 77.2668244
+  },
+  "block a2 uttam nagar new_delhi ncr": null,
+  "durga vihar 2 new_delhi ncr": null,
+  "block wz khayala new_delhi ncr": null,
+  "sitapuri part 1 new_delhi ncr": null,
+  "gtb enclave new_delhi ncr": null,
+  "surakhpur new_delhi ncr": null,
+  "block z mohan garden new_delhi ncr": null,
+  "block c preet vihar new_delhi ncr": null,
+  "block c 4e janakpuri new_delhi ncr": null,
+  "block a bhajanpura new_delhi ncr": null,
+  "vaishali dakshini pitampura new_delhi ncr": null,
+  "sector 32 rohini new_delhi ncr": null,
+  "subzimandi clock tower new_delhi ncr": null,
+  "pocket b sector 17 dwarka new_delhi ncr": null,
+  "block a1 vijay enclave new_delhi ncr": null,
+  "phase 2 vijay vihar new_delhi ncr": null,
+  "dda flats anand vihar new_delhi ncr": null,
+  "brahampuri new_delhi ncr": null,
+  "copernicus marg new_delhi ncr": {
+    "lat": 28.618946,
+    "lng": 77.2313649
+  },
+  "block c nawada new_delhi ncr": null,
+  "kapas hera new_delhi ncr": null,
+  "pancheel vihar new_delhi ncr": null,
+  "block 1 kirti nagar new_delhi ncr": null,
+  "karawal nagar new_delhi ncr": null,
+  "puran nagar new_delhi ncr": null,
+  "block c sarvodaya enclave new_delhi ncr": null,
+  "vijay vihar rohini new_delhi ncr": null,
+  "east punjabi bagh new_delhi ncr": null,
+  "ram nagar shahdara new_delhi ncr": {
+    "lat": 28.6179569,
+    "lng": 77.2866841
+  },
+  "jivan park rani bagh new_delhi ncr": null,
+  "new usmanpur new_delhi ncr": null,
+  "azad nagar shahdara new_delhi ncr": null,
+  "madhu vihar patparganj new_delhi ncr": null,
+  "block 59 ashok nagar new_delhi ncr": null,
+  "ghazipur dairy farm new_delhi ncr": null,
+  "najafgarh dauralla road new_delhi ncr": null,
+  "vikas marg new_delhi ncr": {
+    "lat": 28.5689922,
+    "lng": 77.2215184
+  },
+  "pocket 40 sector 13 rohini new_delhi ncr": null,
+  "anand gram ghitorni new_delhi ncr": null,
+  "block k chittaranjan park new_delhi ncr": null,
+  "loni road new_delhi ncr": null,
+  "cariappa marg sainik farms new_delhi ncr": null,
+  "ganesh nagar new_delhi ncr": null,
+  "vishwas park new_delhi ncr": null,
+  "keshav puram tri nagar new_delhi ncr": null,
+  "block 23 tilak nagar new_delhi ncr": null,
+  "block a vishal enclave new_delhi ncr": null,
+  "madanpur khadar village new_delhi ncr": null,
+  "pocket 1 sector 14 dwarka new_delhi ncr": null,
+  "block c naraina vihar new_delhi ncr": null,
+  "block 8 subhash nagar new_delhi ncr": null,
+  "hosapalaya muneshwara nagar_bangalore": null,
+  "race course road_bangalore": {
+    "lat": 12.983826,
+    "lng": 77.5851733
+  },
+  "brookes haven layout_bangalore": {
+    "lat": 12.8717255,
+    "lng": 77.574927
+  },
+  "kempapura bellandur_bangalore": null,
+  "rustam bagh layout_bangalore": null,
+  "akash nagar_bangalore": {
+    "lat": 12.9591286,
+    "lng": 77.6974983
+  },
+  "myadarahalli_bangalore": {
+    "lat": 13.0679898,
+    "lng": 77.5141397
+  },
+  "kattamanallur_bangalore": {
+    "lat": 13.0518055,
+    "lng": 77.7640608
+  },
+  "bharath nagar manayata tech park_bangalore": null,
+  "kommasandra_bangalore": {
+    "lat": 12.8328533,
+    "lng": 77.6917222
+  },
+  "marasandra amanikere_bangalore": {
+    "lat": 13.2312257,
+    "lng": 77.550246
+  },
+  "arehalli uttarahalli hobli_bangalore": null,
+  "kengeri kommaghatta road_bangalore": {
+    "lat": 12.9146219,
+    "lng": 77.4816161
+  },
+  "om shakthi layout hongasandra_bangalore": null,
+  "muneshwara nagar ramamurthy nagar_bangalore": null,
+  "nada prabhu kempegowda layout_bangalore": null,
+  "kanaka layout_bangalore": {
+    "lat": 13.0865656,
+    "lng": 77.6508546
+  },
+  "mylasandra_bangalore": {
+    "lat": 12.9160293,
+    "lng": 77.497544
+  },
+  "khb colony hoskote_bangalore": null,
+  "narayana reddy layout channasandra_bangalore": null,
+  "agara village_bangalore": {
+    "lat": 12.8446015,
+    "lng": 77.4879398
+  },
+  "ittamadu main road_bangalore": {
+    "lat": 12.9261625,
+    "lng": 77.5445122
+  },
+  "amrutahalli_bangalore": {
+    "lat": 13.0662319,
+    "lng": 77.6007646
+  },
+  "vaikuntam layout_bangalore": {
+    "lat": 12.9595347,
+    "lng": 77.713218
+  },
+  "doddagattiganabbe_bangalore": null,
+  "chikkadunnasandra_bangalore": {
+    "lat": 12.8501962,
+    "lng": 77.7742942
+  },
+  "thirumalashettyhally_bangalore": null,
+  "nr road_bangalore": {
+    "lat": 12.9636595,
+    "lng": 77.5781415
+  },
+  "sampige road_bangalore": {
+    "lat": 12.993165,
+    "lng": 77.5714957
+  },
+  "devanhalli_bangalore": null,
+  "basavanahalli_bangalore": {
+    "lat": 13.1135237,
+    "lng": 77.3861478
+  },
+  "kannamangala bangalore rural_bangalore": {
+    "lat": 13.0452959,
+    "lng": 77.7710801
+  },
+  "kuthaganahalli_bangalore": null,
+  "hirandahalli_bangalore": {
+    "lat": 13.0409567,
+    "lng": 77.7254833
+  },
+  "electronic city phase1_bangalore": null,
+  "chikka begur_bangalore": {
+    "lat": 12.8790241,
+    "lng": 77.6372193
+  },
+  "manipal county road_bangalore": {
+    "lat": 12.8777632,
+    "lng": 77.6259476
+  },
+  "chikkasanne_bangalore": null,
+  "sakamma muniyappa layout_bangalore": null,
+  "vakil garden city_bangalore": {
+    "lat": 12.8612718,
+    "lng": 77.5353339
+  },
+  "devannahalli_bangalore": null,
+  "block 5th ullal_bangalore": {
+    "lat": 12.9683511,
+    "lng": 77.4819736
+  },
+  "chikka thirupati road_bangalore": null,
+  "peenya 2nd stage_bangalore": {
+    "lat": 13.0283168,
+    "lng": 77.5129632
+  },
+  "sanchar nagar mcechs layout_bangalore": null,
+  "kuguru_bangalore": {
+    "lat": 12.9091666,
+    "lng": 77.8094227
+  },
+  "dhruv international_bangalore": null,
+  "block 8th sir m vishweshwaraiah layout_bangalore": null,
+  "kanva garden city_bangalore": {
+    "lat": 13.1042378,
+    "lng": 77.4439151
+  },
+  "tindlu_bangalore": {
+    "lat": 13.0750074,
+    "lng": 77.5673264
+  },
+  "yerthiganahalli_bangalore": null,
+  "pete krishnappa layout_bangalore": null,
+  "palace cross road_bangalore": {
+    "lat": 12.9970143,
+    "lng": 77.5873463
+  },
+  "hagadur_bangalore": {
+    "lat": 12.9649204,
+    "lng": 77.7558746
+  },
+  "anchepalya_bangalore": {
+    "lat": 13.050527,
+    "lng": 77.47942
+  },
+  "chikkanayakanahalli_bangalore": {
+    "lat": 12.8891122,
+    "lng": 77.6935023
+  },
+  "neralu_bangalore": null,
+  "kannika nagar_bangalore": {
+    "lat": 12.9674921,
+    "lng": 77.5897658
+  },
+  "achappa layout silver oak layout_bangalore": null,
+  "p and t layout thanisandra_bangalore": null,
+  "manjunatha layout mannarayanapalya_bangalore": null,
+  "ajamalppa layout_bangalore": null,
+  "ambedkar nagar bellandur_bangalore": null,
+  "kenchenahalli_bangalore": {
+    "lat": 12.9267912,
+    "lng": 77.5132978
+  },
+  "oraiyan shivanandhi orchids_bangalore": null,
+  "jayanti nagar_bangalore": {
+    "lat": 13.0628884,
+    "lng": 77.6433396
+  },
+  "electronics city phase 1_bangalore": {
+    "lat": 12.8401734,
+    "lng": 77.6595099
+  },
+  "chikkagubbi village_bangalore": {
+    "lat": 13.0806067,
+    "lng": 77.6662218
+  },
+  "kumbalagodu gollahalli road_bangalore": null,
+  "dodderi bangalore rural_bangalore": null,
+  "avenue road_bangalore": {
+    "lat": 12.9698305,
+    "lng": 77.5797105
+  },
+  "byadarahalli nelamangala town_bangalore": null,
+  "phase 1 peenya_bangalore": {
+    "lat": 13.0368969,
+    "lng": 77.5312862
+  },
+  "doddamma layout pai layout_bangalore": null,
+  "sultanpet_bangalore": null,
+  "gudnahalli_bangalore": null,
+  "chunchanaguppe_bangalore": null,
+  "bhcs layout uttarahalli hobli_bangalore": null,
+  "kempegowda layout banashankari_bangalore": null,
+  "suradhenupura_bangalore": null,
+  "gulakamale_bangalore": {
+    "lat": 12.8037601,
+    "lng": 77.5284309
+  },
+  "block 3rd stage 6th banashankari_bangalore": {
+    "lat": 12.8793396,
+    "lng": 77.5034003
+  },
+  "kempegouda garden abbigere_bangalore": null,
+  "sambram college vidyaranyapura_bangalore": null,
+  "janatha colony chikkabellandur_bangalore": null,
+  "cubbon road_bangalore": {
+    "lat": 12.9774305,
+    "lng": 77.608229
+  },
+  "saleem nagar colony_hyderabad": {
+    "lat": 17.3720752,
+    "lng": 78.5124761
+  },
+  "ramakrishnapuram tirumalagiri_hyderabad": null,
+  "muzaffar ahmad nagar_hyderabad": null,
+  "chengicherla road_hyderabad": {
+    "lat": 17.4114477,
+    "lng": 78.6070518
+  },
+  "jaya nagar saidabad_hyderabad": null,
+  "chaderghat_hyderabad": {
+    "lat": 17.3820325,
+    "lng": 78.4925338
+  },
+  "shivarampally jagir_hyderabad": null,
+  "srivani nagar_hyderabad": null,
+  "hyderguda attapur_hyderabad": {
+    "lat": 17.3640324,
+    "lng": 78.4250843
+  },
+  "toopran road_hyderabad": null,
+  "ankushapur_hyderabad": null,
+  "edulabad main road_hyderabad": null,
+  "indra reddy allwyn colony_hyderabad": null,
+  "nagarjuna nagar ecil_hyderabad": null,
+  "mokila tanda_hyderabad": null,
+  "kondakal_hyderabad": null,
+  "nyalata_hyderabad": null,
+  "as raju nagar miyapur_hyderabad": null,
+  "pedda gopalaram_hyderabad": null,
+  "kesaram_hyderabad": null,
+  "chitrapuri colony narayanguda_hyderabad": null,
+  "nagole bandlaguda road_hyderabad": {
+    "lat": 17.3737298,
+    "lng": 78.5619492
+  },
+  "bhavani colony premavathipet_hyderabad": null,
+  "rashtrapati road_hyderabad": {
+    "lat": 17.4366202,
+    "lng": 78.4938748
+  },
+  "sai nikitha homes_hyderabad": null,
+  "shalibanda_hyderabad": {
+    "lat": 17.3503945,
+    "lng": 78.4652696
+  },
+  "dinakar nagar vinayak nagar_hyderabad": null,
+  "mallampet road_hyderabad": null,
+  "talab katta_hyderabad": {
+    "lat": 17.3540378,
+    "lng": 78.4850098
+  },
+  "avanti nagar_hyderabad": null,
+  "pargi road_hyderabad": null,
+  "mall_hyderabad": {
+    "lat": 17.4072662,
+    "lng": 78.5065602
+  },
+  "dk road_hyderabad": {
+    "lat": 17.4497825,
+    "lng": 78.3926106
+  },
+  "anjaneya nagar_hyderabad": {
+    "lat": 17.3639081,
+    "lng": 78.5287084
+  },
+  "huda layout nandagiri hills_hyderabad": null,
+  "gummadidala_hyderabad": null,
+  "green homes colony_hyderabad": null,
+  "agapally_hyderabad": null,
+  "shadnagar road_hyderabad": {
+    "lat": 17.0713335,
+    "lng": 78.2051843
+  },
+  "narendra nagar colony_hyderabad": {
+    "lat": 17.3709313,
+    "lng": 78.5407574
+  },
+  "nizampet miyapur road_hyderabad": {
+    "lat": 17.498552,
+    "lng": 78.3796744
+  },
+  "baghmankhal_hyderabad": null,
+  "anand nagar colony new malakpet_hyderabad": null,
+  "bharat heavy electricals limited township_hyderabad": null,
+  "banjara hills road no 11_hyderabad": {
+    "lat": 17.4177464,
+    "lng": 78.4399014
+  },
+  "saptagiri colony vivekananda nagar_hyderabad": {
+    "lat": 17.4972233,
+    "lng": 78.4154982
+  },
+  "rangareddy_hyderabad": {
+    "lat": 17.4891982,
+    "lng": 78.437369
+  },
+  "nehru nagar colony_hyderabad": {
+    "lat": 17.4930645,
+    "lng": 78.391419
+  },
+  "nednur_hyderabad": null,
+  "vediri township_hyderabad": null,
+  "lalitha nagar adikmet_hyderabad": {
+    "lat": 17.4178457,
+    "lng": 78.5192905
+  },
+  "krishodhara_hyderabad": null,
+  "pulimamidi_hyderabad": null,
+  "shankarpalli road_hyderabad": null,
+  "ramakrishnapuram lb nagar_hyderabad": null,
+  "joshitha infra developers_hyderabad": null,
+  "moghalpura_hyderabad": {
+    "lat": 17.3575281,
+    "lng": 78.4770839
+  },
+  "indira nagar gachibowli_hyderabad": {
+    "lat": 17.4428658,
+    "lng": 78.3570147
+  },
+  "jayabheri enclave_hyderabad": null,
+  "gazia e millat colony falaknuma_hyderabad": null,
+  "mangalpally_hyderabad": null,
+  "haridaspalle_hyderabad": null,
+  "rallaguda_hyderabad": null,
+  "bhagya lakshmi colony_hyderabad": null,
+  "hill colony vanasthalipuram_hyderabad": null,
+  "ravindra nagar sadashivpet_hyderabad": null,
+  "manjeera pipeline road_hyderabad": {
+    "lat": 17.4874496,
+    "lng": 78.3514779
+  },
+  "nagai palle_hyderabad": null,
+  "janakiraman colony arumbakkam_chennai": {
+    "lat": 13.0751482,
+    "lng": 80.204467
+  },
+  "tt krishnamachari road_chennai": {
+    "lat": 13.0358495,
+    "lng": 80.2550468
+  },
+  "jn road_chennai": null,
+  "it park/ sez for rent in rajiv nagar perungudi_chennai": null,
+  "block g annanagar east_chennai": null,
+  "vgp seethapathy nagar_chennai": {
+    "lat": 12.9822616,
+    "lng": 80.2274935
+  },
+  "thiru vi ka nagar numbal_chennai": null,
+  "priya nagar_chennai": {
+    "lat": 13.128997,
+    "lng": 80.1621536
+  },
+  "it park/ sez for rent in kilpauk_chennai": null,
+  "kannappa nagar thiruvanmiyur_chennai": null,
+  "mahatma gandhi nagar_chennai": {
+    "lat": 13.1268628,
+    "lng": 80.2112109
+  },
+  "kadirvedu_chennai": {
+    "lat": 13.237428,
+    "lng": 80.0062062
+  },
+  "kadapakkam_chennai": {
+    "lat": 13.1984914,
+    "lng": 80.2652515
+  },
+  "jyothi nagar annanur_chennai": {
+    "lat": 13.1124922,
+    "lng": 80.1274284
+  },
+  "sriram nagar tambaram_chennai": {
+    "lat": 12.9090997,
+    "lng": 80.1025064
+  },
+  "saibaba nagar_chennai": {
+    "lat": 12.9745263,
+    "lng": 80.2629518
+  },
+  "kamatchi nagar pallikaranai_chennai": null,
+  "rose nagar_chennai": {
+    "lat": 12.945346,
+    "lng": 80.1852569
+  },
+  "sidco industrial estate guindy_chennai": {
+    "lat": 13.0143097,
+    "lng": 80.2018919
+  },
+  "athur_chennai": {
+    "lat": 13.2501245,
+    "lng": 80.1473299
+  },
+  "karunilam_chennai": null,
+  "nandambakkam_chennai": {
+    "lat": 13.0166484,
+    "lng": 80.1911885
+  },
+  "kasturba nagar_chennai": {
+    "lat": 13.0038682,
+    "lng": 80.2485192
+  },
+  "vs mani nagar_chennai": null,
+  "komaleeswaranpet_chennai": null,
+  "sonallur_chennai": null,
+  "balaji nagar puzhal_chennai": {
+    "lat": 13.1319368,
+    "lng": 80.1652464
+  },
+  "saraswati nagar thirumullaivoyal_chennai": null,
+  "m.m tower_chennai": null,
+  "saraswathi nagar adambakkam_chennai": null,
+  "dwaraka nagar_chennai": {
+    "lat": 13.1950614,
+    "lng": 80.2734134
+  },
+  "annambedu_chennai": {
+    "lat": 13.1049714,
+    "lng": 80.0308947
+  },
+  "anna enclave_chennai": null,
+  "pattara vakkam_chennai": null,
+  "house rent nammalwarpet_chennai": null,
+  "guru nanak nagar_pune": null,
+  "uttam nagar sunarwadi_pune": null,
+  "ambegaon bk_pune": {
+    "lat": 18.458277,
+    "lng": 73.8288202
+  },
+  "alandi road_pune": {
+    "lat": 18.5709239,
+    "lng": 73.8787295
+  },
+  "laxmi colony hadapsar_pune": null,
+  "anand park nagar_pune": {
+    "lat": 18.5576882,
+    "lng": 73.8088043
+  },
+  "theur_pune": {
+    "lat": 18.52432,
+    "lng": 74.04648
+  },
+  "manajinagar_pune": null,
+  "laxmi nagar dhanori_pune": {
+    "lat": 18.5955785,
+    "lng": 73.8961836
+  },
+  "varve bk_pune": null,
+  "ganesh nagar karve nagar_pune": {
+    "lat": 18.49671,
+    "lng": 73.8232127
+  },
+  "sainath nagar wadgaon sheri_pune": null,
+  "autadwadi handewadi_pune": null,
+  "chande road_pune": {
+    "lat": 18.5549871,
+    "lng": 73.698542
+  },
+  "sudhavadi_pune": null,
+  "dighi alandi road_pune": {
+    "lat": 18.6227121,
+    "lng": 73.8738776
+  },
+  "tathawade sector bhosari_pune": null,
+  "narhe ambegaon road_pune": null,
+  "bhosari telco road_pune": {
+    "lat": 18.6173327,
+    "lng": 73.8438678
+  },
+  "anand nagar sinhagad road_pune": {
+    "lat": 18.4782576,
+    "lng": 73.823807
+  },
+  "perne_pune": {
+    "lat": 18.6320182,
+    "lng": 74.0639545
+  },
+  "spine road_pune": {
+    "lat": 18.663581,
+    "lng": 73.8117292
+  },
+  "fountain road_pune": {
+    "lat": 18.5631451,
+    "lng": 73.944601
+  },
+  "indira nagar undri_pune": null,
+  "karegaon_pune": {
+    "lat": 18.7828131,
+    "lng": 74.2966193
+  },
+  "tukaram nagar kharadi_pune": null,
+  "paud_pune": {
+    "lat": 18.5242717,
+    "lng": 73.6155138
+  },
+  "awhalwadi_pune": null,
+  "yashwantnagar pimpri colony_pune": null,
+  "nandanvan colony walhekarwadi_pune": null,
+  "jaamgaon_pune": null,
+  "bankim pally behala_kolkata": null,
+  "hanspukur joka_kolkata": null,
+  "kalikapur south 24 parganas_kolkata": {
+    "lat": 22.412052,
+    "lng": 88.4760309
+  },
+  "amarpalli_kolkata": null,
+  "dakshindari_kolkata": {
+    "lat": 22.5998736,
+    "lng": 88.4008791
+  },
+  "naihati_kolkata": {
+    "lat": 22.8866078,
+    "lng": 88.424196
+  },
+  "vivekananda colony parnasree palli_kolkata": null,
+  "gurap_kolkata": {
+    "lat": 22.9901236,
+    "lng": 88.3676188
+  },
+  "gopal lal tagore road_kolkata": {
+    "lat": 22.6189114,
+    "lng": 88.3732248
+  },
+  "shanti nagar netaji nagar_kolkata": {
+    "lat": 22.474604,
+    "lng": 88.3609589
+  },
+  "malancha south 24 parganas_kolkata": {
+    "lat": 22.4882966,
+    "lng": 88.5847553
+  },
+  "bawali rania road_kolkata": null,
+  "baruipur bypass road_kolkata": null,
+  "green village_kolkata": null,
+  "madhusudan banerjee road_kolkata": {
+    "lat": 22.6625882,
+    "lng": 88.4323324
+  },
+  "bandel chinsurah_kolkata": {
+    "lat": 22.9226381,
+    "lng": 88.3877415
+  },
+  "amdanga_kolkata": {
+    "lat": 22.7670153,
+    "lng": 88.5367297
+  },
+  "kalabagan tollygunge_kolkata": null,
+  "binayak enclave_kolkata": null,
+  "ranaghat_kolkata": null,
+  "cit road scheme 6m_kolkata": null,
+  "modern park arabinda sarani_kolkata": null,
+  "kustia_kolkata": {
+    "lat": 22.5290324,
+    "lng": 88.3791725
+  },
+  "nilganj_kolkata": {
+    "lat": 22.7248771,
+    "lng": 88.3951027
+  },
+  "jagadananda pally_kolkata": null,
+  "jagatdal_kolkata": null,
+  "badu road_kolkata": {
+    "lat": 22.6951367,
+    "lng": 88.4957613
+  },
+  "ramkrishna pally kaikhali_kolkata": null,
+  "majherhat_kolkata": {
+    "lat": 22.5190536,
+    "lng": 88.3221307
+  },
+  "noapara sukanta pally_kolkata": null,
+  "ai block new town action area_kolkata": {
+    "lat": 22.5655274,
+    "lng": 88.4909785
+  },
+  "rabindrapally jyangra_kolkata": null,
+  "bidhannagar road_kolkata": {
+    "lat": 22.5917545,
+    "lng": 88.3908911
+  },
+  "circus avenue_kolkata": {
+    "lat": 22.5408978,
+    "lng": 88.3610151
+  },
+  "chitpur_kolkata": {
+    "lat": 22.6161562,
+    "lng": 88.3711362
+  },
+  "govindwadi_ahmedabad": null,
+  "ram nagar sabarmati_ahmedabad": null,
+  "vejalpur road_ahmedabad": {
+    "lat": 23.0240146,
+    "lng": 72.5343533
+  },
+  "vikram nagar_ahmedabad": {
+    "lat": 23.0474805,
+    "lng": 72.5437932
+  },
+  "ayojan nagar_ahmedabad": null,
+  "gidc bhat_ahmedabad": null,
+  "subhas nagar old_ahmedabad": null,
+  "arvee denim road_ahmedabad": null,
+  "maheshwari nagar_ahmedabad": null,
+  "gokul nagar makarba_ahmedabad": null,
+  "chanchal saransh earth_ahmedabad": null,
+  "satyam homes_ahmedabad": null,
+  "visharam nagar_ahmedabad": null,
+  "132 feet ring road_ahmedabad": {
+    "lat": 23.0458191,
+    "lng": 72.5523558
+  },
+  "saransh arth new vasana ahmedabad 380007_ahmedabad": null,
+  "janta nagar chandkheda_ahmedabad": {
+    "lat": 23.1071309,
+    "lng": 72.5856397
+  },
+  "sherkotda_ahmedabad": {
+    "lat": 23.0129731,
+    "lng": 72.6014624
+  },
+  "motidevti_ahmedabad": null,
+  "incometax_ahmedabad": null,
+  "ratnajyot complex part 2 near rameshwar mahadev temple nirnaynagar_ahmedabad": null,
+  "mankol_ahmedabad": null,
+  "piplaj_ahmedabad": {
+    "lat": 22.969877,
+    "lng": 72.5606949
+  },
+  "navi fatehvadi village_ahmedabad": null,
+  "narayan nagar society_ahmedabad": null,
+  "24 rajdeep park society near rajendra cross road odhav_ahmedabad": null,
+  "garodiya_ahmedabad": null,
+  "pocket b palam vihar_gurgaon": null,
+  "block b ardee city_gurgaon": null,
+  "pragati hills society_gurgaon": null,
+  "mahrauli gurgaon road_gurgaon": null,
+  "sultanpur_gurgaon": {
+    "lat": 28.4600139,
+    "lng": 76.888971
+  },
+  "sector 3 rewari_gurgaon": {
+    "lat": 28.3999243,
+    "lng": 76.8738371
+  },
+  "gurgaon delhi expressway_gurgaon": {
+    "lat": 28.5036518,
+    "lng": 77.0956354
+  },
+  "phase 1 surat nagar_gurgaon": {
+    "lat": 28.4835461,
+    "lng": 77.0023716
+  },
+  "block a ashok vihar phase 3 extension_gurgaon": {
+    "lat": 28.4806956,
+    "lng": 77.0335671
+  },
+  "gurgaon sushant lok-2 f block_gurgaon": null,
+  "bptp astsire gardens_gurgaon": null,
+  "guraora_gurgaon": null,
+  "ambedkar colony chakkarpur_gurgaon": null,
+  "supertech capetown_noida": {
+    "lat": 28.5793679,
+    "lng": 77.3922672
+  },
+  "chotpur road_noida": null,
+  "block a sector 8_noida": {
+    "lat": 28.5911592,
+    "lng": 77.3525353
+  },
+  "block a sector 92_noida": null,
+  "sector 83_noida": {
+    "lat": 28.5244561,
+    "lng": 77.3979673
+  },
+  "block b sector 22_noida": {
+    "lat": 28.6098448,
+    "lng": 77.3436408
+  },
+  "sector 96_noida": {
+    "lat": 28.4714979,
+    "lng": 77.5296806
+  },
+  "sec 104_noida": {
+    "lat": 28.6158648,
+    "lng": 77.3785392
+  },
+  "sap homes_noida": null,
+  "vishnu nagar_noida": null,
+  "rajat vihar c block_noida": {
+    "lat": 28.6092332,
+    "lng": 77.3471077
+  },
+  "sector 73_noida": {
+    "lat": 28.4716237,
+    "lng": 77.5312204
+  },
+  "block f sector 40_noida": {
+    "lat": 28.5710976,
+    "lng": 77.3241884
+  },
+  "block b sector 60_noida": {
+    "lat": 28.6123622,
+    "lng": 77.3778517
+  },
+  "it park/ sez for rent in c block sector 63_noida": null,
+  "vishal chambers_noida": null,
+  "chhapraula_noida": null,
+  "hoshiyarpur sector 51_noida": null,
+  "block e sector 22_noida": null,
+  "lal bahadur shastri road_thane": {
+    "lat": 19.20633,
+    "lng": 72.9761632
+  },
+  "ulhasnagar_thane": {
+    "lat": 19.2236329,
+    "lng": 73.1671515
+  },
+  "saralgaon murbad_thane": {
+    "lat": 19.2864766,
+    "lng": 73.4932136
+  },
+  "mahindra happiest kalyan_thane": null,
+  "kasheli beyond_thane": null,
+  "ulhasnagar no 3_thane": {
+    "lat": 19.2236329,
+    "lng": 73.1671515
+  },
+  "yashwant colony_thane": null,
+  "runwal nagar_thane": {
+    "lat": 19.2071606,
+    "lng": 72.973852
+  },
+  "bhawani nagar_thane": {
+    "lat": 19.2021324,
+    "lng": 72.9537686
+  },
+  "ambivli beyond_thane": null,
+  "ram ganga_thane": null,
+  "maharashtra 400604_thane": {
+    "lat": 19.1937935,
+    "lng": 72.9619269
+  },
+  "miraroad_thane": {
+    "lat": 19.2773039,
+    "lng": 72.861226
+  },
+  "shahid mangal pandey road_thane": {
+    "lat": 19.2005431,
+    "lng": 72.9641373
+  },
+  "beverly park mira road (e)_thane": null,
+  "katai toll naka nilje_thane": null,
+  "nalasopara west_thane": null,
+  "ramchandra nagar 3_thane": null,
+  "royal flora ambernath_thane": null,
+  "ambarnath beyond_thane": null,
+  "purna beyond_thane": null,
+  "anjur beyond_thane": null,
+  "vbhc hill view_thane": null,
+  "dhakate shahad beyond_thane": null,
+  "kher section beyond_thane": null,
+  "shivkar_navi mumbai": null,
+  "koyana velhe_navi mumbai": null,
+  "wahal_navi mumbai": null,
+  "sector 18 kamothe_navi mumbai": {
+    "lat": 19.0173837,
+    "lng": 73.0954838
+  },
+  "sector 12 juhu nagar_navi mumbai": null,
+  "sector 26 ulwe_navi mumbai": null,
+  "coperative housing society_navi mumbai": null,
+  "sector 1 kharghar_navi mumbai": null,
+  "industrial area_navi mumbai": null,
+  "ajivali_navi mumbai": null,
+  "sector 9 khanda colony_navi mumbai": null,
+  "sector 7 kamothe_navi mumbai": {
+    "lat": 19.0173837,
+    "lng": 73.0954838
+  },
+  "sector 8 new panvel east_navi mumbai": null,
+  "navi mumbai hk_navi mumbai": null,
+  "new ready to move flat_navi mumbai": null,
+  "mittal emerald co-op housing society ltd_navi mumbai": null,
+  "sector 19c vashi_navi mumbai": {
+    "lat": 19.0699948,
+    "lng": 72.9959605
+  },
+  "sector 2 kharghar_navi mumbai": null,
+  "midc main road_navi mumbai": {
+    "lat": 19.0705379,
+    "lng": 73.0230865
+  },
+  "block e govindpuram_ghaziabad": null,
+  "gnb mall raj nagar extension_ghaziabad": null,
+  "fatiyabad nithora_ghaziabad": null,
+  "chiranjeev vihar_ghaziabad": {
+    "lat": 28.6694335,
+    "lng": 77.472757
+  },
+  "model town kharar_ghaziabad": null,
+  "nistoli_ghaziabad": {
+    "lat": 28.722007,
+    "lng": 77.3464195
+  },
+  "the palm sunrise shahpur bamheta_ghaziabad": null,
+  "shahpur nij morta_ghaziabad": null,
+  "akash vihar_ghaziabad": null,
+  "kashyap rishi vihar society_ghaziabad": null,
+  "rajendra nagar sector 5_ghaziabad": {
+    "lat": 28.679745,
+    "lng": 77.3576545
+  },
+  "sadarpur_ghaziabad": {
+    "lat": 28.6883339,
+    "lng": 77.4807834
+  },
+  "satpura tower_ghaziabad": null,
+  "baghpat road_ghaziabad": null,
+  "mandaula_ghaziabad": null,
+  "opposite rakesh marg_ghaziabad": null,
+  "durga enclave sahibabad_ghaziabad": null,
+  "gbp crest_chandigarh": null,
+  "khuda lahora road_chandigarh": null,
+  "airport road_chandigarh": null,
+  "ksb dream homes_chandigarh": null,
+  "chd_chandigarh": {
+    "lat": 30.7366063,
+    "lng": 76.7336028
+  },
+  "sector 64 mohali_chandigarh": null,
+  "sector 30 b_chandigarh": {
+    "lat": 30.7156808,
+    "lng": 76.7869663
+  },
+  "sonia natural property 9877221574_chandigarh": null,
+  "mohali_chandigarh": {
+    "lat": 30.7038823,
+    "lng": 76.7372114
+  },
+  "dapper_chandigarh": {
+    "lat": 30.5173904,
+    "lng": 76.8073838
+  },
+  "sector 19c_chandigarh": {
+    "lat": 30.7282981,
+    "lng": 76.7930603
+  },
+  "industrial area phase-2_chandigarh": {
+    "lat": 30.6981312,
+    "lng": 76.7880056
+  },
+  "shiv vihar colony_lucknow": null,
+  "parvar pashchim_lucknow": null,
+  "gokhale vihar_lucknow": null,
+  "gomti nagar extension 1_lucknow": {
+    "lat": 26.8342197,
+    "lng": 81.0108705
+  },
+  "kanchan nagar_lucknow": {
+    "lat": 26.8730369,
+    "lng": 80.9768119
+  },
+  "sitapur nh 24_lucknow": {
+    "lat": 26.9358393,
+    "lng": 80.9341768
+  },
+  "sikanderpur khurd_lucknow": null,
+  "shop ashiyana sector i 100sq fit_lucknow": null,
+  "quraishi home_lucknow": null,
+  "swaraaj the villagio resort mohanlalganj_lucknow": null,
+  "kishunpur kaudiya_lucknow": null,
+  "mira bai marg_lucknow": null,
+  "naka hindola_lucknow": {
+    "lat": 26.8382756,
+    "lng": 80.923278
+  },
+  "new rahim nagar_lucknow": null,
+  "takroni_lucknow": null,
+  "sector 14 vrindavan yojana_lucknow": null,
+  "wazir hasan road_lucknow": null,
+  "gopal nagar_lucknow": null,
+  "dudauli road_lucknow": null,
+  "bara birwa_lucknow": null,
+  "tindola_lucknow": null,
+  "ashok vihar colony_lucknow": null,
+  "pancham khera road_lucknow": null,
+  "sector 22_lucknow": {
+    "lat": 26.8381,
+    "lng": 80.9346001
+  },
+  "vijayant khand - 1_lucknow": {
+    "lat": 26.8701617,
+    "lng": 81.0201026
+  },
+  "sindhunagar_lucknow": null,
+  "aahana enclave_lucknow": null,
+  "hasanganj_lucknow": {
+    "lat": 26.8604956,
+    "lng": 80.9376462
+  },
+  "it park/ sez for sale in almas bagh_lucknow": null,
+  "it park/ sez for sale in mohanlalganj_lucknow": null,
+  "bharavara_lucknow": {
+    "lat": 26.8533758,
+    "lng": 81.0345102
+  },
+  "ituanja_lucknow": {
+    "lat": 27.0832115,
+    "lng": 80.8962099
+  },
+  "ramchandpura_jaipur": null,
+  "ring prime residency_jaipur": null,
+  "pani pech_jaipur": {
+    "lat": 26.935429,
+    "lng": 75.791764
+  },
+  "gajadharpura_jaipur": {
+    "lat": 26.9964475,
+    "lng": 75.6229122
+  },
+  "prithvisinghpura ajmer road_jaipur": null,
+  "sector 5 jawahar nagar_jaipur": {
+    "lat": 26.8930427,
+    "lng": 75.8361965
+  },
+  "arjun nagar vasundhara colony_jaipur": {
+    "lat": 26.8719723,
+    "lng": 75.7879764
+  },
+  "royal greens housing society_jaipur": null,
+  "chinkara colony_jaipur": {
+    "lat": 26.9206058,
+    "lng": 75.7654465
+  },
+  "amar nagar c_jaipur": {
+    "lat": 26.9118517,
+    "lng": 75.7421934
+  },
+  "shri niwas nagar_jaipur": null,
+  "dk nagar_jaipur": {
+    "lat": 26.9452269,
+    "lng": 75.7828657
+  },
+  "society_jaipur": {
+    "lat": 26.9628719,
+    "lng": 75.7430374
+  },
+  "jhag_jaipur": {
+    "lat": 26.7247411,
+    "lng": 75.4529214
+  },
+  "roop nagar_jaipur": {
+    "lat": 26.8876707,
+    "lng": 75.7695076
+  },
+  "khanjane walon ka rasta_jaipur": null,
+  "jadon nagar-b_jaipur": null,
+  "jai singhpura khor_jaipur": null,
+  "current location_jaipur": null,
+  "vki rajawas neyr_jaipur": null,
+  "vishnupuri mahaveer nagar_jaipur": null,
+  "587 angad mansion adarsh nagar_jaipur": null,
+  "muktanand nagar_jaipur": null,
+  "vidyut nagar b_jaipur": {
+    "lat": 26.9007434,
+    "lng": 75.7538983
+  },
+  "ganga vihar_jaipur": {
+    "lat": 26.8759611,
+    "lng": 75.7875306
+  },
+  "bilwa_jaipur": {
+    "lat": 26.7400735,
+    "lng": 75.8562296
+  },
+  "nahar garh riad_jaipur": null,
+  "cosmo colony_jaipur": null,
+  "govindpuri_jaipur": {
+    "lat": 26.8939659,
+    "lng": 75.7783796
+  },
+  "jaijaspura_jaipur": {
+    "lat": 26.7744838,
+    "lng": 75.5971599
+  },
+  "vidhyak nagar_jaipur": null,
+  "it park/ sez for rent in indira gandhi nagar_jaipur": null,
+  "neer sagar market_jaipur": null,
+  "swarn path_jaipur": {
+    "lat": 26.8866348,
+    "lng": 75.7474385
+  },
+  "s.b. vihar_jaipur": {
+    "lat": 26.8895996,
+    "lng": 75.7600675
+  },
+  "hathroi_jaipur": {
+    "lat": 26.9142683,
+    "lng": 75.7934114
+  },
+  "jda approved project_jaipur": null,
+  "devdhara colony_jaipur": null,
+  "bichoon_jaipur": {
+    "lat": 26.8076208,
+    "lng": 75.3521991
+  },
+  "sen colony bani park_jaipur": null,
+  "renwal road_jaipur": null,
+  "dher ki dhani_jaipur": null,
+  "dr. rajendra prasad nagar-a_jaipur": null,
+  "ganeshpura_jaipur": {
+    "lat": 26.6254205,
+    "lng": 75.3116441
+  },
+  "suraj nagar nirmal vihar_jaipur": null,
+  "sitarampura_jaipur": {
+    "lat": 26.7965699,
+    "lng": 75.3948569
+  },
+  "adarsh basti_jaipur": null,
+  "niwai_jaipur": null,
+  "hida ki mori_jaipur": {
+    "lat": 26.9237743,
+    "lng": 75.8386003
+  },
+  "pinkcity enclave jagatpura_jaipur": null,
+  "ayodhya nagar kana vihar_jaipur": null,
+  "amer_jaipur": {
+    "lat": 26.9885137,
+    "lng": 75.8594847
+  },
+  "naveen enclave near tilak hospital agra road_jaipur": null,
+  "shankar colony_jaipur": null,
+  "157 gaj_jaipur": {
+    "lat": 26.8344396,
+    "lng": 75.772634
+  },
+  "vimalpura_jaipur": {
+    "lat": 27.1995643,
+    "lng": 75.58465
+  },
+  "block d nirman nagar_jaipur": {
+    "lat": 26.8846703,
+    "lng": 75.7480669
+  },
+  "block c jagtpura_jaipur": null,
+  "janpat ranisati nagar_jaipur": null,
+  "kcc nagar_jaipur": null,
+  "dronpuri_jaipur": null,
+  "kukas_jaipur": {
+    "lat": 27.0420794,
+    "lng": 75.8942628
+  },
+  "sahakar marg_jaipur": {
+    "lat": 26.8846645,
+    "lng": 75.7960061
+  },
+  "satellite_surat": null,
+  "d r world mall_surat": null,
+  "jhangipura_surat": null,
+  "bhesan road_surat": {
+    "lat": 21.2197174,
+    "lng": 72.7690064
+  },
+  "vadoli cercle olpad kim road_surat": null,
+  "karanj_surat": null,
+  "maruti nandan society surat 26_surat": null,
+  "ichhapore_surat": null,
+  "gothan_surat": null,
+  "valak_surat": {
+    "lat": 21.244081,
+    "lng": 72.9116084
+  },
+  "magadalla road_surat": null,
+  "karmala_surat": null,
+  "kalyan appartment_surat": null,
+  "plot no 6/7 bhatpoer gidc magdalla hajira road_surat": null,
+  "vishwakarma vihar society_surat": null,
+  "mini bazar_surat": {
+    "lat": 21.2103907,
+    "lng": 72.8512421
+  },
+  "adajan gas circle_surat": null,
+  "bhathena khadi bridge_surat": null,
+  "narotam nagar_surat": null,
+  "ram krishna nagar_nagpur": null,
+  "shastri nagar_nagpur": null,
+  "nagpur 440024_nagpur": {
+    "lat": 21.1498134,
+    "lng": 79.0820556
+  },
+  "swamidham nagri ghogli_nagpur": null,
+  "kanholibara_nagpur": {
+    "lat": 20.935733,
+    "lng": 78.854425
+  },
+  "mouza kharsoli_nagpur": null,
+  "atharva nagari 7_nagpur": null,
+  "nari village_nagpur": null,
+  "dwarkamai apartment_nagpur": null,
+  "juni sukrawari_nagpur": null,
+  "new akash nagar manewada_nagpur": null,
+  "leverage green villas_nagpur": null,
+  "ashi nagar kamptee road nagpur 440017_nagpur": null,
+  "mhasala kamptee_nagpur": null,
+  "kanoli bara_nagpur": null,
+  "arihant apt pratap nagar_nagpur": null,
+  "new nandanvan_nagpur": {
+    "lat": 21.1235407,
+    "lng": 79.1117008
+  },
+  "near gauri heights_nagpur": null,
+  "deoli gujar_nagpur": {
+    "lat": 20.9225215,
+    "lng": 79.0608251
+  },
+  "shivan gaon_nagpur": null,
+  "sai colony_nagpur": {
+    "lat": 21.1122316,
+    "lng": 79.108083
+  },
+  "ghoti_nagpur": {
+    "lat": 20.8959223,
+    "lng": 79.0537548
+  },
+  "panjari lodhi_nagpur": null,
+  "mahalaxmi developers_nagpur": null,
+  "itwari railway station_nagpur": {
+    "lat": 21.1575034,
+    "lng": 79.1188261
+  },
+  "wadi nagpur 440023_nagpur": {
+    "lat": 21.153214,
+    "lng": 79.0053415
+  },
+  "gulmohar nagar_nagpur": {
+    "lat": 21.1074249,
+    "lng": 79.1033382
+  },
+  "desha_nagpur": null,
+  "signature height 3_nagpur": null,
+  "shakkardara.ayurvedic college layout_nagpur": null,
+  "telephone exsq ca road_nagpur": null,
+  "mahalaxmi project number 22 shankarpur t20 near_nagpur": null,
+  "kolbaswami colony_nagpur": null,
+  "swawlambi nagar_nagpur": null,
+  "uppalwadi_nagpur": null,
+  "green valley_nagpur": {
+    "lat": 21.102859,
+    "lng": 79.0655255
+  },
+  "kanadia road_indore": {
+    "lat": 22.7211136,
+    "lng": 75.914211
+  },
+  "swastik nagar_indore": {
+    "lat": 22.704108,
+    "lng": 75.8409877
+  },
+  "aayushmaan residency_indore": null,
+  "pitampur inds area_indore": null,
+  "padmalay colony_indore": null,
+  "60 feet road_indore": {
+    "lat": 22.7289166,
+    "lng": 75.8224592
+  },
+  "rajendra nikatan super corridor_indore": null,
+  "janta colony_indore": null,
+  "mishra nagar_indore": {
+    "lat": 22.6739514,
+    "lng": 75.8313113
+  },
+  "gumasta_indore": {
+    "lat": 22.6950806,
+    "lng": 75.8273846
+  },
+  "medicaps business park pithampur_indore": null,
+  "dholera sir_indore": null,
+  "sawariya nagar_indore": null,
+  "barodiya ema_indore": null,
+  "amrapali modern township_indore": null,
+  "katju colony_indore": null,
+  "pragti nagar_indore": null,
+  "sky villa silicon city_indore": null,
+  "lotus park_indore": null,
+  "heritage suites_indore": null,
+  "shri ganga vihar_indore": null,
+  "sahara by pass_indore": null,
+  "vinayak township_indore": null,
+  "sindodi_indore": null,
+  "56shops_indore": null,
+  "jetpura_indore": {
+    "lat": 22.8675181,
+    "lng": 75.8660093
+  },
+  "70-c lotus park infornt of aurbindo hospital_indore": null,
+  "panod_indore": null,
+  "khudel khurd_indore": null,
+  "ponnegoundenpudur_coimbatore": null,
+  "siva nagar uppilipalayam_coimbatore": null,
+  "nachipalayam_coimbatore": {
+    "lat": 10.8591221,
+    "lng": 76.9621347
+  },
+  "five corner_coimbatore": {
+    "lat": 10.9953549,
+    "lng": 76.960729
+  },
+  "saravanampatti kovilpalayam_coimbatore": null,
+  "thekkalur_coimbatore": {
+    "lat": 11.1309079,
+    "lng": 77.2476365
+  },
+  "andakkapalayam_coimbatore": null,
+  "kallapalayam_coimbatore": {
+    "lat": 10.9524108,
+    "lng": 77.0806306
+  },
+  "manicka vasaga nagar_coimbatore": null,
+  "somayampalayam_coimbatore": {
+    "lat": 11.0468051,
+    "lng": 76.8994356
+  },
+  "samanaickenpalayam_coimbatore": null,
+  "revenue nagar saravanapatti_coimbatore": null,
+  "marappalam_coimbatore": {
+    "lat": 10.895372,
+    "lng": 76.931567
+  },
+  "it park/ sez for sale in nsr road_coimbatore": null,
+  "ig north plaza_coimbatore": null,
+  "sri ramkrishna nagar_coimbatore": null,
+  "pudur_coimbatore": {
+    "lat": 10.9610718,
+    "lng": 76.8040293
+  },
+  "vip nagar cheranma nagar_coimbatore": null,
+  "rs.puram_coimbatore": {
+    "lat": 11.0080177,
+    "lng": 76.9501661
+  },
+  "kovilpalayalam_coimbatore": null,
+  "sri pathy nagar_coimbatore": null,
+  "castle grande_coimbatore": null,
+  "muthalipalayam_coimbatore": {
+    "lat": 11.0758749,
+    "lng": 77.0991976
+  },
+  "kandhe_coimbatore": {
+    "lat": 10.876465,
+    "lng": 76.8982029
+  },
+  "sowbagya nargar near airport_coimbatore": null,
+  "sitra_coimbatore": {
+    "lat": 11.036875,
+    "lng": 77.0362113
+  },
+  "metro coke park_coimbatore": null,
+  "shri maharishi tech park_coimbatore": null,
+  "panapatti_coimbatore": null,
+  "vimal nagar_coimbatore": {
+    "lat": 11.0235438,
+    "lng": 76.9046377
+  },
+  "thiruvamkulam_kochi": {
+    "lat": 9.9516762,
+    "lng": 76.3595668
+  },
+  "edaooallyu_kochi": null,
+  "chempumukku junction_kochi": null,
+  "malayidamthuruthu_kochi": null,
+  "nn builders_kochi": null,
+  "vadakekotta_kochi": null,
+  "airport suites block 2 & 3_kochi": null,
+  "opposite to nedumbassery airport_kochi": null,
+  "new villa community_kochi": null,
+  "market road_kochi": {
+    "lat": 9.9336104,
+    "lng": 76.2616595
+  },
+  "silver sand islanf vytilla_kochi": null,
+  "udhayamperoor_kochi": null,
+  "thrikkakkara_kochi": {
+    "lat": 10.0415058,
+    "lng": 76.3389282
+  },
+  "in elamakkara_kochi": {
+    "lat": 10.0129401,
+    "lng": 76.2831209
+  },
+  "skyline homestead_kochi": null,
+  "krishna hospital_kochi": null,
+  "janatha road_kochi": {
+    "lat": 10.0234126,
+    "lng": 76.2250391
+  },
+  "ponekkara_kochi": null,
+  "saab estate_kochi": null,
+  "petta metro station_kochi": null,
+  "abaam courtyard_kochi": null,
+  "avenue centre_kochi": null,
+  "layam road_kochi": null,
+  "hari om society_vadodara": null,
+  "ellorapark near balaji hospital subhanpura_vadodara": null,
+  "village rawal nr. ajwa lake_vadodara": null,
+  "jalaram nagar-kendranagar_vadodara": null,
+  "abhishek tenament_vadodara": null,
+  "prime vatika_vadodara": null,
+  "mangaldarshan society_vadodara": null,
+  "chhani sokhda road_vadodara": null,
+  "g 16 ashwamagh complex rajmahal road_vadodara": null,
+  "dwarkanagri society_vadodara": null,
+  "bapod_vadodara": {
+    "lat": 22.3044126,
+    "lng": 73.2378081
+  },
+  "springs exotica 1 vasana bhaili_vadodara": null,
+  "saffron green_vadodara": null,
+  "waghodiya road_vadodara": null,
+  "chhani road_vadodara": null,
+  "pandavapura_mysore": null,
+  "hosahundi_mysore": null,
+  "jpnagar_mysore": null,
+  "mogarahalli_mysore": null,
+  "it park/ sez for rent in sriramapura_mysore": null,
+  "devegowda circle banur road_mysore": null,
+  "banimantap_mysore": null,
+  "t n pur_mysore": null,
+  "housing board colony_mysore": null,
+  "manasa heritage_mysore": null,
+  "sbm officers layout bannur road_mysore": null,
+  "kanakadasanagar_mysore": null,
+  "andolana circle_mysore": {
+    "lat": 12.2874245,
+    "lng": 76.6172879
+  },
+  "gayathripuram_mysore": {
+    "lat": 12.3168777,
+    "lng": 76.6757172
+  },
+  "caliber property_mysore": null,
+  "opposite to gayatri tiffin roo_mysore": null,
+  "2nd stage_mysore": {
+    "lat": 12.2946001,
+    "lng": 76.6194318
+  },
+  "tonchikoppal_mysore": null,
+  "basavanahalli_mysore": null,
+  "ramakrishna nagara_mysore": {
+    "lat": 12.291712,
+    "lng": 76.6145526
+  },
+  "subramanya nagar_mysore": null,
+  "vishwamanava double road_mysore": null,
+  "thandya industrial area phase 2_mysore": null,
+  "suvarnanagar_mysore": null,
+  "devaraj urs road_mysore": null,
+  "sri krishnadhama nagara_mysore": null,
+  "saptharushi nagara_mysore": null,
+  "hulikere_mysore": null,
+  "agrahara circle v.v market circle_mysore": null,
+  "vijaynagar 4th stage 2nd phase_mysore": null,
+  "hulahalli_mysore": null,
+  "horizon office rental_mysore": null,
+  "choranahalli_mysore": null,
+  "manasi nagar_mysore": null,
+  "bhogadi railway layout_mysore": null,
+  "vinayakanagara_mysore": null,
+  "vijaya nagar 2nd stage railway layout_mysore": null,
+  "devayyanahundi_mysore": null,
+  "1st west cross off double road_mysore": null,
+  "sattagahally_mysore": null,
+  "vinayaknagara_mysore": null,
+  "lumbini residency - salundi_mysore": null,
+  "sun city homes 3rd phase b block_mysore": null,
+  "mydanahalli_mysore": null,
+  "medaralli_mysore": null,
+  "sri ramakrishna house building co-operative society ltd_mysore": null,
+  "h.v rajeeva township_mysore": null,
+  "bhogadi_mysore": null,
+  "pulkish road_mysore": null,
+  "ashoka colony_bhopal": {
+    "lat": 23.2361084,
+    "lng": 77.4010523
+  },
+  "nakkar khana_bhopal": {
+    "lat": 23.2563547,
+    "lng": 77.396343
+  },
+  "nevri city near lalghati_bhopal": null,
+  "surbhi vihar colony_bhopal": null,
+  "bhadbhda road neelbad_bhopal": null,
+  "ravi das colony_bhopal": null,
+  "old jail road_bhopal": null,
+  "imperial city fanda_bhopal": null,
+  "barkheda_bhopal": {
+    "lat": 23.5453009,
+    "lng": 77.449193
+  },
+  "sashidhar lake city raisen road_bhopal": null,
+  "surendra palace_bhopal": null,
+  "deep nagar_bhopal": null,
+  "sarakia jai bhavani residency_bhopal": null,
+  "gourishankar barraie awasiya pariyojana barraie gram_bhopal": null,
+  "kasturi smart city katari hills_bhopal": null,
+  "berasia road near imla police_bhopal": null,
+  "gurbakshish arcade_bhopal": null,
+  "awantika business centre_bhopal": null,
+  "pipliya zaharpir_bhopal": {
+    "lat": 23.3156342,
+    "lng": 77.483925
+  },
+  "halalpura_bhopal": null,
+  "happy green colony opposite minal gate no 05 ayodhya bypass road dhamkheda_bhopal": null,
+  "b-11 priyanka homes_bhopal": null,
+  "sector b piplani_bhopal": null,
+  "mmm_bhopal": null,
+  "bhpv township_visakhapatnam": null,
+  "ark complex_visakhapatnam": null,
+  "thota veedhi_visakhapatnam": null,
+  "potluri exotica_visakhapatnam": null,
+  "rajapulova_visakhapatnam": null,
+  "chintalapalem_visakhapatnam": {
+    "lat": 17.851132,
+    "lng": 83.19556
+  },
+  "hema's twin bliss_visakhapatnam": null,
+  "vuda nsr amaravati kothavalasa_visakhapatnam": null,
+  "kondakarla ava_visakhapatnam": null,
+  "k.kotapadu village main road_visakhapatnam": null,
+  "godown for rent_visakhapatnam": null,
+  "chidikada mandal_visakhapatnam": null,
+  "gopalapatnam._visakhapatnam": {
+    "lat": 17.7483718,
+    "lng": 83.2200109
+  },
+  "adarshnagar_visakhapatnam": null,
+  "pedaganayada_visakhapatnam": null
 }
